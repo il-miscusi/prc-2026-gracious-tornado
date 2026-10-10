@@ -1,0 +1,171 @@
+{
+ "created_utc": "2026-10-09T09:37:39+00:00",
+ "command": "python3 research/final/merge_members.py --out solutions/kernels/prc-f-c5sm6/output prc-f-c5s prc-f-c5sb",
+ "frame": "final",
+ "rows": 670790,
+ "units": [
+  {
+   "dir": "solutions/kernels/prc-f-c5s/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 15.049355821516402,
+   "inputs": {
+    "solutions/kernels/prc-f-c5s/output/submission.parquet": "86daab00c05b3e9796643285d3e672dfd95a42f021f03e4d00aec55c6b25632e",
+    "solutions/kernels/prc-f-c5s/output/refit_0.npy": "4c8eb30924c830f4e3c7476a0171c0e0272634ed0c3009b7ba9f084912c9319e",
+    "solutions/kernels/prc-f-c5s/output/refit_1.npy": "368b35ab29c303c97086a8010316c40b6c351842b411c15205ed6d5f04c09ad7",
+    "solutions/kernels/prc-f-c5s/output/refit_2.npy": "f56329df810b2014fb37738a04e668946c25f24c11a75a9043b4c86e42e488ca",
+    "solutions/kernels/prc-f-c5s/output/results.json": "debfd2d49d86b3e07d04256c12407159f45745a55f81dcb35a179b35039b0a14"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-c5sb/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 15.049341595567078,
+   "inputs": {
+    "solutions/kernels/prc-f-c5sb/output/submission.parquet": "102805614ac86eb34f14ae6dd30a8b42e44c6c0dfc44b3110d91242cfac4e710",
+    "solutions/kernels/prc-f-c5sb/output/refit_0.npy": "8550166a2325c5ec0a9a49bb81924c1fc3567b802c6712140f9982be70f817d8",
+    "solutions/kernels/prc-f-c5sb/output/refit_1.npy": "3bec24732f3ac30fde3aa4b0423ca5b4359edab26d555aa4639da319b3b2aff6",
+    "solutions/kernels/prc-f-c5sb/output/refit_2.npy": "0b24dc455aeb138398038e69ca8264fe74a14eb36314a1c252bde6605ccab934",
+    "solutions/kernels/prc-f-c5sb/output/results.json": "0d70127a5510917739aaa88fc757dccf7e68e4de5359e1f9c5e2a0ed0e1f508a"
+   }
+  }
+ ],
+ "total_seeds": 6.0,
+ "seed_spread": {
+  "pairwise_rms": {
+   "solutions/kernels/prc-f-c5s/output#seed0 | solutions/kernels/prc-f-c5s/output#seed1": 53.550217181766726,
+   "solutions/kernels/prc-f-c5s/output#seed0 | solutions/kernels/prc-f-c5s/output#seed2": 53.334125002167696,
+   "solutions/kernels/prc-f-c5s/output#seed0 | solutions/kernels/prc-f-c5sb/output#seed0": 53.53579775148926,
+   "solutions/kernels/prc-f-c5s/output#seed0 | solutions/kernels/prc-f-c5sb/output#seed1": 53.325164452959065,
+   "solutions/kernels/prc-f-c5s/output#seed0 | solutions/kernels/prc-f-c5sb/output#seed2": 53.10354002860791,
+   "solutions/kernels/prc-f-c5s/output#seed1 | solutions/kernels/prc-f-c5s/output#seed2": 53.59681496125132,
+   "solutions/kernels/prc-f-c5s/output#seed1 | solutions/kernels/prc-f-c5sb/output#seed0": 54.28158184451279,
+   "solutions/kernels/prc-f-c5s/output#seed1 | solutions/kernels/prc-f-c5sb/output#seed1": 52.425942928288315,
+   "solutions/kernels/prc-f-c5s/output#seed1 | solutions/kernels/prc-f-c5sb/output#seed2": 53.417173011804216,
+   "solutions/kernels/prc-f-c5s/output#seed2 | solutions/kernels/prc-f-c5sb/output#seed0": 52.02229550462312,
+   "solutions/kernels/prc-f-c5s/output#seed2 | solutions/kernels/prc-f-c5sb/output#seed1": 53.45191672487201,
+   "solutions/kernels/prc-f-c5s/output#seed2 | solutions/kernels/prc-f-c5sb/output#seed2": 52.20483003930531,
+   "solutions/kernels/prc-f-c5sb/output#seed0 | solutions/kernels/prc-f-c5sb/output#seed1": 54.44198249625718,
+   "solutions/kernels/prc-f-c5sb/output#seed0 | solutions/kernels/prc-f-c5sb/output#seed2": 53.651890181726976,
+   "solutions/kernels/prc-f-c5sb/output#seed1 | solutions/kernels/prc-f-c5sb/output#seed2": 52.78484374950967
+  },
+  "vs_others_by_band": {
+   "solutions/kernels/prc-f-c5s/output#seed0": {
+    "d <= 1 h": {
+     "mean_diff": 0.7325883530348652,
+     "rms_diff": 28.489851446211063
+    },
+    "1-4 h": {
+     "mean_diff": 2.388740445456842,
+     "rms_diff": 84.65508459417096
+    },
+    "4-8 h": {
+     "mean_diff": 2.1065547949951196,
+     "rms_diff": 168.61625719998622
+    },
+    "> 8 h": {
+     "mean_diff": 37.895889591602895,
+     "rms_diff": 414.59934730395076
+    }
+   },
+   "solutions/kernels/prc-f-c5s/output#seed1": {
+    "d <= 1 h": {
+     "mean_diff": -0.4262691459107019,
+     "rms_diff": 28.140641485444014
+    },
+    "1-4 h": {
+     "mean_diff": 0.00959292596362,
+     "rms_diff": 86.89241517823906
+    },
+    "4-8 h": {
+     "mean_diff": 1.6050176809254266,
+     "rms_diff": 170.39749053344488
+    },
+    "> 8 h": {
+     "mean_diff": 9.87303685673384,
+     "rms_diff": 390.66738176548887
+    }
+   },
+   "solutions/kernels/prc-f-c5s/output#seed2": {
+    "d <= 1 h": {
+     "mean_diff": -1.0430953399181184,
+     "rms_diff": 28.93988317775341
+    },
+    "1-4 h": {
+     "mean_diff": 4.28484747032731,
+     "rms_diff": 80.34147513054019
+    },
+    "4-8 h": {
+     "mean_diff": 17.82659671832355,
+     "rms_diff": 177.10384271448274
+    },
+    "> 8 h": {
+     "mean_diff": -30.100806584310654,
+     "rms_diff": 388.8038938857582
+    }
+   },
+   "solutions/kernels/prc-f-c5sb/output#seed0": {
+    "d <= 1 h": {
+     "mean_diff": 0.17645747531371445,
+     "rms_diff": 27.869035271354342
+    },
+    "1-4 h": {
+     "mean_diff": -1.2935387457404723,
+     "rms_diff": 85.91218963274594
+    },
+    "4-8 h": {
+     "mean_diff": -11.6827388041428,
+     "rms_diff": 181.99854279566173
+    },
+    "> 8 h": {
+     "mean_diff": -47.24521668111679,
+     "rms_diff": 445.37952785112446
+    }
+   },
+   "solutions/kernels/prc-f-c5sb/output#seed1": {
+    "d <= 1 h": {
+     "mean_diff": 0.7773245288814222,
+     "rms_diff": 28.264270077446955
+    },
+    "1-4 h": {
+     "mean_diff": 2.948515582443765,
+     "rms_diff": 85.57222996366306
+    },
+    "4-8 h": {
+     "mean_diff": 11.143478016533413,
+     "rms_diff": 162.98075780212426
+    },
+    "> 8 h": {
+     "mean_diff": 23.904133440995896,
+     "rms_diff": 400.6905789819736
+    }
+   },
+   "solutions/kernels/prc-f-c5sb/output#seed2": {
+    "d <= 1 h": {
+     "mean_diff": -0.21700587140118327,
+     "rms_diff": 28.344380884497554
+    },
+    "1-4 h": {
+     "mean_diff": -8.338157678451115,
+     "rms_diff": 83.4801217662156
+    },
+    "4-8 h": {
+     "mean_diff": -20.998908406634776,
+     "rms_diff": 180.33962244894067
+    },
+    "> 8 h": {
+     "mean_diff": 5.672963376094936,
+     "rms_diff": 362.11015901414584
+    }
+   }
+  }
+ },
+ "output": {
+  "solutions/kernels/prc-f-c5sm6/output/submission.parquet": "bb7375713bfde72d8801e80e80633c645da0286b9ff470046ffa0ff9f4efed84"
+ },
+ "mean": 1016.8153161448001,
+ "max": 79708.64067332303
+}

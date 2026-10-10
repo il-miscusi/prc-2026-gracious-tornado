@@ -1,0 +1,17 @@
+{
+ "id": "usiadianimuwa/prc-f-c7a",
+ "title": "prc-f-c7a",
+ "code_file": "kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "competition_sources": [],
+ "dataset_sources": [],
+ "kernel_sources": [
+  "usiadianimuwa/prc-f-fs7"
+ ],
+ "machine_shape": "NvidiaTeslaT4"
+}

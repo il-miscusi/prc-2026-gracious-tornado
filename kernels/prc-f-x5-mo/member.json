@@ -1,0 +1,72 @@
+{
+ "member": "x5",
+ "store": "prc-f-fs6",
+ "owner": "usiadianimuwa",
+ "accel": "gpu",
+ "folds": [
+  "M1",
+  "M6"
+ ],
+ "source_spec": "prc-p-x5-r",
+ "v32c_role": "1-4 h .19 (XGBoost)",
+ "spec": {
+  "lib": "xgb",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [
+   "M1",
+   "M6"
+  ],
+  "params": {
+   "device": "cuda",
+   "tree_method": "hist",
+   "grow_policy": "lossguide",
+   "max_leaves": 1023,
+   "max_depth": 0,
+   "eta": 0.03,
+   "min_child_weight": 30,
+   "subsample": 0.8,
+   "colsample_bytree": 0.45,
+   "lambda": 20,
+   "max_bin": 256,
+   "max_cat_to_onehot": 1,
+   "max_cat_threshold": 64,
+   "seed": 2261
+  },
+  "params_long": {
+   "max_leaves": 255
+  },
+  "drop_features": [
+   "nbe1_r600",
+   "nbe1_n_r600",
+   "nbe1_r900",
+   "nbe1_n_r900",
+   "nbe1_rb900",
+   "nbe1_n_rb900",
+   "nbx1_r600",
+   "nbx1_n_r600",
+   "nbx1_r900",
+   "nbx1_n_r900",
+   "nbx1_rb900",
+   "nbx1_n_rb900",
+   "nbx1a_a900",
+   "nbx1a_n_a900",
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "xgboost": "2.1.4"
+  },
+  "refit": false,
+  "fold_rounds": {
+   "M1": [
+    1000,
+    1400
+   ],
+   "M6": [
+    1000,
+    1400
+   ]
+  },
+  "max_parallel": 1
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "name": "v32c",
+ "base": "submissions/gracious-tornado_v29.parquet",
+ "segments": [
+  {
+   "name": "short",
+   "lo_h": -1000,
+   "hi_h": 1,
+   "members": [
+    "prc-mlp6fs",
+    "prc-cs6",
+    "prc-c6",
+    "prc-cs5",
+    "prc-c5d10",
+    "prc-split-fs4",
+    "prc-c7x2",
+    "prc-cs7",
+    "prc-mlp7"
+   ]
+  },
+  {
+   "name": "1-4h",
+   "lo_h": 1,
+   "hi_h": 4,
+   "members": [
+    "prc-c6s",
+    "prc-c5s",
+    "prc-x5",
+    "prc-c6",
+    "prc-cs5",
+    "prc-split-fs4",
+    "prc-c7x2"
+   ]
+  }
+ ],
+ "long": {
+  "source": "research/tail/out/v30_longrows_a05_plog.parquet",
+  "lo_h": 4
+ },
+ "cap_d_over_h": 2,
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05
+ },
+ "overlays": [
+  {
+   "name": "lirf_noadsb",
+   "member": "research/cover/out/k4",
+   "rows": "research/cover/out/uncovered_rk.parquet",
+   "col": "lirf_rule_fs7",
+   "weight": 0.3
+  }
+ ]
+}

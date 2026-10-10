@@ -1,0 +1,82 @@
+{
+ "member": "c5s",
+ "store": "prc-f-fs6",
+ "owner": "usiadianimuwa",
+ "accel": "gpu",
+ "folds": [
+  "M1",
+  "M2",
+  "M6",
+  "M7"
+ ],
+ "source_spec": "prc-m-c5s-r3",
+ "v32c_role": "1-4 h .23 (fs5 = fs6 without the neighbour columns)",
+ "spec": {
+  "lib": "cat",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [
+   "M1",
+   "M2",
+   "M6",
+   "M7"
+  ],
+  "long_target": "sec",
+  "params": {
+   "task_type": "GPU",
+   "l2_leaf_reg": 3,
+   "border_count": 254,
+   "one_hot_max_size": 4,
+   "max_ctr_complexity": 1,
+   "bootstrap_type": "Bernoulli",
+   "subsample": 0.8,
+   "gpu_ram_part": 0.9,
+   "depth": 10,
+   "learning_rate": 0.06,
+   "random_seed": 2233
+  },
+  "params_long": {
+   "depth": 8
+  },
+  "drop_features": [
+   "nbe1_r600",
+   "nbe1_n_r600",
+   "nbe1_r900",
+   "nbe1_n_r900",
+   "nbe1_rb900",
+   "nbe1_n_rb900",
+   "nbx1_r600",
+   "nbx1_n_r600",
+   "nbx1_r900",
+   "nbx1_n_r900",
+   "nbx1_rb900",
+   "nbx1_n_rb900",
+   "nbx1a_a900",
+   "nbx1a_n_a900",
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "catboost": "1.2.8"
+  },
+  "refit": false,
+  "fold_rounds": {
+   "M1": [
+    9990,
+    4468
+   ],
+   "M2": [
+    9990,
+    4468
+   ],
+   "M6": [
+    9990,
+    4468
+   ],
+   "M7": [
+    9990,
+    4468
+   ]
+  },
+  "max_parallel": 1
+ }
+}

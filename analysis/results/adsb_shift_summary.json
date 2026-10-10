@@ -1,0 +1,589 @@
+{
+ "kernel": "usiadianimuwa/prc-adsb-shift",
+ "kernel_version": 1,
+ "source_sha256": {
+  "proxy.csv": "e1eaa4aaf2055685c5b615252a04806adc7f60820a7397ad0381e53d406ad261",
+  "sensitivity.csv": "844ec49accdc3a8829ad7f79891bd494115439b2d11ca028bf635e415716ce9b",
+  "summary_apt_group.csv": "739ed8a41e9dc3ec9bfe5a0d7062981ccfa1a5def2f3c87977b036c9332a8698",
+  "physical.csv": "f6df92bd01641b8338eec39c1cda7051e2db848e6adcf06006806b180d2ecc73"
+ },
+ "input_checks": "all five final fs7 store files MATCH; c7a and cs7 baseline means match stored seed arrays",
+ "baseline_prediction_means": {
+  "c7a": 1019.5253,
+  "cs7": 1023.1308
+ },
+ "proxy_target": "takeoff minus AOBT_3, not hidden taxi-out target",
+ "proxy_all": [
+  {
+   "year": 2025,
+   "apt": "ALL",
+   "month": 0,
+   "n": 661903,
+   "rmse_B": 222.72,
+   "rmse_C": 217.52,
+   "rmse_S": 217.75,
+   "rmse_X": 217.48,
+   "rmse_S_qmap": 217.75,
+   "rmse_S_nan": 217.75,
+   "gain_P+M+V (B-C) dMSE": 2289.9,
+   "gain_P+M+V (B-C) se": 348.42,
+   "gain_S (C-S) dMSE": -99.896,
+   "gain_S (C-S) se": 78.039,
+   "gain_E (S-X) dMSE": 115.88,
+   "gain_E (S-X) se": 92.465,
+   "qmap (S-S_qmap) dMSE": 0.0,
+   "qmap (S-S_qmap) se": 0.0,
+   "nan (S-S_nan) dMSE": 0.0,
+   "nan (S-S_nan) se": 0.0,
+   "gain_S+E (C-X) dMSE": 15.985,
+   "gain_S+E (C-X) se": 56.278
+  },
+  {
+   "year": 2026,
+   "apt": "ALL",
+   "month": 0,
+   "n": 661268,
+   "rmse_B": 238.08,
+   "rmse_C": 228.92,
+   "rmse_S": 229.15,
+   "rmse_X": 228.18,
+   "rmse_S_qmap": 229.64,
+   "rmse_S_nan": 231.77,
+   "gain_P+M+V (B-C) dMSE": 4275.4,
+   "gain_P+M+V (B-C) se": 507.53,
+   "gain_S (C-S) dMSE": -100.98,
+   "gain_S (C-S) se": 61.03,
+   "gain_E (S-X) dMSE": 439.72,
+   "gain_E (S-X) se": 71.479,
+   "qmap (S-S_qmap) dMSE": -227.0,
+   "qmap (S-S_qmap) se": 23.269,
+   "nan (S-S_nan) dMSE": -1209.7,
+   "nan (S-S_nan) se": 91.894,
+   "gain_S+E (C-X) dMSE": 338.74,
+   "gain_S+E (C-X) se": 58.052
+  }
+ ],
+ "sensitivity_all": [
+  {
+   "model": "c7a",
+   "year": 2026,
+   "apt": "ALL",
+   "month": 0,
+   "n": 670790,
+   "any_S_sh": 0.6812,
+   "nan_S mean": 28.82,
+   "nan_S rms": 58.42,
+   "nan_S rms_short": 61.37,
+   "qmap_S mean": 5.334,
+   "qmap_S rms": 25.72,
+   "qmap_S rms_short": 27.04,
+   "nan_S+E mean": 33.64,
+   "nan_S+E rms": 61.47,
+   "nan_S+E rms_short": 61.53
+  },
+  {
+   "model": "cs7",
+   "year": 2026,
+   "apt": "ALL",
+   "month": 0,
+   "n": 670790,
+   "any_S_sh": 0.6812,
+   "nan_S mean": 21.3,
+   "nan_S rms": 64.27,
+   "nan_S rms_short": 60.29,
+   "qmap_S mean": 5.13,
+   "qmap_S rms": 28.65,
+   "qmap_S rms_short": 29.8,
+   "nan_S+E mean": 14.45,
+   "nan_S+E rms": 56.84,
+   "nan_S+E rms_short": 51.09
+  },
+  {
+   "model": "c7a",
+   "year": 2025,
+   "apt": "ALL",
+   "month": 0,
+   "n": 167964,
+   "any_S_sh": 0.516,
+   "nan_S mean": 22.88,
+   "nan_S rms": 56.04,
+   "nan_S rms_short": 58.63,
+   "qmap_S mean": null,
+   "qmap_S rms": null,
+   "qmap_S rms_short": null,
+   "nan_S+E mean": 25.74,
+   "nan_S+E rms": 59.08,
+   "nan_S+E rms_short": 59.93
+  },
+  {
+   "model": "cs7",
+   "year": 2025,
+   "apt": "ALL",
+   "month": 0,
+   "n": 167964,
+   "any_S_sh": 0.516,
+   "nan_S mean": 19.09,
+   "nan_S rms": 61.22,
+   "nan_S rms_short": 62.62,
+   "qmap_S mean": null,
+   "qmap_S rms": null,
+   "qmap_S rms_short": null,
+   "nan_S+E mean": 13.86,
+   "nan_S+E rms": 56.22,
+   "nan_S+E rms_short": 56.46
+  }
+ ],
+ "distribution_shift": [
+  {
+   "apt": "EDDF",
+   "group": "E",
+   "D_year": 0.1094,
+   "D_within": 0.05552,
+   "excess": 0.0796,
+   "D_year_A": 0.1494,
+   "excess_A": 0.08083
+  },
+  {
+   "apt": "EDDF",
+   "group": "M",
+   "D_year": 0.1919,
+   "D_within": 0.03689,
+   "excess": 0.1612,
+   "D_year_A": 0.1777,
+   "excess_A": 0.1418
+  },
+  {
+   "apt": "EDDF",
+   "group": "P",
+   "D_year": 0.2789,
+   "D_within": 0.06693,
+   "excess": 0.2142,
+   "D_year_A": 0.2914,
+   "excess_A": 0.2421
+  },
+  {
+   "apt": "EDDF",
+   "group": "S",
+   "D_year": 0.2128,
+   "D_within": 0.09234,
+   "excess": 0.1354,
+   "D_year_A": 0.2479,
+   "excess_A": 0.1589
+  },
+  {
+   "apt": "EDDF",
+   "group": "V",
+   "D_year": 0.2313,
+   "D_within": 0.05157,
+   "excess": 0.1828,
+   "D_year_A": 0.1061,
+   "excess_A": 0.06046
+  },
+  {
+   "apt": "EDDM",
+   "group": "E",
+   "D_year": 0.04495,
+   "D_within": 0.05444,
+   "excess": -0.009012,
+   "D_year_A": 0.03021,
+   "excess_A": -0.006288
+  },
+  {
+   "apt": "EDDM",
+   "group": "M",
+   "D_year": 0.06078,
+   "D_within": 0.06227,
+   "excess": -0.000478,
+   "D_year_A": 0.08001,
+   "excess_A": 0.01775
+  },
+  {
+   "apt": "EDDM",
+   "group": "P",
+   "D_year": 0.05974,
+   "D_within": 0.03012,
+   "excess": 0.02435,
+   "D_year_A": 0.06,
+   "excess_A": 0.02356
+  },
+  {
+   "apt": "EDDM",
+   "group": "S",
+   "D_year": 0.06234,
+   "D_within": 0.05878,
+   "excess": 0.01266,
+   "D_year_A": 0.08986,
+   "excess_A": 0.00616
+  },
+  {
+   "apt": "EDDM",
+   "group": "V",
+   "D_year": 0.04454,
+   "D_within": 0.04599,
+   "excess": 0.00435,
+   "D_year_A": 0.02204,
+   "excess_A": 0.001375
+  },
+  {
+   "apt": "EGLL",
+   "group": "E",
+   "D_year": 0.2915,
+   "D_within": 0.06819,
+   "excess": 0.2137,
+   "D_year_A": 0.2367,
+   "excess_A": 0.1436
+  },
+  {
+   "apt": "EGLL",
+   "group": "M",
+   "D_year": 0.2817,
+   "D_within": 0.08497,
+   "excess": 0.2015,
+   "D_year_A": 0.1957,
+   "excess_A": 0.09093
+  },
+  {
+   "apt": "EGLL",
+   "group": "P",
+   "D_year": 0.2402,
+   "D_within": 0.1151,
+   "excess": 0.1144,
+   "D_year_A": 0.2436,
+   "excess_A": 0.09679
+  },
+  {
+   "apt": "EGLL",
+   "group": "S",
+   "D_year": 0.2842,
+   "D_within": 0.09615,
+   "excess": 0.1605,
+   "D_year_A": 0.3892,
+   "excess_A": 0.2486
+  },
+  {
+   "apt": "EGLL",
+   "group": "V",
+   "D_year": 0.3538,
+   "D_within": 0.07475,
+   "excess": 0.1783,
+   "D_year_A": 0.07814,
+   "excess_A": 0.00238
+  },
+  {
+   "apt": "EHAM",
+   "group": "E",
+   "D_year": 0.06935,
+   "D_within": 0.08033,
+   "excess": 0.006474,
+   "D_year_A": 0.1022,
+   "excess_A": 0.00816
+  },
+  {
+   "apt": "EHAM",
+   "group": "M",
+   "D_year": 0.07098,
+   "D_within": 0.07617,
+   "excess": 0.001638,
+   "D_year_A": 0.06384,
+   "excess_A": -0.02316
+  },
+  {
+   "apt": "EHAM",
+   "group": "P",
+   "D_year": 0.06932,
+   "D_within": 0.03724,
+   "excess": 0.02351,
+   "D_year_A": 0.07071,
+   "excess_A": 0.02544
+  },
+  {
+   "apt": "EHAM",
+   "group": "S",
+   "D_year": 0.1107,
+   "D_within": 0.09447,
+   "excess": -0.000587,
+   "D_year_A": 0.1515,
+   "excess_A": -0.02961
+  },
+  {
+   "apt": "EHAM",
+   "group": "V",
+   "D_year": 0.05378,
+   "D_within": 0.06577,
+   "excess": 0.01569,
+   "D_year_A": 0.03108,
+   "excess_A": 0.0
+  },
+  {
+   "apt": "LEBL",
+   "group": "E",
+   "D_year": 0.06346,
+   "D_within": 0.1059,
+   "excess": -0.01391,
+   "D_year_A": 0.09716,
+   "excess_A": -0.007163
+  },
+  {
+   "apt": "LEBL",
+   "group": "M",
+   "D_year": 0.05848,
+   "D_within": 0.09668,
+   "excess": -0.03032,
+   "D_year_A": 0.07897,
+   "excess_A": -0.002992
+  },
+  {
+   "apt": "LEBL",
+   "group": "P",
+   "D_year": 0.0985,
+   "D_within": 0.06108,
+   "excess": 0.02023,
+   "D_year_A": 0.1005,
+   "excess_A": 0.01985
+  },
+  {
+   "apt": "LEBL",
+   "group": "S",
+   "D_year": 0.09101,
+   "D_within": 0.1211,
+   "excess": -0.04454,
+   "D_year_A": 0.1012,
+   "excess_A": -0.03668
+  },
+  {
+   "apt": "LEBL",
+   "group": "V",
+   "D_year": 0.07845,
+   "D_within": 0.1096,
+   "excess": -0.02208,
+   "D_year_A": 0.04011,
+   "excess_A": 0.0
+  },
+  {
+   "apt": "LEMD",
+   "group": "E",
+   "D_year": 0.1819,
+   "D_within": 0.2276,
+   "excess": -0.006556,
+   "D_year_A": 0.2288,
+   "excess_A": -0.01795
+  },
+  {
+   "apt": "LEMD",
+   "group": "M",
+   "D_year": 0.2161,
+   "D_within": 0.2061,
+   "excess": 0.00442,
+   "D_year_A": 0.2087,
+   "excess_A": 0.0007694
+  },
+  {
+   "apt": "LEMD",
+   "group": "P",
+   "D_year": 0.2135,
+   "D_within": 0.214,
+   "excess": 8.621e-05,
+   "D_year_A": 0.2132,
+   "excess_A": 0.001059
+  },
+  {
+   "apt": "LEMD",
+   "group": "S",
+   "D_year": 0.242,
+   "D_within": 0.2482,
+   "excess": -0.02441,
+   "D_year_A": 0.3369,
+   "excess_A": 0.07338
+  },
+  {
+   "apt": "LEMD",
+   "group": "V",
+   "D_year": 0.2463,
+   "D_within": 0.2796,
+   "excess": -0.003253,
+   "D_year_A": 0.04479,
+   "excess_A": 0.0
+  },
+  {
+   "apt": "LFPG",
+   "group": "E",
+   "D_year": 0.1834,
+   "D_within": 0.07237,
+   "excess": 0.1091,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LFPG",
+   "group": "M",
+   "D_year": 0.131,
+   "D_within": 0.09672,
+   "excess": 0.03331,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LFPG",
+   "group": "P",
+   "D_year": "not available",
+   "D_within": "not available",
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LFPG",
+   "group": "S",
+   "D_year": 0.2447,
+   "D_within": 0.1981,
+   "excess": 0.08063,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LFPG",
+   "group": "V",
+   "D_year": 0.1732,
+   "D_within": 0.1222,
+   "excess": 0.06897,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LIRF",
+   "group": "E",
+   "D_year": 0.6445,
+   "D_within": 0.04535,
+   "excess": 0.5998,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LIRF",
+   "group": "M",
+   "D_year": "not available",
+   "D_within": 0.04562,
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LIRF",
+   "group": "P",
+   "D_year": "not available",
+   "D_within": 0.09319,
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LIRF",
+   "group": "S",
+   "D_year": 0.616,
+   "D_within": 0.08252,
+   "excess": 0.5662,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LIRF",
+   "group": "V",
+   "D_year": 0.2536,
+   "D_within": 0.071,
+   "excess": 0.2033,
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LSZH",
+   "group": "E",
+   "D_year": 0.1122,
+   "D_within": 0.04137,
+   "excess": 0.07023,
+   "D_year_A": 0.4343,
+   "excess_A": 0.2795
+  },
+  {
+   "apt": "LSZH",
+   "group": "M",
+   "D_year": 0.09988,
+   "D_within": 0.0246,
+   "excess": 0.07363,
+   "D_year_A": 0.1888,
+   "excess_A": 0.15
+  },
+  {
+   "apt": "LSZH",
+   "group": "P",
+   "D_year": 0.1759,
+   "D_within": 0.04246,
+   "excess": 0.1104,
+   "D_year_A": 0.1887,
+   "excess_A": 0.1218
+  },
+  {
+   "apt": "LSZH",
+   "group": "S",
+   "D_year": 0.4378,
+   "D_within": 0.06703,
+   "excess": 0.2691,
+   "D_year_A": 0.5491,
+   "excess_A": 0.3683
+  },
+  {
+   "apt": "LSZH",
+   "group": "V",
+   "D_year": 0.1178,
+   "D_within": 0.03145,
+   "excess": 0.07693,
+   "D_year_A": 0.126,
+   "excess_A": 0.06195
+  },
+  {
+   "apt": "LTFM",
+   "group": "E",
+   "D_year": "not available",
+   "D_within": "not available",
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LTFM",
+   "group": "M",
+   "D_year": "not available",
+   "D_within": "not available",
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LTFM",
+   "group": "P",
+   "D_year": "not available",
+   "D_within": "not available",
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LTFM",
+   "group": "S",
+   "D_year": "not available",
+   "D_within": "not available",
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  },
+  {
+   "apt": "LTFM",
+   "group": "V",
+   "D_year": "not available",
+   "D_within": "not available",
+   "excess": "not available",
+   "D_year_A": "not available",
+   "excess_A": "not available"
+  }
+ ],
+ "conclusion": "Keep f6 unchanged. Shift exists; neither masking nor quantile mapping is justified by the proxy check. No retraining performed."
+}

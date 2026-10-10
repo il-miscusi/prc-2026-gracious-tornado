@@ -1,0 +1,122 @@
+{
+ "spec": {
+  "lib": "cat",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [
+   "M1",
+   "M2",
+   "M6",
+   "M7"
+  ],
+  "long_target": "sec",
+  "params": {
+   "task_type": "GPU",
+   "l2_leaf_reg": 3,
+   "border_count": 254,
+   "one_hot_max_size": 4,
+   "max_ctr_complexity": 1,
+   "bootstrap_type": "Bernoulli",
+   "subsample": 0.8,
+   "gpu_ram_part": 0.9,
+   "depth": 10,
+   "learning_rate": 0.06,
+   "random_seed": 2233
+  },
+  "params_long": {
+   "depth": 8
+  },
+  "drop_features": [
+   "nbe1_r600",
+   "nbe1_n_r600",
+   "nbe1_r900",
+   "nbe1_n_r900",
+   "nbe1_rb900",
+   "nbe1_n_rb900",
+   "nbx1_r600",
+   "nbx1_n_r600",
+   "nbx1_r900",
+   "nbx1_n_r900",
+   "nbx1_rb900",
+   "nbx1_n_rb900",
+   "nbx1a_a900",
+   "nbx1a_n_a900",
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "catboost": "1.2.8"
+  },
+  "refit": false,
+  "fold_rounds": {
+   "M1": [
+    9990,
+    4468
+   ],
+   "M2": [
+    9990,
+    4468
+   ],
+   "M6": [
+    9990,
+    4468
+   ],
+   "M7": [
+    9990,
+    4468
+   ]
+  },
+  "max_parallel": 1,
+  "fs": "prc-f-fs6"
+ },
+ "folds": {
+  "M1": {
+   "best": [
+    9990,
+    4468
+   ],
+   "score": 324.15805232622125
+  },
+  "M2": {
+   "best": [
+    9990,
+    4468
+   ],
+   "score": 307.13328230418125
+  },
+  "M6": {
+   "best": [
+    9990,
+    4468
+   ],
+   "score": 220.88848419537632
+  },
+  "M7": {
+   "best": [
+    9990,
+    4468
+   ],
+   "score": 262.8504448800921
+  }
+ },
+ "used_h": 0.9672817231549157,
+ "complete": true,
+ "outputs_sha256": {
+  "environment.json": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+  "oof_M1.csv": "89593762bab9dd5da29540567b1f482bb9e96692cfe0b592336696a7449416a2",
+  "best_M1.json": "9a3eeca13e6df96e22d7751492516326e55fbd5526124f04fd5d941aff7200df",
+  "imp_M1.csv": "80f15eae46bcc18ba02300158eaf65bcf947c58c137bb288a637c37214ebf1ca",
+  "identity_M1.json": "f3a892313babd8d7bc7239f5ff45903a0d39d901182a788dc14755aae217dea1",
+  "oof_M2.csv": "9a48cf57d4c8bca8e8ee67c6d80ed74351a9ae19ce4454c340bd5029bbea510a",
+  "best_M2.json": "09359567d9e386710822d17a2301a11338da801392b8caf037c8bcfb11ba0f72",
+  "imp_M2.csv": "2b8e4bf5a9fbc4b6650a9cb6f98597739e74582996baef3546e2e4fc2aa211ad",
+  "identity_M2.json": "23de58bf8155cf659fe6f7f3a8005e97d01e7fefe2918a93aabf421733502863",
+  "oof_M6.csv": "a0e529abbee6a60cc1a89cb279bd8c71494fd7b22b771baf0c6afc2e27cab6f5",
+  "best_M6.json": "90957c973620ebf5c605d2a28262b79e72e10c418c6a0d52e22b690645f6a75f",
+  "imp_M6.csv": "3f6b856fca93c215b9fe0c8b1d147910aee81faa45dea457c1fb3f8b0e4ae19d",
+  "identity_M6.json": "23f99717aa55c744ef3076703e3592073839dd29c1dbfe7d3312034439d5d924",
+  "oof_M7.csv": "3976a84f38ac70ef9273fc3511ac751d12284d79b196143812f55185ad42269d",
+  "best_M7.json": "26500080782220b694084df86d765168999b6b1ac6a3924597c3ff0f76ce91b8",
+  "imp_M7.csv": "69fcda2d4d90ddb44ee0c525928bedd354832eebfea7cc83bbe468201b10645f",
+  "identity_M7.json": "5885ee14d5ff34186350069459adb12a86c6ade686cf635626b85d822c85fe19"
+ }
+}

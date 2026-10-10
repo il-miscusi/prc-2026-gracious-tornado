@@ -1,0 +1,1508 @@
+{
+ "name": "f2_nopost_pseudo2025",
+ "mode": "crossfit",
+ "scores": {
+  "pooled": {
+   "rows": 671292,
+   "mse": 86970.4855177061,
+   "rmse": 294.9075880978753
+  },
+  "month": {
+   "1": {
+    "rows": 153706,
+    "mse": 105534.08250677513,
+    "rmse": 324.86009682134727
+   },
+   "2": {
+    "rows": 143731,
+    "mse": 64847.1880212684,
+    "rmse": 254.651110386875
+   },
+   "6": {
+    "rows": 183142,
+    "mse": 88475.79487765199,
+    "rmse": 297.4488105164517
+   },
+   "7": {
+    "rows": 190713,
+    "mse": 87236.76032256702,
+    "rmse": 295.358697726285
+   }
+  },
+  "airport": {
+   "EDDF": {
+    "rows": 72635,
+    "mse_contrib": 1676.1773280446723,
+    "rmse": 124.46371119482407
+   },
+   "EDDM": {
+    "rows": 53133,
+    "mse_contrib": 1080.487793405575,
+    "rmse": 116.83783457921312
+   },
+   "EGLL": {
+    "rows": 78229,
+    "mse_contrib": 5462.247201963466,
+    "rmse": 216.499811161613
+   },
+   "EHAM": {
+    "rows": 80058,
+    "mse_contrib": 1564.6024536497291,
+    "rmse": 114.53952324291387
+   },
+   "LEBL": {
+    "rows": 57470,
+    "mse_contrib": 2129.0294837193715,
+    "rmse": 157.697923629928
+   },
+   "LEMD": {
+    "rows": 68710,
+    "mse_contrib": 2416.981425253209,
+    "rmse": 153.66763873663413
+   },
+   "LFPG": {
+    "rows": 77305,
+    "mse_contrib": 21371.102548793202,
+    "rmse": 430.78979594650383
+   },
+   "LIRF": {
+    "rows": 51927,
+    "mse_contrib": 38886.7938775569,
+    "rmse": 709.0227796424988
+   },
+   "LSZH": {
+    "rows": 43477,
+    "mse_contrib": 1564.8576640418694,
+    "rmse": 155.44020908802622
+   },
+   "LTFM": {
+    "rows": 88348,
+    "mse_contrib": 10818.20574127811,
+    "rmse": 286.7048190832794
+   }
+  },
+  "band": {
+   "1-4 h": {
+    "rows": 68816,
+    "mse_contrib": 32365.667124174284,
+    "rmse": 561.8925899101406
+   },
+   "4-8 h": {
+    "rows": 2008,
+    "mse_contrib": 2276.7729521026463,
+    "rmse": 872.4363321565521
+   },
+   "> 8 h": {
+    "rows": 446,
+    "mse_contrib": 13240.102166280849,
+    "rmse": 4464.100616313633
+   },
+   "d <= 1 h": {
+    "rows": 600022,
+    "mse_contrib": 39087.943275148325,
+    "rmse": 209.1190312562749
+   }
+  },
+  "group": {
+   "> 4 h AOBT_3 guard": {
+    "rows": 1,
+    "mse_contrib": 19.6507987582155,
+    "rmse": 3632.0
+   },
+   "> 4 h LIRF-unmatched": {
+    "rows": 63,
+    "mse_contrib": 14751.358927951283,
+    "rmse": 12537.226622674172
+   },
+   "> 4 h blended": {
+    "rows": 2390,
+    "mse_contrib": 745.8653916739969,
+    "rmse": 457.70642987029487
+   },
+   "d <= 4 h": {
+    "rows": 668838,
+    "mse_contrib": 71453.6103993226,
+    "rmse": 267.79801579125194
+   }
+  }
+ },
+ "steps_month_mse": {
+  "fill": {
+   "1": 106398.48954420618,
+   "2": 65022.94805176812,
+   "6": 88520.89148896906,
+   "7": 109436.94064328828
+  },
+  "overlay": {
+   "1": 106227.09818298307,
+   "2": 64985.68879123285,
+   "6": 88529.20928719788,
+   "7": 109343.37580352384
+  },
+  "cap": {
+   "1": 105573.97084129625,
+   "2": 64973.195497438704,
+   "6": 88522.69336542173,
+   "7": 109052.20434151418
+  },
+  "level": {
+   "1": 105545.14285130869,
+   "2": 64940.41240224427,
+   "6": 88480.0411915127,
+   "7": 108865.36444995196
+  },
+  "post": {
+   "1": 105545.14285130869,
+   "2": 64940.41240224427,
+   "6": 88480.0411915127,
+   "7": 108865.36444995196
+  },
+  "rules": {
+   "1": 105534.08250677513,
+   "2": 64847.1880212684,
+   "6": 88475.79487765199,
+   "7": 87236.76032256702
+  }
+ },
+ "steps_pooled_mse": {
+  "fill": 93525.38083320917,
+  "overlay": 93453.84730617932,
+  "cap": 93217.12649500948,
+  "level": 93138.78922485287,
+  "post": 93138.78922485287,
+  "rules": 86970.4855177061
+ },
+ "bias_month_band": {
+  "fill": {
+   "M1 1-4 h": -9.164030794461151,
+   "M1 4-8 h": -16.59936811824845,
+   "M1 > 8 h": -107.7499143058954,
+   "M1 d <= 1 h": -3.090611655721134,
+   "M2 1-4 h": 101.46115877422118,
+   "M2 4-8 h": 125.51766921315657,
+   "M2 > 8 h": 416.0620456370047,
+   "M2 d <= 1 h": 3.464160627833096,
+   "M6 1-4 h": -6.550592237000665,
+   "M6 4-8 h": -28.85360633167144,
+   "M6 > 8 h": 402.2444572555072,
+   "M6 d <= 1 h": -3.676268762639857,
+   "M7 1-4 h": -17.75354755226753,
+   "M7 4-8 h": 8.39862646698704,
+   "M7 > 8 h": 1519.5335031039353,
+   "M7 d <= 1 h": -5.077641886869637
+  },
+  "overlay": {
+   "M1 1-4 h": -8.723110465364028,
+   "M1 4-8 h": -16.59936811824845,
+   "M1 > 8 h": -107.7499143058954,
+   "M1 d <= 1 h": -3.1440406306512383,
+   "M2 1-4 h": 101.3496435932185,
+   "M2 4-8 h": 125.51766921315657,
+   "M2 > 8 h": 416.0620456370047,
+   "M2 d <= 1 h": 3.4976443982614325,
+   "M6 1-4 h": -6.408341455793249,
+   "M6 4-8 h": -28.85360633167144,
+   "M6 > 8 h": 402.2444572555072,
+   "M6 d <= 1 h": -3.6906901519287265,
+   "M7 1-4 h": -17.5617330775503,
+   "M7 4-8 h": 8.39862646698704,
+   "M7 > 8 h": 1519.5335031039353,
+   "M7 d <= 1 h": -5.054255383457182
+  },
+  "cap": {
+   "M1 1-4 h": -8.658505045361222,
+   "M1 4-8 h": -15.748842716533893,
+   "M1 > 8 h": 199.3545433263,
+   "M1 d <= 1 h": -3.1440406306512383,
+   "M2 1-4 h": 101.35456892470768,
+   "M2 4-8 h": 127.74077698519982,
+   "M2 > 8 h": 424.56346656517417,
+   "M2 d <= 1 h": 3.4976443982614325,
+   "M6 1-4 h": -6.2909920533038575,
+   "M6 4-8 h": -28.85360633167144,
+   "M6 > 8 h": 402.2444572555072,
+   "M6 d <= 1 h": -3.6906901519287265,
+   "M7 1-4 h": -17.50309026628325,
+   "M7 4-8 h": 13.948566525514787,
+   "M7 > 8 h": 1612.3192378548715,
+   "M7 d <= 1 h": -5.054255383457182
+  },
+  "level": {
+   "M1 1-4 h": -6.401411103462215,
+   "M1 4-8 h": -10.705347791804384,
+   "M1 > 8 h": 203.70213876490536,
+   "M1 d <= 1 h": -1.342354488476296,
+   "M2 1-4 h": 98.68938983656383,
+   "M2 4-8 h": 125.72425558433962,
+   "M2 > 8 h": 422.8442726093641,
+   "M2 d <= 1 h": 0.09793201931991853,
+   "M6 1-4 h": -4.43665366320871,
+   "M6 4-8 h": -25.94136835619562,
+   "M6 > 8 h": 405.1574240734344,
+   "M6 d <= 1 h": -1.1855835326290107,
+   "M7 1-4 h": -9.928981365969618,
+   "M7 4-8 h": 22.794047364482765,
+   "M7 > 8 h": 1617.1380778415028,
+   "M7 d <= 1 h": 1.7184671971032548
+  },
+  "post": {
+   "M1 1-4 h": -6.401411103462215,
+   "M1 4-8 h": -10.705347791804384,
+   "M1 > 8 h": 203.70213876490536,
+   "M1 d <= 1 h": -1.342354488476296,
+   "M2 1-4 h": 98.68938983656383,
+   "M2 4-8 h": 125.72425558433962,
+   "M2 > 8 h": 422.8442726093641,
+   "M2 d <= 1 h": 0.09793201931991853,
+   "M6 1-4 h": -4.43665366320871,
+   "M6 4-8 h": -25.94136835619562,
+   "M6 > 8 h": 405.1574240734344,
+   "M6 d <= 1 h": -1.1855835326290107,
+   "M7 1-4 h": -9.928981365969618,
+   "M7 4-8 h": 22.794047364482765,
+   "M7 > 8 h": 1617.1380778415028,
+   "M7 d <= 1 h": 1.7184671971032548
+  },
+  "rules": {
+   "M1 1-4 h": -6.404277733754399,
+   "M1 4-8 h": -11.079418280116341,
+   "M1 > 8 h": 203.70213876490536,
+   "M1 d <= 1 h": -1.3392675660853801,
+   "M2 1-4 h": 98.47864309758253,
+   "M2 4-8 h": 125.06547605034521,
+   "M2 > 8 h": 422.8442726093641,
+   "M2 d <= 1 h": 0.09947635316538339,
+   "M6 1-4 h": -4.425416841040802,
+   "M6 4-8 h": -25.94136835619562,
+   "M6 > 8 h": 405.1574240734344,
+   "M6 d <= 1 h": -1.1853334876348134,
+   "M7 1-4 h": -9.920438578353567,
+   "M7 4-8 h": 24.517070658671486,
+   "M7 > 8 h": 1155.1468294494505,
+   "M7 d <= 1 h": 1.7182163073302403
+  }
+ },
+ "created_utc": "2026-10-09T15:17:45+00:00",
+ "command": "python3 research/final/pseudo_final.py run research/final/configs/f2_nopost_pseudo2025.json --weights crossfit",
+ "git": {
+  "commit": "934dee0982d8749fabc716644f9d62cb60b65138",
+  "dirty": []
+ },
+ "config": {
+  "name": "f2_nopost_pseudo2025",
+  "_doc": "f2 without post layers (no lv_rules, recovered or daily); the assembler's own rules still apply the NM join window, the LEMD/LEBL cap and the 60 s floor, so dropping lv_rules removes no bound. configs/f2_final.json on 2025. Run by research/final/pseudo_final.py on 2025 Jan/Feb/Jun/Jul with month-out members. lv_rules and recovered fit nothing on labels; daily refits its parameters without the held month on the c6 chain (c6 12-month-out OOF + level calibration with offsets excluding the held month + L0 + L0e).",
+  "recipe": "research/final/configs/f2_final.json",
+  "recipe_overrides": {
+   "post_layers": []
+  },
+  "months": [
+   1,
+   2,
+   6,
+   7
+  ],
+  "members": {
+   "prc-f-c7": {
+    "mo": "solutions/kernels/prc-f-c7a-mo/output"
+   },
+   "prc-f-cs7": {
+    "mo": "solutions/kernels/prc-f-cs7-mo/output"
+   },
+   "prc-f-mlp7": {
+    "mo": "solutions/kernels/prc-f-mlp7a-mo/output"
+   },
+   "prc-f-c6s": {
+    "mo": "solutions/kernels/prc-f-c6s-mo/output"
+   },
+   "prc-f-c5s": {
+    "mo": "solutions/kernels/prc-f-c5s-mo/output"
+   },
+   "prc-f-k4": {
+    "mo": "solutions/kernels/prc-f-k4-mo/output"
+   }
+  },
+  "phys_inputs": "research/final/inputs/2025/phys.parquet",
+  "overlay_flags": {
+   "lirf_noadsb": "research/final/inputs/2025/cover.parquet"
+  }
+ },
+ "recipe": {
+  "name": "f2_nopost_pseudo2025",
+  "frame": "final",
+  "_doc": "f2: Members are refits on the final store: d <= 1 h stack c7 (6 seeds), cs7 (3 seeds), mlp7 (3 seeds); 1-4 h stack c6s (3 seeds), c5s (3 seeds), c7 (6 seeds). Frozen weights: NNLS on each specification's 2025 A/B OOF (c7's from prc-c7x2, the earlier fs7 bank). Rows past 4 h: long stack (c6s, c5s, c7) blended with the physical estimate (plog, alpha 1); rows whose AOBT_3 is more than 4 h before takeoff and LIRF rows without AOBT_3 (long.fill = long_stack) take the long stack unblended. Overlay: LIRF rows without ADS-B evidence and d <= 4 h get 0.7 pred + 0.3 k4. Cap pred <= d past 2 h. Level calibration: lam 0.75, cap 0.05, composition offset fitted on the 2025 12-month-out c6 OOF. Post layers: lv_rules with rules 'ad' (NM join window, LEMD/LEBL cap), recovered (L0e), daily (L1a; parameters research/final/levers/artifacts/daily_params.json), recovered again. Assembler rules: NM join window +-3,631 s, LEMD/LEBL <= 3,604 s, floor 60.",
+  "members": {
+   "prc-f-c7": {
+    "pred": "solutions/kernels/prc-f-c7/output",
+    "oof": "solutions/kernels/prc-c7x2/output"
+   },
+   "prc-f-cs7": {
+    "pred": "solutions/kernels/prc-f-cs7/output",
+    "oof": "solutions/kernels/prc-cs7/output"
+   },
+   "prc-f-mlp7": {
+    "pred": "solutions/kernels/prc-f-mlp7/output",
+    "oof": "solutions/kernels/prc-mlp7/output"
+   },
+   "prc-f-c6s": {
+    "pred": "solutions/kernels/prc-f-c6s/output",
+    "oof": "solutions/kernels/prc-c6s/output"
+   },
+   "prc-f-c5s": {
+    "pred": "solutions/kernels/prc-f-c5s/output",
+    "oof": "solutions/kernels/prc-c5s/output"
+   },
+   "prc-f-k4": {
+    "pred": "solutions/kernels/prc-f-k4/output"
+   }
+  },
+  "segments": [
+   {
+    "name": "short",
+    "lo_h": -1000,
+    "hi_h": 1,
+    "members": [
+     "prc-f-c7",
+     "prc-f-cs7",
+     "prc-f-mlp7"
+    ]
+   },
+   {
+    "name": "1-4h",
+    "lo_h": 1,
+    "hi_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-c7"
+    ]
+   }
+  ],
+  "long": {
+   "lo_h": 4,
+   "members": [
+    "prc-f-c6s",
+    "prc-f-c5s",
+    "prc-f-c7"
+   ],
+   "phys": "plog",
+   "phys_inputs": "research/final/inputs/2025/phys.parquet",
+   "fill": "long_stack",
+   "guard_aobt3_h": 4
+  },
+  "overlays": [
+   {
+    "name": "lirf_noadsb",
+    "member": "prc-f-k4",
+    "weight": 0.3,
+    "flags": "research/final/inputs/2025/cover.parquet",
+    "airports": [
+     "LIRF"
+    ],
+    "max_d_h": 4
+   }
+  ],
+  "cap_d_over_h": 2,
+  "level": {
+   "lam": 0.75,
+   "cap": 0.05
+  },
+  "post_layers": [],
+  "rules": {
+   "nm_window_s": 3606,
+   "nm_dither_s": 25,
+   "cap_airports": [
+    "LEMD",
+    "LEBL"
+   ],
+   "cap_s": 3604,
+   "floor_s": 60
+  },
+  "notes": [
+   "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+   "Post layers from research/final/levers; see research/final/levers/RESULTS.md."
+  ]
+ },
+ "fits": {
+  "1": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 139651,
+     "weights": {
+      "prc-f-c7": 0.40067,
+      "prc-f-cs7": 0.311396,
+      "prc-f-mlp7": 0.287935
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c7": 0.40067,
+      "prc-f-cs7": 0.311396,
+      "prc-f-mlp7": 0.287935
+     },
+     "frozen": false
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 13545,
+     "weights": {
+      "prc-f-c6s": 0.460225,
+      "prc-f-c5s": 0.244116,
+      "prc-f-c7": 0.295659
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.460225,
+      "prc-f-c5s": 0.244116,
+      "prc-f-c7": 0.295659
+     },
+     "frozen": false
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.47588777395655063,
+     "prc-f-c5s": 0.19139282524088916,
+     "prc-f-c7": 0.3327194008025602
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.47588777395655063,
+     "prc-f-c5s": 0.19139282524088916,
+     "prc-f-c7": 0.3327194008025602
+    },
+    "frozen": false,
+    "plog_coef_frozen": false,
+    "plog_coef": {
+     "pooled": [
+      -0.1709195399319817,
+      0.4003911711573209
+     ],
+     "N": [
+      -0.17091953993198172,
+      0.40039117115732104
+     ],
+     "A": [
+      -0.1709195399319817,
+      0.4003911711573209
+     ],
+     "M": [
+      -0.1709195399319817,
+      0.4003911711573209
+     ]
+    },
+    "rows": 504,
+    "kinds": {
+     "N": 468,
+     "M": 33,
+     "A": 3
+    },
+    "w_mean": 0.057685807783124744,
+    "fill_rows": 6,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 0,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 54784,
+    "fit_rows_plog": 1886
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 11299,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 6
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -1.826018466912883,
+     -13.658527241078598,
+     -1.8481103170948678,
+     -17.312547170945553,
+     -1.3020808299704125,
+     -12.354075128414953,
+     7.532949748835581,
+     7.988635688630858,
+     -7.657838047532469,
+     7.010963506247533,
+     953.4874660490532,
+     142.50471833423575
+    ],
+    "rows_changed": 114784,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EDDF",
+      "n": 15496,
+      "pub": 831.667,
+      "pm": 886.107,
+      "x": -54.441,
+      "comp": 46.021,
+      "deice": 0.047,
+      "sh": -6.315
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EDDM",
+      "n": 11266,
+      "pub": 705.845,
+      "pm": 871.512,
+      "x": -165.666,
+      "comp": 181.029,
+      "deice": 0.199,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EGLL",
+      "n": 19412,
+      "pub": 1328.212,
+      "pm": 1334.915,
+      "x": -6.703,
+      "comp": 0.418,
+      "deice": 0.0,
+      "sh": -4.714
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EHAM",
+      "n": 18460,
+      "pub": 803.423,
+      "pm": 809.01,
+      "x": -5.587,
+      "comp": -3.105,
+      "deice": 0.009,
+      "sh": -6.519
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LEBL",
+      "n": 12234,
+      "pub": 885.029,
+      "pm": 884.112,
+      "x": 0.917,
+      "comp": 5.121,
+      "deice": 0.002,
+      "sh": 4.529
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LEMD",
+      "n": 16510,
+      "pub": 974.197,
+      "pm": 987.625,
+      "x": -13.428,
+      "comp": 24.903,
+      "deice": 0.021,
+      "sh": 8.606
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LFPG",
+      "n": 17893,
+      "pub": 934.522,
+      "pm": 1080.078,
+      "x": -145.556,
+      "comp": 104.914,
+      "deice": 0.091,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LIRF",
+      "n": 11304,
+      "pub": 1055.825,
+      "pm": 1068.245,
+      "x": -12.42,
+      "comp": 18.088,
+      "deice": 0.001,
+      "sh": 4.251
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LSZH",
+      "n": 9735,
+      "pub": 689.159,
+      "pm": 775.433,
+      "x": -86.275,
+      "comp": 94.956,
+      "deice": 0.099,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LTFM",
+      "n": 21368,
+      "pub": 1030.658,
+      "pm": 1061.839,
+      "x": -31.181,
+      "comp": 17.42,
+      "deice": 0.0,
+      "sh": -10.321
+     }
+    ]
+   },
+   "post_layers": [],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 4,
+     "a_nm_below": 6,
+     "d_cap_lowered": 0,
+     "floor_raised": 0,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  },
+  "2": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 134087,
+     "weights": {
+      "prc-f-c7": 0.377303,
+      "prc-f-cs7": 0.342195,
+      "prc-f-mlp7": 0.280501
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c7": 0.377303,
+      "prc-f-cs7": 0.342195,
+      "prc-f-mlp7": 0.280501
+     },
+     "frozen": false
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 9174,
+     "weights": {
+      "prc-f-c6s": 0.389312,
+      "prc-f-c5s": 0.294439,
+      "prc-f-c7": 0.316249
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.389312,
+      "prc-f-c5s": 0.294439,
+      "prc-f-c7": 0.316249
+     },
+     "frozen": false
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.377639726588418,
+     "prc-f-c5s": 0.24087216008042098,
+     "prc-f-c7": 0.38148811333116106
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.377639726588418,
+     "prc-f-c5s": 0.24087216008042098,
+     "prc-f-c7": 0.38148811333116106
+    },
+    "frozen": false,
+    "plog_coef_frozen": false,
+    "plog_coef": {
+     "pooled": [
+      0.034537687030794635,
+      0.34793063688417536
+     ],
+     "N": [
+      0.034537687030794635,
+      0.34793063688417536
+     ],
+     "A": [
+      0.034537687030794635,
+      0.34793063688417536
+     ],
+     "M": [
+      0.034537687030794635,
+      0.34793063688417536
+     ]
+    },
+    "rows": 464,
+    "kinds": {
+     "N": 439,
+     "M": 23,
+     "A": 2
+    },
+    "w_mean": 0.21083272158743294,
+    "fill_rows": 6,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 0,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 59153,
+    "fit_rows_plog": 1926
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 10683,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 3
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -1.0274533925707938,
+     -13.61165261285623,
+     -1.7879086022692408,
+     -16.29962941464404,
+     -1.2073810824886417,
+     -13.393750225083759,
+     7.875788017302394,
+     7.984509409008982,
+     -7.520808856237204,
+     6.640805724363677,
+     958.4895694671985,
+     140.0546806885251
+    ],
+    "rows_changed": 89147,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EDDF",
+      "n": 15099,
+      "pub": 826.428,
+      "pm": 843.841,
+      "x": -17.413,
+      "comp": 24.277,
+      "deice": 0.021,
+      "sh": 5.148
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EDDM",
+      "n": 10381,
+      "pub": 719.618,
+      "pm": 835.209,
+      "x": -115.591,
+      "comp": 140.478,
+      "deice": 0.155,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EGLL",
+      "n": 17956,
+      "pub": 1321.106,
+      "pm": 1315.697,
+      "x": 5.409,
+      "comp": 0.808,
+      "deice": 0.0,
+      "sh": 4.663
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EHAM",
+      "n": 17852,
+      "pub": 813.134,
+      "pm": 816.237,
+      "x": -3.103,
+      "comp": 6.567,
+      "deice": 0.012,
+      "sh": 2.598
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LEBL",
+      "n": 12169,
+      "pub": 905.731,
+      "pm": 907.211,
+      "x": -1.479,
+      "comp": 5.029,
+      "deice": 0.002,
+      "sh": 2.662
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LEMD",
+      "n": 15390,
+      "pub": 964.636,
+      "pm": 964.012,
+      "x": 0.624,
+      "comp": 13.664,
+      "deice": 0.015,
+      "sh": 10.716
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LFPG",
+      "n": 16802,
+      "pub": 920.302,
+      "pm": 1006.558,
+      "x": -86.257,
+      "comp": 74.354,
+      "deice": 0.057,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LIRF",
+      "n": 10681,
+      "pub": 1037.55,
+      "pm": 1040.769,
+      "x": -3.219,
+      "comp": 12.714,
+      "deice": 0.002,
+      "sh": 7.121
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LSZH",
+      "n": 9048,
+      "pub": 692.554,
+      "pm": 744.273,
+      "x": -51.719,
+      "comp": 58.665,
+      "deice": 0.063,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LTFM",
+      "n": 18327,
+      "pub": 989.517,
+      "pm": 1199.703,
+      "x": -210.186,
+      "comp": 127.165,
+      "deice": 0.111,
+      "sh": 0.0
+     }
+    ]
+   },
+   "post_layers": [],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 5,
+     "a_nm_below": 4,
+     "d_cap_lowered": 0,
+     "floor_raised": 0,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  },
+  "6": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 163912,
+     "weights": {
+      "prc-f-c7": 0.388369,
+      "prc-f-cs7": 0.338095,
+      "prc-f-mlp7": 0.273536
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c7": 0.388369,
+      "prc-f-cs7": 0.338095,
+      "prc-f-mlp7": 0.273536
+     },
+     "frozen": false
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 18629,
+     "weights": {
+      "prc-f-c6s": 0.386543,
+      "prc-f-c5s": 0.324037,
+      "prc-f-c7": 0.28942
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.386543,
+      "prc-f-c5s": 0.324037,
+      "prc-f-c7": 0.28942
+     },
+     "frozen": false
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.4279269206291515,
+     "prc-f-c5s": 0.2566664591107542,
+     "prc-f-c7": 0.31540662026009425
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.4279269206291515,
+     "prc-f-c5s": 0.2566664591107542,
+     "prc-f-c7": 0.31540662026009425
+    },
+    "frozen": false,
+    "plog_coef_frozen": false,
+    "plog_coef": {
+     "pooled": [
+      -0.19434215028657495,
+      0.4702319973605966
+     ],
+     "N": [
+      -0.19434215028657492,
+      0.4702319973605966
+     ],
+     "A": [
+      -0.19434215028657495,
+      0.4702319973605966
+     ],
+     "M": [
+      -0.19434215028657495,
+      0.4702319973605966
+     ]
+    },
+    "rows": 589,
+    "kinds": {
+     "N": 545,
+     "M": 40,
+     "A": 4
+    },
+    "w_mean": 0.06960030368763587,
+    "fill_rows": 12,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 0,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 49811,
+    "fit_rows_plog": 1801
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 5629,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 8
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -0.8278655922542261,
+     -13.106708139997393,
+     -1.7772322967185596,
+     -15.692790726965297,
+     -1.155689333885646,
+     -12.147013701480516,
+     9.85237896258881,
+     6.858842977187269,
+     -5.865638242389702,
+     7.509382308216727,
+     941.1107252787108,
+     132.54327617755965
+    ],
+    "rows_changed": 183094,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EDDF",
+      "n": 20706,
+      "pub": 864.077,
+      "pm": 868.776,
+      "x": -4.698,
+      "comp": 2.443,
+      "deice": 0.0,
+      "sh": -1.691
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EDDM",
+      "n": 15661,
+      "pub": 788.904,
+      "pm": 791.445,
+      "x": -2.541,
+      "comp": -0.837,
+      "deice": 0.008,
+      "sh": -2.533
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EGLL",
+      "n": 20062,
+      "pub": 1382.813,
+      "pm": 1384.322,
+      "x": -1.509,
+      "comp": -0.521,
+      "deice": 0.0,
+      "sh": -1.523
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EHAM",
+      "n": 21257,
+      "pub": 714.355,
+      "pm": 727.408,
+      "x": -13.052,
+      "comp": 2.061,
+      "deice": 0.013,
+      "sh": -8.244
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LEBL",
+      "n": 16315,
+      "pub": 968.929,
+      "pm": 988.006,
+      "x": -19.077,
+      "comp": 7.627,
+      "deice": 0.003,
+      "sh": -8.588
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LEMD",
+      "n": 17992,
+      "pub": 1020.779,
+      "pm": 1017.5,
+      "x": 3.279,
+      "comp": 3.122,
+      "deice": 0.0,
+      "sh": 4.8
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LFPG",
+      "n": 20885,
+      "pub": 928.125,
+      "pm": 947.968,
+      "x": -19.843,
+      "comp": 20.78,
+      "deice": 0.001,
+      "sh": 0.703
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LIRF",
+      "n": 14651,
+      "pub": 1207.226,
+      "pm": 1222.271,
+      "x": -15.045,
+      "comp": 13.498,
+      "deice": 0.004,
+      "sh": -1.16
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LSZH",
+      "n": 12083,
+      "pub": 729.918,
+      "pm": 734.746,
+      "x": -4.829,
+      "comp": 13.552,
+      "deice": 0.01,
+      "sh": 6.543
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LTFM",
+      "n": 23482,
+      "pub": 982.232,
+      "pm": 1010.237,
+      "x": -28.004,
+      "comp": 17.249,
+      "deice": 0.0,
+      "sh": -8.067
+     }
+    ]
+   },
+   "post_layers": [],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 2,
+     "a_nm_below": 4,
+     "d_cap_lowered": 0,
+     "floor_raised": 0,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  },
+  "7": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 162372,
+     "weights": {
+      "prc-f-c7": 0.393227,
+      "prc-f-cs7": 0.332676,
+      "prc-f-mlp7": 0.274097
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c7": 0.393227,
+      "prc-f-cs7": 0.332676,
+      "prc-f-mlp7": 0.274097
+     },
+     "frozen": false
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 27468,
+     "weights": {
+      "prc-f-c6s": 0.433282,
+      "prc-f-c5s": 0.206857,
+      "prc-f-c7": 0.359861
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.433282,
+      "prc-f-c5s": 0.206857,
+      "prc-f-c7": 0.359861
+     },
+     "frozen": false
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.443353496074991,
+     "prc-f-c5s": 0.2610025284756946,
+     "prc-f-c7": 0.29564397544931437
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.443353496074991,
+     "prc-f-c5s": 0.2610025284756946,
+     "prc-f-c7": 0.29564397544931437
+    },
+    "frozen": false,
+    "plog_coef_frozen": false,
+    "plog_coef": {
+     "pooled": [
+      -0.46331275126468274,
+      0.5870226248846814
+     ],
+     "N": [
+      -0.4633127512646828,
+      0.5870226248846815
+     ],
+     "A": [
+      -0.46331275126468274,
+      0.5870226248846814
+     ],
+     "M": [
+      -0.46331275126468274,
+      0.5870226248846814
+     ]
+    },
+    "rows": 833,
+    "kinds": {
+     "N": 755,
+     "M": 63,
+     "A": 15
+    },
+    "w_mean": 0.03135851685330061,
+    "fill_rows": 39,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 1,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 41095,
+    "fit_rows_plog": 1557
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 596,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 17
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -1.3071820301768813,
+     -14.001719209874802,
+     -2.0951872852091737,
+     -16.481367736523953,
+     -1.5047454754402114,
+     -13.129705395254202,
+     7.938362430566827,
+     7.160175506723346,
+     -7.604779676729072,
+     6.217487172213342,
+     958.4380038195476,
+     139.4503091892641
+    ],
+    "rows_changed": 190584,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EDDF",
+      "n": 21334,
+      "pub": 866.47,
+      "pm": 874.271,
+      "x": -7.802,
+      "comp": 1.81,
+      "deice": 0.0,
+      "sh": -4.494
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EDDM",
+      "n": 15825,
+      "pub": 804.977,
+      "pm": 798.258,
+      "x": 6.719,
+      "comp": -2.956,
+      "deice": 0.007,
+      "sh": 2.822
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EGLL",
+      "n": 20787,
+      "pub": 1427.479,
+      "pm": 1438.639,
+      "x": -11.16,
+      "comp": -0.309,
+      "deice": 0.001,
+      "sh": -8.602
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EHAM",
+      "n": 22489,
+      "pub": 785.759,
+      "pm": 792.111,
+      "x": -6.352,
+      "comp": -0.096,
+      "deice": 0.01,
+      "sh": -4.836
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LEBL",
+      "n": 16752,
+      "pub": 998.625,
+      "pm": 991.107,
+      "x": 7.518,
+      "comp": 8.21,
+      "deice": 0.003,
+      "sh": 11.796
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LEMD",
+      "n": 18818,
+      "pub": 1027.797,
+      "pm": 1050.416,
+      "x": -22.619,
+      "comp": 3.708,
+      "deice": 0.0,
+      "sh": -14.183
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LFPG",
+      "n": 21708,
+      "pub": 982.794,
+      "pm": 1033.202,
+      "x": -50.408,
+      "comp": 42.656,
+      "deice": 0.001,
+      "sh": -5.814
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LIRF",
+      "n": 15124,
+      "pub": 1284.107,
+      "pm": 1342.771,
+      "x": -58.664,
+      "comp": 16.789,
+      "deice": 0.007,
+      "sh": -31.406
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LSZH",
+      "n": 12611,
+      "pub": 732.341,
+      "pm": 741.832,
+      "x": -9.491,
+      "comp": 8.861,
+      "deice": 0.007,
+      "sh": -0.472
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LTFM",
+      "n": 25171,
+      "pub": 1070.657,
+      "pm": 1105.257,
+      "x": -34.599,
+      "comp": 18.722,
+      "deice": 0.0,
+      "sh": -11.908
+     }
+    ]
+   },
+   "post_layers": [],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 7,
+     "a_nm_below": 10,
+     "d_cap_lowered": 2,
+     "floor_raised": 0,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  }
+ },
+ "rows_file": "submissions/final/pseudo2025/f2_nopost_pseudo2025_crossfit.parquet",
+ "rows_sha256": "5761e7feed34955548bf62878dd932fc5de5ade1607728b42143a466b0c667a9",
+ "inputs": {
+  "data/09-22-2026-08-13-30_files_list/training_2025-01-01_2025-02-01.parquet": "a4dc8f152c082c650cd7eb745fe9c641089f34f74df127e6944a188990a0ed94",
+  "data/09-22-2026-08-13-30_files_list/training_2025-02-01_2025-03-01.parquet": "b6f9ff2cdb1cfe07c5442f4e1f11bbcdbeafe52852dcb0b8175f62ab84c6a066",
+  "data/09-22-2026-08-13-30_files_list/training_2025-06-01_2025-07-01.parquet": "c3ef5080f2cc636c3416baf1555f7d0ee3519f9046e8043c1c0c8f017a244025",
+  "data/09-22-2026-08-13-30_files_list/training_2025-07-01_2025-08-01.parquet": "34d1c5bba7c8596a1c20c09edd3cb2f63277b5a684fa801911660fe0eaf63c9d",
+  "solutions/kernels/prc-f-c7a-mo/output/oof.csv": "3c13bb5410046a4ed1ed4ff9249c99a85116161de4add1be33f8b23d9b2e4d6e",
+  "solutions/kernels/prc-f-cs7-mo/output/oof.csv": "fa3cc19d33086a64488d05135b8cfc900330dbacfafd88ddb05abd7058ee61b5",
+  "solutions/kernels/prc-f-mlp7a-mo/output/oof.csv": "2d9558f5a685187304df358a631f5b46f7ebd77f801b4bc87ec78a14ff397a89",
+  "solutions/kernels/prc-f-c6s-mo/output/oof.csv": "ae69abb6938a9d0a67478833488b17a1cbb92b5930a2bad954bf92f04edbb098",
+  "solutions/kernels/prc-f-c5s-mo/output/oof.csv": "6ae59ee13fe52f99a2c8fe671415945823740a2dc3616d3798875138c8ca79fd",
+  "solutions/kernels/prc-f-k4-mo/output/oof.csv": "00555372f4011512a6c29802f8e03a92881d1bbc7ba685ef74d90ffc2e8f1011",
+  "research/tail/cache/long_tr.parquet": "ef6829fa9f372f93f00eec2ef6a7210ee46216c8d281a9c8c052701478eb5228",
+  "research/final/inputs/2025/phys.parquet": "b9102b15385f6ebd469c2117f891432923239c41a28492bc375d2d522b61fac6",
+  "research/final/inputs/2025/cover.parquet": "8a73847b242da5911394f6ad420b5151511bd916fdb8794571f3880c6841d3db",
+  "research/pru/taxi_out_additional_time_2025.csv": "4aedf19520d3f84bebc418b56835762c907b714a9c19e751bb8658f9e62ce598",
+  "research/pru/taxi_out_additional_time_2026.csv": "b72040e0987e6c7d5706279d645ef9f814a6506165c83f89d8509022154a1076",
+  "research/cache/oof_mo12_c6.parquet": "e244b219c925740f89aeece51df3a6a6ef367d9c5b22a59aaa5be558763b9dc0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-03-01_2025-04-01.parquet": "58fde7e5f8b539546af63b41d7f6ec0f2884fdc3d3dd9b6bfca7c59a420dcdd3",
+  "data/09-22-2026-08-13-30_files_list/training_2025-04-01_2025-05-01.parquet": "9ffe0cf5741c4863799c41be81475dfaecedabe0ba687b8f8e4eacba992f9390",
+  "data/09-22-2026-08-13-30_files_list/training_2025-05-01_2025-06-01.parquet": "5481c0642a8fbb4dc395f93bc713c57f4cc16854fb361d404967077e1fce2ff9",
+  "data/09-22-2026-08-13-30_files_list/training_2025-08-01_2025-09-01.parquet": "6c8d2aa7a1b6c9dff9a0305a37eb02de1e87a68d07557264f41b77738272c540",
+  "data/09-22-2026-08-13-30_files_list/training_2025-09-01_2025-10-01.parquet": "955308a4000947e32a00586d3ee13928949d2231b67f84f6dfb0631893f3754a",
+  "data/09-22-2026-08-13-30_files_list/training_2025-10-01_2025-11-01.parquet": "4a31a35601c1bdcd74b8cd6379231ba516a48324e4c2478bf1c9360cd23e687f",
+  "data/09-22-2026-08-13-30_files_list/training_2025-11-01_2025-12-01.parquet": "ac36b17db7a537e3baeb682fa4763dacaa1fcc5d9bfa6bf32b3ee5d9f91300b0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-12-01_2026-01-01.parquet": "2d357f2f403a86778a69e93f72d8754effe77f1ac0942399b3d1b7728241f724",
+  "research/final/frame.py": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+  "research/final/stacking.py": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+  "research/final/longrows.py": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+  "research/final/level.py": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+  "research/final/rules.py": "f11538538f328acfdb994a47022108563274e2bad2d35989a272279bcf53e889",
+  "research/final/assemble_final.py": "803d17f612b358ea92f0a95de88365034950a53bbb71963cc5f3d7ff56f7ecb1",
+  "research/tail/tailkit.py": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+  "research/extreme_blend.py": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e",
+  "research/final/pseudo_final.py": "9bac4c1b01dcfaccb34d3d62de3ad78bfbc0b841928227a082ddca11f201d579"
+ }
+}

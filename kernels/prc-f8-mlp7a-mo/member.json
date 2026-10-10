@@ -1,0 +1,81 @@
+{
+ "member": "mlp7a",
+ "store": "prc-f-fs8",
+ "owner": "miscusi",
+ "accel": "gpu",
+ "folds": [
+  "M1",
+  "M2",
+  "M6",
+  "M7"
+ ],
+ "source_spec": "build_members mlp7a (fs7)",
+ "spec": {
+  "lib": "mlp",
+  "threads": 4,
+  "drop_features": [
+   "pru_pub",
+   "pru_ref",
+   "pru_deice_sh",
+   "pru_noref_sh",
+   "pru_pub_dev",
+   "apm_d_eobt1",
+   "dm_d_eobt1",
+   "apm_d_aobt3",
+   "dm_d_aobt3",
+   "apm_d_lobt",
+   "dm_d_lobt",
+   "apm_d_iobt",
+   "dm_d_iobt",
+   "apm_aobt3_m_eobt1",
+   "dm_aobt3_m_eobt1",
+   "a3_obs_p_evidence_start"
+  ],
+  "refit": false,
+  "folds": [
+   "M1",
+   "M2",
+   "M6",
+   "M7"
+  ],
+  "params": {
+   "hidden": [
+    512,
+    256,
+    128
+   ],
+   "dropout": 0.1,
+   "lr": 0.002,
+   "wd": 1e-05,
+   "batch": 2048,
+   "epochs": 14,
+   "patience": 3,
+   "seed": 2911
+  },
+  "params_long": {
+   "batch": 1024,
+   "epochs": 6
+  },
+  "fold_rounds": {
+   "M1": [
+    98,
+    55
+   ],
+   "M2": [
+    98,
+    55
+   ],
+   "M6": [
+    98,
+    55
+   ],
+   "M7": [
+    98,
+    55
+   ]
+  },
+  "parallel": false,
+  "max_parallel": 1,
+  "gpus": 1
+ }
+}

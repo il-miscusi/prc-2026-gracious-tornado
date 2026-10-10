@@ -1,0 +1,67 @@
+{
+ "spec": {
+  "lib": "lgb",
+  "refit": true,
+  "folds": [],
+  "threads": 4,
+  "rounds": [
+   296,
+   195
+  ],
+  "refit_seeds": 2,
+  "drop_adsb": true,
+  "drop_features": [
+   "a3_obs_p_evidence_start"
+  ],
+  "params": {
+   "objective": "regression",
+   "learning_rate": 0.08,
+   "num_leaves": 255,
+   "min_data_in_leaf": 50,
+   "feature_fraction": 0.5,
+   "bagging_fraction": 0.8,
+   "bagging_freq": 1,
+   "lambda_l2": 10.0,
+   "cat_smooth": 20.0,
+   "cat_l2": 10.0,
+   "max_cat_threshold": 64,
+   "min_data_per_group": 100,
+   "max_bin": 127,
+   "seed": 7
+  },
+  "params_long": {
+   "num_leaves": 127,
+   "min_data_in_leaf": 30,
+   "min_data_per_group": 30,
+   "cat_smooth": 10.0
+  },
+  "save_models": true,
+  "fs": "prc-f-fs6"
+ },
+ "folds": {
+  "given": {
+   "best": [
+    296,
+    195
+   ],
+   "score": null
+  }
+ },
+ "refit_rounds": [
+  325,
+  214
+ ],
+ "test_mean": 1010.5465642563173,
+ "test_max": 102663.16134707566,
+ "used_h": 0.23716045969062383,
+ "complete": true,
+ "outputs_sha256": {
+  "environment.json": "6aa1c57026b43371af95a89f0056bb89e9c26aec30a69563fdeece882c3c8891",
+  "submission.parquet": "85ae7cfffbf534f0d1b1442ca049b8dda1a8c0a1d5068c3ffc50587f5eb11775",
+  "identity_refit.json": "14d3a89b94e4c2142fde0d0176aec3a2f1e05c63840cac3022032526f7a15d7f",
+  "refit_0.npy": "c767f5adecd017ebac7f295298ecfd0e75759319255cc14ecf438ab2b1469394",
+  "refit_1.npy": "7fe294507bd7c38ac85248ae72dd80d6eec6e8f9a6ab20af3ca183fe97a45a96",
+  "models/refit_0.pkl": "e562dc99f834a009850691c87496ae74ecc788b3387f74cd4cff855cfa0435f2",
+  "models/refit_1.pkl": "c94b9e9fb3f92f17fc5b837cb6079ddc8957dcced7cc83c68edf3c7bce01df75"
+ }
+}

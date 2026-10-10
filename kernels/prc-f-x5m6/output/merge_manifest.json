@@ -1,0 +1,171 @@
+{
+ "created_utc": "2026-10-09T12:25:50+00:00",
+ "command": "python3 research/final/merge_members.py --out solutions/kernels/prc-f-x5m6/output prc-f-x5 prc-f-x5b",
+ "frame": "final",
+ "rows": 670790,
+ "units": [
+  {
+   "dir": "solutions/kernels/prc-f-x5/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 11.385510568694217,
+   "inputs": {
+    "solutions/kernels/prc-f-x5/output/submission.parquet": "1ec113037b1d893ddd769c02e679ea5169d3feaa36b259efcee964643321302d",
+    "solutions/kernels/prc-f-x5/output/refit_0.npy": "0cfac7b127884600bad0b6a1949ec721d1fafda1b50f2f9b7873de5dceb5b0ee",
+    "solutions/kernels/prc-f-x5/output/refit_1.npy": "1cb14ba3277714cca60e47280c424cfcab16da8962f7ee5f0cc1082379ac07bf",
+    "solutions/kernels/prc-f-x5/output/refit_2.npy": "b2d42f0bc511f94e0fdb598464549173e63d68d85339f86d9bb8cbe9a5d875f7",
+    "solutions/kernels/prc-f-x5/output/results.json": "8ddafca0b34d186b9bfa70fa47d6d0019fdd97eb04c398347799596fd047ad02"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-x5b/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 11.38550794332964,
+   "inputs": {
+    "solutions/kernels/prc-f-x5b/output/submission.parquet": "6b15967c22d643784ea6b48ff197b1d35817bd2d33abeebb29d198265f7fb415",
+    "solutions/kernels/prc-f-x5b/output/refit_0.npy": "d94677023d1274129632886b20a63d066fa004823006df50148f88ecc7390407",
+    "solutions/kernels/prc-f-x5b/output/refit_1.npy": "5153fe3b751564fde2b7490e273aae436fb410bfcb17e2dd7e0b6e2d6a1d3a79",
+    "solutions/kernels/prc-f-x5b/output/refit_2.npy": "1d43d51667bba7b01e3c7cd8cb7aeb36151fba45e41b51a97f3a74f9af5938a7",
+    "solutions/kernels/prc-f-x5b/output/results.json": "868bbc8aa03e558939954e08df3931a2b0c577616a437e47ab779959d16b8a82"
+   }
+  }
+ ],
+ "total_seeds": 6.0,
+ "seed_spread": {
+  "pairwise_rms": {
+   "solutions/kernels/prc-f-x5/output#seed0 | solutions/kernels/prc-f-x5/output#seed1": 39.879054492857975,
+   "solutions/kernels/prc-f-x5/output#seed0 | solutions/kernels/prc-f-x5/output#seed2": 39.982106193447045,
+   "solutions/kernels/prc-f-x5/output#seed0 | solutions/kernels/prc-f-x5b/output#seed0": 40.600489867935295,
+   "solutions/kernels/prc-f-x5/output#seed0 | solutions/kernels/prc-f-x5b/output#seed1": 38.861340210545926,
+   "solutions/kernels/prc-f-x5/output#seed0 | solutions/kernels/prc-f-x5b/output#seed2": 39.31291195961644,
+   "solutions/kernels/prc-f-x5/output#seed1 | solutions/kernels/prc-f-x5/output#seed2": 39.64431782490404,
+   "solutions/kernels/prc-f-x5/output#seed1 | solutions/kernels/prc-f-x5b/output#seed0": 39.97332349204775,
+   "solutions/kernels/prc-f-x5/output#seed1 | solutions/kernels/prc-f-x5b/output#seed1": 39.31253237098394,
+   "solutions/kernels/prc-f-x5/output#seed1 | solutions/kernels/prc-f-x5b/output#seed2": 40.165805387263624,
+   "solutions/kernels/prc-f-x5/output#seed2 | solutions/kernels/prc-f-x5b/output#seed0": 40.177023622329955,
+   "solutions/kernels/prc-f-x5/output#seed2 | solutions/kernels/prc-f-x5b/output#seed1": 39.18564558992488,
+   "solutions/kernels/prc-f-x5/output#seed2 | solutions/kernels/prc-f-x5b/output#seed2": 41.38675337339003,
+   "solutions/kernels/prc-f-x5b/output#seed0 | solutions/kernels/prc-f-x5b/output#seed1": 40.29510070708008,
+   "solutions/kernels/prc-f-x5b/output#seed0 | solutions/kernels/prc-f-x5b/output#seed2": 41.17024514342862,
+   "solutions/kernels/prc-f-x5b/output#seed1 | solutions/kernels/prc-f-x5b/output#seed2": 39.716866045109704
+  },
+  "vs_others_by_band": {
+   "solutions/kernels/prc-f-x5/output#seed0": {
+    "d <= 1 h": {
+     "mean_diff": 0.11819767707554148,
+     "rms_diff": 20.650410953268686
+    },
+    "1-4 h": {
+     "mean_diff": 0.4628330475498553,
+     "rms_diff": 61.07513918806378
+    },
+    "4-8 h": {
+     "mean_diff": -1.5861205384170671,
+     "rms_diff": 142.61086334239656
+    },
+    "> 8 h": {
+     "mean_diff": -15.565024048719902,
+     "rms_diff": 338.0018459893662
+    }
+   },
+   "solutions/kernels/prc-f-x5/output#seed1": {
+    "d <= 1 h": {
+     "mean_diff": 0.40735049889373987,
+     "rms_diff": 20.603646428557834
+    },
+    "1-4 h": {
+     "mean_diff": -0.1397970449601081,
+     "rms_diff": 61.47928641035093
+    },
+    "4-8 h": {
+     "mean_diff": -4.292210991648768,
+     "rms_diff": 131.6350188403583
+    },
+    "> 8 h": {
+     "mean_diff": -19.0333675136411,
+     "rms_diff": 365.05671918885844
+    }
+   },
+   "solutions/kernels/prc-f-x5/output#seed2": {
+    "d <= 1 h": {
+     "mean_diff": 0.1988206431929638,
+     "rms_diff": 20.84122565979812
+    },
+    "1-4 h": {
+     "mean_diff": -0.09053380879521762,
+     "rms_diff": 61.30504622045909
+    },
+    "4-8 h": {
+     "mean_diff": -3.6378630957524183,
+     "rms_diff": 132.82616151497217
+    },
+    "> 8 h": {
+     "mean_diff": 1.6842984424373693,
+     "rms_diff": 400.19668519154027
+    }
+   },
+   "solutions/kernels/prc-f-x5b/output#seed0": {
+    "d <= 1 h": {
+     "mean_diff": -0.3792597924060272,
+     "rms_diff": 20.42544094268072
+    },
+    "1-4 h": {
+     "mean_diff": 0.4652268733896994,
+     "rms_diff": 61.120866063072214
+    },
+    "4-8 h": {
+     "mean_diff": -17.464176442560845,
+     "rms_diff": 137.2145193397202
+    },
+    "> 8 h": {
+     "mean_diff": 36.740006848467026,
+     "rms_diff": 475.41783361916924
+    }
+   },
+   "solutions/kernels/prc-f-x5b/output#seed1": {
+    "d <= 1 h": {
+     "mean_diff": -0.45301665166496496,
+     "rms_diff": 20.6929184294244
+    },
+    "1-4 h": {
+     "mean_diff": 0.2679617677666144,
+     "rms_diff": 60.279086801150754
+    },
+    "4-8 h": {
+     "mean_diff": 16.253068112987236,
+     "rms_diff": 131.16505151615692
+    },
+    "> 8 h": {
+     "mean_diff": -2.423003818542975,
+     "rms_diff": 330.47647206571463
+    }
+   },
+   "solutions/kernels/prc-f-x5b/output#seed2": {
+    "d <= 1 h": {
+     "mean_diff": 0.10790762490874706,
+     "rms_diff": 20.4537539132768
+    },
+    "1-4 h": {
+     "mean_diff": -0.9656908349508432,
+     "rms_diff": 60.10117691570682
+    },
+    "4-8 h": {
+     "mean_diff": 10.727302955391854,
+     "rms_diff": 136.87718045766627
+    },
+    "> 8 h": {
+     "mean_diff": -1.4029099100004456,
+     "rms_diff": 481.1285406348052
+    }
+   }
+  }
+ },
+ "output": {
+  "solutions/kernels/prc-f-x5m6/output/submission.parquet": "26e3cd408aa0d5ee48ef6309c5e2a12be63119d0f77c896c496e6a23d6ae6756"
+ },
+ "mean": 1015.4752151977812,
+ "max": 109095.20833333333
+}

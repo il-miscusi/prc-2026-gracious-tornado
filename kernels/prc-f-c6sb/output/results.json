@@ -1,0 +1,66 @@
+{
+ "spec": {
+  "lib": "cat",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [],
+  "long_target": "sec",
+  "rounds": [
+   9379,
+   6612
+  ],
+  "refit_seeds": 3,
+  "params": {
+   "task_type": "GPU",
+   "l2_leaf_reg": 3,
+   "border_count": 254,
+   "one_hot_max_size": 4,
+   "max_ctr_complexity": 1,
+   "bootstrap_type": "Bernoulli",
+   "subsample": 0.8,
+   "gpu_ram_part": 0.9,
+   "depth": 10,
+   "learning_rate": 0.06,
+   "random_seed": 2251
+  },
+  "params_long": {
+   "depth": 8
+  },
+  "drop_features": [
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "catboost": "1.2.8"
+  },
+  "save_models": true,
+  "fs": "prc-f-fs6"
+ },
+ "folds": {
+  "given": {
+   "best": [
+    9379,
+    6612
+   ],
+   "score": null
+  }
+ },
+ "refit_rounds": [
+  10316,
+  7273
+ ],
+ "test_mean": 1018.0473772465486,
+ "test_max": 81076.805392903,
+ "used_h": 0.8076041373941634,
+ "complete": true,
+ "outputs_sha256": {
+  "environment.json": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+  "submission.parquet": "7f81a1e1950e9c7f1611ac74c662c65265e15332b19ff6248985b003f1b24bca",
+  "identity_refit.json": "ae895b266d4dad12f564c2a8de178f39611183614785d83687b2379d7a0ff63b",
+  "refit_0.npy": "ba949cc41b7d7368c2f986d0112cc5061397866d375ccc873cc696486ae24b95",
+  "refit_1.npy": "a87ee0dfcc42f4e7ea578810d08dd56c572d4f999a75f03af0310537380400f3",
+  "refit_2.npy": "96d2fa4a0e839e2d94a3631553de19b5d07b79820788d89275b27138c86422d3",
+  "models/refit_0.pkl": "d8469cccd7ed49735a85478969ebadadce6c3c6af43559f4321e6d2b192b71dd",
+  "models/refit_1.pkl": "fa69f1967e8a88d35f82af26b585ef569c6059c24616d5923fc49499d39283d6",
+  "models/refit_2.pkl": "d0279d21848c9a697f4632c88c984833f85ce8b14a22d1f711d79246b6de11ba"
+ }
+}

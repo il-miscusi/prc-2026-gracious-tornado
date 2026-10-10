@@ -1,0 +1,8 @@
+{
+ "checked_utc": "2026-10-10",
+ "source": "https://gateway.x-plane.com/build/airports.show.js?version=4e80786c",
+ "bundle_sha256": "bc166d084cad6a1e6809406454a4051a123f0080e2705cb4caf8f205581d42ed",
+ "quote": "Gnu General Public License 2.",
+ "context": "The official Gateway account-deletion notice says uploaded scenery remains on the Gateway because its use is governed by this licence.",
+ "limitation": "This confirms version 2, not an or-later grant."
+}

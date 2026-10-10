@@ -1,0 +1,68 @@
+{
+ "member": "c6s",
+ "store": "prc-f-fs6",
+ "owner": "miscusi",
+ "accel": "gpu",
+ "folds": [
+  "M1",
+  "M2",
+  "M6",
+  "M7"
+ ],
+ "source_spec": "prc-m-c6s-r",
+ "v32c_role": "1-4 h .25 (seconds-target long head)",
+ "spec": {
+  "lib": "cat",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [
+   "M1",
+   "M2",
+   "M6",
+   "M7"
+  ],
+  "long_target": "sec",
+  "params": {
+   "task_type": "GPU",
+   "l2_leaf_reg": 3,
+   "border_count": 254,
+   "one_hot_max_size": 4,
+   "max_ctr_complexity": 1,
+   "bootstrap_type": "Bernoulli",
+   "subsample": 0.8,
+   "gpu_ram_part": 0.9,
+   "depth": 10,
+   "learning_rate": 0.06,
+   "random_seed": 2241
+  },
+  "params_long": {
+   "depth": 8
+  },
+  "drop_features": [
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "catboost": "1.2.8"
+  },
+  "refit": false,
+  "fold_rounds": {
+   "M1": [
+    9379,
+    6612
+   ],
+   "M2": [
+    9379,
+    6612
+   ],
+   "M6": [
+    9379,
+    6612
+   ],
+   "M7": [
+    9379,
+    6612
+   ]
+  },
+  "max_parallel": 1
+ }
+}

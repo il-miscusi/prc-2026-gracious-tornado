@@ -1,0 +1,98 @@
+{
+ "name": "f4p1_pseudo2025",
+ "_doc": "Pass 1 for f4: configs/f3_final.json with f4's segments (fs8 c7 added, weights fitted on the 2025 month-out predictions); in the rehearsal this is f4 (the seed counts and the 2026 loadings artifact do not enter it). L1a-v2 loadings refitted on f2x5's rows. Its rows (post2_recovered) are f4's own pre-daily predictions: the input of daily.py v2 for research/final/artifacts/daily_v2_f4_loadings.json and of f4_pseudo2025.",
+ "recipe": "research/final/configs/f3_final.json",
+ "recipe_overrides": {
+  "members": {
+   "prc-f8-c7": {
+    "pred": "solutions/kernels/prc-f8-c7/output"
+   }
+  },
+  "segments": [
+   {
+    "name": "short",
+    "lo_h": -1000,
+    "hi_h": 1,
+    "members": [
+     "prc-f-c7",
+     "prc-f-cs7",
+     "prc-f-mlp7",
+     "prc-f8-c7"
+    ],
+    "weights": {
+     "prc-f-c7": 0.145542,
+     "prc-f-cs7": 0.252147,
+     "prc-f-mlp7": 0.247639,
+     "prc-f8-c7": 0.354673
+    }
+   },
+   {
+    "name": "1-4h",
+    "lo_h": 1,
+    "hi_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7",
+     "prc-f8-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.297598,
+     "prc-f-c5s": 0.021663,
+     "prc-f-x5": 0.324981,
+     "prc-f-c7": 0.0,
+     "prc-f8-c7": 0.355759
+    }
+   }
+  ]
+ },
+ "months": [
+  1,
+  2,
+  6,
+  7
+ ],
+ "members": {
+  "prc-f-c7": {
+   "mo": "solutions/kernels/prc-f-c7a-mo/output"
+  },
+  "prc-f-cs7": {
+   "mo": "solutions/kernels/prc-f-cs7-mo/output"
+  },
+  "prc-f-mlp7": {
+   "mo": "solutions/kernels/prc-f-mlp7a-mo/output"
+  },
+  "prc-f-c6s": {
+   "mo": "solutions/kernels/prc-f-c6s-mo/output"
+  },
+  "prc-f-c5s": {
+   "mo": "solutions/kernels/prc-f-c5s-mo/output"
+  },
+  "prc-f-x5": {
+   "mo": "solutions/kernels/prc-f-x5-mo/output",
+   "_note": "x5 pinned to xgboost 2.1.4: prc-f-x5-mo/output/oof.csv holds all four folds (M1/M6 from that run, M2/M7 copied from prc-f-x5p-mo; identical values checked). The xgboost 3.4.1 runs were renamed prc-f-x5-xgb341 / prc-f-x5-mo-xgb341 and are not used."
+  },
+  "prc-f-k4": {
+   "mo": "solutions/kernels/prc-f-k4-mo/output"
+  },
+  "prc-f8-c7": {
+   "mo": "solutions/kernels/prc-f8-c7a-mo/output"
+  }
+ },
+ "phys_inputs": "research/final/inputs/2025/phys.parquet",
+ "overlay_flags": {
+  "lirf_noadsb": "research/final/inputs/2025/cover.parquet"
+ },
+ "post_layer_pseudo": {
+  "daily": {
+   "pseudo_kwargs": {
+    "v2_rows": "submissions/final/pseudo2025/f2x5_pseudo2025_{mode}.parquet",
+    "v2_col": "post2_recovered"
+   },
+   "inputs": [
+    "submissions/final/pseudo2025/f2x5_pseudo2025_{mode}.parquet"
+   ]
+  }
+ }
+}

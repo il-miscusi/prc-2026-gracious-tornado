@@ -1,0 +1,57 @@
+{
+ "member": "c7a",
+ "store": "prc-f-fs8",
+ "owner": "miscusi",
+ "accel": "gpu",
+ "folds": [],
+ "source_spec": "build_members c7a (fs7)",
+ "spec": {
+  "lib": "cat",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [],
+  "rounds": [
+   9600,
+   2900
+  ],
+  "refit_seeds": 3,
+  "params": {
+   "task_type": "GPU",
+   "l2_leaf_reg": 3,
+   "border_count": 254,
+   "one_hot_max_size": 4,
+   "max_ctr_complexity": 1,
+   "bootstrap_type": "Bernoulli",
+   "subsample": 0.8,
+   "gpu_ram_part": 0.9,
+   "depth": 10,
+   "learning_rate": 0.06,
+   "random_seed": 3101
+  },
+  "params_long": {
+   "depth": 8
+  },
+  "drop_features": [
+   "pru_pub",
+   "pru_ref",
+   "pru_deice_sh",
+   "pru_noref_sh",
+   "pru_pub_dev",
+   "apm_d_eobt1",
+   "dm_d_eobt1",
+   "apm_d_aobt3",
+   "dm_d_aobt3",
+   "apm_d_lobt",
+   "dm_d_lobt",
+   "apm_d_iobt",
+   "dm_d_iobt",
+   "apm_aobt3_m_eobt1",
+   "dm_aobt3_m_eobt1",
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "catboost": "1.2.8"
+  },
+  "save_models": true
+ }
+}

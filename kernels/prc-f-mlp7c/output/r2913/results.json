@@ -1,0 +1,77 @@
+{
+ "spec": {
+  "lib": "mlp",
+  "threads": 4,
+  "drop_features": [
+   "pru_pub",
+   "pru_ref",
+   "pru_deice_sh",
+   "pru_noref_sh",
+   "pru_pub_dev",
+   "apm_d_eobt1",
+   "dm_d_eobt1",
+   "apm_d_aobt3",
+   "dm_d_aobt3",
+   "apm_d_lobt",
+   "dm_d_lobt",
+   "apm_d_iobt",
+   "dm_d_iobt",
+   "apm_aobt3_m_eobt1",
+   "dm_aobt3_m_eobt1",
+   "a3_obs_p_evidence_start"
+  ],
+  "save_models": true,
+  "fs": "prc-f-fs7",
+  "refit": true,
+  "folds": [],
+  "rounds": [
+   98,
+   55
+  ],
+  "refit_seeds": 1,
+  "params": {
+   "hidden": [
+    512,
+    256,
+    128
+   ],
+   "dropout": 0.1,
+   "lr": 0.002,
+   "wd": 1e-05,
+   "batch": 2048,
+   "epochs": 14,
+   "patience": 3,
+   "seed": 2913
+  },
+  "params_long": {
+   "batch": 1024,
+   "epochs": 6
+  },
+  "parallel": false,
+  "gpu_id": 0
+ },
+ "folds": {
+  "given": {
+   "best": [
+    98,
+    55
+   ],
+   "score": null
+  }
+ },
+ "refit_rounds": [
+  107,
+  60
+ ],
+ "test_mean": 1012.6046695153575,
+ "test_max": 106956.22398139062,
+ "used_h": 0.5742533480458789,
+ "complete": true,
+ "outputs_sha256": {
+  "environment.json": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+  "submission.parquet": "5bd82ae0ebd103ef49b9ff07d893cea77dd7552e7656b7119d7058814ae6647c",
+  "identity_refit.json": "8668c3fabd19cf65ac249481ac82ab2e4df1041602509f4e74331c58c47f0948",
+  "refit_0.npy": "4467eebe68177b53f1e325a8cca6bdfa27b4bd0369c2e67c84d5830fb941e21b",
+  "models/refit_0.pkl": "0ae33e837e798ce872896d6e0f28facb2bed7cc484cef9fa8d9f82eb857e79b1"
+ }
+}

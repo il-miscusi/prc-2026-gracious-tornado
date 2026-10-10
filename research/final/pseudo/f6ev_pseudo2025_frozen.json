@@ -1,0 +1,2261 @@
+{
+ "name": "f6ev_pseudo2025",
+ "mode": "frozen",
+ "scores": {
+  "pooled": {
+   "rows": 671292,
+   "mse": 74453.24213060379,
+   "rmse": 272.86121404590244
+  },
+  "month": {
+   "1": {
+    "rows": 153706,
+    "mse": 104187.40163725571,
+    "rmse": 322.78073306387995
+   },
+   "2": {
+    "rows": 143731,
+    "mse": 47976.16232986265,
+    "rmse": 219.03461445594084
+   },
+   "6": {
+    "rows": 183142,
+    "mse": 76852.67125342062,
+    "rmse": 277.22314343037925
+   },
+   "7": {
+    "rows": 190713,
+    "mse": 68139.15859828016,
+    "rmse": 261.0347842688406
+   }
+  },
+  "airport": {
+   "EDDF": {
+    "rows": 72635,
+    "mse_contrib": 1600.2237850476918,
+    "rmse": 121.61107458048957
+   },
+   "EDDM": {
+    "rows": 53133,
+    "mse_contrib": 1066.47298153193,
+    "rmse": 116.07762016511349
+   },
+   "EGLL": {
+    "rows": 78229,
+    "mse_contrib": 5392.000846285808,
+    "rmse": 215.10317574903937
+   },
+   "EHAM": {
+    "rows": 80058,
+    "mse_contrib": 1552.9506082669093,
+    "rmse": 114.11222912533438
+   },
+   "LEBL": {
+    "rows": 57470,
+    "mse_contrib": 2093.86800236979,
+    "rmse": 156.39029085503455
+   },
+   "LEMD": {
+    "rows": 68710,
+    "mse_contrib": 2379.442317039897,
+    "rmse": 152.4696319778223
+   },
+   "LFPG": {
+    "rows": 77305,
+    "mse_contrib": 21270.30898010707,
+    "rmse": 429.7727178890839
+   },
+   "LIRF": {
+    "rows": 51927,
+    "mse_contrib": 27179.054119157972,
+    "rmse": 592.7564503923428
+   },
+   "LSZH": {
+    "rows": 43477,
+    "mse_contrib": 1535.3568449656432,
+    "rmse": 153.96805228227754
+   },
+   "LTFM": {
+    "rows": 88348,
+    "mse_contrib": 10383.56364583107,
+    "rmse": 280.8863205714744
+   }
+  },
+  "band": {
+   "1-4 h": {
+    "rows": 68816,
+    "mse_contrib": 29230.866251888197,
+    "rmse": 533.9884532066432
+   },
+   "4-8 h": {
+    "rows": 2008,
+    "mse_contrib": 1934.3731476791404,
+    "rmse": 804.1628553559136
+   },
+   "> 8 h": {
+    "rows": 446,
+    "mse_contrib": 4603.823781295049,
+    "rmse": 2632.3743624890244
+   },
+   "d <= 1 h": {
+    "rows": 600022,
+    "mse_contrib": 38684.17894974141,
+    "rmse": 208.03616559192113
+   }
+  },
+  "group": {
+   "> 4 h AOBT_3 guard": {
+    "rows": 1,
+    "mse_contrib": 0.048493012426623995,
+    "rmse": 180.42441990454972
+   },
+   "> 4 h LIRF-unmatched": {
+    "rows": 63,
+    "mse_contrib": 5855.621723853754,
+    "rmse": 7898.997342690344
+   },
+   "> 4 h blended": {
+    "rows": 2390,
+    "mse_contrib": 682.5267121080088,
+    "rmse": 437.8411863282846
+   },
+   "d <= 4 h": {
+    "rows": 668838,
+    "mse_contrib": 67915.0452016296,
+    "rmse": 261.08280083478905
+   }
+  }
+ },
+ "steps_month_mse": {
+  "fill": {
+   "1": 105574.90523511369,
+   "2": 56556.38910944274,
+   "6": 86647.34970480134,
+   "7": 92244.69860464969
+  },
+  "overlay": {
+   "1": 105493.5614590467,
+   "2": 56570.06934234246,
+   "6": 86699.90083092409,
+   "7": 92179.63989874577
+  },
+  "cap": {
+   "1": 105076.52872464409,
+   "2": 56561.58627106772,
+   "6": 86697.26943360615,
+   "7": 92033.22198925329
+  },
+  "level": {
+   "1": 105076.40527439701,
+   "2": 56499.26521892768,
+   "6": 86656.72009036841,
+   "7": 91913.21439478958
+  },
+  "post1_lv_rules": {
+   "1": 105067.29507047843,
+   "2": 56422.81816354934,
+   "6": 86655.8238627084,
+   "7": 79432.42396928428
+  },
+  "post2_recovered": {
+   "1": 105027.68356305061,
+   "2": 56066.45809606779,
+   "6": 86056.97073738828,
+   "7": 79233.08605449623
+  },
+  "post3_daily": {
+   "1": 104286.38356741422,
+   "2": 48033.25298541966,
+   "6": 76898.5732178205,
+   "7": 68151.60507852069
+  },
+  "post4_recovered": {
+   "1": 104286.38356741422,
+   "2": 48033.25298541966,
+   "6": 76898.5732178205,
+   "7": 68151.60507852069
+  },
+  "post5_events": {
+   "1": 104187.39745295422,
+   "2": 47976.159299481056,
+   "6": 76852.67125342062,
+   "7": 68139.15689743047
+  },
+  "post": {
+   "1": 104187.39745295422,
+   "2": 47976.159299481056,
+   "6": 76852.67125342062,
+   "7": 68139.15689743047
+  },
+  "rules": {
+   "1": 104187.40163725571,
+   "2": 47976.16232986265,
+   "6": 76852.67125342062,
+   "7": 68139.15859828016
+  }
+ },
+ "steps_pooled_mse": {
+  "fill": 86128.59213543878,
+  "overlay": 86108.74983800651,
+  "cap": 85969.1303699775,
+  "level": 85910.6018334077,
+  "post1_lv_rules": 82346.13029782318,
+  "post2_recovered": 82040.74902404033,
+  "post3_daily": 74504.18880764008,
+  "post4_recovered": 74504.18880764008,
+  "post5_events": 74453.24004047585,
+  "post": 74453.24004047585,
+  "rules": 74453.24213060379
+ },
+ "bias_month_band": {
+  "fill": {
+   "M1 1-4 h": -6.182329477114013,
+   "M1 4-8 h": -16.23425041813779,
+   "M1 > 8 h": 18.32166395823997,
+   "M1 d <= 1 h": -2.7209462299224483,
+   "M2 1-4 h": 105.83767200144814,
+   "M2 4-8 h": 112.52813096252535,
+   "M2 > 8 h": 281.898276811681,
+   "M2 d <= 1 h": 5.221751742966284,
+   "M6 1-4 h": -2.981962618365922,
+   "M6 4-8 h": -38.09833424661488,
+   "M6 > 8 h": 339.61011162403537,
+   "M6 d <= 1 h": -1.8399745786020878,
+   "M7 1-4 h": -10.982027315924313,
+   "M7 4-8 h": 10.645507908029455,
+   "M7 > 8 h": 1273.0358261398146,
+   "M7 d <= 1 h": -2.858173186609918
+  },
+  "overlay": {
+   "M1 1-4 h": -5.92835808722198,
+   "M1 4-8 h": -16.23425041813779,
+   "M1 > 8 h": 18.32166395823997,
+   "M1 d <= 1 h": -2.7040572924840776,
+   "M2 1-4 h": 105.81266353738002,
+   "M2 4-8 h": 112.52813096252535,
+   "M2 > 8 h": 281.898276811681,
+   "M2 d <= 1 h": 5.290013301406718,
+   "M6 1-4 h": -2.876820983741063,
+   "M6 4-8 h": -38.09833424661488,
+   "M6 > 8 h": 339.61011162403537,
+   "M6 d <= 1 h": -1.8386821540244946,
+   "M7 1-4 h": -10.838075301009019,
+   "M7 4-8 h": 10.645507908029455,
+   "M7 > 8 h": 1273.0358261398146,
+   "M7 d <= 1 h": -2.8354712364079
+  },
+  "cap": {
+   "M1 1-4 h": -5.885082977362474,
+   "M1 4-8 h": -15.798131981062324,
+   "M1 > 8 h": 224.04309733346827,
+   "M1 d <= 1 h": -2.7040572924840776,
+   "M2 1-4 h": 105.81825154418101,
+   "M2 4-8 h": 113.06097921577536,
+   "M2 > 8 h": 290.26249164461996,
+   "M2 d <= 1 h": 5.290013301406718,
+   "M6 1-4 h": -2.824735359198287,
+   "M6 4-8 h": -38.09833424661488,
+   "M6 > 8 h": 339.61011162403537,
+   "M6 d <= 1 h": -1.8386821540244946,
+   "M7 1-4 h": -10.81412247383545,
+   "M7 4-8 h": 16.095089287466354,
+   "M7 > 8 h": 1325.1874925951054,
+   "M7 d <= 1 h": -2.8354712364079
+  },
+  "level": {
+   "M1 1-4 h": -4.034970930344475,
+   "M1 4-8 h": -12.834335561640906,
+   "M1 > 8 h": 229.4317457424437,
+   "M1 d <= 1 h": -1.2918804223087015,
+   "M2 1-4 h": 102.54215988596745,
+   "M2 4-8 h": 110.5368777441544,
+   "M2 > 8 h": 288.2170899133891,
+   "M2 d <= 1 h": 1.1837025570907787,
+   "M6 1-4 h": -2.282345129205963,
+   "M6 4-8 h": -37.20025647462831,
+   "M6 > 8 h": 341.0844266571218,
+   "M6 d <= 1 h": -0.7911610564993047,
+   "M7 1-4 h": -5.178703640871998,
+   "M7 4-8 h": 22.378172179272187,
+   "M7 > 8 h": 1329.0269335814921,
+   "M7 d <= 1 h": 1.9482725110565835
+  },
+  "post1_lv_rules": {
+   "M1 1-4 h": -4.053228102964859,
+   "M1 4-8 h": -13.340298376856706,
+   "M1 > 8 h": 229.4317457424437,
+   "M1 d <= 1 h": -1.2888228010548008,
+   "M2 1-4 h": 102.28265166861891,
+   "M2 4-8 h": 110.5368777441544,
+   "M2 > 8 h": 288.2170899133891,
+   "M2 d <= 1 h": 1.185497047453619,
+   "M6 1-4 h": -2.28830609634062,
+   "M6 4-8 h": -37.20025647462831,
+   "M6 > 8 h": 341.0844266571218,
+   "M6 d <= 1 h": -0.7908405289306215,
+   "M7 1-4 h": -5.18240955983702,
+   "M7 4-8 h": 22.87655188893817,
+   "M7 > 8 h": 984.0478919871188,
+   "M7 d <= 1 h": 1.9480942089944544
+  },
+  "post2_recovered": {
+   "M1 1-4 h": -4.196748510241161,
+   "M1 4-8 h": -13.340298376856706,
+   "M1 > 8 h": 229.4317457424437,
+   "M1 d <= 1 h": -1.2888228010548008,
+   "M2 1-4 h": 100.37296650419316,
+   "M2 4-8 h": 110.5368777441544,
+   "M2 > 8 h": 288.2170899133891,
+   "M2 d <= 1 h": 1.185497047453619,
+   "M6 1-4 h": -2.4175142221152406,
+   "M6 4-8 h": -37.20025647462831,
+   "M6 > 8 h": 341.0844266571218,
+   "M6 d <= 1 h": -0.7908405289306215,
+   "M7 1-4 h": -5.134687834334483,
+   "M7 4-8 h": 22.87655188893817,
+   "M7 > 8 h": 984.0478919871188,
+   "M7 d <= 1 h": 1.9416703490883216
+  },
+  "post3_daily": {
+   "M1 1-4 h": 3.310061172219396,
+   "M1 4-8 h": -5.8174625586304805,
+   "M1 > 8 h": 225.01992855430717,
+   "M1 d <= 1 h": 1.6515258044400785,
+   "M2 1-4 h": 101.00300629572999,
+   "M2 4-8 h": 104.4078028461674,
+   "M2 > 8 h": 37.34608288090518,
+   "M2 d <= 1 h": 1.8623856983378784,
+   "M6 1-4 h": 0.5570546886124952,
+   "M6 4-8 h": -62.141238902293544,
+   "M6 > 8 h": 195.27386691283945,
+   "M6 d <= 1 h": 0.10874044607071763,
+   "M7 1-4 h": -8.279190701962829,
+   "M7 4-8 h": 34.98485377100676,
+   "M7 > 8 h": 474.0762818812331,
+   "M7 d <= 1 h": 0.21612602712205412
+  },
+  "post4_recovered": {
+   "M1 1-4 h": 3.310061172219396,
+   "M1 4-8 h": -5.8174625586304805,
+   "M1 > 8 h": 225.01992855430717,
+   "M1 d <= 1 h": 1.6515258044400785,
+   "M2 1-4 h": 101.00300629572999,
+   "M2 4-8 h": 104.4078028461674,
+   "M2 > 8 h": 37.34608288090518,
+   "M2 d <= 1 h": 1.8623856983378784,
+   "M6 1-4 h": 0.5570546886124952,
+   "M6 4-8 h": -62.141238902293544,
+   "M6 > 8 h": 195.27386691283945,
+   "M6 d <= 1 h": 0.10874044607071763,
+   "M7 1-4 h": -8.279190701962829,
+   "M7 4-8 h": 34.98485377100676,
+   "M7 > 8 h": 474.0762818812331,
+   "M7 d <= 1 h": 0.21612602712205412
+  },
+  "post5_events": {
+   "M1 1-4 h": 4.04327707242279,
+   "M1 4-8 h": -5.593001123101511,
+   "M1 > 8 h": 235.09456628572715,
+   "M1 d <= 1 h": 1.6150758086145525,
+   "M2 1-4 h": 101.99240753954359,
+   "M2 4-8 h": 103.50971018264292,
+   "M2 > 8 h": 39.51972084395767,
+   "M2 d <= 1 h": 2.0093566932675073,
+   "M6 1-4 h": 1.5087149123577455,
+   "M6 4-8 h": -60.161501965699394,
+   "M6 > 8 h": 199.98235981080194,
+   "M6 d <= 1 h": 0.1562846560452097,
+   "M7 1-4 h": -6.156030949991759,
+   "M7 4-8 h": 38.41202025447735,
+   "M7 > 8 h": 470.30883544042416,
+   "M7 d <= 1 h": 0.556021332168633
+  },
+  "post": {
+   "M1 1-4 h": 4.04327707242279,
+   "M1 4-8 h": -5.593001123101511,
+   "M1 > 8 h": 235.09456628572715,
+   "M1 d <= 1 h": 1.6150758086145525,
+   "M2 1-4 h": 101.99240753954359,
+   "M2 4-8 h": 103.50971018264292,
+   "M2 > 8 h": 39.51972084395767,
+   "M2 d <= 1 h": 2.0093566932675073,
+   "M6 1-4 h": 1.5087149123577455,
+   "M6 4-8 h": -60.161501965699394,
+   "M6 > 8 h": 199.98235981080194,
+   "M6 d <= 1 h": 0.1562846560452097,
+   "M7 1-4 h": -6.156030949991759,
+   "M7 4-8 h": 38.41202025447735,
+   "M7 > 8 h": 470.30883544042416,
+   "M7 d <= 1 h": 0.556021332168633
+  },
+  "rules": {
+   "M1 1-4 h": 4.04327707242279,
+   "M1 4-8 h": -5.593001123101511,
+   "M1 > 8 h": 235.09456628572715,
+   "M1 d <= 1 h": 1.6150406231394934,
+   "M2 1-4 h": 101.99240753954359,
+   "M2 4-8 h": 103.50971018264292,
+   "M2 > 8 h": 39.51972084395767,
+   "M2 d <= 1 h": 2.0093289105623,
+   "M6 1-4 h": 1.5087149123577455,
+   "M6 4-8 h": -60.161501965699394,
+   "M6 > 8 h": 199.98235981080194,
+   "M6 d <= 1 h": 0.1562846560452097,
+   "M7 1-4 h": -6.156030949991759,
+   "M7 4-8 h": 38.41202025447735,
+   "M7 > 8 h": 470.30883544042416,
+   "M7 d <= 1 h": 0.5560055030430135
+  }
+ },
+ "created_utc": "2026-10-09T17:18:21+00:00",
+ "command": "python3 research/final/pseudo_final.py run research/final/configs/f6ev_pseudo2025.json --weights frozen",
+ "git": {
+  "commit": "3b251e54e5715a66a5c23de0aa8cabca81f22ed6",
+  "dirty": []
+ },
+ "config": {
+  "name": "f6ev_pseudo2025",
+  "_doc": "configs/f6_final.json (f5 + the grade-A events layer) on 2025 Jan/Feb/Jun/Jul with month-out members, as f5_pseudo2025.json. The events layer is refitted per held month on f5's own rehearsal rows of the other three months (f5_pseudo2025_{mode}.parquet, col post4_recovered, the prediction entering the layer); the layer checks that the held month's entering values equal that column.",
+  "recipe": "research/final/configs/f6_final.json",
+  "months": [
+   1,
+   2,
+   6,
+   7
+  ],
+  "members": {
+   "prc-f-c7": {
+    "mo": "solutions/kernels/prc-f-c7a-mo/output"
+   },
+   "prc-f-cs7": {
+    "mo": "solutions/kernels/prc-f-cs7-mo/output"
+   },
+   "prc-f-mlp7": {
+    "mo": "solutions/kernels/prc-f-mlp7a-mo/output"
+   },
+   "prc-f-c6s": {
+    "mo": "solutions/kernels/prc-f-c6s-mo/output"
+   },
+   "prc-f-c5s": {
+    "mo": "solutions/kernels/prc-f-c5s-mo/output"
+   },
+   "prc-f-x5": {
+    "mo": "solutions/kernels/prc-f-x5-mo/output",
+    "_note": "x5 pinned to xgboost 2.1.4: prc-f-x5-mo/output/oof.csv holds all four folds (M1/M6 from that run, M2/M7 copied from prc-f-x5p-mo; identical values checked). The xgboost 3.4.1 runs were renamed prc-f-x5-xgb341 / prc-f-x5-mo-xgb341 and are not used."
+   },
+   "prc-f-k4": {
+    "mo": "solutions/kernels/prc-f-k4-mo/output"
+   },
+   "prc-f8-c7": {
+    "mo": "solutions/kernels/prc-f8-c7a-mo/output"
+   },
+   "meta-g1short": {
+    "mo": "solutions/kernels/prc-meta-gbm-f4/output/mo_G1.csv"
+   }
+  },
+  "phys_inputs": "research/final/inputs/2025/phys.parquet",
+  "overlay_flags": {
+   "lirf_noadsb": "research/final/inputs/2025/cover.parquet"
+  },
+  "post_layer_pseudo": {
+   "daily": {
+    "pseudo_kwargs": {
+     "v2_rows": "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet",
+     "v2_col": "post2_recovered"
+    },
+    "inputs": [
+     "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet"
+    ]
+   },
+   "events": {
+    "pseudo_kwargs": {
+     "rows": "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+     "col": "post4_recovered",
+     "phys": "research/final/inputs/2025/phys.parquet"
+    },
+    "inputs": [
+     "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+     "research/final/inputs/2025/phys.parquet"
+    ]
+   }
+  }
+ },
+ "recipe": {
+  "name": "f6ev_pseudo2025",
+  "frame": "final",
+  "_doc": "f6 = f5 plus the grade-A ADS-B pushback blend (research/final/levers/events.py) as the last post layer, after the second recovered layer, so the L1a-v2 loadings need no refit. On rows with an ADS-B v3 grade-A event (seen parked, then seen leaving) and 0 <= a3_obs_leave <= max(d, 1 h): y_hat + w(|y_e - y_hat| bin, d <= 1 h / d > 1 h) (y_e - y_hat), y_e = a3_obs_leave + the airport's median offset; offsets and weights fitted on f5's frozen 2025 rehearsal rows (research/final/levers/artifacts/events_f5.json). Everything else is f5. Lever 1 of research/final/headroom/RESULTS.md.",
+  "members": {
+   "prc-f-c7": {
+    "pred": "solutions/kernels/prc-f-c7/output",
+    "oof": "solutions/kernels/prc-c7x2/output"
+   },
+   "prc-f-cs7": {
+    "pred": "solutions/kernels/prc-f-cs7/output",
+    "oof": "solutions/kernels/prc-cs7/output"
+   },
+   "prc-f-mlp7": {
+    "pred": "solutions/kernels/prc-f-mlp7m6/output",
+    "oof": "solutions/kernels/prc-mlp7/output"
+   },
+   "prc-f-c6s": {
+    "pred": "solutions/kernels/prc-f-c6sm6/output",
+    "oof": "solutions/kernels/prc-c6s/output"
+   },
+   "prc-f-c5s": {
+    "pred": "solutions/kernels/prc-f-c5sm6/output",
+    "oof": "solutions/kernels/prc-c5s/output"
+   },
+   "prc-f-k4": {
+    "pred": "solutions/kernels/prc-f-k4/output"
+   },
+   "prc-f-x5": {
+    "pred": "solutions/kernels/prc-f-x5m6/output",
+    "oof": "solutions/kernels/prc-x5/output"
+   },
+   "prc-f8-c7": {
+    "pred": "solutions/kernels/prc-f8-c7/output"
+   },
+   "meta-g1short": {
+    "pred": "solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet",
+    "inputs": [
+     "solutions/kernels/prc-meta-gbm-f4/output/G1_short.txt",
+     "solutions/kernels/prc-meta-gbm-f4/output/mo_G1.csv",
+     "solutions/kernels/prc-meta-gbm-f4/output/report.json",
+     "solutions/kernels/prc-meta-gbm-f4/output/prc-meta-gbm-f4.log",
+     "submissions/final/meta/f4/meta2025.parquet",
+     "submissions/final/meta/f4/meta2025.json",
+     "submissions/final/meta/f4/meta2026.parquet",
+     "submissions/final/meta/f4/meta2026.json",
+     "submissions/final/meta/f4/meta_spec.json",
+     "research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json",
+     "research/final/meta/results/prc-meta-gbm-f4_report.json",
+     "research/final/meta/build_frame.py",
+     "research/final/meta/publish_dataset.py",
+     "research/final/meta/specs/f4.json",
+     "research/final/meta/kernels/prc-meta-gbm-f4/kernel.py",
+     "research/final/meta/kernels/prc-meta-gbm-f4/kernel-metadata.json"
+    ],
+    "provenance": {
+     "kaggle_kernel": "usiadianimuwa/prc-meta-gbm-f4 (version 1)",
+     "kaggle_dataset": "usiadianimuwa/prc-taxi-2026-meta-f4 (version 1)",
+     "dataset_files": "submissions/final/meta/f4/ (sha256 in research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json)",
+     "frames_built_by": "research/final/meta/build_frame.py with research/final/meta/specs/f4.json"
+    }
+   }
+  },
+  "segments": [
+   {
+    "name": "short",
+    "lo_h": -1000,
+    "hi_h": 1,
+    "members": [
+     "meta-g1short"
+    ],
+    "weights": {
+     "meta-g1short": 1.0
+    }
+   },
+   {
+    "name": "1-4h",
+    "lo_h": 1,
+    "hi_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7",
+     "prc-f8-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.297598,
+     "prc-f-c5s": 0.021663,
+     "prc-f-x5": 0.324981,
+     "prc-f-c7": 0.0,
+     "prc-f8-c7": 0.355759
+    }
+   }
+  ],
+  "long": {
+   "lo_h": 4,
+   "members": [
+    "prc-f-c6s",
+    "prc-f-c5s",
+    "prc-f-x5",
+    "prc-f-c7"
+   ],
+   "weights": {
+    "prc-f-c6s": 0.3083355244178477,
+    "prc-f-c5s": 0.1398214427077908,
+    "prc-f-x5": 0.16457023554071934,
+    "prc-f-c7": 0.3872727973336422
+   },
+   "plog_coef": {
+    "pooled": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ],
+    "N": [
+     -0.04761028990463498,
+     0.3797999228406846
+    ],
+    "A": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ],
+    "M": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ]
+   },
+   "phys": "plog",
+   "phys_inputs": "research/final/inputs/2025/phys.parquet",
+   "fill": "long_stack",
+   "guard_aobt3_h": 4
+  },
+  "overlays": [
+   {
+    "name": "lirf_noadsb",
+    "member": "prc-f-k4",
+    "weight": 0.3,
+    "flags": "research/final/inputs/2025/cover.parquet",
+    "airports": [
+     "LIRF"
+    ],
+    "max_d_h": 4
+   }
+  ],
+  "cap_d_over_h": 2,
+  "level": {
+   "lam": 0.75,
+   "cap": 0.05
+  },
+  "post_layers": [
+   {
+    "module": "research/final/levers/lv_rules.py",
+    "fn": "apply",
+    "kwargs": {
+     "rules": "ad"
+    },
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/daily.py",
+    "fn": "apply",
+    "kwargs": {
+     "params_path": "research/final/levers/artifacts/daily_params.json",
+     "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+     "v2_loadings": true
+    },
+    "pass_held_month": true,
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py",
+     "research/final/levers/daily.py",
+     "research/final/levers/artifacts/daily_params.json",
+     "research/pru/all_pre_departure_delays_2025.csv",
+     "research/pru/all_pre_departure_delays_2026.csv",
+     "research/cache/oof_mo12_c6.parquet",
+     "research/final/level.py",
+     "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+     "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet"
+    ],
+    "pseudo_kwargs": {
+     "v2_rows": "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet",
+     "v2_col": "post2_recovered"
+    }
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/events.py",
+    "fn": "apply",
+    "kwargs": {
+     "artifact": "research/final/levers/artifacts/events_f5.json",
+     "phys": "research/final/inputs/final/phys.parquet"
+    },
+    "pass_held_month": true,
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py",
+     "research/final/levers/events.py",
+     "research/final/levers/artifacts/events_f5.json",
+     "research/final/inputs/final/phys.parquet",
+     "submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet",
+     "research/final/inputs/2025/phys.parquet"
+    ],
+    "pseudo_kwargs": {
+     "rows": "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+     "col": "post4_recovered",
+     "phys": "research/final/inputs/2025/phys.parquet"
+    }
+   }
+  ],
+  "rules": {
+   "nm_window_s": 3606,
+   "nm_dither_s": 25,
+   "cap_airports": [
+    "LEMD",
+    "LEBL"
+   ],
+   "cap_s": 3604,
+   "floor_s": 60
+  },
+  "notes": [
+   "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+   "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7).",
+   "mlp7: 6 seeds (prc-f-mlp7m6: r2912 from prc-f-mlp7a, r2911/r2913 from prc-f-mlp7c, r2914-r2916 from prc-f-mlp7b).",
+   "Segment weights fitted on the 2025 month-out predictions (four months, rows without date-shift artifacts or short-delay y > 3 h); the long stack keeps f3's A/B weights.",
+   "c6s, c5s and x5: 6 seeds (prc-f-c6s + prc-f-c6sb, prc-f-c5s + prc-f-c5sb, prc-f-x5 + prc-f-x5b; research/final/merge_members.py). fs8 c7: 6 seeds (prc-f8-c7a + prc-f8-c7b).",
+   "d <= 1 h segment: meta member meta-g1short = solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet (docs/METHOD.md section 2, Step 1, \"d <= 1 h: the G1short meta-model\"). Rehearsal f5 - f4, crossfit vs crossfit, two passes: nw -49.0 [-85.4, -12.2]; without LTFM February -17.6 [-45.3, +11.5] (docs/VALIDATION.md, Paired comparisons of complete pipelines).",
+   "L1a-v2 loadings refitted on f5's frozen pass-1 rows (submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet, col post2_recovered): python3 research/final/levers/daily.py v2 --rows <that file> --col post2_recovered --out research/final/meta/artifacts/daily_v2_f5_loadings.json.",
+   "meta-g1short upstream files (kernel output, the dataset's local files, the build and kernel code) are listed under its 'inputs' and hashed in the manifest; the d <= 1 h members c7, cs7, mlp7 and fs8 c7 enter f5 only through it.",
+   "Events layer (post layer 5, research/final/levers/events.py): grade-A rows only (grades B/C/D never move); bins of |y_e - y_hat| at 60/180/600/1,800 s; weights clipped to [0, 1]; after the blend the moved rows get the cap d (d > 2 h), lv_rules (a)+(d), the recovered-orphan window and the floor, then the assembler's rules step as in f5. Artifact: python3 research/final/levers/events.py artifact (fitted on all four months of submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet, column post4_recovered)."
+  ]
+ },
+ "fits": {
+  "1": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 139651,
+     "weights": {
+      "meta-g1short": 1.0
+     },
+     "weights_refit_on_oof": {
+      "meta-g1short": 1.0
+     },
+     "frozen": true
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 13545,
+     "weights": {
+      "prc-f-c6s": 0.297598,
+      "prc-f-c5s": 0.021663,
+      "prc-f-x5": 0.324981,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.355759
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.325886,
+      "prc-f-c5s": 0.0,
+      "prc-f-x5": 0.318413,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.3557
+     },
+     "frozen": true
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.3083355244178477,
+     "prc-f-c5s": 0.1398214427077908,
+     "prc-f-x5": 0.16457023554071934,
+     "prc-f-c7": 0.3872727973336422
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.44898439086057146,
+     "prc-f-c5s": 0.036615834959645516,
+     "prc-f-x5": 0.2922113179918434,
+     "prc-f-c7": 0.22218845618793967
+    },
+    "frozen": true,
+    "plog_coef_frozen": true,
+    "plog_coef": {
+     "pooled": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "N": [
+      -0.04761028990463498,
+      0.3797999228406846
+     ],
+     "A": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "M": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ]
+    },
+    "rows": 504,
+    "kinds": {
+     "N": 468,
+     "M": 33,
+     "A": 3
+    },
+    "w_mean": 0.1119295201064953,
+    "fill_rows": 6,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 0,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 54784,
+    "fit_rows_plog": 1886
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 11299,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 6
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -1.826018466912883,
+     -13.658527241078598,
+     -1.8481103170948678,
+     -17.312547170945553,
+     -1.3020808299704125,
+     -12.354075128414953,
+     7.532949748835581,
+     7.988635688630858,
+     -7.657838047532469,
+     7.010963506247533,
+     953.4874660490532,
+     142.50471833423575
+    ],
+    "rows_changed": 114785,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EDDF",
+      "n": 15496,
+      "pub": 831.667,
+      "pm": 889.158,
+      "x": -57.491,
+      "comp": 46.021,
+      "deice": 0.047,
+      "sh": -8.603
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EDDM",
+      "n": 11266,
+      "pub": 705.845,
+      "pm": 871.852,
+      "x": -166.006,
+      "comp": 181.029,
+      "deice": 0.199,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EGLL",
+      "n": 19412,
+      "pub": 1328.212,
+      "pm": 1334.419,
+      "x": -6.208,
+      "comp": 0.418,
+      "deice": 0.0,
+      "sh": -4.342
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "EHAM",
+      "n": 18460,
+      "pub": 803.423,
+      "pm": 807.302,
+      "x": -3.879,
+      "comp": -3.105,
+      "deice": 0.009,
+      "sh": -5.238
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LEBL",
+      "n": 12234,
+      "pub": 885.029,
+      "pm": 884.454,
+      "x": 0.575,
+      "comp": 5.121,
+      "deice": 0.002,
+      "sh": 4.272
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LEMD",
+      "n": 16510,
+      "pub": 974.197,
+      "pm": 990.536,
+      "x": -16.339,
+      "comp": 24.903,
+      "deice": 0.021,
+      "sh": 6.423
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LFPG",
+      "n": 17893,
+      "pub": 934.522,
+      "pm": 1078.837,
+      "x": -144.315,
+      "comp": 104.914,
+      "deice": 0.091,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LIRF",
+      "n": 11305,
+      "pub": 1055.825,
+      "pm": 1070.283,
+      "x": -14.458,
+      "comp": 18.088,
+      "deice": 0.001,
+      "sh": 2.723
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LSZH",
+      "n": 9735,
+      "pub": 689.159,
+      "pm": 775.626,
+      "x": -86.467,
+      "comp": 94.956,
+      "deice": 0.099,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 1,
+      "apt": "LTFM",
+      "n": 21368,
+      "pub": 1030.658,
+      "pm": 1054.242,
+      "x": -23.584,
+      "comp": 17.42,
+      "deice": 0.0,
+      "sh": -4.623
+     }
+    ]
+   },
+   "post_layers": [
+    {
+     "module": "research/final/levers/lv_rules.py",
+     "fn": "apply",
+     "kwargs": {
+      "rules": "ad"
+     },
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py"
+     ],
+     "rows_changed": 9,
+     "rms_change": 1.088772851286503,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 1,
+     "rms_change": 4.958465057778704,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/daily.py",
+     "fn": "apply",
+     "kwargs": {
+      "params_path": "research/final/levers/artifacts/daily_params.json",
+      "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "v2_loadings": true
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/daily.py",
+      "research/final/levers/artifacts/daily_params.json",
+      "research/pru/all_pre_departure_delays_2025.csv",
+      "research/pru/all_pre_departure_delays_2026.csv",
+      "research/cache/oof_mo12_c6.parquet",
+      "research/final/level.py",
+      "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet"
+     ],
+     "pseudo_kwargs": {
+      "v2_rows": "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet",
+      "v2_col": "post2_recovered"
+     },
+     "rows_changed": 153697,
+     "rms_change": 21.183754496223134,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 0,
+     "rms_change": 0.0,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/events.py",
+     "fn": "apply",
+     "kwargs": {
+      "artifact": "research/final/levers/artifacts/events_f5.json",
+      "phys": "research/final/inputs/final/phys.parquet"
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/events.py",
+      "research/final/levers/artifacts/events_f5.json",
+      "research/final/inputs/final/phys.parquet",
+      "submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet",
+      "research/final/inputs/2025/phys.parquet"
+     ],
+     "pseudo_kwargs": {
+      "rows": "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+      "col": "post4_recovered",
+      "phys": "research/final/inputs/2025/phys.parquet"
+     },
+     "rows_changed": 18377,
+     "rms_change": 7.247995236366515,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    }
+   ],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 0,
+     "a_nm_below": 0,
+     "d_cap_lowered": 0,
+     "floor_raised": 8,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  },
+  "2": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 134087,
+     "weights": {
+      "meta-g1short": 1.0
+     },
+     "weights_refit_on_oof": {
+      "meta-g1short": 1.0
+     },
+     "frozen": true
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 9174,
+     "weights": {
+      "prc-f-c6s": 0.297598,
+      "prc-f-c5s": 0.021663,
+      "prc-f-x5": 0.324981,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.355759
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.310154,
+      "prc-f-c5s": 0.075021,
+      "prc-f-x5": 0.313342,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.301483
+     },
+     "frozen": true
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.3083355244178477,
+     "prc-f-c5s": 0.1398214427077908,
+     "prc-f-x5": 0.16457023554071934,
+     "prc-f-c7": 0.3872727973336422
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.35659089274021777,
+     "prc-f-c5s": 0.10991025946683113,
+     "prc-f-x5": 0.24958159412892525,
+     "prc-f-c7": 0.2839172536640258
+    },
+    "frozen": true,
+    "plog_coef_frozen": true,
+    "plog_coef": {
+     "pooled": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "N": [
+      -0.04761028990463498,
+      0.3797999228406846
+     ],
+     "A": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "M": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ]
+    },
+    "rows": 464,
+    "kinds": {
+     "N": 439,
+     "M": 23,
+     "A": 2
+    },
+    "w_mean": 0.1512288618913677,
+    "fill_rows": 6,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 0,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 59153,
+    "fit_rows_plog": 1926
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 10683,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 3
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -1.0274533925707938,
+     -13.61165261285623,
+     -1.7879086022692408,
+     -16.29962941464404,
+     -1.2073810824886417,
+     -13.393750225083759,
+     7.875788017302394,
+     7.984509409008982,
+     -7.520808856237204,
+     6.640805724363677,
+     958.4895694671985,
+     140.0546806885251
+    ],
+    "rows_changed": 89146,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EDDF",
+      "n": 15099,
+      "pub": 826.428,
+      "pm": 843.379,
+      "x": -16.951,
+      "comp": 24.277,
+      "deice": 0.021,
+      "sh": 5.495
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EDDM",
+      "n": 10381,
+      "pub": 719.618,
+      "pm": 835.975,
+      "x": -116.357,
+      "comp": 140.478,
+      "deice": 0.155,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EGLL",
+      "n": 17956,
+      "pub": 1321.106,
+      "pm": 1311.566,
+      "x": 9.54,
+      "comp": 0.808,
+      "deice": 0.0,
+      "sh": 7.761
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "EHAM",
+      "n": 17852,
+      "pub": 813.134,
+      "pm": 814.206,
+      "x": -1.072,
+      "comp": 6.567,
+      "deice": 0.012,
+      "sh": 4.121
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LEBL",
+      "n": 12169,
+      "pub": 905.731,
+      "pm": 912.085,
+      "x": -6.354,
+      "comp": 5.029,
+      "deice": 0.002,
+      "sh": -0.994
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LEMD",
+      "n": 15390,
+      "pub": 964.636,
+      "pm": 958.769,
+      "x": 5.868,
+      "comp": 13.664,
+      "deice": 0.015,
+      "sh": 14.649
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LFPG",
+      "n": 16803,
+      "pub": 920.302,
+      "pm": 1002.872,
+      "x": -82.57,
+      "comp": 74.354,
+      "deice": 0.057,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LIRF",
+      "n": 10680,
+      "pub": 1037.55,
+      "pm": 1041.21,
+      "x": -3.66,
+      "comp": 12.714,
+      "deice": 0.002,
+      "sh": 6.791
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LSZH",
+      "n": 9048,
+      "pub": 692.554,
+      "pm": 744.433,
+      "x": -51.88,
+      "comp": 58.665,
+      "deice": 0.063,
+      "sh": 0.0
+     },
+     {
+      "year": 2025,
+      "month": 2,
+      "apt": "LTFM",
+      "n": 18327,
+      "pub": 989.517,
+      "pm": 1194.904,
+      "x": -205.388,
+      "comp": 127.165,
+      "deice": 0.111,
+      "sh": 0.0
+     }
+    ]
+   },
+   "post_layers": [
+    {
+     "module": "research/final/levers/lv_rules.py",
+     "fn": "apply",
+     "kwargs": {
+      "rules": "ad"
+     },
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py"
+     ],
+     "rows_changed": 9,
+     "rms_change": 6.614273873859537,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 11,
+     "rms_change": 14.906847317403379,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/daily.py",
+     "fn": "apply",
+     "kwargs": {
+      "params_path": "research/final/levers/artifacts/daily_params.json",
+      "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "v2_loadings": true
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/daily.py",
+      "research/final/levers/artifacts/daily_params.json",
+      "research/pru/all_pre_departure_delays_2025.csv",
+      "research/pru/all_pre_departure_delays_2026.csv",
+      "research/cache/oof_mo12_c6.parquet",
+      "research/final/level.py",
+      "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet"
+     ],
+     "pseudo_kwargs": {
+      "v2_rows": "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet",
+      "v2_col": "post2_recovered"
+     },
+     "rows_changed": 143717,
+     "rms_change": 88.85148886673434,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 0,
+     "rms_change": 0.0,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/events.py",
+     "fn": "apply",
+     "kwargs": {
+      "artifact": "research/final/levers/artifacts/events_f5.json",
+      "phys": "research/final/inputs/final/phys.parquet"
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/events.py",
+      "research/final/levers/artifacts/events_f5.json",
+      "research/final/inputs/final/phys.parquet",
+      "submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet",
+      "research/final/inputs/2025/phys.parquet"
+     ],
+     "pseudo_kwargs": {
+      "rows": "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+      "col": "post4_recovered",
+      "phys": "research/final/inputs/2025/phys.parquet"
+     },
+     "rows_changed": 18236,
+     "rms_change": 6.7396023765636865,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    }
+   ],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 0,
+     "a_nm_below": 0,
+     "d_cap_lowered": 0,
+     "floor_raised": 12,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  },
+  "6": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 163912,
+     "weights": {
+      "meta-g1short": 1.0
+     },
+     "weights_refit_on_oof": {
+      "meta-g1short": 1.0
+     },
+     "frozen": true
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 18629,
+     "weights": {
+      "prc-f-c6s": 0.297598,
+      "prc-f-c5s": 0.021663,
+      "prc-f-x5": 0.324981,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.355759
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.247357,
+      "prc-f-c5s": 0.054064,
+      "prc-f-x5": 0.35493,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.343649
+     },
+     "frozen": true
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.3083355244178477,
+     "prc-f-c5s": 0.1398214427077908,
+     "prc-f-x5": 0.16457023554071934,
+     "prc-f-c7": 0.3872727973336422
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.3963987128464012,
+     "prc-f-c5s": 0.0812493778087733,
+     "prc-f-x5": 0.32438080160965366,
+     "prc-f-c7": 0.1979711077351719
+    },
+    "frozen": true,
+    "plog_coef_frozen": true,
+    "plog_coef": {
+     "pooled": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "N": [
+      -0.04761028990463498,
+      0.3797999228406846
+     ],
+     "A": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "M": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ]
+    },
+    "rows": 589,
+    "kinds": {
+     "N": 545,
+     "M": 40,
+     "A": 4
+    },
+    "w_mean": 0.1076312365808785,
+    "fill_rows": 12,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 0,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 49811,
+    "fit_rows_plog": 1801
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 5629,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 3
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -0.8278655922542261,
+     -13.106708139997393,
+     -1.7772322967185596,
+     -15.692790726965297,
+     -1.155689333885646,
+     -12.147013701480516,
+     9.85237896258881,
+     6.858842977187269,
+     -5.865638242389702,
+     7.509382308216727,
+     941.1107252787108,
+     132.54327617755965
+    ],
+    "rows_changed": 183096,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EDDF",
+      "n": 20706,
+      "pub": 864.077,
+      "pm": 865.359,
+      "x": -1.282,
+      "comp": 2.443,
+      "deice": 0.0,
+      "sh": 0.871
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EDDM",
+      "n": 15661,
+      "pub": 788.904,
+      "pm": 792.514,
+      "x": -3.611,
+      "comp": -0.837,
+      "deice": 0.008,
+      "sh": -3.336
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EGLL",
+      "n": 20062,
+      "pub": 1382.813,
+      "pm": 1380.423,
+      "x": 2.39,
+      "comp": -0.521,
+      "deice": 0.0,
+      "sh": 1.402
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "EHAM",
+      "n": 21257,
+      "pub": 714.355,
+      "pm": 728.106,
+      "x": -13.751,
+      "comp": 2.061,
+      "deice": 0.013,
+      "sh": -8.768
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LEBL",
+      "n": 16315,
+      "pub": 968.929,
+      "pm": 991.209,
+      "x": -22.28,
+      "comp": 7.627,
+      "deice": 0.003,
+      "sh": -10.99
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LEMD",
+      "n": 17992,
+      "pub": 1020.779,
+      "pm": 1015.165,
+      "x": 5.613,
+      "comp": 3.122,
+      "deice": 0.0,
+      "sh": 6.551
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LFPG",
+      "n": 20885,
+      "pub": 928.125,
+      "pm": 945.273,
+      "x": -17.148,
+      "comp": 20.78,
+      "deice": 0.001,
+      "sh": 2.724
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LIRF",
+      "n": 14653,
+      "pub": 1207.226,
+      "pm": 1219.883,
+      "x": -12.657,
+      "comp": 13.498,
+      "deice": 0.004,
+      "sh": 0.631
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LSZH",
+      "n": 12083,
+      "pub": 729.918,
+      "pm": 734.54,
+      "x": -4.623,
+      "comp": 13.552,
+      "deice": 0.01,
+      "sh": 6.697
+     },
+     {
+      "year": 2025,
+      "month": 6,
+      "apt": "LTFM",
+      "n": 23482,
+      "pub": 982.232,
+      "pm": 1003.772,
+      "x": -21.539,
+      "comp": 17.249,
+      "deice": 0.0,
+      "sh": -3.218
+     }
+    ]
+   },
+   "post_layers": [
+    {
+     "module": "research/final/levers/lv_rules.py",
+     "fn": "apply",
+     "kwargs": {
+      "rules": "ad"
+     },
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py"
+     ],
+     "rows_changed": 8,
+     "rms_change": 0.45316535883471154,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 5,
+     "rms_change": 6.51141200459267,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/daily.py",
+     "fn": "apply",
+     "kwargs": {
+      "params_path": "research/final/levers/artifacts/daily_params.json",
+      "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "v2_loadings": true
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/daily.py",
+      "research/final/levers/artifacts/daily_params.json",
+      "research/pru/all_pre_departure_delays_2025.csv",
+      "research/pru/all_pre_departure_delays_2026.csv",
+      "research/cache/oof_mo12_c6.parquet",
+      "research/final/level.py",
+      "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet"
+     ],
+     "pseudo_kwargs": {
+      "v2_rows": "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet",
+      "v2_col": "post2_recovered"
+     },
+     "rows_changed": 183116,
+     "rms_change": 42.309053110838036,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 0,
+     "rms_change": 0.0,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/events.py",
+     "fn": "apply",
+     "kwargs": {
+      "artifact": "research/final/levers/artifacts/events_f5.json",
+      "phys": "research/final/inputs/final/phys.parquet"
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/events.py",
+      "research/final/levers/artifacts/events_f5.json",
+      "research/final/inputs/final/phys.parquet",
+      "submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet",
+      "research/final/inputs/2025/phys.parquet"
+     ],
+     "pseudo_kwargs": {
+      "rows": "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+      "col": "post4_recovered",
+      "phys": "research/final/inputs/2025/phys.parquet"
+     },
+     "rows_changed": 16279,
+     "rms_change": 6.544358282530013,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    }
+   ],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 0,
+     "a_nm_below": 0,
+     "d_cap_lowered": 0,
+     "floor_raised": 0,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  },
+  "7": {
+   "segments": {
+    "short": {
+     "lo_h": -1000,
+     "hi_h": 1,
+     "rows": 162372,
+     "weights": {
+      "meta-g1short": 1.0
+     },
+     "weights_refit_on_oof": {
+      "meta-g1short": 1.0
+     },
+     "frozen": true
+    },
+    "1-4h": {
+     "lo_h": 1,
+     "hi_h": 4,
+     "rows": 27468,
+     "weights": {
+      "prc-f-c6s": 0.297598,
+      "prc-f-c5s": 0.021663,
+      "prc-f-x5": 0.324981,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.355759
+     },
+     "weights_refit_on_oof": {
+      "prc-f-c6s": 0.279678,
+      "prc-f-c5s": 0.0,
+      "prc-f-x5": 0.282093,
+      "prc-f-c7": 0.0,
+      "prc-f8-c7": 0.438229
+     },
+     "frozen": true
+    }
+   },
+   "long": {
+    "lo_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.3083355244178477,
+     "prc-f-c5s": 0.1398214427077908,
+     "prc-f-x5": 0.16457023554071934,
+     "prc-f-c7": 0.3872727973336422
+    },
+    "weights_refit_on_oof": {
+     "prc-f-c6s": 0.4135846717667097,
+     "prc-f-c5s": 0.09763379874598586,
+     "prc-f-x5": 0.3114622255618844,
+     "prc-f-c7": 0.1773193039254201
+    },
+    "frozen": true,
+    "plog_coef_frozen": true,
+    "plog_coef": {
+     "pooled": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "N": [
+      -0.04761028990463498,
+      0.3797999228406846
+     ],
+     "A": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ],
+     "M": [
+      -0.04761028990463496,
+      0.37979992284068453
+     ]
+    },
+    "rows": 833,
+    "kinds": {
+     "N": 755,
+     "M": 63,
+     "A": 15
+    },
+    "w_mean": 0.09712796612841534,
+    "fill_rows": 39,
+    "fill_source": "long_stack",
+    "guard_aobt3_h": 4,
+    "guard_rows": 1,
+    "guard_source": "long_stack",
+    "fit_rows_stack": 41095,
+    "fit_rows_plog": 1557
+   },
+   "overlays": {
+    "lirf_noadsb": {
+     "rows": 596,
+     "weight": 0.3,
+     "member": "prc-f-k4"
+    }
+   },
+   "cap": {
+    "d_over_h": 2,
+    "rows": 15
+   },
+   "level": {
+    "lam": 0.75,
+    "cap": 0.05,
+    "coef": [
+     -1.3071820301768813,
+     -14.001719209874802,
+     -2.0951872852091737,
+     -16.481367736523953,
+     -1.5047454754402114,
+     -13.129705395254202,
+     7.938362430566827,
+     7.160175506723346,
+     -7.604779676729072,
+     6.217487172213342,
+     958.4380038195476,
+     139.4503091892641
+    ],
+    "rows_changed": 190591,
+    "cells": [
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EDDF",
+      "n": 21334,
+      "pub": 866.47,
+      "pm": 873.762,
+      "x": -7.292,
+      "comp": 1.81,
+      "deice": 0.0,
+      "sh": -4.112
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EDDM",
+      "n": 15825,
+      "pub": 804.977,
+      "pm": 797.199,
+      "x": 7.779,
+      "comp": -2.956,
+      "deice": 0.007,
+      "sh": 3.617
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EGLL",
+      "n": 20786,
+      "pub": 1427.479,
+      "pm": 1434.822,
+      "x": -7.342,
+      "comp": -0.309,
+      "deice": 0.001,
+      "sh": -5.739
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "EHAM",
+      "n": 22489,
+      "pub": 785.759,
+      "pm": 792.231,
+      "x": -6.472,
+      "comp": -0.096,
+      "deice": 0.01,
+      "sh": -4.926
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LEBL",
+      "n": 16752,
+      "pub": 998.625,
+      "pm": 989.845,
+      "x": 8.78,
+      "comp": 8.21,
+      "deice": 0.003,
+      "sh": 12.743
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LEMD",
+      "n": 18818,
+      "pub": 1027.797,
+      "pm": 1047.702,
+      "x": -19.905,
+      "comp": 3.708,
+      "deice": 0.0,
+      "sh": -12.148
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LFPG",
+      "n": 21708,
+      "pub": 982.794,
+      "pm": 1031.269,
+      "x": -48.475,
+      "comp": 42.656,
+      "deice": 0.001,
+      "sh": -4.364
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LIRF",
+      "n": 15132,
+      "pub": 1284.107,
+      "pm": 1337.169,
+      "x": -53.063,
+      "comp": 16.789,
+      "deice": 0.007,
+      "sh": -27.205
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LSZH",
+      "n": 12611,
+      "pub": 732.341,
+      "pm": 741.384,
+      "x": -9.043,
+      "comp": 8.861,
+      "deice": 0.007,
+      "sh": -0.136
+     },
+     {
+      "year": 2025,
+      "month": 7,
+      "apt": "LTFM",
+      "n": 25171,
+      "pub": 1070.657,
+      "pm": 1097.478,
+      "x": -26.821,
+      "comp": 18.722,
+      "deice": 0.0,
+      "sh": -6.074
+     }
+    ]
+   },
+   "post_layers": [
+    {
+     "module": "research/final/levers/lv_rules.py",
+     "fn": "apply",
+     "kwargs": {
+      "rules": "ad"
+     },
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py"
+     ],
+     "rows_changed": 20,
+     "rms_change": 103.60466718356966,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 12,
+     "rms_change": 10.085091822904523,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/daily.py",
+     "fn": "apply",
+     "kwargs": {
+      "params_path": "research/final/levers/artifacts/daily_params.json",
+      "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "v2_loadings": true
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/daily.py",
+      "research/final/levers/artifacts/daily_params.json",
+      "research/pru/all_pre_departure_delays_2025.csv",
+      "research/pru/all_pre_departure_delays_2026.csv",
+      "research/cache/oof_mo12_c6.parquet",
+      "research/final/level.py",
+      "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+      "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet"
+     ],
+     "pseudo_kwargs": {
+      "v2_rows": "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_{mode}.parquet",
+      "v2_col": "post2_recovered"
+     },
+     "rows_changed": 190670,
+     "rms_change": 79.49042605599351,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/recovered.py",
+     "fn": "apply",
+     "kwargs": {},
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py"
+     ],
+     "rows_changed": 0,
+     "rms_change": 0.0,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    },
+    {
+     "module": "research/final/levers/events.py",
+     "fn": "apply",
+     "kwargs": {
+      "artifact": "research/final/levers/artifacts/events_f5.json",
+      "phys": "research/final/inputs/final/phys.parquet"
+     },
+     "pass_held_month": true,
+     "inputs": [
+      "research/final/levers/lv_common.py",
+      "research/final/levers/lv_rules.py",
+      "research/final/levers/recovered.py",
+      "research/final/levers/events.py",
+      "research/final/levers/artifacts/events_f5.json",
+      "research/final/inputs/final/phys.parquet",
+      "submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet",
+      "research/final/inputs/2025/phys.parquet"
+     ],
+     "pseudo_kwargs": {
+      "rows": "submissions/final/pseudo2025/f5_pseudo2025_{mode}.parquet",
+      "col": "post4_recovered",
+      "phys": "research/final/inputs/2025/phys.parquet"
+     },
+     "rows_changed": 23174,
+     "rms_change": 10.79684795600828,
+     "rows_frozen_on_nm_bound": 0,
+     "moves_undone": 0
+    }
+   ],
+   "rules": {
+    "config": {
+     "nm_window_s": 3606,
+     "nm_dither_s": 25,
+     "cap_airports": [
+      "LEMD",
+      "LEBL"
+     ],
+     "cap_s": 3604,
+     "floor_s": 60
+    },
+    "counts": {
+     "a_nm_above": 0,
+     "a_nm_below": 0,
+     "d_cap_lowered": 0,
+     "floor_raised": 3,
+     "conflict_a_vs_d": 0,
+     "conflict_a_vs_floor": 0
+    }
+   }
+  }
+ },
+ "rows_file": "submissions/final/pseudo2025/f6ev_pseudo2025_frozen.parquet",
+ "rows_sha256": "bc9d395af4b4db3f06516719b1bc06223a2241743ed803bd2f5dd32ad8dbd716",
+ "inputs": {
+  "data/09-22-2026-08-13-30_files_list/training_2025-01-01_2025-02-01.parquet": "a4dc8f152c082c650cd7eb745fe9c641089f34f74df127e6944a188990a0ed94",
+  "data/09-22-2026-08-13-30_files_list/training_2025-02-01_2025-03-01.parquet": "b6f9ff2cdb1cfe07c5442f4e1f11bbcdbeafe52852dcb0b8175f62ab84c6a066",
+  "data/09-22-2026-08-13-30_files_list/training_2025-06-01_2025-07-01.parquet": "c3ef5080f2cc636c3416baf1555f7d0ee3519f9046e8043c1c0c8f017a244025",
+  "data/09-22-2026-08-13-30_files_list/training_2025-07-01_2025-08-01.parquet": "34d1c5bba7c8596a1c20c09edd3cb2f63277b5a684fa801911660fe0eaf63c9d",
+  "solutions/kernels/prc-f-c7a-mo/output/oof.csv": "3c13bb5410046a4ed1ed4ff9249c99a85116161de4add1be33f8b23d9b2e4d6e",
+  "solutions/kernels/prc-f-cs7-mo/output/oof.csv": "fa3cc19d33086a64488d05135b8cfc900330dbacfafd88ddb05abd7058ee61b5",
+  "solutions/kernels/prc-f-mlp7a-mo/output/oof.csv": "2d9558f5a685187304df358a631f5b46f7ebd77f801b4bc87ec78a14ff397a89",
+  "solutions/kernels/prc-f-c6s-mo/output/oof.csv": "ae69abb6938a9d0a67478833488b17a1cbb92b5930a2bad954bf92f04edbb098",
+  "solutions/kernels/prc-f-c5s-mo/output/oof.csv": "6ae59ee13fe52f99a2c8fe671415945823740a2dc3616d3798875138c8ca79fd",
+  "solutions/kernels/prc-f-k4-mo/output/oof.csv": "00555372f4011512a6c29802f8e03a92881d1bbc7ba685ef74d90ffc2e8f1011",
+  "solutions/kernels/prc-f-x5-mo/output/oof.csv": "1ca907f0ba0e8f1302819f9fe913c7877a8a449f27b244da53c6b1994beed46f",
+  "solutions/kernels/prc-f8-c7a-mo/output/oof.csv": "3877f4ae8059e0da197810cbc78717e027feefebc80dd2347986b2985635807e",
+  "solutions/kernels/prc-meta-gbm-f4/output/mo_G1.csv": "b752cbb6ce34a258d6bba984bb26cc5d73289762f71658fac56a5b654a3fd8dd",
+  "research/tail/cache/long_tr.parquet": "ef6829fa9f372f93f00eec2ef6a7210ee46216c8d281a9c8c052701478eb5228",
+  "research/final/inputs/2025/phys.parquet": "b9102b15385f6ebd469c2117f891432923239c41a28492bc375d2d522b61fac6",
+  "research/final/inputs/2025/cover.parquet": "8a73847b242da5911394f6ad420b5151511bd916fdb8794571f3880c6841d3db",
+  "research/pru/taxi_out_additional_time_2025.csv": "4aedf19520d3f84bebc418b56835762c907b714a9c19e751bb8658f9e62ce598",
+  "research/pru/taxi_out_additional_time_2026.csv": "b72040e0987e6c7d5706279d645ef9f814a6506165c83f89d8509022154a1076",
+  "research/cache/oof_mo12_c6.parquet": "e244b219c925740f89aeece51df3a6a6ef367d9c5b22a59aaa5be558763b9dc0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-03-01_2025-04-01.parquet": "58fde7e5f8b539546af63b41d7f6ec0f2884fdc3d3dd9b6bfca7c59a420dcdd3",
+  "data/09-22-2026-08-13-30_files_list/training_2025-04-01_2025-05-01.parquet": "9ffe0cf5741c4863799c41be81475dfaecedabe0ba687b8f8e4eacba992f9390",
+  "data/09-22-2026-08-13-30_files_list/training_2025-05-01_2025-06-01.parquet": "5481c0642a8fbb4dc395f93bc713c57f4cc16854fb361d404967077e1fce2ff9",
+  "data/09-22-2026-08-13-30_files_list/training_2025-08-01_2025-09-01.parquet": "6c8d2aa7a1b6c9dff9a0305a37eb02de1e87a68d07557264f41b77738272c540",
+  "data/09-22-2026-08-13-30_files_list/training_2025-09-01_2025-10-01.parquet": "955308a4000947e32a00586d3ee13928949d2231b67f84f6dfb0631893f3754a",
+  "data/09-22-2026-08-13-30_files_list/training_2025-10-01_2025-11-01.parquet": "4a31a35601c1bdcd74b8cd6379231ba516a48324e4c2478bf1c9360cd23e687f",
+  "data/09-22-2026-08-13-30_files_list/training_2025-11-01_2025-12-01.parquet": "ac36b17db7a537e3baeb682fa4763dacaa1fcc5d9bfa6bf32b3ee5d9f91300b0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-12-01_2026-01-01.parquet": "2d357f2f403a86778a69e93f72d8754effe77f1ac0942399b3d1b7728241f724",
+  "research/final/levers/lv_rules.py": "6d90180bab3d5f81f90e9cef0d2017270187abb192fab3e215ac7a419ab9b25a",
+  "research/final/levers/lv_common.py": "e5d6f75290d6c5d3a88525cedb9615e3acf6d8de3e49219c36da76c25f716995",
+  "research/final/levers/recovered.py": "fb02db8a338e8fae33c9f1597fe751a007a8c69bb565e16e535409524756d334",
+  "research/final/levers/daily.py": "d4cfba1215fb8de9b1fdab0944c722869a5c8191dbf54f74028e599f058a5018",
+  "research/final/levers/artifacts/daily_params.json": "66f56d499c9f7eb293f0bc1f832a2c46c66f5e4f3d5eddf78c836fcfa8b57bdf",
+  "research/pru/all_pre_departure_delays_2025.csv": "d742eeb626e5f9f7e0c756e2ae3cf90078f4627e989a2e31b8ed21ba8f5510be",
+  "research/pru/all_pre_departure_delays_2026.csv": "5952d20ef5f9c4245018dd6986064c5c4aa15d568a6c0c2dcdcbc73bf8a43fd2",
+  "research/final/level.py": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+  "research/final/meta/artifacts/daily_v2_f5_loadings.json": "a6cba14d4940bf3c75ddfb846defda85ac2b48af2299effe1c419fa3a16fab2a",
+  "submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet": "c82164bdfe728a498cd5e9b30ded2d08270444201e2da8eb03252aa91784643b",
+  "research/final/levers/events.py": "0d4e3c504d0470962264a037a079530ccb1b697adcd329823885f116dfa9dc7d",
+  "research/final/levers/artifacts/events_f5.json": "e9bf8ccb3ae7e9c2f82ea75f95fe9c0fc8f30e3ee40e48643025277b8e2a314d",
+  "research/final/inputs/final/phys.parquet": "16a8b24d794b0fc3008c6d350aee65659292ea8924f9b66b363c5a06cf74d01e",
+  "submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet": "dfbb49254b6f6f056ef2ee88c539f5de3c73725c58b6a2316bfc3bb4990129c0",
+  "research/final/frame.py": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+  "research/final/stacking.py": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+  "research/final/longrows.py": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+  "research/final/rules.py": "f11538538f328acfdb994a47022108563274e2bad2d35989a272279bcf53e889",
+  "research/final/assemble_final.py": "803d17f612b358ea92f0a95de88365034950a53bbb71963cc5f3d7ff56f7ecb1",
+  "research/tail/tailkit.py": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+  "research/extreme_blend.py": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e",
+  "research/final/pseudo_final.py": "9bac4c1b01dcfaccb34d3d62de3ad78bfbc0b841928227a082ddca11f201d579"
+ }
+}

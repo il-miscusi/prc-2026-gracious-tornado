@@ -1,0 +1,237 @@
+{
+ "member": "cs7",
+ "store": "prc-f-fs7",
+ "owner": "usiadianimuwa",
+ "accel": "gpu",
+ "folds": [
+  "M1",
+  "M2",
+  "M6",
+  "M7"
+ ],
+ "source_spec": "prc-m-g7-r variant cs7r",
+ "v32c_role": "short .24 (per-airport CatBoost)",
+ "spec": {
+  "lib": "cat",
+  "gpus": 1,
+  "max_parallel": 1,
+  "threads": 4,
+  "parallel": false,
+  "max_rounds": 8000,
+  "split_by": "apt",
+  "folds": [
+   "M1",
+   "M2",
+   "M6",
+   "M7"
+  ],
+  "params": {
+   "task_type": "GPU",
+   "l2_leaf_reg": 3,
+   "border_count": 254,
+   "one_hot_max_size": 4,
+   "max_ctr_complexity": 1,
+   "bootstrap_type": "Bernoulli",
+   "subsample": 0.8,
+   "gpu_ram_part": 0.9,
+   "depth": 8,
+   "learning_rate": 0.08,
+   "random_seed": 3311
+  },
+  "params_long": {
+   "depth": 6
+  },
+  "drop_features": [
+   "pru_pub",
+   "pru_ref",
+   "pru_deice_sh",
+   "pru_noref_sh",
+   "pru_pub_dev",
+   "apm_d_eobt1",
+   "dm_d_eobt1",
+   "apm_d_aobt3",
+   "dm_d_aobt3",
+   "apm_d_lobt",
+   "dm_d_lobt",
+   "apm_d_iobt",
+   "dm_d_iobt",
+   "apm_aobt3_m_eobt1",
+   "dm_aobt3_m_eobt1",
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "catboost": "1.2.8"
+  },
+  "refit": false,
+  "fold_rounds": {
+   "M1": {
+    "EDDF": [
+     5316,
+     3014
+    ],
+    "EDDM": [
+     1860,
+     1316
+    ],
+    "EGLL": [
+     2518,
+     2434
+    ],
+    "EHAM": [
+     4330,
+     1242
+    ],
+    "LEBL": [
+     1002,
+     636
+    ],
+    "LEMD": [
+     1920,
+     2489
+    ],
+    "LFPG": [
+     1566,
+     746
+    ],
+    "LIRF": [
+     1670,
+     1054
+    ],
+    "LSZH": [
+     3146,
+     3199
+    ],
+    "LTFM": [
+     2082,
+     1410
+    ]
+   },
+   "M2": {
+    "EDDF": [
+     5316,
+     3014
+    ],
+    "EDDM": [
+     1860,
+     1316
+    ],
+    "EGLL": [
+     2518,
+     2434
+    ],
+    "EHAM": [
+     4330,
+     1242
+    ],
+    "LEBL": [
+     1002,
+     636
+    ],
+    "LEMD": [
+     1920,
+     2489
+    ],
+    "LFPG": [
+     1566,
+     746
+    ],
+    "LIRF": [
+     1670,
+     1054
+    ],
+    "LSZH": [
+     3146,
+     3199
+    ],
+    "LTFM": [
+     2082,
+     1410
+    ]
+   },
+   "M6": {
+    "EDDF": [
+     5316,
+     3014
+    ],
+    "EDDM": [
+     1860,
+     1316
+    ],
+    "EGLL": [
+     2518,
+     2434
+    ],
+    "EHAM": [
+     4330,
+     1242
+    ],
+    "LEBL": [
+     1002,
+     636
+    ],
+    "LEMD": [
+     1920,
+     2489
+    ],
+    "LFPG": [
+     1566,
+     746
+    ],
+    "LIRF": [
+     1670,
+     1054
+    ],
+    "LSZH": [
+     3146,
+     3199
+    ],
+    "LTFM": [
+     2082,
+     1410
+    ]
+   },
+   "M7": {
+    "EDDF": [
+     5316,
+     3014
+    ],
+    "EDDM": [
+     1860,
+     1316
+    ],
+    "EGLL": [
+     2518,
+     2434
+    ],
+    "EHAM": [
+     4330,
+     1242
+    ],
+    "LEBL": [
+     1002,
+     636
+    ],
+    "LEMD": [
+     1920,
+     2489
+    ],
+    "LFPG": [
+     1566,
+     746
+    ],
+    "LIRF": [
+     1670,
+     1054
+    ],
+    "LSZH": [
+     3146,
+     3199
+    ],
+    "LTFM": [
+     2082,
+     1410
+    ]
+   }
+  }
+ }
+}

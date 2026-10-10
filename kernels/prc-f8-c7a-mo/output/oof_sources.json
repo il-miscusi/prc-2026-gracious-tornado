@@ -1,0 +1,30 @@
+{
+ "member": "c7 fs8, seed 3101",
+ "folds": {
+  "M1": {
+   "file": "solutions/kernels/prc-f8-c7a-mo/output/oof_M1.csv",
+   "sha256": "5f052a5360e6a9608cb63190cd2c195ed59c1718d6a223896acbfb827fec719b",
+   "store": "prc-f-fs8 v2",
+   "rows": 153706
+  },
+  "M6": {
+   "file": "solutions/kernels/prc-f8-c7a-mo/output/oof_M6.csv",
+   "sha256": "6ab8ba004e7a9d10a0b1332b8bfd7e6c72273be6a182bac0a851fa340f60c09c",
+   "store": "prc-f-fs8 v2",
+   "rows": 183142
+  },
+  "M2": {
+   "file": "solutions/kernels/prc-g8-c7-mo/output/new/oof_M2.csv",
+   "sha256": "cf4c655c74adc937a2faa9bc7780c0fb0ee5039ebd249daa6f5093de1fc271b2",
+   "store": "prc-f-fs8 v1",
+   "rows": 143732
+  },
+  "M7": {
+   "file": "solutions/kernels/prc-g8-c7-mo-new/output/new/oof_M7.csv",
+   "sha256": "dc28a361a52eef11931724a5f575aa827f1e633228fc838667fa34fb58f366ba",
+   "store": "prc-f-fs8 v2",
+   "rows": 190713
+  }
+ },
+ "oof_sha256": "3877f4ae8059e0da197810cbc78717e027feefebc80dd2347986b2985635807e"
+}

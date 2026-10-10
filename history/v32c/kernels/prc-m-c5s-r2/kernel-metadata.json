@@ -1,0 +1,17 @@
+{
+ "id": "miscusi/prc-m-c5s-r2",
+ "title": "prc-m-c5s-r2",
+ "code_file": "kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "competition_sources": [],
+ "dataset_sources": [],
+ "kernel_sources": [
+  "miscusi/prc-fs5"
+ ],
+ "machine_shape": "NvidiaTeslaT4"
+}

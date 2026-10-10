@@ -1,0 +1,92 @@
+{
+ "spec": {
+  "lib": "xgb",
+  "gpus": 1,
+  "parallel": false,
+  "folds": [
+   "M1",
+   "M6"
+  ],
+  "params": {
+   "device": "cuda",
+   "tree_method": "hist",
+   "grow_policy": "lossguide",
+   "max_leaves": 1023,
+   "max_depth": 0,
+   "eta": 0.03,
+   "min_child_weight": 30,
+   "subsample": 0.8,
+   "colsample_bytree": 0.45,
+   "lambda": 20,
+   "max_bin": 256,
+   "max_cat_to_onehot": 1,
+   "max_cat_threshold": 64,
+   "seed": 2261
+  },
+  "params_long": {
+   "max_leaves": 255
+  },
+  "drop_features": [
+   "nbe1_r600",
+   "nbe1_n_r600",
+   "nbe1_r900",
+   "nbe1_n_r900",
+   "nbe1_rb900",
+   "nbe1_n_rb900",
+   "nbx1_r600",
+   "nbx1_n_r600",
+   "nbx1_r900",
+   "nbx1_n_r900",
+   "nbx1_rb900",
+   "nbx1_n_rb900",
+   "nbx1a_a900",
+   "nbx1a_n_a900",
+   "a3_obs_p_evidence_start"
+  ],
+  "package_versions": {
+   "xgboost": "2.1.4"
+  },
+  "refit": false,
+  "fold_rounds": {
+   "M1": [
+    1000,
+    1400
+   ],
+   "M6": [
+    1000,
+    1400
+   ]
+  },
+  "max_parallel": 1,
+  "fs": "prc-f-fs6"
+ },
+ "folds": {
+  "M1": {
+   "best": [
+    1000,
+    1400
+   ],
+   "score": 323.42072724408274
+  },
+  "M6": {
+   "best": [
+    1000,
+    1400
+   ],
+   "score": 218.78563542633543
+  }
+ },
+ "used_h": 0.577103239496549,
+ "complete": true,
+ "outputs_sha256": {
+  "environment.json": "11babd99d48fd4b50fd3540aa78cf0dbfa4b136d7ede9dc4b450ddd85607f998",
+  "oof_M1.csv": "7bb728821421e02a92a3b70644d5ecdba62c82d21eaac84e033c291441fa0d27",
+  "best_M1.json": "88343d6153158482fd1b3302b787d95037a5d792f6acca4e3dd73c4ae5f3dfa2",
+  "imp_M1.csv": "3b374b7342ec608f2f5e7b3b36df1f43cd955c88aa60aad0f7e9c8ec4294d51b",
+  "identity_M1.json": "61d9ef1d42e388c7006dadf01e46dcf5f8de8e6f754a69b3daa3902595d940cc",
+  "oof_M6.csv": "e96a26e78d5fe7b956fd6782091a034c96a253e76803536aae795534f975105f",
+  "best_M6.json": "4e263099d9e241dddd8303c8a834dcbe5d05e0f5c498940109a7e346e77f00c1",
+  "imp_M6.csv": "51cafae602898c6b1c2fc628b64230489d66e91b8e1032327b6da91292c09555",
+  "identity_M6.json": "1440ddb99b0018c1c1710c996f4a020ebde9f00440dc031d9a4f6301cc297a0b"
+ }
+}

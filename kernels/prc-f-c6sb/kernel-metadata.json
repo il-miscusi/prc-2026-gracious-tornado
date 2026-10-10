@@ -1,0 +1,17 @@
+{
+ "id": "usiadianimuwa/prc-f-c6sb",
+ "title": "prc-f-c6sb",
+ "code_file": "kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "competition_sources": [],
+ "dataset_sources": [],
+ "kernel_sources": [
+  "usiadianimuwa/prc-f-fs6"
+ ],
+ "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "usiadianimuwa/prc-p-c6-r",
+ "title": "prc-p-c6-r",
+ "code_file": "kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "competition_sources": [],
+ "dataset_sources": [],
+ "kernel_sources": [],
+ "machine_shape": "NvidiaTeslaT4"
+}

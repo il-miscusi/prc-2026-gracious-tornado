@@ -1,0 +1,42 @@
+{
+ "created_utc": "2026-10-08T23:49:56+00:00",
+ "command": "python3 research/final/merge_members.py c7",
+ "frame": "final",
+ "rows": 670790,
+ "units": [
+  {
+   "dir": "solutions/kernels/prc-f-c7a/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 15.657158966176329,
+   "inputs": {
+    "solutions/kernels/prc-f-c7a/output/submission.parquet": "db6a7570a0312535736492880437e940db2567cf92428338f64bd425aed9f7f9",
+    "solutions/kernels/prc-f-c7a/output/refit_0.npy": "f44fa4802bd11891b0b0215cf18900a904eadc04047877214d554cce879ac5c5",
+    "solutions/kernels/prc-f-c7a/output/refit_1.npy": "74ea44aa74b58c47afc8e2af787423f245c2d0be935953f58d12e2f6791f5eb6",
+    "solutions/kernels/prc-f-c7a/output/refit_2.npy": "197ee823655f9178fc9faafd2c63df17462b51a7bedf508cfd3f662c8a4c8bb2",
+    "solutions/kernels/prc-f-c7a/output/results.json": "4bfba63ba86d1c67ea3ebde588cc1b6fd004804731750cec45f950e34c700431"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-c7b/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 15.656142544969159,
+   "inputs": {
+    "solutions/kernels/prc-f-c7b/output/submission.parquet": "83b40227598f4bc3b8571571f5ce9237778051176f7f94c4010057d0c81d2053",
+    "solutions/kernels/prc-f-c7b/output/refit_0.npy": "2a548858df0eaa07f32610535b71d7cff8bc2e4798447d566d06aa7db348123d",
+    "solutions/kernels/prc-f-c7b/output/refit_1.npy": "faa6c1eada4ec4c3be01f175f5ef23493090b3b0c7f9ca9c66fcd1fb085f72f0",
+    "solutions/kernels/prc-f-c7b/output/refit_2.npy": "a22288e4c387495fddc3a371cf90f2cc034510b1eb8d78474d35190d6e3d45dc",
+    "solutions/kernels/prc-f-c7b/output/results.json": "5450aaeb8abc5145edfe301e0c0b480167e0b8b6fc5d87c985cc48db8db93492"
+   }
+  }
+ ],
+ "total_seeds": 6.0,
+ "output": {
+  "solutions/kernels/prc-f-c7/output/submission.parquet": "3e623ae4ad16352ce50f1f552ccae991891baf2a445a78e26d7c1df72e915b21"
+ },
+ "mean": 1019.7610799757625,
+ "max": 118522.29592208925
+}

@@ -1,0 +1,2899 @@
+{
+ "candidate": "v32c",
+ "config": "research/candidates/v32c.json",
+ "output_sha16": "e878c18ebd19db56",
+ "segments": {
+  "short": {
+   "rows": 301651
+  },
+  "1-4h": {
+   "rows": 41331
+  }
+ },
+ "members": {
+  "prc-mlp6fs": {
+   "weights": {
+    "short": 0.040383
+   },
+   "submission_sha16_at_build": "5fbd97719ec801e3",
+   "submission_sha16_now": "5fbd97719ec801e3",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-mlp6fs-s1-a",
+      "accelerator": "cpu",
+      "lib": "mlp",
+      "store": "prc-fs6",
+      "seed": 2801,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "A": [
+        90,
+        50
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-m-mlp6fs-s2-a",
+      "accelerator": "cpu",
+      "lib": "mlp",
+      "store": "prc-fs6",
+      "seed": 2802,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "A": [
+        100,
+        60
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-m-mlp6fs-s3-a",
+      "accelerator": "cpu",
+      "lib": "mlp",
+      "store": "prc-fs6",
+      "seed": 2803,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "A": [
+        110,
+        60
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "miscusi/prc-m-mlp6fs-s1-b",
+      "accelerator": "cpu",
+      "lib": "mlp",
+      "store": "prc-fs6",
+      "seed": 2801,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "B": [
+        50,
+        50
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-m-mlp6fs-s2-b",
+      "accelerator": "cpu",
+      "lib": "mlp",
+      "store": "prc-fs6",
+      "seed": 2802,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "B": [
+        90,
+        60
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-m-mlp6fs-s3-b",
+      "accelerator": "cpu",
+      "lib": "mlp",
+      "store": "prc-fs6",
+      "seed": 2803,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "B": [
+        110,
+        60
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-mlp6fs-r1",
+     "accelerator": "cpu",
+     "lib": "mlp",
+     "store": "prc-fs6",
+     "seed": 2901,
+     "folds": [],
+     "rounds": [
+      92,
+      57
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      101,
+      62
+     ],
+     "fold_best_rounds": {
+      "given": [
+       92,
+       57
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-mlp6fs-r2",
+     "accelerator": "cpu",
+     "lib": "mlp",
+     "store": "prc-fs6",
+     "seed": 2902,
+     "folds": [],
+     "rounds": [
+      92,
+      57
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      101,
+      62
+     ],
+     "fold_best_rounds": {
+      "given": [
+       92,
+       57
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-mlp6fs-r3",
+     "accelerator": "cpu",
+     "lib": "mlp",
+     "store": "prc-fs6",
+     "seed": 2903,
+     "folds": [],
+     "rounds": [
+      92,
+      57
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      101,
+      62
+     ],
+     "fold_best_rounds": {
+      "given": [
+       92,
+       57
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-mlp6fs-r4",
+     "accelerator": "cpu",
+     "lib": "mlp",
+     "store": "prc-fs6",
+     "seed": 2904,
+     "folds": [],
+     "rounds": [
+      92,
+      57
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      101,
+      62
+     ],
+     "fold_best_rounds": {
+      "given": [
+       92,
+       57
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-mlp6fs-r5",
+     "accelerator": "cpu",
+     "lib": "mlp",
+     "store": "prc-fs6",
+     "seed": 2905,
+     "folds": [],
+     "rounds": [
+      92,
+      57
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      101,
+      62
+     ],
+     "fold_best_rounds": {
+      "given": [
+       92,
+       57
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-mlp6fs-r6",
+     "accelerator": "cpu",
+     "lib": "mlp",
+     "store": "prc-fs6",
+     "seed": 2906,
+     "folds": [],
+     "rounds": [
+      92,
+      57
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      101,
+      62
+     ],
+     "fold_best_rounds": {
+      "given": [
+       92,
+       57
+      ]
+     }
+    }
+   ]
+  },
+  "prc-cs6": {
+   "weights": {
+    "short": 0.051206
+   },
+   "submission_sha16_at_build": "4e5489fd3c1efad7",
+   "submission_sha16_now": "4e5489fd3c1efad7",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-cs6-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs6",
+      "seed": 2311,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt"
+      },
+      "fold_best_rounds": {
+       "A": {
+        "EDDF": [
+         5725,
+         1108
+        ],
+        "EDDM": [
+         3907,
+         1933
+        ],
+        "EGLL": [
+         3105,
+         2748
+        ],
+        "EHAM": [
+         4157,
+         1217
+        ],
+        "LEBL": [
+         808,
+         742
+        ],
+        "LEMD": [
+         2769,
+         2821
+        ],
+        "LFPG": [
+         2172,
+         141
+        ],
+        "LIRF": [
+         2503,
+         609
+        ],
+        "LSZH": [
+         4050,
+         940
+        ],
+        "LTFM": [
+         984,
+         2260
+        ]
+       }
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "usiadianimuwa/prc-p-cs6-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs6",
+      "seed": 2311,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt"
+      },
+      "fold_best_rounds": {
+       "B": {
+        "EDDF": [
+         3282,
+         4507
+        ],
+        "EDDM": [
+         1638,
+         1045
+        ],
+        "EGLL": [
+         2999,
+         599
+        ],
+        "EHAM": [
+         4642,
+         1634
+        ],
+        "LEBL": [
+         1543,
+         714
+        ],
+        "LEMD": [
+         2579,
+         1038
+        ],
+        "LFPG": [
+         891,
+         1651
+        ],
+        "LIRF": [
+         1208,
+         171
+        ],
+        "LSZH": [
+         3559,
+         345
+        ],
+        "LTFM": [
+         2759,
+         1961
+        ]
+       }
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "usiadianimuwa/prc-p-cs6-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs6",
+     "seed": 2611,
+     "folds": [],
+     "rounds": {
+      "EDDF": [
+       4504,
+       2808
+      ],
+      "EDDM": [
+       2772,
+       1489
+      ],
+      "EGLL": [
+       3052,
+       1674
+      ],
+      "EHAM": [
+       4400,
+       1426
+      ],
+      "LEBL": [
+       1176,
+       728
+      ],
+      "LEMD": [
+       2674,
+       1930
+      ],
+      "LFPG": [
+       1532,
+       896
+      ],
+      "LIRF": [
+       1856,
+       390
+      ],
+      "LSZH": [
+       3804,
+       642
+      ],
+      "LTFM": [
+       1872,
+       2110
+      ]
+     },
+     "refit_seeds": 3,
+     "options": {
+      "split_by": "apt"
+     },
+     "refit_rounds_used": {
+      "EHAM": [
+       4840,
+       1568
+      ],
+      "LEMD": [
+       2941,
+       2123
+      ],
+      "LTFM": [
+       2059,
+       2321
+      ],
+      "EDDF": [
+       4954,
+       3088
+      ],
+      "LIRF": [
+       2041,
+       429
+      ],
+      "EDDM": [
+       3049,
+       1637
+      ],
+      "LSZH": [
+       4184,
+       706
+      ],
+      "LFPG": [
+       1685,
+       985
+      ],
+      "EGLL": [
+       3357,
+       1841
+      ],
+      "LEBL": [
+       1293,
+       800
+      ]
+     },
+     "fold_best_rounds": {
+      "given": {
+       "EDDF": [
+        4504,
+        2808
+       ],
+       "EDDM": [
+        2772,
+        1489
+       ],
+       "EGLL": [
+        3052,
+        1674
+       ],
+       "EHAM": [
+        4400,
+        1426
+       ],
+       "LEBL": [
+        1176,
+        728
+       ],
+       "LEMD": [
+        2674,
+        1930
+       ],
+       "LFPG": [
+        1532,
+        896
+       ],
+       "LIRF": [
+        1856,
+        390
+       ],
+       "LSZH": [
+        3804,
+        642
+       ],
+       "LTFM": [
+        1872,
+        2110
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "prc-c6": {
+   "weights": {
+    "short": 0.0,
+    "1-4h": 0.0
+   },
+   "submission_sha16_at_build": "99247872aa417c43",
+   "submission_sha16_now": "99247872aa417c43",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-c6-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs6",
+      "seed": 2221,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "A": [
+        10013,
+        6094
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "usiadianimuwa/prc-p-c6-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs6",
+      "seed": 2221,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "B": [
+        10131,
+        4414
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "usiadianimuwa/prc-p-c6-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs6",
+     "seed": 2221,
+     "folds": [],
+     "rounds": [
+      10000,
+      3500
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      11000,
+      3850
+     ],
+     "fold_best_rounds": {
+      "given": [
+       10000,
+       3500
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c6-r2",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs6",
+     "seed": 2721,
+     "folds": [],
+     "rounds": [
+      10000,
+      3500
+     ],
+     "refit_seeds": 2,
+     "options": {},
+     "refit_rounds_used": [
+      11000,
+      3850
+     ],
+     "fold_best_rounds": {
+      "given": [
+       10000,
+       3500
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c6-r3",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs6",
+     "seed": 4721,
+     "folds": [],
+     "rounds": [
+      10000,
+      3500
+     ],
+     "refit_seeds": 2,
+     "options": {},
+     "refit_rounds_used": [
+      11000,
+      3850
+     ],
+     "fold_best_rounds": {
+      "given": [
+       10000,
+       3500
+      ]
+     }
+    }
+   ]
+  },
+  "prc-cs5": {
+   "weights": {
+    "short": 0.045932,
+    "1-4h": 0.043445
+   },
+   "submission_sha16_at_build": "2b3533bf56288874",
+   "submission_sha16_now": "2b3533bf56288874",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-cs5-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs5",
+      "seed": 2311,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt"
+      },
+      "fold_best_rounds": {
+       "A": {
+        "EDDF": [
+         2928,
+         1195
+        ],
+        "EDDM": [
+         2119,
+         1340
+        ],
+        "EGLL": [
+         2231,
+         1501
+        ],
+        "EHAM": [
+         3263,
+         6699
+        ],
+        "LEBL": [
+         1054,
+         685
+        ],
+        "LEMD": [
+         2115,
+         3299
+        ],
+        "LFPG": [
+         1727,
+         320
+        ],
+        "LIRF": [
+         1809,
+         481
+        ],
+        "LSZH": [
+         5112,
+         1245
+        ],
+        "LTFM": [
+         1912,
+         1859
+        ]
+       }
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "usiadianimuwa/prc-p-cs5-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs5",
+      "seed": 2311,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt"
+      },
+      "fold_best_rounds": {
+       "B": {
+        "EDDF": [
+         3412,
+         4182
+        ],
+        "EDDM": [
+         2557,
+         1252
+        ],
+        "EGLL": [
+         2250,
+         899
+        ],
+        "EHAM": [
+         3926,
+         2763
+        ],
+        "LEBL": [
+         1545,
+         1080
+        ],
+        "LEMD": [
+         2108,
+         976
+        ],
+        "LFPG": [
+         1274,
+         2929
+        ],
+        "LIRF": [
+         1643,
+         171
+        ],
+        "LSZH": [
+         2129,
+         131
+        ],
+        "LTFM": [
+         1960,
+         5289
+        ]
+       }
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-cs5-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2311,
+     "folds": [],
+     "rounds": {
+      "LSZH": [
+       3620,
+       688
+      ],
+      "EGLL": [
+       2240,
+       1200
+      ],
+      "LEMD": [
+       2111,
+       2137
+      ],
+      "LFPG": [
+       1500,
+       1624
+      ],
+      "LTFM": [
+       1936,
+       3574
+      ],
+      "EDDM": [
+       2338,
+       1296
+      ],
+      "EDDF": [
+       3170,
+       2688
+      ],
+      "LIRF": [
+       1726,
+       326
+      ],
+      "LEBL": [
+       1299,
+       882
+      ],
+      "EHAM": [
+       3594,
+       4731
+      ]
+     },
+     "refit_seeds": 1,
+     "options": {
+      "split_by": "apt"
+     },
+     "refit_rounds_used": {
+      "LIRF": [
+       1898,
+       358
+      ],
+      "LFPG": [
+       1650,
+       1786
+      ],
+      "EGLL": [
+       2464,
+       1320
+      ],
+      "EDDM": [
+       2571,
+       1425
+      ],
+      "LTFM": [
+       2129,
+       3931
+      ],
+      "EDDF": [
+       3487,
+       2956
+      ],
+      "EHAM": [
+       3953,
+       5204
+      ],
+      "LEBL": [
+       1428,
+       970
+      ],
+      "LSZH": [
+       3982,
+       756
+      ],
+      "LEMD": [
+       2322,
+       2350
+      ]
+     },
+     "fold_best_rounds": {
+      "given": {
+       "LSZH": [
+        3620,
+        688
+       ],
+       "EGLL": [
+        2240,
+        1200
+       ],
+       "LEMD": [
+        2111,
+        2137
+       ],
+       "LFPG": [
+        1500,
+        1624
+       ],
+       "LTFM": [
+        1936,
+        3574
+       ],
+       "EDDM": [
+        2338,
+        1296
+       ],
+       "EDDF": [
+        3170,
+        2688
+       ],
+       "LIRF": [
+        1726,
+        326
+       ],
+       "LEBL": [
+        1299,
+        882
+       ],
+       "EHAM": [
+        3594,
+        4731
+       ]
+      }
+     }
+    },
+    {
+     "kernel": "usiadianimuwa/prc-p-cs5-r2",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2811,
+     "folds": [],
+     "rounds": {
+      "LSZH": [
+       3620,
+       688
+      ],
+      "EGLL": [
+       2240,
+       1200
+      ],
+      "LEMD": [
+       2111,
+       2137
+      ],
+      "LFPG": [
+       1500,
+       1624
+      ],
+      "LTFM": [
+       1936,
+       3574
+      ],
+      "EDDM": [
+       2338,
+       1296
+      ],
+      "EDDF": [
+       3170,
+       2688
+      ],
+      "LIRF": [
+       1726,
+       326
+      ],
+      "LEBL": [
+       1299,
+       882
+      ],
+      "EHAM": [
+       3594,
+       4731
+      ]
+     },
+     "refit_seeds": 2,
+     "options": {
+      "split_by": "apt"
+     },
+     "refit_rounds_used": {
+      "EHAM": [
+       3953,
+       5204
+      ],
+      "LFPG": [
+       1650,
+       1786
+      ],
+      "EDDF": [
+       3487,
+       2956
+      ],
+      "LEMD": [
+       2322,
+       2350
+      ],
+      "LEBL": [
+       1428,
+       970
+      ],
+      "LSZH": [
+       3982,
+       756
+      ],
+      "LTFM": [
+       2129,
+       3931
+      ],
+      "EDDM": [
+       2571,
+       1425
+      ],
+      "LIRF": [
+       1898,
+       358
+      ],
+      "EGLL": [
+       2464,
+       1320
+      ]
+     },
+     "fold_best_rounds": {
+      "given": {
+       "LSZH": [
+        3620,
+        688
+       ],
+       "EGLL": [
+        2240,
+        1200
+       ],
+       "LEMD": [
+        2111,
+        2137
+       ],
+       "LFPG": [
+        1500,
+        1624
+       ],
+       "LTFM": [
+        1936,
+        3574
+       ],
+       "EDDM": [
+        2338,
+        1296
+       ],
+       "EDDF": [
+        3170,
+        2688
+       ],
+       "LIRF": [
+        1726,
+        326
+       ],
+       "LEBL": [
+        1299,
+        882
+       ],
+       "EHAM": [
+        3594,
+        4731
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "prc-c5d10": {
+   "weights": {
+    "short": 0.0
+   },
+   "submission_sha16_at_build": "3a2d9f45c130f4eb",
+   "submission_sha16_now": "3a2d9f45c130f4eb",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-c5-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs5",
+      "seed": 2221,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "A": [
+        10956,
+        6125
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "miscusi/prc-m-c5-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs5",
+      "seed": 2221,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "B": [
+        10481,
+        5420
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-c5-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2221,
+     "folds": [],
+     "rounds": [
+      10000,
+      3500
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      11000,
+      3850
+     ],
+     "fold_best_rounds": {
+      "given": [
+       10000,
+       3500
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c5-r2",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2721,
+     "folds": [],
+     "rounds": [
+      10000,
+      3500
+     ],
+     "refit_seeds": 2,
+     "options": {},
+     "refit_rounds_used": [
+      11000,
+      3850
+     ],
+     "fold_best_rounds": {
+      "given": [
+       10000,
+       3500
+      ]
+     }
+    },
+    {
+     "kernel": "usiadianimuwa/prc-p-c5-r3",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 6721,
+     "folds": [],
+     "rounds": [
+      10000,
+      3500
+     ],
+     "refit_seeds": 2,
+     "options": {},
+     "refit_rounds_used": [
+      11000,
+      3850
+     ],
+     "fold_best_rounds": {
+      "given": [
+       10000,
+       3500
+      ]
+     }
+    }
+   ]
+  },
+  "prc-split-fs4": {
+   "weights": {
+    "short": 0.01745,
+    "1-4h": 0.036672
+   },
+   "submission_sha16_at_build": "0cb735b56f6878bd",
+   "submission_sha16_now": "0cb735b56f6878bd",
+   "oof": {
+    "A": [
+     {
+      "kernel": "usiadianimuwa/prc-p-split-fs4-a",
+      "accelerator": "cpu",
+      "lib": "lgb",
+      "store": "prc-fs4",
+      "seed": 2091,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt"
+      },
+      "fold_best_rounds": {
+       "A": {
+        "EDDF": [
+         3252,
+         2059
+        ],
+        "EDDM": [
+         3065,
+         979
+        ],
+        "EGLL": [
+         1715,
+         1545
+        ],
+        "EHAM": [
+         1493,
+         4996
+        ],
+        "LEBL": [
+         543,
+         1301
+        ],
+        "LEMD": [
+         984,
+         1284
+        ],
+        "LFPG": [
+         909,
+         799
+        ],
+        "LIRF": [
+         1157,
+         448
+        ],
+        "LSZH": [
+         1215,
+         4856
+        ],
+        "LTFM": [
+         1034,
+         2600
+        ]
+       }
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "usiadianimuwa/prc-p-split-fs4-b",
+      "accelerator": "cpu",
+      "lib": "lgb",
+      "store": "prc-fs4",
+      "seed": 2091,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt"
+      },
+      "fold_best_rounds": {
+       "B": {
+        "EDDF": [
+         2457,
+         2341
+        ],
+        "EDDM": [
+         1048,
+         564
+        ],
+        "EGLL": [
+         2252,
+         882
+        ],
+        "EHAM": [
+         1834,
+         2648
+        ],
+        "LEBL": [
+         1180,
+         1181
+        ],
+        "LEMD": [
+         942,
+         1106
+        ],
+        "LFPG": [
+         853,
+         547
+        ],
+        "LIRF": [
+         979,
+         1214
+        ],
+        "LSZH": [
+         1169,
+         4651
+        ],
+        "LTFM": [
+         1170,
+         1406
+        ]
+       }
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "usiadianimuwa/prc-p-split-fs4-r",
+     "accelerator": "cpu",
+     "lib": "lgb",
+     "store": "prc-fs4",
+     "seed": 2091,
+     "folds": [],
+     "rounds": {
+      "LSZH": [
+       1384,
+       2791
+      ],
+      "LFPG": [
+       985,
+       1178
+      ],
+      "EDDM": [
+       2562,
+       1214
+      ],
+      "EDDF": [
+       2148,
+       2276
+      ],
+      "EGLL": [
+       1575,
+       609
+      ],
+      "LTFM": [
+       1181,
+       1955
+      ],
+      "LEBL": [
+       918,
+       1042
+      ],
+      "LEMD": [
+       1325,
+       1000
+      ],
+      "EHAM": [
+       1647,
+       2796
+      ],
+      "LIRF": [
+       979,
+       836
+      ]
+     },
+     "refit_seeds": 1,
+     "options": {
+      "split_by": "apt"
+     },
+     "refit_rounds_used": {
+      "EGLL": [
+       1732,
+       669
+      ],
+      "LIRF": [
+       1076,
+       919
+      ],
+      "EDDF": [
+       2362,
+       2503
+      ],
+      "EHAM": [
+       1811,
+       3075
+      ],
+      "EDDM": [
+       2818,
+       1335
+      ],
+      "LTFM": [
+       1299,
+       2150
+      ],
+      "LEMD": [
+       1457,
+       1100
+      ],
+      "LSZH": [
+       1522,
+       3070
+      ],
+      "LFPG": [
+       1083,
+       1295
+      ],
+      "LEBL": [
+       1009,
+       1146
+      ]
+     },
+     "fold_best_rounds": {
+      "given": {
+       "LSZH": [
+        1384,
+        2791
+       ],
+       "LFPG": [
+        985,
+        1178
+       ],
+       "EDDM": [
+        2562,
+        1214
+       ],
+       "EDDF": [
+        2148,
+        2276
+       ],
+       "EGLL": [
+        1575,
+        609
+       ],
+       "LTFM": [
+        1181,
+        1955
+       ],
+       "LEBL": [
+        918,
+        1042
+       ],
+       "LEMD": [
+        1325,
+        1000
+       ],
+       "EHAM": [
+        1647,
+        2796
+       ],
+       "LIRF": [
+        979,
+        836
+       ]
+      }
+     }
+    },
+    {
+     "kernel": "usiadianimuwa/prc-p-split-fs4-r2",
+     "accelerator": "cpu",
+     "lib": "lgb",
+     "store": "prc-fs4",
+     "seed": 2092,
+     "folds": [],
+     "rounds": {
+      "LSZH": [
+       1384,
+       2791
+      ],
+      "LFPG": [
+       985,
+       1178
+      ],
+      "EDDM": [
+       2562,
+       1214
+      ],
+      "EDDF": [
+       2148,
+       2276
+      ],
+      "EGLL": [
+       1575,
+       609
+      ],
+      "LTFM": [
+       1181,
+       1955
+      ],
+      "LEBL": [
+       918,
+       1042
+      ],
+      "LEMD": [
+       1325,
+       1000
+      ],
+      "EHAM": [
+       1647,
+       2796
+      ],
+      "LIRF": [
+       979,
+       836
+      ]
+     },
+     "refit_seeds": 1,
+     "options": {
+      "split_by": "apt"
+     },
+     "refit_rounds_used": {
+      "EHAM": [
+       1811,
+       3075
+      ],
+      "EDDF": [
+       2362,
+       2503
+      ],
+      "LEBL": [
+       1009,
+       1146
+      ],
+      "LIRF": [
+       1076,
+       919
+      ],
+      "LTFM": [
+       1299,
+       2150
+      ],
+      "LEMD": [
+       1457,
+       1100
+      ],
+      "EGLL": [
+       1732,
+       669
+      ],
+      "EDDM": [
+       2818,
+       1335
+      ],
+      "LFPG": [
+       1083,
+       1295
+      ],
+      "LSZH": [
+       1522,
+       3070
+      ]
+     },
+     "fold_best_rounds": {
+      "given": {
+       "LSZH": [
+        1384,
+        2791
+       ],
+       "LFPG": [
+        985,
+        1178
+       ],
+       "EDDM": [
+        2562,
+        1214
+       ],
+       "EDDF": [
+        2148,
+        2276
+       ],
+       "EGLL": [
+        1575,
+        609
+       ],
+       "LTFM": [
+        1181,
+        1955
+       ],
+       "LEBL": [
+        918,
+        1042
+       ],
+       "LEMD": [
+        1325,
+        1000
+       ],
+       "EHAM": [
+        1647,
+        2796
+       ],
+       "LIRF": [
+        979,
+        836
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "prc-c7x2": {
+   "weights": {
+    "short": 0.332192,
+    "1-4h": 0.258169
+   },
+   "submission_sha16_at_build": "de50a28dac4b222d",
+   "submission_sha16_now": "de50a28dac4b222d",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-c7-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs7",
+      "seed": 2221,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        8496,
+        2891
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-m-c7x2-a (variant foldA)",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs7",
+      "seed": 5521,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        9171,
+        3507
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "miscusi/prc-m-c7-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs7",
+      "seed": 2221,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "B": [
+        10688,
+        2954
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-m-c7x2-ab",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs7",
+      "seed": 5521,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-c7-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs7",
+     "seed": 3101,
+     "folds": [],
+     "rounds": [
+      9600,
+      2900
+     ],
+     "refit_seeds": 3,
+     "options": {
+      "drop_features": [
+       "pru_pub",
+       "pru_ref",
+       "pru_deice_sh",
+       "pru_noref_sh",
+       "pru_pub_dev",
+       "apm_d_eobt1",
+       "dm_d_eobt1",
+       "apm_d_aobt3",
+       "dm_d_aobt3",
+       "apm_d_lobt",
+       "dm_d_lobt",
+       "apm_d_iobt",
+       "dm_d_iobt",
+       "apm_aobt3_m_eobt1",
+       "dm_aobt3_m_eobt1"
+      ]
+     },
+     "refit_rounds_used": [
+      10560,
+      3190
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9600,
+       2900
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c7-r2",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs7",
+     "seed": 6101,
+     "folds": [],
+     "rounds": [
+      9600,
+      2900
+     ],
+     "refit_seeds": 2,
+     "options": {
+      "drop_features": [
+       "pru_pub",
+       "pru_ref",
+       "pru_deice_sh",
+       "pru_noref_sh",
+       "pru_pub_dev",
+       "apm_d_eobt1",
+       "dm_d_eobt1",
+       "apm_d_aobt3",
+       "dm_d_aobt3",
+       "apm_d_lobt",
+       "dm_d_lobt",
+       "apm_d_iobt",
+       "dm_d_iobt",
+       "apm_aobt3_m_eobt1",
+       "dm_aobt3_m_eobt1"
+      ]
+     },
+     "refit_rounds_used": [
+      10560,
+      3190
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9600,
+       2900
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c7x2-a (variant r8101)",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs7",
+     "seed": 8101,
+     "folds": [],
+     "rounds": [
+      9600,
+      2900
+     ],
+     "refit_seeds": 1,
+     "options": {
+      "drop_features": [
+       "pru_pub",
+       "pru_ref",
+       "pru_deice_sh",
+       "pru_noref_sh",
+       "pru_pub_dev",
+       "apm_d_eobt1",
+       "dm_d_eobt1",
+       "apm_d_aobt3",
+       "dm_d_aobt3",
+       "apm_d_lobt",
+       "dm_d_lobt",
+       "apm_d_iobt",
+       "dm_d_iobt",
+       "apm_aobt3_m_eobt1",
+       "dm_aobt3_m_eobt1"
+      ]
+     },
+     "refit_rounds_used": [
+      10560,
+      3190
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9600,
+       2900
+      ]
+     }
+    }
+   ]
+  },
+  "prc-cs7": {
+   "weights": {
+    "short": 0.240514
+   },
+   "submission_sha16_at_build": "e4f29841a68b6cb5",
+   "submission_sha16_now": "e4f29841a68b6cb5",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-g7-ab (variant cs7)",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs7",
+      "seed": 2311,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt",
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "miscusi/prc-m-g7-ab (variant cs7)",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs7",
+      "seed": 2311,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "split_by": "apt",
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-g7-r (variant cs7r)",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs7",
+     "seed": 3311,
+     "folds": [],
+     "rounds": {
+      "EDDF": [
+       5316,
+       3014
+      ],
+      "EDDM": [
+       1860,
+       1316
+      ],
+      "EGLL": [
+       2518,
+       2434
+      ],
+      "EHAM": [
+       4330,
+       1242
+      ],
+      "LEBL": [
+       1002,
+       636
+      ],
+      "LEMD": [
+       1920,
+       2489
+      ],
+      "LFPG": [
+       1566,
+       746
+      ],
+      "LIRF": [
+       1670,
+       1054
+      ],
+      "LSZH": [
+       3146,
+       3199
+      ],
+      "LTFM": [
+       2082,
+       1410
+      ]
+     },
+     "refit_seeds": 3,
+     "options": {
+      "split_by": "apt",
+      "drop_features": [
+       "pru_pub",
+       "pru_ref",
+       "pru_deice_sh",
+       "pru_noref_sh",
+       "pru_pub_dev",
+       "apm_d_eobt1",
+       "dm_d_eobt1",
+       "apm_d_aobt3",
+       "dm_d_aobt3",
+       "apm_d_lobt",
+       "dm_d_lobt",
+       "apm_d_iobt",
+       "dm_d_iobt",
+       "apm_aobt3_m_eobt1",
+       "dm_aobt3_m_eobt1"
+      ]
+     },
+     "refit_rounds_used": {
+      "LFPG": [
+       1722,
+       820
+      ],
+      "EDDM": [
+       2046,
+       1447
+      ],
+      "EHAM": [
+       4763,
+       1366
+      ],
+      "EGLL": [
+       2769,
+       2677
+      ],
+      "LSZH": [
+       3460,
+       3518
+      ],
+      "LTFM": [
+       2290,
+       1551
+      ],
+      "LEMD": [
+       2112,
+       2737
+      ],
+      "EDDF": [
+       5847,
+       3315
+      ],
+      "LIRF": [
+       1837,
+       1159
+      ],
+      "LEBL": [
+       1102,
+       699
+      ]
+     },
+     "fold_best_rounds": {
+      "given": {
+       "EDDF": [
+        5316,
+        3014
+       ],
+       "EDDM": [
+        1860,
+        1316
+       ],
+       "EGLL": [
+        2518,
+        2434
+       ],
+       "EHAM": [
+        4330,
+        1242
+       ],
+       "LEBL": [
+        1002,
+        636
+       ],
+       "LEMD": [
+        1920,
+        2489
+       ],
+       "LFPG": [
+        1566,
+        746
+       ],
+       "LIRF": [
+        1670,
+        1054
+       ],
+       "LSZH": [
+        3146,
+        3199
+       ],
+       "LTFM": [
+        2082,
+        1410
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "prc-mlp7": {
+   "weights": {
+    "short": 0.272323
+   },
+   "submission_sha16_at_build": "bca798d4b56c2ccc",
+   "submission_sha16_now": "bca798d4b56c2ccc",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-c-mlp7-ab (variant mlp7s1)",
+      "accelerator": "gpu",
+      "lib": "mlp",
+      "store": "prc-fs7",
+      "seed": 2811,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        100,
+        60
+       ],
+       "B": [
+        100,
+        60
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-c-mlp7-ab (variant mlp7s2)",
+      "accelerator": "gpu",
+      "lib": "mlp",
+      "store": "prc-fs7",
+      "seed": 2812,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        110,
+        50
+       ],
+       "B": [
+        80,
+        50
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-c-mlp7-ab (variant mlp7s3)",
+      "accelerator": "gpu",
+      "lib": "mlp",
+      "store": "prc-fs7",
+      "seed": 2813,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        110,
+        60
+       ],
+       "B": [
+        90,
+        50
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "miscusi/prc-c-mlp7-ab (variant mlp7s1)",
+      "accelerator": "gpu",
+      "lib": "mlp",
+      "store": "prc-fs7",
+      "seed": 2811,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        100,
+        60
+       ],
+       "B": [
+        100,
+        60
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-c-mlp7-ab (variant mlp7s2)",
+      "accelerator": "gpu",
+      "lib": "mlp",
+      "store": "prc-fs7",
+      "seed": 2812,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        110,
+        50
+       ],
+       "B": [
+        80,
+        50
+       ]
+      }
+     },
+     {
+      "kernel": "miscusi/prc-c-mlp7-ab (variant mlp7s3)",
+      "accelerator": "gpu",
+      "lib": "mlp",
+      "store": "prc-fs7",
+      "seed": 2813,
+      "folds": [
+       "A",
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "drop_features": [
+        "pru_pub",
+        "pru_ref",
+        "pru_deice_sh",
+        "pru_noref_sh",
+        "pru_pub_dev",
+        "apm_d_eobt1",
+        "dm_d_eobt1",
+        "apm_d_aobt3",
+        "dm_d_aobt3",
+        "apm_d_lobt",
+        "dm_d_lobt",
+        "apm_d_iobt",
+        "dm_d_iobt",
+        "apm_aobt3_m_eobt1",
+        "dm_aobt3_m_eobt1"
+       ]
+      },
+      "fold_best_rounds": {
+       "A": [
+        110,
+        60
+       ],
+       "B": [
+        90,
+        50
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-c-mlp7-r",
+     "accelerator": "gpu",
+     "lib": "mlp",
+     "store": "prc-fs7",
+     "seed": null,
+     "folds": null,
+     "rounds": null,
+     "refit_seeds": null,
+     "options": {
+      "drop_features": [
+       "pru_pub",
+       "pru_ref",
+       "pru_deice_sh",
+       "pru_noref_sh",
+       "pru_pub_dev",
+       "apm_d_eobt1",
+       "dm_d_eobt1",
+       "apm_d_aobt3",
+       "dm_d_aobt3",
+       "apm_d_lobt",
+       "dm_d_lobt",
+       "apm_d_iobt",
+       "dm_d_iobt",
+       "apm_aobt3_m_eobt1",
+       "dm_aobt3_m_eobt1"
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-c-mlp7-r2",
+     "accelerator": "gpu",
+     "lib": "mlp",
+     "store": "prc-fs7",
+     "seed": null,
+     "folds": null,
+     "rounds": null,
+     "refit_seeds": null,
+     "options": {
+      "drop_features": [
+       "pru_pub",
+       "pru_ref",
+       "pru_deice_sh",
+       "pru_noref_sh",
+       "pru_pub_dev",
+       "apm_d_eobt1",
+       "dm_d_eobt1",
+       "apm_d_aobt3",
+       "dm_d_aobt3",
+       "apm_d_lobt",
+       "dm_d_lobt",
+       "apm_d_iobt",
+       "dm_d_iobt",
+       "apm_aobt3_m_eobt1",
+       "dm_aobt3_m_eobt1"
+      ]
+     }
+    }
+   ]
+  },
+  "prc-c6s": {
+   "weights": {
+    "1-4h": 0.246555
+   },
+   "submission_sha16_at_build": "f029876d865dc66d",
+   "submission_sha16_now": "f029876d865dc66d",
+   "oof": {
+    "A": [
+     {
+      "kernel": "usiadianimuwa/prc-p-c6s-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs6",
+      "seed": 2231,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "long_target": "sec"
+      },
+      "fold_best_rounds": {
+       "A": [
+        9718,
+        6118
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "usiadianimuwa/prc-p-c6s-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs6",
+      "seed": 2231,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "long_target": "sec"
+      },
+      "fold_best_rounds": {
+       "B": [
+        9040,
+        7107
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-c6s-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs6",
+     "seed": 2241,
+     "folds": [],
+     "rounds": [
+      9379,
+      6612
+     ],
+     "refit_seeds": 3,
+     "options": {
+      "long_target": "sec"
+     },
+     "refit_rounds_used": [
+      10316,
+      7273
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9379,
+       6612
+      ]
+     }
+    }
+   ]
+  },
+  "prc-c5s": {
+   "weights": {
+    "1-4h": 0.229213
+   },
+   "submission_sha16_at_build": "9542f3d966e58c54",
+   "submission_sha16_now": "9542f3d966e58c54",
+   "oof": {
+    "A": [
+     {
+      "kernel": "miscusi/prc-m-c5s-a",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs5",
+      "seed": 2231,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "long_target": "sec"
+      },
+      "fold_best_rounds": {
+       "A": [
+        9990,
+        4468
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "miscusi/prc-m-c5s-b",
+      "accelerator": "gpu",
+      "lib": "cat",
+      "store": "prc-fs5",
+      "seed": 2231,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {
+       "long_target": "sec"
+      },
+      "fold_best_rounds": {
+       "B": [
+        11556,
+        5746
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "miscusi/prc-m-c5s-r",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2231,
+     "folds": [],
+     "rounds": [
+      9990,
+      4468
+     ],
+     "refit_seeds": 1,
+     "options": {
+      "long_target": "sec"
+     },
+     "refit_rounds_used": [
+      10989,
+      4914
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9990,
+       4468
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c5s-r2",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2232,
+     "folds": [],
+     "rounds": [
+      9990,
+      4468
+     ],
+     "refit_seeds": 1,
+     "options": {
+      "long_target": "sec"
+     },
+     "refit_rounds_used": [
+      10989,
+      4914
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9990,
+       4468
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-c5s-r3",
+     "accelerator": "gpu",
+     "lib": "cat",
+     "store": "prc-fs5",
+     "seed": 2233,
+     "folds": [],
+     "rounds": [
+      9990,
+      4468
+     ],
+     "refit_seeds": 1,
+     "options": {
+      "long_target": "sec"
+     },
+     "refit_rounds_used": [
+      10989,
+      4914
+     ],
+     "fold_best_rounds": {
+      "given": [
+       9990,
+       4468
+      ]
+     }
+    }
+   ]
+  },
+  "prc-x5": {
+   "weights": {
+    "1-4h": 0.185946
+   },
+   "submission_sha16_at_build": "f0cf63006f76f992",
+   "submission_sha16_now": "f0cf63006f76f992",
+   "oof": {
+    "A": [
+     {
+      "kernel": "usiadianimuwa/prc-p-x5-a",
+      "accelerator": "gpu",
+      "lib": "xgb",
+      "store": "prc-fs5",
+      "seed": 2261,
+      "folds": [
+       "A"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "A": [
+        1264,
+        1862
+       ]
+      }
+     }
+    ],
+    "B": [
+     {
+      "kernel": "usiadianimuwa/prc-p-x5-b",
+      "accelerator": "gpu",
+      "lib": "xgb",
+      "store": "prc-fs5",
+      "seed": 2261,
+      "folds": [
+       "B"
+      ],
+      "rounds": null,
+      "refit_seeds": null,
+      "options": {},
+      "fold_best_rounds": {
+       "B": [
+        1022,
+        2189
+       ]
+      }
+     }
+    ]
+   },
+   "refit": [
+    {
+     "kernel": "usiadianimuwa/prc-p-x5-r",
+     "accelerator": "gpu",
+     "lib": "xgb",
+     "store": "prc-fs5",
+     "seed": 2261,
+     "folds": [],
+     "rounds": [
+      1000,
+      1400
+     ],
+     "refit_seeds": 1,
+     "options": {},
+     "refit_rounds_used": [
+      1100,
+      1540
+     ],
+     "fold_best_rounds": {
+      "given": [
+       1000,
+       1400
+      ]
+     }
+    },
+    {
+     "kernel": "miscusi/prc-m-x5-r2",
+     "accelerator": "gpu",
+     "lib": "xgb",
+     "store": "prc-fs5",
+     "seed": 2761,
+     "folds": [],
+     "rounds": [
+      1000,
+      1400
+     ],
+     "refit_seeds": 2,
+     "options": {},
+     "refit_rounds_used": [
+      1100,
+      1540
+     ],
+     "fold_best_rounds": {
+      "given": [
+       1000,
+       1400
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "stores": {
+  "prc-fs4": {
+   "kernel": "miscusi/prc-fs4",
+   "accelerator": "cpu",
+   "lib": null,
+   "store": null,
+   "seed": null,
+   "folds": null,
+   "rounds": null,
+   "refit_seeds": null,
+   "options": {},
+   "kernel_sources": [
+    "miscusi/prc-adsb3-events-w1"
+   ]
+  },
+  "prc-fs5": {
+   "kernel": "miscusi/prc-fs5",
+   "accelerator": "cpu",
+   "lib": null,
+   "store": null,
+   "seed": null,
+   "folds": null,
+   "rounds": null,
+   "refit_seeds": null,
+   "options": {},
+   "kernel_sources": [
+    "miscusi/prc-adsb3-events"
+   ]
+  },
+  "prc-fs6": {
+   "kernel": "miscusi/prc-fs6",
+   "accelerator": "cpu",
+   "lib": null,
+   "store": null,
+   "seed": null,
+   "folds": null,
+   "rounds": null,
+   "refit_seeds": null,
+   "options": {},
+   "kernel_sources": [
+    "miscusi/prc-adsb3-events"
+   ]
+  },
+  "prc-fs7": {
+   "kernel": "usiadianimuwa/prc-fs7",
+   "accelerator": "cpu",
+   "lib": null,
+   "store": null,
+   "seed": null,
+   "folds": null,
+   "rounds": null,
+   "refit_seeds": null,
+   "options": {},
+   "kernel_sources": []
+  }
+ },
+ "long_rows": {
+  "source": "research/tail/out/v30_longrows_a05_plog.parquet",
+  "sha16": "3e86fc2f7f7d037d",
+  "rows": 1859,
+  "built_by": "research/tail/longrows_v30.py <v29 base> OUT --alpha 0.5 --phys plog --keep-aobt3-over 4 --old <v21> (inputs: research/tail/expand_artifact.py)"
+ },
+ "overlays": {
+  "lirf_noadsb": {
+   "rows": 17808,
+   "weight": 0.3,
+   "member": "research/cover/out/k4"
+  }
+ },
+ "overlay_kernels": {
+  "prc-cv-k4": {
+   "kernel": "miscusi/prc-cv-k4",
+   "accelerator": "cpu",
+   "lib": "lgb",
+   "store": "prc-fs6",
+   "seed": 7,
+   "folds": [],
+   "rounds": [
+    296,
+    195
+   ],
+   "refit_seeds": 2,
+   "options": {
+    "drop_adsb": true
+   }
+  }
+ },
+ "capped_rows": 11,
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05
+ }
+}

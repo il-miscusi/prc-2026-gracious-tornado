@@ -1,0 +1,1 @@
+G1: 596,663 d <= 1 h rows, rounds 600, alpha 0.5, trees 600, max |diff| 3.64e-12 s (lightgbm kernel 4.6.0, local 4.6.0)

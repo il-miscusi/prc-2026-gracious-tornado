@@ -1,0 +1,243 @@
+{
+ "name": "f6",
+ "frame": "final",
+ "_doc": "f6 = f5 plus the grade-A ADS-B pushback blend (research/final/levers/events.py) as the last post layer, after the second recovered layer, so the L1a-v2 loadings need no refit. On rows with an ADS-B v3 grade-A event (seen parked, then seen leaving) and 0 <= a3_obs_leave <= max(d, 1 h): y_hat + w(|y_e - y_hat| bin, d <= 1 h / d > 1 h) (y_e - y_hat), y_e = a3_obs_leave + the airport's median offset; offsets and weights fitted on f5's frozen 2025 rehearsal rows (research/final/levers/artifacts/events_f5.json). Everything else is f5. Lever 1 of research/final/headroom/RESULTS.md.",
+ "members": {
+  "prc-f-c7": {
+   "pred": "solutions/kernels/prc-f-c7/output",
+   "oof": "solutions/kernels/prc-c7x2/output"
+  },
+  "prc-f-cs7": {
+   "pred": "solutions/kernels/prc-f-cs7/output",
+   "oof": "solutions/kernels/prc-cs7/output"
+  },
+  "prc-f-mlp7": {
+   "pred": "solutions/kernels/prc-f-mlp7m6/output",
+   "oof": "solutions/kernels/prc-mlp7/output"
+  },
+  "prc-f-c6s": {
+   "pred": "solutions/kernels/prc-f-c6sm6/output",
+   "oof": "solutions/kernels/prc-c6s/output"
+  },
+  "prc-f-c5s": {
+   "pred": "solutions/kernels/prc-f-c5sm6/output",
+   "oof": "solutions/kernels/prc-c5s/output"
+  },
+  "prc-f-k4": {
+   "pred": "solutions/kernels/prc-f-k4/output"
+  },
+  "prc-f-x5": {
+   "pred": "solutions/kernels/prc-f-x5m6/output",
+   "oof": "solutions/kernels/prc-x5/output"
+  },
+  "prc-f8-c7": {
+   "pred": "solutions/kernels/prc-f8-c7/output"
+  },
+  "meta-g1short": {
+   "pred": "solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet",
+   "inputs": [
+    "solutions/kernels/prc-meta-gbm-f4/output/G1_short.txt",
+    "solutions/kernels/prc-meta-gbm-f4/output/mo_G1.csv",
+    "solutions/kernels/prc-meta-gbm-f4/output/report.json",
+    "solutions/kernels/prc-meta-gbm-f4/output/prc-meta-gbm-f4.log",
+    "submissions/final/meta/f4/meta2025.parquet",
+    "submissions/final/meta/f4/meta2025.json",
+    "submissions/final/meta/f4/meta2026.parquet",
+    "submissions/final/meta/f4/meta2026.json",
+    "submissions/final/meta/f4/meta_spec.json",
+    "research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json",
+    "research/final/meta/results/prc-meta-gbm-f4_report.json",
+    "research/final/meta/build_frame.py",
+    "research/final/meta/publish_dataset.py",
+    "research/final/meta/specs/f4.json",
+    "research/final/meta/kernels/prc-meta-gbm-f4/kernel.py",
+    "research/final/meta/kernels/prc-meta-gbm-f4/kernel-metadata.json"
+   ],
+   "provenance": {
+    "kaggle_kernel": "usiadianimuwa/prc-meta-gbm-f4 (version 1)",
+    "kaggle_dataset": "usiadianimuwa/prc-taxi-2026-meta-f4 (version 1)",
+    "dataset_files": "submissions/final/meta/f4/ (sha256 in research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json)",
+    "frames_built_by": "research/final/meta/build_frame.py with research/final/meta/specs/f4.json"
+   }
+  }
+ },
+ "segments": [
+  {
+   "name": "short",
+   "lo_h": -1000,
+   "hi_h": 1,
+   "members": [
+    "meta-g1short"
+   ],
+   "weights": {
+    "meta-g1short": 1.0
+   }
+  },
+  {
+   "name": "1-4h",
+   "lo_h": 1,
+   "hi_h": 4,
+   "members": [
+    "prc-f-c6s",
+    "prc-f-c5s",
+    "prc-f-x5",
+    "prc-f-c7",
+    "prc-f8-c7"
+   ],
+   "weights": {
+    "prc-f-c6s": 0.297598,
+    "prc-f-c5s": 0.021663,
+    "prc-f-x5": 0.324981,
+    "prc-f-c7": 0.0,
+    "prc-f8-c7": 0.355759
+   }
+  }
+ ],
+ "long": {
+  "lo_h": 4,
+  "members": [
+   "prc-f-c6s",
+   "prc-f-c5s",
+   "prc-f-x5",
+   "prc-f-c7"
+  ],
+  "weights": {
+   "prc-f-c6s": 0.3083355244178477,
+   "prc-f-c5s": 0.1398214427077908,
+   "prc-f-x5": 0.16457023554071934,
+   "prc-f-c7": 0.3872727973336422
+  },
+  "plog_coef": {
+   "pooled": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "N": [
+    -0.04761028990463498,
+    0.3797999228406846
+   ],
+   "A": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "M": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ]
+  },
+  "phys": "plog",
+  "phys_inputs": "research/final/inputs/final/phys.parquet",
+  "fill": "long_stack",
+  "guard_aobt3_h": 4
+ },
+ "overlays": [
+  {
+   "name": "lirf_noadsb",
+   "member": "prc-f-k4",
+   "weight": 0.3,
+   "flags": "research/final/inputs/final/cover.parquet",
+   "airports": [
+    "LIRF"
+   ],
+   "max_d_h": 4
+  }
+ ],
+ "cap_d_over_h": 2,
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05
+ },
+ "post_layers": [
+  {
+   "module": "research/final/levers/lv_rules.py",
+   "fn": "apply",
+   "kwargs": {
+    "rules": "ad"
+   },
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py"
+   ]
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ]
+  },
+  {
+   "module": "research/final/levers/daily.py",
+   "fn": "apply",
+   "kwargs": {
+    "params_path": "research/final/levers/artifacts/daily_params.json",
+    "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+    "v2_loadings": true
+   },
+   "pass_held_month": true,
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py",
+    "research/final/levers/daily.py",
+    "research/final/levers/artifacts/daily_params.json",
+    "research/pru/all_pre_departure_delays_2025.csv",
+    "research/pru/all_pre_departure_delays_2026.csv",
+    "research/cache/oof_mo12_c6.parquet",
+    "research/final/level.py",
+    "research/final/meta/artifacts/daily_v2_f5_loadings.json"
+   ]
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ]
+  },
+  {
+   "module": "research/final/levers/events.py",
+   "fn": "apply",
+   "kwargs": {
+    "artifact": "research/final/levers/artifacts/events_f5.json",
+    "phys": "research/final/inputs/final/phys.parquet"
+   },
+   "pass_held_month": true,
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py",
+    "research/final/levers/events.py",
+    "research/final/levers/artifacts/events_f5.json",
+    "research/final/inputs/final/phys.parquet"
+   ]
+  }
+ ],
+ "rules": {
+  "nm_window_s": 3606,
+  "nm_dither_s": 25,
+  "cap_airports": [
+   "LEMD",
+   "LEBL"
+  ],
+  "cap_s": 3604,
+  "floor_s": 60
+ },
+ "notes": [
+  "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+  "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7).",
+  "mlp7: 6 seeds (prc-f-mlp7m6: r2912 from prc-f-mlp7a, r2911/r2913 from prc-f-mlp7c, r2914-r2916 from prc-f-mlp7b).",
+  "Segment weights fitted on the 2025 month-out predictions (four months, rows without date-shift artifacts or short-delay y > 3 h); the long stack keeps f3's A/B weights.",
+  "c6s, c5s and x5: 6 seeds (prc-f-c6s + prc-f-c6sb, prc-f-c5s + prc-f-c5sb, prc-f-x5 + prc-f-x5b; research/final/merge_members.py). fs8 c7: 6 seeds (prc-f8-c7a + prc-f8-c7b).",
+  "d <= 1 h segment: meta member meta-g1short = solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet (docs/METHOD.md section 2, Step 1, \"d <= 1 h: the G1short meta-model\"). Rehearsal f5 - f4, crossfit vs crossfit, two passes: nw -49.0 [-85.4, -12.2]; without LTFM February -17.6 [-45.3, +11.5] (docs/VALIDATION.md, Paired comparisons of complete pipelines).",
+  "L1a-v2 loadings refitted on f5's frozen pass-1 rows (submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet, col post2_recovered): python3 research/final/levers/daily.py v2 --rows <that file> --col post2_recovered --out research/final/meta/artifacts/daily_v2_f5_loadings.json.",
+  "meta-g1short upstream files (kernel output, the dataset's local files, the build and kernel code) are listed under its 'inputs' and hashed in the manifest; the d <= 1 h members c7, cs7, mlp7 and fs8 c7 enter f5 only through it.",
+  "Events layer (post layer 5, research/final/levers/events.py): grade-A rows only (grades B/C/D never move); bins of |y_e - y_hat| at 60/180/600/1,800 s; weights clipped to [0, 1]; after the blend the moved rows get the cap d (d > 2 h), lv_rules (a)+(d), the recovered-orphan window and the floor, then the assembler's rules step as in f5. Artifact: python3 research/final/levers/events.py artifact (fitted on all four months of submissions/final/pseudo2025/f5_pseudo2025_frozen.parquet, column post4_recovered)."
+ ]
+}

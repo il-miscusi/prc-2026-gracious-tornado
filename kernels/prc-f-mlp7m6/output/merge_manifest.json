@@ -1,0 +1,215 @@
+{
+ "created_utc": "2026-10-09T09:29:04+00:00",
+ "command": "python3 research/final/merge_members.py --out solutions/kernels/prc-f-mlp7m6/output prc-f-mlp7a prc-f-mlp7c prc-f-mlp7b",
+ "frame": "final",
+ "rows": 670790,
+ "units": [
+  {
+   "dir": "solutions/kernels/prc-f-mlp7a/output/r2912",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 50.19008100282771,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7a/output/r2912/submission.parquet": "384bc1c5d1fb9ed7dfe3fc913eaa339478be25a1a6b250e67e0af43fd016f1dc",
+    "solutions/kernels/prc-f-mlp7a/output/r2912/refit_0.npy": "97fa6931f5029961132af2dc0aab07e51f716c66ff57022933feb0b84859f050",
+    "solutions/kernels/prc-f-mlp7a/output/r2912/results.json": "6957b3221292dde8f1f6775f54f705893a935208771394242f2056f29423f038"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7c/output/r2911",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 51.16061867089052,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7c/output/r2911/submission.parquet": "752384a716d797ee07f054ce548bab094b5297afa8dd92e7d8a5d653d7bc1f44",
+    "solutions/kernels/prc-f-mlp7c/output/r2911/refit_0.npy": "fb5f756ebd207be3705e6c008d1cb65ed6b70ef18697509f48db433a90f1f868",
+    "solutions/kernels/prc-f-mlp7c/output/r2911/results.json": "35280b5494344fa20998b35adba5df40ca06d1c5692c4e721dce9f0751042bc5"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7c/output/r2913",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 47.145199710404604,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7c/output/r2913/submission.parquet": "5bd82ae0ebd103ef49b9ff07d893cea77dd7552e7656b7119d7058814ae6647c",
+    "solutions/kernels/prc-f-mlp7c/output/r2913/refit_0.npy": "4467eebe68177b53f1e325a8cca6bdfa27b4bd0369c2e67c84d5830fb941e21b",
+    "solutions/kernels/prc-f-mlp7c/output/r2913/results.json": "fb4430e888f8b48f59480dbe652609e030ed360c724c08f9d5319ceb000743f5"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7b/output/r2914",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 49.59764398468102,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7b/output/r2914/submission.parquet": "05bb37b5d14fe2798388e9c0cb7026b6c30894c61d97650cfbbeff23c007be92",
+    "solutions/kernels/prc-f-mlp7b/output/r2914/refit_0.npy": "aed083094020575e1c624d67ab46df50538fe93f850ab8d049809d760806d0cc",
+    "solutions/kernels/prc-f-mlp7b/output/r2914/results.json": "54cc5d42ddefb764632468e0bdb7b99b25d2c4e9ef9d3bacbf38e69f101f7f54"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7b/output/r2915",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 50.51820281556873,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7b/output/r2915/submission.parquet": "b55733c872bb51aa70051f7f67ae1d2523738eb7643d1730786eec996a21bfa8",
+    "solutions/kernels/prc-f-mlp7b/output/r2915/refit_0.npy": "362dae686a52268dc161265cd17147f57a304b753af9a9e14e6350cc6f22a333",
+    "solutions/kernels/prc-f-mlp7b/output/r2915/results.json": "76f0c02220a56acefde73e42aee2fd11964e4ee6d3c6acf528e8e2f8f991d425"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7b/output/r2916",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 51.24477132944207,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7b/output/r2916/submission.parquet": "e74bce90ddeb522bf611f0703b7f0a771c67408f950ab4d2f0a0e2f76b526d61",
+    "solutions/kernels/prc-f-mlp7b/output/r2916/refit_0.npy": "8e21c9213c1424afd2ff308dc410a6d42b7a7c35a0216c5c523db5958f1b43ea",
+    "solutions/kernels/prc-f-mlp7b/output/r2916/results.json": "fa3abb30d6025aa149e9d2a272d0afacf4e4c3cf724596dd5e57655ad6281499"
+   }
+  }
+ ],
+ "total_seeds": 6.0,
+ "seed_spread": {
+  "pairwise_rms": {
+   "solutions/kernels/prc-f-mlp7a/output/r2912 | solutions/kernels/prc-f-mlp7c/output/r2911": 80.5223787765164,
+   "solutions/kernels/prc-f-mlp7a/output/r2912 | solutions/kernels/prc-f-mlp7c/output/r2913": 76.37047860057875,
+   "solutions/kernels/prc-f-mlp7a/output/r2912 | solutions/kernels/prc-f-mlp7b/output/r2914": 75.63889122446926,
+   "solutions/kernels/prc-f-mlp7a/output/r2912 | solutions/kernels/prc-f-mlp7b/output/r2915": 78.92378834884636,
+   "solutions/kernels/prc-f-mlp7a/output/r2912 | solutions/kernels/prc-f-mlp7b/output/r2916": 76.4521013538443,
+   "solutions/kernels/prc-f-mlp7c/output/r2911 | solutions/kernels/prc-f-mlp7c/output/r2913": 74.46154102954628,
+   "solutions/kernels/prc-f-mlp7c/output/r2911 | solutions/kernels/prc-f-mlp7b/output/r2914": 75.4214421517303,
+   "solutions/kernels/prc-f-mlp7c/output/r2911 | solutions/kernels/prc-f-mlp7b/output/r2915": 78.25994416682431,
+   "solutions/kernels/prc-f-mlp7c/output/r2911 | solutions/kernels/prc-f-mlp7b/output/r2916": 82.82584260321724,
+   "solutions/kernels/prc-f-mlp7c/output/r2913 | solutions/kernels/prc-f-mlp7b/output/r2914": 75.3891759622555,
+   "solutions/kernels/prc-f-mlp7c/output/r2913 | solutions/kernels/prc-f-mlp7b/output/r2915": 74.56488979782911,
+   "solutions/kernels/prc-f-mlp7c/output/r2913 | solutions/kernels/prc-f-mlp7b/output/r2916": 75.5820609484141,
+   "solutions/kernels/prc-f-mlp7b/output/r2914 | solutions/kernels/prc-f-mlp7b/output/r2915": 79.76240239726397,
+   "solutions/kernels/prc-f-mlp7b/output/r2914 | solutions/kernels/prc-f-mlp7b/output/r2916": 79.3819748938848,
+   "solutions/kernels/prc-f-mlp7b/output/r2915 | solutions/kernels/prc-f-mlp7b/output/r2916": 77.67898532794266
+  },
+  "vs_others_by_band": {
+   "solutions/kernels/prc-f-mlp7a/output/r2912": {
+    "d <= 1 h": {
+     "mean_diff": -1.0606537960083908,
+     "rms_diff": 40.95152316048571
+    },
+    "1-4 h": {
+     "mean_diff": -4.409961957713814,
+     "rms_diff": 111.11659165912194
+    },
+    "4-8 h": {
+     "mean_diff": -5.0697975458900135,
+     "rms_diff": 284.6393490638651
+    },
+    "> 8 h": {
+     "mean_diff": 94.44615719493562,
+     "rms_diff": 843.4292658691959
+    }
+   },
+   "solutions/kernels/prc-f-mlp7c/output/r2911": {
+    "d <= 1 h": {
+     "mean_diff": 2.2913714602899846,
+     "rms_diff": 40.745870422800614
+    },
+    "1-4 h": {
+     "mean_diff": 10.201127530353212,
+     "rms_diff": 115.51471275892062
+    },
+    "4-8 h": {
+     "mean_diff": -0.8719521489599137,
+     "rms_diff": 302.4671964130239
+    },
+    "> 8 h": {
+     "mean_diff": 9.628329589051813,
+     "rms_diff": 852.6604595747918
+    }
+   },
+   "solutions/kernels/prc-f-mlp7c/output/r2913": {
+    "d <= 1 h": {
+     "mean_diff": 1.8791476631452242,
+     "rms_diff": 41.047213695341696
+    },
+    "1-4 h": {
+     "mean_diff": -1.2987730711485288,
+     "rms_diff": 106.39075063394871
+    },
+    "4-8 h": {
+     "mean_diff": -12.943803981462725,
+     "rms_diff": 226.9997625719233
+    },
+    "> 8 h": {
+     "mean_diff": -53.09253555792224,
+     "rms_diff": 648.0151172474078
+    }
+   },
+   "solutions/kernels/prc-f-mlp7b/output/r2914": {
+    "d <= 1 h": {
+     "mean_diff": -0.9132469570189474,
+     "rms_diff": 41.413556119972334
+    },
+    "1-4 h": {
+     "mean_diff": -2.6204438430508104,
+     "rms_diff": 109.59597820478528
+    },
+    "4-8 h": {
+     "mean_diff": 19.170889550448383,
+     "rms_diff": 224.54628794574805
+    },
+    "> 8 h": {
+     "mean_diff": 109.38154247938853,
+     "rms_diff": 868.7653515063691
+    }
+   },
+   "solutions/kernels/prc-f-mlp7b/output/r2915": {
+    "d <= 1 h": {
+     "mean_diff": -0.8282501711737874,
+     "rms_diff": 40.30605207758604
+    },
+    "1-4 h": {
+     "mean_diff": -16.125499535812374,
+     "rms_diff": 115.07873162195234
+    },
+    "4-8 h": {
+     "mean_diff": -21.5610800167618,
+     "rms_diff": 266.5956023990777
+    },
+    "> 8 h": {
+     "mean_diff": -126.86328115347722,
+     "rms_diff": 872.5530364463077
+    }
+   },
+   "solutions/kernels/prc-f-mlp7b/output/r2916": {
+    "d <= 1 h": {
+     "mean_diff": -1.368368199234083,
+     "rms_diff": 41.81915727747341
+    },
+    "1-4 h": {
+     "mean_diff": 14.253550877372316,
+     "rms_diff": 111.01144844032662
+    },
+    "4-8 h": {
+     "mean_diff": 21.275744142626092,
+     "rms_diff": 293.85990325332233
+    },
+    "> 8 h": {
+     "mean_diff": -33.500212551976446,
+     "rms_diff": 900.1504901186493
+    }
+   }
+  }
+ },
+ "output": {
+  "solutions/kernels/prc-f-mlp7m6/output/submission.parquet": "0f57db7d140404389bf370f3fc7413ce0b03864caaa0aacf2d379e4ba5d341e8"
+ },
+ "mean": 1011.4035428308802,
+ "max": 114397.23124750836
+}

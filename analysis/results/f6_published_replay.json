@@ -1,0 +1,42 @@
+{
+ "checked_utc": "2026-10-10",
+ "config": "research/final/configs/f6_final.json",
+ "outputs_sha256": {
+  "f6_final.parquet": "602c05a26e665b4136dfe08a712c8ce2f685a08303f32dc3334e132692b83bf3",
+  "f6_board.parquet": "5785d8b84ce99528666d0fd22cadd25670cbc42388798be1066f60d27862c5ed"
+ },
+ "input_source": "retained private assembler inputs, placed at repository-relative paths",
+ "checks": {
+  "bounds": {
+   "finite": true,
+   "nonneg": true,
+   "floor": 0,
+   "nm_outside_window": 0,
+   "nm_window_exempt_conflicts": 0,
+   "lemd_lebl_above_cap": 0,
+   "pass": true
+  },
+  "pru_cells_flagged": [],
+  "file_final": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  },
+  "file_board": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  }
+ },
+ "scope": "Assembly from retained member predictions; this check does not retrain members."
+}

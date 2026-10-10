@@ -1,0 +1,130 @@
+{
+ "name": "v32c_repro_board",
+ "_doc": "Exact v32c reproduction on the board frame: v32c's members and frozen weights, long rows from the v30 artifact, no rule package. Must equal submissions/candidates/v32c.parquet.",
+ "frame": "board",
+ "members": {
+  "prc-mlp6fs": {
+   "pred": "solutions/kernels/prc-mlp6fs/output",
+   "oof": "solutions/kernels/prc-mlp6fs/output"
+  },
+  "prc-cs6": {
+   "pred": "solutions/kernels/prc-cs6/output",
+   "oof": "solutions/kernels/prc-cs6/output"
+  },
+  "prc-c6": {
+   "pred": "solutions/kernels/prc-c6/output",
+   "oof": "solutions/kernels/prc-c6/output"
+  },
+  "prc-cs5": {
+   "pred": "solutions/kernels/prc-cs5/output",
+   "oof": "solutions/kernels/prc-cs5/output"
+  },
+  "prc-c5d10": {
+   "pred": "solutions/kernels/prc-c5d10/output",
+   "oof": "solutions/kernels/prc-c5d10/output"
+  },
+  "prc-split-fs4": {
+   "pred": "solutions/kernels/prc-split-fs4/output",
+   "oof": "solutions/kernels/prc-split-fs4/output"
+  },
+  "prc-c7x2": {
+   "pred": "solutions/kernels/prc-c7x2/output",
+   "oof": "solutions/kernels/prc-c7x2/output"
+  },
+  "prc-cs7": {
+   "pred": "solutions/kernels/prc-cs7/output",
+   "oof": "solutions/kernels/prc-cs7/output"
+  },
+  "prc-mlp7": {
+   "pred": "solutions/kernels/prc-mlp7/output",
+   "oof": "solutions/kernels/prc-mlp7/output"
+  },
+  "prc-c6s": {
+   "pred": "solutions/kernels/prc-c6s/output",
+   "oof": "solutions/kernels/prc-c6s/output"
+  },
+  "prc-c5s": {
+   "pred": "solutions/kernels/prc-c5s/output",
+   "oof": "solutions/kernels/prc-c5s/output"
+  },
+  "prc-x5": {
+   "pred": "solutions/kernels/prc-x5/output",
+   "oof": "solutions/kernels/prc-x5/output"
+  },
+  "k4": {
+   "pred": "research/cover/out/k4/submission.parquet"
+  }
+ },
+ "segments": [
+  {
+   "name": "short",
+   "lo_h": -1000,
+   "hi_h": 1,
+   "members": [
+    "prc-mlp6fs",
+    "prc-cs6",
+    "prc-c6",
+    "prc-cs5",
+    "prc-c5d10",
+    "prc-split-fs4",
+    "prc-c7x2",
+    "prc-cs7",
+    "prc-mlp7"
+   ],
+   "weights": {
+    "prc-mlp6fs": 0.040383,
+    "prc-cs6": 0.051206,
+    "prc-c6": 0.0,
+    "prc-cs5": 0.045932,
+    "prc-c5d10": 0.0,
+    "prc-split-fs4": 0.01745,
+    "prc-c7x2": 0.332192,
+    "prc-cs7": 0.240514,
+    "prc-mlp7": 0.272323
+   }
+  },
+  {
+   "name": "1-4h",
+   "lo_h": 1,
+   "hi_h": 4,
+   "members": [
+    "prc-c6s",
+    "prc-c5s",
+    "prc-x5",
+    "prc-c6",
+    "prc-cs5",
+    "prc-split-fs4",
+    "prc-c7x2"
+   ],
+   "weights": {
+    "prc-c6s": 0.246555,
+    "prc-c5s": 0.229213,
+    "prc-x5": 0.185946,
+    "prc-c6": 0.0,
+    "prc-cs5": 0.043445,
+    "prc-split-fs4": 0.036672,
+    "prc-c7x2": 0.258169
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "name": "lirf_noadsb",
+   "member": "k4",
+   "weight": 0.3,
+   "rows": "research/cover/out/uncovered_rk.parquet",
+   "col": "lirf_rule_fs7"
+  }
+ ],
+ "cap_d_over_h": 2,
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05
+ },
+ "post_layers": [],
+ "long": {
+  "lo_h": 4,
+  "legacy_source": "research/tail/out/v30_longrows_a05_plog.parquet"
+ },
+ "rules": null
+}

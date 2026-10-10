@@ -1,0 +1,4 @@
+{"id": "usiadianimuwa/prc-f-inputs", "title": "prc-f-inputs", "code_file": "kernel.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": false, "enable_tpu": false, "enable_internet": false,
+ "competition_sources": [], "dataset_sources": [],
+ "kernel_sources": ["usiadianimuwa/prc-f-fs6", "usiadianimuwa/prc-f-fs7", "usiadianimuwa/prc-fs7"]}

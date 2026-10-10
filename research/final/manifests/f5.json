@@ -1,0 +1,1051 @@
+{
+ "name": "f5",
+ "frame": "final",
+ "segments": {
+  "short": {
+   "lo_h": -1000,
+   "hi_h": 1,
+   "rows": 596663,
+   "weights": {
+    "meta-g1short": 1.0
+   },
+   "weights_refit_on_oof": null,
+   "frozen": true
+  },
+  "1-4h": {
+   "lo_h": 1,
+   "hi_h": 4,
+   "rows": 71109,
+   "weights": {
+    "prc-f-c6s": 0.297598,
+    "prc-f-c5s": 0.021663,
+    "prc-f-x5": 0.324981,
+    "prc-f-c7": 0.0,
+    "prc-f8-c7": 0.355759
+   },
+   "weights_refit_on_oof": null,
+   "frozen": true
+  }
+ },
+ "long": {
+  "lo_h": 4,
+  "members": [
+   "prc-f-c6s",
+   "prc-f-c5s",
+   "prc-f-x5",
+   "prc-f-c7"
+  ],
+  "weights": {
+   "prc-f-c6s": 0.3083355244178477,
+   "prc-f-c5s": 0.1398214427077908,
+   "prc-f-x5": 0.16457023554071934,
+   "prc-f-c7": 0.3872727973336422
+  },
+  "weights_refit_on_oof": {
+   "prc-f-c6s": 0.3083355244178477,
+   "prc-f-c5s": 0.1398214427077908,
+   "prc-f-x5": 0.16457023554071934,
+   "prc-f-c7": 0.3872727973336422
+  },
+  "frozen": true,
+  "plog_coef_frozen": true,
+  "plog_coef": {
+   "pooled": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "N": [
+    -0.04761028990463498,
+    0.3797999228406846
+   ],
+   "A": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "M": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ]
+  },
+  "rows": 2954,
+  "kinds": {
+   "N": 2569,
+   "M": 297,
+   "A": 88
+  },
+  "w_mean": 0.10784066765034533,
+  "fill_rows": 63,
+  "fill_source": "long_stack",
+  "guard_aobt3_h": 4,
+  "guard_rows": 1,
+  "guard_source": "long_stack",
+  "oof_rows": 42396,
+  "oof_stack_rows": 40683
+ },
+ "overlays": {
+  "lirf_noadsb": {
+   "rows": 35255,
+   "weight": 0.3,
+   "member": "prc-f-k4"
+  }
+ },
+ "cap": {
+  "d_over_h": 2,
+  "rows": 34
+ },
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05,
+  "coef": [
+   -1.2756446949244076,
+   -13.558794388989266,
+   -1.902988608086662,
+   -16.296558279239683,
+   -1.350781800972171,
+   -12.995779484542437,
+   8.062425658638016,
+   7.734005339085584,
+   -7.415315617760225,
+   6.740253990342732,
+   957.2336997008933,
+   138.9519834358021
+  ],
+  "rows_changed": 595912,
+  "cells": [
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EDDF",
+    "n": 15667,
+    "pub": 853.509,
+    "pm": 1026.933,
+    "x": -173.425,
+    "comp": 123.882,
+    "deice": 0.127,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EDDM",
+    "n": 10953,
+    "pub": 754.965,
+    "pm": 1011.547,
+    "x": -256.582,
+    "comp": 287.034,
+    "deice": 0.311,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EGLL",
+    "n": 19283,
+    "pub": 1334.854,
+    "pm": 1339.797,
+    "x": -4.942,
+    "comp": -0.889,
+    "deice": 0.0,
+    "sh": -4.373
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EHAM",
+    "n": 16231,
+    "pub": 982.08,
+    "pm": 998.494,
+    "x": -16.414,
+    "comp": 11.345,
+    "deice": 0.011,
+    "sh": -3.802
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LEBL",
+    "n": 12201,
+    "pub": 883.053,
+    "pm": 900.424,
+    "x": -17.371,
+    "comp": 5.447,
+    "deice": 0.0,
+    "sh": -8.943
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LEMD",
+    "n": 16802,
+    "pub": 987.256,
+    "pm": 1020.204,
+    "x": -32.948,
+    "comp": 32.893,
+    "deice": 0.031,
+    "sh": -0.041
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LFPG",
+    "n": 18128,
+    "pub": 928.185,
+    "pm": 1083.041,
+    "x": -154.856,
+    "comp": 116.814,
+    "deice": 0.098,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LIRF",
+    "n": 11024,
+    "pub": 1043.263,
+    "pm": 1053.011,
+    "x": -9.748,
+    "comp": 15.964,
+    "deice": 0.004,
+    "sh": 4.662
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LSZH",
+    "n": 9995,
+    "pub": 710.96,
+    "pm": 908.282,
+    "x": -197.321,
+    "comp": 189.298,
+    "deice": 0.197,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LTFM",
+    "n": 22396,
+    "pub": 1088.691,
+    "pm": 1248.336,
+    "x": -159.644,
+    "comp": 69.524,
+    "deice": 0.048,
+    "sh": -67.59
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EDDF",
+    "n": 14654,
+    "pub": 857.242,
+    "pm": 899.082,
+    "x": -41.84,
+    "comp": 25.072,
+    "deice": 0.024,
+    "sh": -12.576
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EDDM",
+    "n": 10534,
+    "pub": 752.525,
+    "pm": 875.448,
+    "x": -122.922,
+    "comp": 116.494,
+    "deice": 0.13,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EGLL",
+    "n": 17716,
+    "pub": 1318.904,
+    "pm": 1321.111,
+    "x": -2.206,
+    "comp": -0.243,
+    "deice": 0.0,
+    "sh": -1.837
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EHAM",
+    "n": 16802,
+    "pub": 781.547,
+    "pm": 785.305,
+    "x": -3.757,
+    "comp": 5.477,
+    "deice": 0.01,
+    "sh": 1.29
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LEBL",
+    "n": 12167,
+    "pub": 918.995,
+    "pm": 920.733,
+    "x": -1.738,
+    "comp": 3.261,
+    "deice": 0.0,
+    "sh": 1.142
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LEMD",
+    "n": 16191,
+    "pub": 1010.839,
+    "pm": 1008.502,
+    "x": 2.337,
+    "comp": 12.169,
+    "deice": 0.002,
+    "sh": 10.88
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LFPG",
+    "n": 16933,
+    "pub": 918.19,
+    "pm": 945.595,
+    "x": -27.405,
+    "comp": 34.56,
+    "deice": 0.009,
+    "sh": 5.366
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LIRF",
+    "n": 10247,
+    "pub": 1033.697,
+    "pm": 1040.897,
+    "x": -7.2,
+    "comp": 11.56,
+    "deice": 0.002,
+    "sh": 3.27
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LSZH",
+    "n": 9374,
+    "pub": 705.815,
+    "pm": 756.805,
+    "x": -50.99,
+    "comp": 53.165,
+    "deice": 0.055,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LTFM",
+    "n": 19519,
+    "pub": 1045.03,
+    "pm": 1128.002,
+    "x": -82.972,
+    "comp": 33.365,
+    "deice": 0.01,
+    "sh": -37.205
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EDDF",
+    "n": 19700,
+    "pub": 867.347,
+    "pm": 876.868,
+    "x": -9.52,
+    "comp": 10.297,
+    "deice": 0.0,
+    "sh": 0.582
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EDDM",
+    "n": 14372,
+    "pub": 776.648,
+    "pm": 778.016,
+    "x": -1.368,
+    "comp": 1.47,
+    "deice": 0.01,
+    "sh": 0.076
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EGLL",
+    "n": 19662,
+    "pub": 1367.024,
+    "pm": 1380.56,
+    "x": -13.536,
+    "comp": -1.048,
+    "deice": 0.0,
+    "sh": -10.938
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EHAM",
+    "n": 20881,
+    "pub": 742.94,
+    "pm": 747.248,
+    "x": -4.308,
+    "comp": -2.355,
+    "deice": 0.01,
+    "sh": -4.997
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LEBL",
+    "n": 17067,
+    "pub": 973.33,
+    "pm": 1001.683,
+    "x": -28.353,
+    "comp": 5.009,
+    "deice": 0.0,
+    "sh": -17.508
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LEMD",
+    "n": 19335,
+    "pub": 1045.654,
+    "pm": 1048.245,
+    "x": -2.592,
+    "comp": 7.221,
+    "deice": 0.0,
+    "sh": 3.472
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LFPG",
+    "n": 20709,
+    "pub": 963.654,
+    "pm": 987.992,
+    "x": -24.338,
+    "comp": 25.709,
+    "deice": 0.001,
+    "sh": 1.028
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LIRF",
+    "n": 14946,
+    "pub": 1201.132,
+    "pm": 1217.75,
+    "x": -16.619,
+    "comp": 13.756,
+    "deice": 0.003,
+    "sh": -2.147
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LSZH",
+    "n": 12384,
+    "pub": 728.027,
+    "pm": 737.81,
+    "x": -9.783,
+    "comp": 8.504,
+    "deice": 0.005,
+    "sh": -0.959
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LTFM",
+    "n": 22693,
+    "pub": 989.796,
+    "pm": 1015.761,
+    "x": -25.966,
+    "comp": 15.762,
+    "deice": 0.0,
+    "sh": -7.653
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EDDF",
+    "n": 20650,
+    "pub": 854.247,
+    "pm": 866.794,
+    "x": -12.547,
+    "comp": 9.705,
+    "deice": 0.0,
+    "sh": -2.131
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EDDM",
+    "n": 15013,
+    "pub": 776.329,
+    "pm": 779.752,
+    "x": -3.424,
+    "comp": -1.286,
+    "deice": 0.008,
+    "sh": -3.532
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EGLL",
+    "n": 20551,
+    "pub": 1344.111,
+    "pm": 1360.682,
+    "x": -16.571,
+    "comp": 0.201,
+    "deice": 0.0,
+    "sh": -12.277
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EHAM",
+    "n": 21950,
+    "pub": 840.87,
+    "pm": 840.89,
+    "x": -0.02,
+    "comp": -0.244,
+    "deice": 0.009,
+    "sh": -0.198
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LEBL",
+    "n": 17879,
+    "pub": 967.219,
+    "pm": 994.336,
+    "x": -27.118,
+    "comp": 5.563,
+    "deice": 0.0,
+    "sh": -16.166
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LEMD",
+    "n": 20152,
+    "pub": 1020.439,
+    "pm": 1024.465,
+    "x": -4.026,
+    "comp": 7.432,
+    "deice": 0.0,
+    "sh": 2.555
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LFPG",
+    "n": 21739,
+    "pub": 965.104,
+    "pm": 965.497,
+    "x": -0.393,
+    "comp": 24.914,
+    "deice": 0.0,
+    "sh": 18.391
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LIRF",
+    "n": 15762,
+    "pub": 1214.039,
+    "pm": 1293.109,
+    "x": -79.07,
+    "comp": 20.754,
+    "deice": 0.005,
+    "sh": -43.737
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LSZH",
+    "n": 13155,
+    "pub": 741.503,
+    "pm": 752.697,
+    "x": -11.195,
+    "comp": 8.937,
+    "deice": 0.007,
+    "sh": -1.693
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LTFM",
+    "n": 25185,
+    "pub": 1008.831,
+    "pm": 1043.286,
+    "x": -34.455,
+    "comp": 13.427,
+    "deice": 0.0,
+    "sh": -15.771
+   }
+  ]
+ },
+ "post_layers": [
+  {
+   "module": "research/final/levers/lv_rules.py",
+   "fn": "apply",
+   "kwargs": {
+    "rules": "ad"
+   },
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py"
+   ],
+   "rows_changed": 46,
+   "rms_change": 59.194268891179505,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ],
+   "rows_changed": 32,
+   "rms_change": 11.290822733737107,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  },
+  {
+   "module": "research/final/levers/daily.py",
+   "fn": "apply",
+   "kwargs": {
+    "params_path": "research/final/levers/artifacts/daily_params.json",
+    "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+    "v2_loadings": true
+   },
+   "pass_held_month": true,
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py",
+    "research/final/levers/daily.py",
+    "research/final/levers/artifacts/daily_params.json",
+    "research/pru/all_pre_departure_delays_2025.csv",
+    "research/pru/all_pre_departure_delays_2026.csv",
+    "research/cache/oof_mo12_c6.parquet",
+    "research/final/level.py",
+    "research/final/meta/artifacts/daily_v2_f5_loadings.json"
+   ],
+   "rows_changed": 670721,
+   "rms_change": 44.965425646066635,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ],
+   "rows_changed": 0,
+   "rms_change": 0.0,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  }
+ ],
+ "rules": {
+  "config": {
+   "nm_window_s": 3606,
+   "nm_dither_s": 25,
+   "cap_airports": [
+    "LEMD",
+    "LEBL"
+   ],
+   "cap_s": 3604,
+   "floor_s": 60
+  },
+  "counts": {
+   "a_nm_above": 0,
+   "a_nm_below": 0,
+   "d_cap_lowered": 3,
+   "floor_raised": 34,
+   "conflict_a_vs_d": 0,
+   "conflict_a_vs_floor": 0
+  }
+ },
+ "created_utc": "2026-10-09T15:09:16+00:00",
+ "command": "python3 research/final/assemble_final.py research/final/configs/f5_final.json --compare submissions/gracious-tornado_v31.parquet",
+ "git": {
+  "commit": "4881931dbf4b4c723bf1d660277433f5bbb2316e",
+  "dirty": []
+ },
+ "notes": [
+  "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+  "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7).",
+  "mlp7: 6 seeds (prc-f-mlp7m6: r2912 from prc-f-mlp7a, r2911/r2913 from prc-f-mlp7c, r2914-r2916 from prc-f-mlp7b).",
+  "Segment weights fitted on the 2025 month-out predictions (four months, rows without date-shift artifacts or short-delay y > 3 h); the long stack keeps f3's A/B weights.",
+  "c6s, c5s and x5: 6 seeds (prc-f-c6s + prc-f-c6sb, prc-f-c5s + prc-f-c5sb, prc-f-x5 + prc-f-x5b; research/final/merge_members.py). fs8 c7: 6 seeds (prc-f8-c7a + prc-f8-c7b).",
+  "d <= 1 h segment: meta member meta-g1short = solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet (docs/METHOD.md section 2, Step 1, \"d <= 1 h: the G1short meta-model\"). Rehearsal f5 - f4, crossfit vs crossfit, two passes: nw -49.0 [-85.4, -12.2]; without LTFM February -17.6 [-45.3, +11.5] (docs/VALIDATION.md, Paired comparisons of complete pipelines).",
+  "L1a-v2 loadings refitted on f5's frozen pass-1 rows (submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet, col post2_recovered): python3 research/final/levers/daily.py v2 --rows <that file> --col post2_recovered --out research/final/meta/artifacts/daily_v2_f5_loadings.json.",
+  "meta-g1short upstream files (kernel output, the dataset's local files, the build and kernel code) are listed under its 'inputs' and hashed in the manifest; the d <= 1 h members c7, cs7, mlp7 and fs8 c7 enter f5 only through it."
+ ],
+ "config": {
+  "name": "f5",
+  "frame": "final",
+  "_doc": "f5 = f4 with the d <= 1 h segment replaced by the G1short meta member: base = f4's d <= 1 h NNLS stack (c7 .145542, cs7 .252147, mlp7 .247639, fs8 c7 .354673) plus 0.5 x a LightGBM residual model (600 rounds) on the members' predictions and context, fitted on the 2025 Jan/Feb/Jun/Jul month-out predictions (Kaggle kernel usiadianimuwa/prc-meta-gbm-f4 v1, dataset usiadianimuwa/prc-taxi-2026-meta-f4 v1; research/final/meta/; docs/METHOD.md section 2). 1-4 h segment, long rows, fill, overlay, cap, level, post layers and rules as f4; the L1a-v2 loadings are refitted on f5's own frozen 2025 pre-daily rows (research/final/meta/artifacts/daily_v2_f5_loadings.json).",
+  "members": {
+   "prc-f-c7": {
+    "pred": "solutions/kernels/prc-f-c7/output",
+    "oof": "solutions/kernels/prc-c7x2/output"
+   },
+   "prc-f-cs7": {
+    "pred": "solutions/kernels/prc-f-cs7/output",
+    "oof": "solutions/kernels/prc-cs7/output"
+   },
+   "prc-f-mlp7": {
+    "pred": "solutions/kernels/prc-f-mlp7m6/output",
+    "oof": "solutions/kernels/prc-mlp7/output"
+   },
+   "prc-f-c6s": {
+    "pred": "solutions/kernels/prc-f-c6sm6/output",
+    "oof": "solutions/kernels/prc-c6s/output"
+   },
+   "prc-f-c5s": {
+    "pred": "solutions/kernels/prc-f-c5sm6/output",
+    "oof": "solutions/kernels/prc-c5s/output"
+   },
+   "prc-f-k4": {
+    "pred": "solutions/kernels/prc-f-k4/output"
+   },
+   "prc-f-x5": {
+    "pred": "solutions/kernels/prc-f-x5m6/output",
+    "oof": "solutions/kernels/prc-x5/output"
+   },
+   "prc-f8-c7": {
+    "pred": "solutions/kernels/prc-f8-c7/output"
+   },
+   "meta-g1short": {
+    "pred": "solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet",
+    "inputs": [
+     "solutions/kernels/prc-meta-gbm-f4/output/G1_short.txt",
+     "solutions/kernels/prc-meta-gbm-f4/output/mo_G1.csv",
+     "solutions/kernels/prc-meta-gbm-f4/output/report.json",
+     "solutions/kernels/prc-meta-gbm-f4/output/prc-meta-gbm-f4.log",
+     "submissions/final/meta/f4/meta2025.parquet",
+     "submissions/final/meta/f4/meta2025.json",
+     "submissions/final/meta/f4/meta2026.parquet",
+     "submissions/final/meta/f4/meta2026.json",
+     "submissions/final/meta/f4/meta_spec.json",
+     "research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json",
+     "research/final/meta/results/prc-meta-gbm-f4_report.json",
+     "research/final/meta/build_frame.py",
+     "research/final/meta/publish_dataset.py",
+     "research/final/meta/specs/f4.json",
+     "research/final/meta/kernels/prc-meta-gbm-f4/kernel.py",
+     "research/final/meta/kernels/prc-meta-gbm-f4/kernel-metadata.json"
+    ],
+    "provenance": {
+     "kaggle_kernel": "usiadianimuwa/prc-meta-gbm-f4 (version 1)",
+     "kaggle_dataset": "usiadianimuwa/prc-taxi-2026-meta-f4 (version 1)",
+     "dataset_files": "submissions/final/meta/f4/ (sha256 in research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json)",
+     "frames_built_by": "research/final/meta/build_frame.py with research/final/meta/specs/f4.json"
+    }
+   }
+  },
+  "segments": [
+   {
+    "name": "short",
+    "lo_h": -1000,
+    "hi_h": 1,
+    "members": [
+     "meta-g1short"
+    ],
+    "weights": {
+     "meta-g1short": 1.0
+    }
+   },
+   {
+    "name": "1-4h",
+    "lo_h": 1,
+    "hi_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7",
+     "prc-f8-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.297598,
+     "prc-f-c5s": 0.021663,
+     "prc-f-x5": 0.324981,
+     "prc-f-c7": 0.0,
+     "prc-f8-c7": 0.355759
+    }
+   }
+  ],
+  "long": {
+   "lo_h": 4,
+   "members": [
+    "prc-f-c6s",
+    "prc-f-c5s",
+    "prc-f-x5",
+    "prc-f-c7"
+   ],
+   "weights": {
+    "prc-f-c6s": 0.3083355244178477,
+    "prc-f-c5s": 0.1398214427077908,
+    "prc-f-x5": 0.16457023554071934,
+    "prc-f-c7": 0.3872727973336422
+   },
+   "plog_coef": {
+    "pooled": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ],
+    "N": [
+     -0.04761028990463498,
+     0.3797999228406846
+    ],
+    "A": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ],
+    "M": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ]
+   },
+   "phys": "plog",
+   "phys_inputs": "research/final/inputs/final/phys.parquet",
+   "fill": "long_stack",
+   "guard_aobt3_h": 4
+  },
+  "overlays": [
+   {
+    "name": "lirf_noadsb",
+    "member": "prc-f-k4",
+    "weight": 0.3,
+    "flags": "research/final/inputs/final/cover.parquet",
+    "airports": [
+     "LIRF"
+    ],
+    "max_d_h": 4
+   }
+  ],
+  "cap_d_over_h": 2,
+  "level": {
+   "lam": 0.75,
+   "cap": 0.05
+  },
+  "post_layers": [
+   {
+    "module": "research/final/levers/lv_rules.py",
+    "fn": "apply",
+    "kwargs": {
+     "rules": "ad"
+    },
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/daily.py",
+    "fn": "apply",
+    "kwargs": {
+     "params_path": "research/final/levers/artifacts/daily_params.json",
+     "v2": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+     "v2_loadings": true
+    },
+    "pass_held_month": true,
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py",
+     "research/final/levers/daily.py",
+     "research/final/levers/artifacts/daily_params.json",
+     "research/pru/all_pre_departure_delays_2025.csv",
+     "research/pru/all_pre_departure_delays_2026.csv",
+     "research/cache/oof_mo12_c6.parquet",
+     "research/final/level.py",
+     "research/final/meta/artifacts/daily_v2_f5_loadings.json"
+    ]
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   }
+  ],
+  "rules": {
+   "nm_window_s": 3606,
+   "nm_dither_s": 25,
+   "cap_airports": [
+    "LEMD",
+    "LEBL"
+   ],
+   "cap_s": 3604,
+   "floor_s": 60
+  },
+  "notes": [
+   "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+   "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7).",
+   "mlp7: 6 seeds (prc-f-mlp7m6: r2912 from prc-f-mlp7a, r2911/r2913 from prc-f-mlp7c, r2914-r2916 from prc-f-mlp7b).",
+   "Segment weights fitted on the 2025 month-out predictions (four months, rows without date-shift artifacts or short-delay y > 3 h); the long stack keeps f3's A/B weights.",
+   "c6s, c5s and x5: 6 seeds (prc-f-c6s + prc-f-c6sb, prc-f-c5s + prc-f-c5sb, prc-f-x5 + prc-f-x5b; research/final/merge_members.py). fs8 c7: 6 seeds (prc-f8-c7a + prc-f8-c7b).",
+   "d <= 1 h segment: meta member meta-g1short = solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet (docs/METHOD.md section 2, Step 1, \"d <= 1 h: the G1short meta-model\"). Rehearsal f5 - f4, crossfit vs crossfit, two passes: nw -49.0 [-85.4, -12.2]; without LTFM February -17.6 [-45.3, +11.5] (docs/VALIDATION.md, Paired comparisons of complete pipelines).",
+   "L1a-v2 loadings refitted on f5's frozen pass-1 rows (submissions/final/meta/pseudo2025/meta_gbm-G1short-f4p1_frozen.parquet, col post2_recovered): python3 research/final/levers/daily.py v2 --rows <that file> --col post2_recovered --out research/final/meta/artifacts/daily_v2_f5_loadings.json.",
+   "meta-g1short upstream files (kernel output, the dataset's local files, the build and kernel code) are listed under its 'inputs' and hashed in the manifest; the d <= 1 h members c7, cs7, mlp7 and fs8 c7 enter f5 only through it."
+  ]
+ },
+ "rows": 670790,
+ "checks": {
+  "bounds": {
+   "finite": true,
+   "nonneg": true,
+   "floor": 0,
+   "nm_outside_window": 0,
+   "nm_window_exempt_conflicts": 0,
+   "lemd_lebl_above_cap": 0,
+   "pass": true
+  },
+  "pru_cells_flagged": [],
+  "file_final": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  },
+  "file_board": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  },
+  "compare": {
+   "file": "submissions/gracious-tornado_v31.parquet",
+   "sha256": "e878c18ebd19db569e304e0b92081ce698fe9c8caeeab09d85352ba503a8e9ac",
+   "rms": 51.907219756712074,
+   "sum_sq_over_n": 2694.3594628716005,
+   "max_abs": 7776.5982880167285,
+   "rows_diff_gt_1s": 327411
+  }
+ },
+ "failed": [],
+ "inputs": {
+  "data/final_20261008/final_ranking.parquet": "4b0692a792846079516a2749e034b0abda55df72c213eabdcda52a4d1f6bc69f",
+  "data/final_20261008/final_submitting.parquet": "b3445d80e29bf599a5583ca9675f63ddf57b51fdf1ca3f498facb38ea84f3924",
+  "solutions/kernels/prc-meta-gbm-f4/output/final_G1.parquet": "102d5a39f51d87ac3d7d40894ebc0c4724eecfb8a6ef782b449963981cde9039",
+  "solutions/kernels/prc-f-c6sm6/output/submission.parquet": "31588433dec7e568182dac8e4c673a3453201547c2b86c5d03f407db5390fdc0",
+  "solutions/kernels/prc-f-c5sm6/output/submission.parquet": "bb7375713bfde72d8801e80e80633c645da0286b9ff470046ffa0ff9f4efed84",
+  "solutions/kernels/prc-f-x5m6/output/submission.parquet": "26e3cd408aa0d5ee48ef6309c5e2a12be63119d0f77c896c496e6a23d6ae6756",
+  "solutions/kernels/prc-f-c7/output/submission.parquet": "3e623ae4ad16352ce50f1f552ccae991891baf2a445a78e26d7c1df72e915b21",
+  "solutions/kernels/prc-f8-c7/output/submission.parquet": "b953332f587b20fef684b4bee6ff2ee3eea4a99bd1dc6917fed1659e046e771a",
+  "solutions/kernels/prc-c6s/output/oof.csv": "3fbb915c4f1b190f50d14e5ff88a2dcaf272f3101c840006c6ad05bcaec72865",
+  "solutions/kernels/prc-c5s/output/oof.csv": "0f17fa18eb1c945497949f6d7a22679dd956401ee81caa955de095f8f88295ac",
+  "solutions/kernels/prc-x5/output/oof.csv": "15822a70be4638b31ac35dd4dbaab968a136339d736bfd05ca3481b1bdd9dae8",
+  "solutions/kernels/prc-c7x2/output/oof.csv": "7634a825397a12d28056aee32e10671c4cb92ac1a239e2abc128b706c6c608f7",
+  "research/cache/oof_meta_v2.parquet": "0010c39e9d2a978148159f1abb7d9a5f8148f6ad41083674e151660fca07cf0e",
+  "research/tail/cache/long_tr.parquet": "ef6829fa9f372f93f00eec2ef6a7210ee46216c8d281a9c8c052701478eb5228",
+  "research/final/inputs/final/phys.parquet": "16a8b24d794b0fc3008c6d350aee65659292ea8924f9b66b363c5a06cf74d01e",
+  "research/final/inputs/final/cover.parquet": "9f53d71f1c16770370eda792df296b8f1164f0deadf7d6ecc8b4c5466084f423",
+  "solutions/kernels/prc-f-k4/output/submission.parquet": "85ae7cfffbf534f0d1b1442ca049b8dda1a8c0a1d5068c3ffc50587f5eb11775",
+  "research/pru/taxi_out_additional_time_2025.csv": "4aedf19520d3f84bebc418b56835762c907b714a9c19e751bb8658f9e62ce598",
+  "research/pru/taxi_out_additional_time_2026.csv": "b72040e0987e6c7d5706279d645ef9f814a6506165c83f89d8509022154a1076",
+  "research/cache/oof_mo12_c6.parquet": "e244b219c925740f89aeece51df3a6a6ef367d9c5b22a59aaa5be558763b9dc0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-01-01_2025-02-01.parquet": "a4dc8f152c082c650cd7eb745fe9c641089f34f74df127e6944a188990a0ed94",
+  "data/09-22-2026-08-13-30_files_list/training_2025-02-01_2025-03-01.parquet": "b6f9ff2cdb1cfe07c5442f4e1f11bbcdbeafe52852dcb0b8175f62ab84c6a066",
+  "data/09-22-2026-08-13-30_files_list/training_2025-03-01_2025-04-01.parquet": "58fde7e5f8b539546af63b41d7f6ec0f2884fdc3d3dd9b6bfca7c59a420dcdd3",
+  "data/09-22-2026-08-13-30_files_list/training_2025-04-01_2025-05-01.parquet": "9ffe0cf5741c4863799c41be81475dfaecedabe0ba687b8f8e4eacba992f9390",
+  "data/09-22-2026-08-13-30_files_list/training_2025-05-01_2025-06-01.parquet": "5481c0642a8fbb4dc395f93bc713c57f4cc16854fb361d404967077e1fce2ff9",
+  "data/09-22-2026-08-13-30_files_list/training_2025-06-01_2025-07-01.parquet": "c3ef5080f2cc636c3416baf1555f7d0ee3519f9046e8043c1c0c8f017a244025",
+  "data/09-22-2026-08-13-30_files_list/training_2025-07-01_2025-08-01.parquet": "34d1c5bba7c8596a1c20c09edd3cb2f63277b5a684fa801911660fe0eaf63c9d",
+  "data/09-22-2026-08-13-30_files_list/training_2025-08-01_2025-09-01.parquet": "6c8d2aa7a1b6c9dff9a0305a37eb02de1e87a68d07557264f41b77738272c540",
+  "data/09-22-2026-08-13-30_files_list/training_2025-09-01_2025-10-01.parquet": "955308a4000947e32a00586d3ee13928949d2231b67f84f6dfb0631893f3754a",
+  "data/09-22-2026-08-13-30_files_list/training_2025-10-01_2025-11-01.parquet": "4a31a35601c1bdcd74b8cd6379231ba516a48324e4c2478bf1c9360cd23e687f",
+  "data/09-22-2026-08-13-30_files_list/training_2025-11-01_2025-12-01.parquet": "ac36b17db7a537e3baeb682fa4763dacaa1fcc5d9bfa6bf32b3ee5d9f91300b0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-12-01_2026-01-01.parquet": "2d357f2f403a86778a69e93f72d8754effe77f1ac0942399b3d1b7728241f724",
+  "research/final/levers/lv_rules.py": "6d90180bab3d5f81f90e9cef0d2017270187abb192fab3e215ac7a419ab9b25a",
+  "research/final/levers/lv_common.py": "e5d6f75290d6c5d3a88525cedb9615e3acf6d8de3e49219c36da76c25f716995",
+  "research/final/levers/recovered.py": "fb02db8a338e8fae33c9f1597fe751a007a8c69bb565e16e535409524756d334",
+  "research/final/levers/daily.py": "d4cfba1215fb8de9b1fdab0944c722869a5c8191dbf54f74028e599f058a5018",
+  "research/final/levers/artifacts/daily_params.json": "66f56d499c9f7eb293f0bc1f832a2c46c66f5e4f3d5eddf78c836fcfa8b57bdf",
+  "research/pru/all_pre_departure_delays_2025.csv": "d742eeb626e5f9f7e0c756e2ae3cf90078f4627e989a2e31b8ed21ba8f5510be",
+  "research/pru/all_pre_departure_delays_2026.csv": "5952d20ef5f9c4245018dd6986064c5c4aa15d568a6c0c2dcdcbc73bf8a43fd2",
+  "research/final/level.py": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+  "research/final/meta/artifacts/daily_v2_f5_loadings.json": "a6cba14d4940bf3c75ddfb846defda85ac2b48af2299effe1c419fa3a16fab2a",
+  "solutions/kernels/prc-f-cs7/output/submission.parquet": "690a862188dea27983361b2c84dd3f8d1e0ba9536b4e92dd20ac1aab627440e3",
+  "solutions/kernels/prc-f-mlp7m6/output/submission.parquet": "0f57db7d140404389bf370f3fc7413ce0b03864caaa0aacf2d379e4ba5d341e8",
+  "solutions/kernels/prc-meta-gbm-f4/output/G1_short.txt": "f6bec8b28236e3bdcd417b5497fa1fcbc0528c51dd61f24ea83f47231e8d552b",
+  "solutions/kernels/prc-meta-gbm-f4/output/mo_G1.csv": "b752cbb6ce34a258d6bba984bb26cc5d73289762f71658fac56a5b654a3fd8dd",
+  "solutions/kernels/prc-meta-gbm-f4/output/report.json": "de43540270936018656fcae15ad77f73c4b81d99e969cf5b3337eb3e48de8e82",
+  "solutions/kernels/prc-meta-gbm-f4/output/prc-meta-gbm-f4.log": "9040877d37ce285f43a792aa44e71ba6667e0f26f3019fbab3451096422d3e51",
+  "submissions/final/meta/f4/meta2025.parquet": "40eefd4b3125a990995ce786af4ef5ef197e67d3403ef66dfd0d1158febc2fda",
+  "submissions/final/meta/f4/meta2025.json": "8a106c0ce89921f3ace1525b11c1b97eeaf70b7857852ab03744bd9e8c2ee9e4",
+  "submissions/final/meta/f4/meta2026.parquet": "989f9d46771a82a47bf513a53a98febe9ba6dfca52ff60bc8a9a56b2ac2ce811",
+  "submissions/final/meta/f4/meta2026.json": "ec51d84f4fbf98fbadafd58446bab2bdcc54ef3a649355f1065c1b408a1c7609",
+  "submissions/final/meta/f4/meta_spec.json": "3a6ec539777794c4e729b8e98423bfa225107578975b52c79dfb62f99cf8c3a9",
+  "research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json": "f6dff49b164e62bf4276790950d23c44985ea11ee23f92a9c70611fe9ffe6d65",
+  "research/final/meta/results/prc-meta-gbm-f4_report.json": "de43540270936018656fcae15ad77f73c4b81d99e969cf5b3337eb3e48de8e82",
+  "research/final/meta/build_frame.py": "49bb24a67742b7b829d862317fce6e726d2504229af5c4a17659c4bdb497a0a6",
+  "research/final/meta/publish_dataset.py": "00cb7b505e0c246d8ed8e4f62e832717634fcde77bb93ba9534b93d2d11f380a",
+  "research/final/meta/specs/f4.json": "3a6ec539777794c4e729b8e98423bfa225107578975b52c79dfb62f99cf8c3a9",
+  "research/final/meta/kernels/prc-meta-gbm-f4/kernel.py": "7a247b79f20a63f3137b66235c5e9eab56b4ad4989181019bea47c1f85bfa754",
+  "research/final/meta/kernels/prc-meta-gbm-f4/kernel-metadata.json": "3ff9f4ae07b6424da637387c2412c4c0e14c01c3b1b955b92904d90500dea021",
+  "research/final/frame.py": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+  "research/final/stacking.py": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+  "research/final/longrows.py": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+  "research/final/rules.py": "f11538538f328acfdb994a47022108563274e2bad2d35989a272279bcf53e889",
+  "research/final/assemble_final.py": "803d17f612b358ea92f0a95de88365034950a53bbb71963cc5f3d7ff56f7ecb1",
+  "research/tail/tailkit.py": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+  "research/extreme_blend.py": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e"
+ },
+ "outputs": {
+  "submissions/final/f5_final.parquet": "149ccc43c52ccc909bdacc1c82802197b2882bda724b907f0025cb33e9f13082",
+  "submissions/final/f5_board.parquet": "4a08bb73f90ffd2faaee5a9151631494ac6edba8c72b3ba02ee63c66c15c0101"
+ },
+ "stages_file": "submissions/final/f5_stages.parquet",
+ "environment": {
+  "python": "3.13.7",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.18.1",
+  "pyarrow": "23.0.1"
+ }
+}

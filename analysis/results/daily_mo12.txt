@@ -1,0 +1,30 @@
+monthly level (L1c) vs c6: dMSE -177.0 [-201.5, -153.5]  rmse 234.74->234.36  touched 1943994  months worse 0/12
+   M1 -2.9  M2 -9.1  M6 -22.8  M7 -11.5 | M1:-3 M2:-9 M3:-5 M4:-3 M5:-7 M6:-23 M7:-12 M8:-36 M9:-29 M10:-27 M11:-10 M12:-13
+   apt EDDF:-3 EGLL:-9 EHAM:-36 LEBL:-6 LEMD:-19 LFPG:+7 LIRF:-15 LSZH:+1 LTFM:-97
+   band 1-4h:-28 4-8h:-2 <=1h:-144 >8h:-2
+monthly level (L1c) vs c6, date-wrap rows unchanged: dMSE -177.0 [-201.7, -153.7]  rmse 234.74->234.36  touched 1943992  months worse 0/12
+   M1 -2.9  M2 -9.1  M6 -22.7  M7 -11.5 | M1:-3 M2:-9 M3:-5 M4:-3 M5:-7 M6:-23 M7:-12 M8:-36 M9:-29 M10:-27 M11:-10 M12:-13
+   apt EDDF:-3 EGLL:-9 EHAM:-36 LEBL:-6 LEMD:-19 LFPG:+7 LIRF:-15 LSZH:+1 LTFM:-97
+   band 1-4h:-28 4-8h:-2 <=1h:-145 >8h:-2
+rules (a), (d) and L0e after L1c, date-wrap rows unchanged: dMSE -607.7 [-1515.1, -174.0]  rmse 234.36->233.06  touched 289  months worse 0/12
+   M1 -9.8  M2 -98.1  M6 -9.8  M7 -366.9 | M1:-10 M2:-98 M3:-16 M4:-6 M5:-7 M6:-10 M7:-367 M8:-16 M9:-12 M10:-37 M11:-27 M12:-1
+   apt EDDF:-31 EGLL:-2 EHAM:-7 LEBL:-2 LEMD:-8 LFPG:-17 LIRF:-427 LTFM:-112
+   band 1-4h:-147 4-8h:-20 <=1h:-6 >8h:-435
+daily layer (L1a) after L1c, rules (a), (d), L0e: dMSE -1725.1 [-2946.3, -862.8]  rmse 232.94->229.20  touched 2043082  months worse 0/12
+   M1 -66.7  M2 -38.1  M6 -611.7  M7 -251.9 | M1:-67 M2:-38 M3:-201 M4:-38 M5:-45 M6:-612 M7:-252 M8:-87 M9:-163 M10:-58 M11:-122 M12:-43
+   apt EDDF:-23 EDDM:-9 EGLL:-40 EHAM:-9 LEBL:-19 LEMD:-10 LFPG:-44 LIRF:-1498 LSZH:-5 LTFM:-67
+   band 1-4h:-975 4-8h:-220 <=1h:-163 >8h:-367
+daily layer (L1a), date-wrap rows unchanged: dMSE -953.6 [-1353.1, -614.3]  rmse 232.94->230.88  touched 2043073  months worse 0/12
+   M1 -68.9  M2 -38.1  M6 -61.6  M7 -247.3 | M1:-69 M2:-38 M3:-138 M4:-38 M5:-44 M6:-62 M7:-247 M8:-87 M9:-91 M10:-58 M11:-37 M12:-43
+   apt EDDF:-23 EDDM:-9 EGLL:-40 EHAM:-9 LEBL:-19 LEMD:-10 LFPG:-46 LIRF:-725 LSZH:-5 LTFM:-67
+   band 1-4h:-454 4-8h:-220 <=1h:-165 >8h:-114
+   L1a EDDF nw: -23.1 [-32.5, -15.4] months worse 0/12
+   L1a EDDM nw: -9.1 [-17.5, -2.3] months worse 1/12
+   L1a EGLL nw: -40.4 [-52.5, -30.5] months worse 0/12
+   L1a EHAM nw: -9.1 [-14.7, -4.8] months worse 0/12
+   L1a LEBL nw: -18.8 [-26.7, -11.4] months worse 1/12
+   L1a LEMD nw: -10.4 [-16.1, -5.6] months worse 2/12
+   L1a LFPG nw: -46.0 [-60.1, -30.8] months worse 0/12
+   L1a LIRF nw: -724.8 [-1125.5, -388.3] months worse 0/12
+   L1a LSZH nw: -4.6 [-6.4, -3.0] months worse 0/12
+   L1a LTFM nw: -67.2 [-85.3, -49.1] months worse 0/12

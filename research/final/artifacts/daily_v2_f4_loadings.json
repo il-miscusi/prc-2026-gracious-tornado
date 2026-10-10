@@ -1,0 +1,80 @@
+{
+ "fitted_on": "submissions/final/pseudo2025/f4p1_pseudo2025_frozen.parquet[post2_recovered], 2025 months [1, 2, 6, 7]; loadings: ordinary rows with y <= 10800 s, day shifts month-out (daily parameters refitted without each month on the c6 chain)",
+ "inputs": {
+  "research/cache/oof_mo12_c6.parquet": "e244b219c925740f89aeece51df3a6a6ef367d9c5b22a59aaa5be558763b9dc0",
+  "research/final/levers/artifacts/daily_params.json": "66f56d499c9f7eb293f0bc1f832a2c46c66f5e4f3d5eddf78c836fcfa8b57bdf",
+  "submissions/final/pseudo2025/f4p1_pseudo2025_frozen.parquet": "e2bc3b528e66e729fd6ddbb05b4684631e75fc60458c38a0cd13ca8cef9da397"
+ },
+ "loadings": {
+  "clip": [
+   -0.5,
+   2.5
+  ],
+  "del": [
+   0.350218,
+   0.524525,
+   0.984044,
+   1.341287
+  ],
+  "edges": [
+   900.0,
+   1800.0,
+   2700.0
+  ],
+  "fit": {
+   "del": {
+    "parent": 0.775225,
+    "parent_se": 0.034564,
+    "raw": [
+     0.345479,
+     0.522146,
+     0.988192,
+     1.373281
+    ],
+    "rows": [
+     46181,
+     226623,
+     120516,
+     53387
+    ],
+    "se": [
+     0.044165,
+     0.040747,
+     0.058951,
+     0.099436
+    ],
+    "tau2": 0.174934
+   },
+   "nd": {
+    "parent": 0.232714,
+    "parent_se": 0.032081,
+    "raw": [
+     0.176046,
+     0.392712,
+     -0.090533,
+     -0.244133
+    ],
+    "rows": [
+     112907,
+     39411,
+     900,
+     91
+    ],
+    "se": [
+     0.03165,
+     0.060888,
+     0.384023,
+     0.78155
+    ],
+    "tau2": 0.018674
+   }
+  },
+  "nd": [
+   0.178931,
+   0.36621,
+   0.196382,
+   0.218568
+  ]
+ },
+ "script": "python3 research/final/levers/daily.py v2 --rows submissions/final/pseudo2025/f4p1_pseudo2025_frozen.parquet --col post2_recovered --out research/final/artifacts/daily_v2_f4_loadings.json"
+}

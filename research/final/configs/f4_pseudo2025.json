@@ -1,0 +1,54 @@
+{
+ "name": "f4_pseudo2025",
+ "_doc": "configs/f4_final.json on 2025 with month-out members (fs8 c7: prc-f8-c7a-mo). L1a-v2 loadings refitted without the held month on f4's own pre-daily rows (f4p1_pseudo2025_{mode}.parquet). In frozen mode the segment weights were fitted on these same four months (in-sample); crossfit mode refits them on the other three months.",
+ "recipe": "research/final/configs/f4_final.json",
+ "recipe_overrides": {},
+ "months": [
+  1,
+  2,
+  6,
+  7
+ ],
+ "members": {
+  "prc-f-c7": {
+   "mo": "solutions/kernels/prc-f-c7a-mo/output"
+  },
+  "prc-f-cs7": {
+   "mo": "solutions/kernels/prc-f-cs7-mo/output"
+  },
+  "prc-f-mlp7": {
+   "mo": "solutions/kernels/prc-f-mlp7a-mo/output"
+  },
+  "prc-f-c6s": {
+   "mo": "solutions/kernels/prc-f-c6s-mo/output"
+  },
+  "prc-f-c5s": {
+   "mo": "solutions/kernels/prc-f-c5s-mo/output"
+  },
+  "prc-f-x5": {
+   "mo": "solutions/kernels/prc-f-x5-mo/output",
+   "_note": "x5 pinned to xgboost 2.1.4: prc-f-x5-mo/output/oof.csv holds all four folds (M1/M6 from that run, M2/M7 copied from prc-f-x5p-mo; identical values checked). The xgboost 3.4.1 runs were renamed prc-f-x5-xgb341 / prc-f-x5-mo-xgb341 and are not used."
+  },
+  "prc-f-k4": {
+   "mo": "solutions/kernels/prc-f-k4-mo/output"
+  },
+  "prc-f8-c7": {
+   "mo": "solutions/kernels/prc-f8-c7a-mo/output"
+  }
+ },
+ "phys_inputs": "research/final/inputs/2025/phys.parquet",
+ "overlay_flags": {
+  "lirf_noadsb": "research/final/inputs/2025/cover.parquet"
+ },
+ "post_layer_pseudo": {
+  "daily": {
+   "pseudo_kwargs": {
+    "v2_rows": "submissions/final/pseudo2025/f4p1_pseudo2025_{mode}.parquet",
+    "v2_col": "post2_recovered"
+   },
+   "inputs": [
+    "submissions/final/pseudo2025/f4p1_pseudo2025_{mode}.parquet"
+   ]
+  }
+ }
+}

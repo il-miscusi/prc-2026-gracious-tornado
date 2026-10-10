@@ -1,0 +1,36 @@
+{
+ "name": "f2p_pseudo2025",
+ "_doc": "configs/f2p_final.json on 2025. Run by research/final/pseudo_final.py on 2025 Jan/Feb/Jun/Jul with month-out members. lv_rules and recovered fit nothing on labels; daily refits its parameters without the held month on the c6 chain (c6 12-month-out OOF + level calibration with offsets excluding the held month + L0 + L0e).",
+ "recipe": "research/final/configs/f2p_final.json",
+ "recipe_overrides": {},
+ "months": [
+  1,
+  2,
+  6,
+  7
+ ],
+ "members": {
+  "prc-f-c7": {
+   "mo": "solutions/kernels/prc-f-c7a-mo/output"
+  },
+  "prc-f-cs7": {
+   "mo": "solutions/kernels/prc-f-cs7-mo/output"
+  },
+  "prc-f-mlp7": {
+   "mo": "solutions/kernels/prc-f-mlp7a-mo/output"
+  },
+  "prc-f-c6s": {
+   "mo": "solutions/kernels/prc-f-c6s-mo/output"
+  },
+  "prc-f-c5s": {
+   "mo": "solutions/kernels/prc-f-c5s-mo/output"
+  },
+  "prc-f-k4": {
+   "mo": "solutions/kernels/prc-f-k4-mo/output"
+  }
+ },
+ "phys_inputs": "research/final/inputs/2025/phys.parquet",
+ "overlay_flags": {
+  "lirf_noadsb": "research/final/inputs/2025/cover.parquet"
+ }
+}

@@ -1,0 +1,16 @@
+# Local stages: assembly, 2025 rehearsal, post-layers, evidence scripts, external-data builders,
+# file checks. The first four pins are the versions recorded in the assembler's run manifests
+# (research/final/manifests/*.json). The others are the versions installed on the build machine
+# on 2026-10-08. The Kaggle kernels record their own package versions in output/environment.json;
+# CatBoost is pinned to 1.2.8 inside each member spec (solutions/final/build_members.py).
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.18.1
+pyarrow==23.0.1
+scikit-learn==1.8.0
+requests==2.32.5
+shapely==2.1.2
+minio==7.2.20
+kaggle==2.0.0
+kagglesdk==0.1.16
+lightgbm==4.6.0

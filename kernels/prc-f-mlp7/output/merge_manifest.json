@@ -1,0 +1,50 @@
+{
+ "created_utc": "2026-10-09T00:16:37+00:00",
+ "command": "python3 research/final/merge_members.py --out solutions/kernels/prc-f-mlp7/output solutions/kernels/prc-f-mlp7a/output/r2912 solutions/kernels/prc-f-mlp7c/output/r2911 solutions/kernels/prc-f-mlp7c/output/r2913",
+ "frame": "final",
+ "rows": 670790,
+ "units": [
+  {
+   "dir": "solutions/kernels/prc-f-mlp7a/output/r2912",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 46.053134640883535,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7a/output/r2912/submission.parquet": "384bc1c5d1fb9ed7dfe3fc913eaa339478be25a1a6b250e67e0af43fd016f1dc",
+    "solutions/kernels/prc-f-mlp7a/output/r2912/refit_0.npy": "97fa6931f5029961132af2dc0aab07e51f716c66ff57022933feb0b84859f050",
+    "solutions/kernels/prc-f-mlp7a/output/r2912/results.json": "6957b3221292dde8f1f6775f54f705893a935208771394242f2056f29423f038"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7c/output/r2911",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 44.99925586439648,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7c/output/r2911/submission.parquet": "752384a716d797ee07f054ce548bab094b5297afa8dd92e7d8a5d653d7bc1f44",
+    "solutions/kernels/prc-f-mlp7c/output/r2911/refit_0.npy": "fb5f756ebd207be3705e6c008d1cb65ed6b70ef18697509f48db433a90f1f868",
+    "solutions/kernels/prc-f-mlp7c/output/r2911/results.json": "35280b5494344fa20998b35adba5df40ca06d1c5692c4e721dce9f0751042bc5"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f-mlp7c/output/r2913",
+   "level": "seed",
+   "seeds": 1,
+   "weight": 1,
+   "rms_from_merged": 42.51830808593332,
+   "inputs": {
+    "solutions/kernels/prc-f-mlp7c/output/r2913/submission.parquet": "5bd82ae0ebd103ef49b9ff07d893cea77dd7552e7656b7119d7058814ae6647c",
+    "solutions/kernels/prc-f-mlp7c/output/r2913/refit_0.npy": "4467eebe68177b53f1e325a8cca6bdfa27b4bd0369c2e67c84d5830fb941e21b",
+    "solutions/kernels/prc-f-mlp7c/output/r2913/results.json": "fb4430e888f8b48f59480dbe652609e030ed360c724c08f9d5319ceb000743f5"
+   }
+  }
+ ],
+ "total_seeds": 3.0,
+ "output": {
+  "solutions/kernels/prc-f-mlp7/output/submission.parquet": "fe3b2de7397ae8dae03a9a4cb7dadea2269ca2455c53c74386efdd4a83300cba"
+ },
+ "mean": 1012.2949694328681,
+ "max": 113547.4119355618
+}

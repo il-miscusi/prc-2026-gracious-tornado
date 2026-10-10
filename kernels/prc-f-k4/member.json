@@ -1,0 +1,47 @@
+{
+ "member": "k4",
+ "store": "prc-f-fs6",
+ "owner": "usiadianimuwa",
+ "accel": "cpu",
+ "folds": [],
+ "source_spec": "research/cover/spec_k4.json (miscusi/prc-cv-k4)",
+ "v32c_role": "LIRF uncovered overlay, weight .3",
+ "spec": {
+  "lib": "lgb",
+  "refit": true,
+  "folds": [],
+  "threads": 4,
+  "rounds": [
+   296,
+   195
+  ],
+  "refit_seeds": 2,
+  "drop_adsb": true,
+  "drop_features": [
+   "a3_obs_p_evidence_start"
+  ],
+  "params": {
+   "objective": "regression",
+   "learning_rate": 0.08,
+   "num_leaves": 255,
+   "min_data_in_leaf": 50,
+   "feature_fraction": 0.5,
+   "bagging_fraction": 0.8,
+   "bagging_freq": 1,
+   "lambda_l2": 10.0,
+   "cat_smooth": 20.0,
+   "cat_l2": 10.0,
+   "max_cat_threshold": 64,
+   "min_data_per_group": 100,
+   "max_bin": 127,
+   "seed": 7
+  },
+  "params_long": {
+   "num_leaves": 127,
+   "min_data_in_leaf": 30,
+   "min_data_per_group": 30,
+   "cat_smooth": 10.0
+  },
+  "save_models": true
+ }
+}

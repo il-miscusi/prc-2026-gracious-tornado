@@ -1,0 +1,2819 @@
+{
+ "synced_at_utc": "2026-10-10T20:01:08+00:00",
+ "source_commit": "0da8c9dd2c84076037af441b21e45cb879f376c5",
+ "source_dirty_files": [],
+ "configs": [
+  "research/final/configs/f6_final.json",
+  "research/final/configs/f6ev_pseudo2025.json",
+  "research/final/configs/f5_final.json",
+  "research/final/configs/f5_pseudo2025.json",
+  "research/final/configs/f4_pseudo2025.json",
+  "research/final/configs/f4p1_pseudo2025.json",
+  "research/final/configs/f5fm7_pseudo2025.json",
+  "research/final/configs/f5fm7p1_pseudo2025.json",
+  "research/final/configs/f3_final.json",
+  "research/final/configs/f3_pseudo2025.json",
+  "research/final/configs/f2x5_l1av2_final.json",
+  "research/final/configs/f2x5_l1av2_pseudo2025.json",
+  "research/final/configs/f2x5m6_final.json",
+  "research/final/configs/f2x5_pseudo2025.json",
+  "research/final/configs/f2_pseudo2025.json",
+  "research/final/configs/f2p_pseudo2025.json",
+  "research/final/configs/f2_fillprob_pseudo2025.json",
+  "research/final/configs/f2_nopost_pseudo2025.json",
+  "research/final/configs/f2x5_l1av2sq_pseudo2025.json",
+  "research/final/configs/f2x5_l1av2ss_pseudo2025.json",
+  "research/final/configs/v32c_repro_board.json",
+  "research/final/configs/v32c_a1_board.json",
+  "research/final/configs/f4_final.json",
+  "research/final/configs/f2x5_final.json",
+  "research/final/configs/f2_final.json",
+  "research/final/configs/f2p_final.json"
+ ],
+ "kernels": {
+  "prc-c5d10": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-c5s": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-c6": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-c6s": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-c7x2": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-cs5": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-cs6": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-cs7": {
+   "status": "copied",
+   "files": [],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-c5s": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-c5s-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-c5sm6": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-c6s": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-c6s-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/best_M1.json",
+    "output/best_M2.json",
+    "output/best_M6.json",
+    "output/best_M7.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_M1.json",
+    "output/identity_M2.json",
+    "output/identity_M6.json",
+    "output/identity_M7.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-c6sm6": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-c7": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-c7a-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-cs7": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-cs7-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-fs6": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-fs7": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-fs8": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-inputs": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "kernel.py"
+   ],
+   "skipped": []
+  },
+  "prc-f-k4": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-k4-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/best_M1.json",
+    "output/best_M2.json",
+    "output/best_M6.json",
+    "output/best_M7.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_M1.json",
+    "output/identity_M2.json",
+    "output/identity_M6.json",
+    "output/identity_M7.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-mlp7": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-mlp7a-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-mlp7m6": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-x5": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-x5-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-x5m6": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f8-c7": {
+   "status": "copied",
+   "files": [
+    "output/merge_manifest.json"
+   ],
+   "skipped": []
+  },
+  "prc-f8-c7a-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/best_M1.json",
+    "output/best_M6.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_M1.json",
+    "output/identity_M6.json",
+    "output/oof_sources.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f8-mlp7a-mo": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/best_M1.json",
+    "output/best_M2.json",
+    "output/best_M6.json",
+    "output/best_M7.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_M1.json",
+    "output/identity_M2.json",
+    "output/identity_M6.json",
+    "output/identity_M7.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-meta-gbm-f4": {
+   "status": "copied",
+   "files": [
+    "output/report.json"
+   ],
+   "skipped": []
+  },
+  "prc-mlp6fs": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-mlp7": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-split-fs4": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-x5": {
+   "status": "copied",
+   "files": [],
+   "skipped": []
+  },
+  "prc-f-c5sb": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-c6sb": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-c7a": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json",
+    "output/results.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-c7b": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f-mlp7a": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/r2911/environment.json",
+    "output/r2911/expected_outputs.json",
+    "output/r2911/identity_refit.json",
+    "output/r2912/environment.json",
+    "output/r2912/expected_outputs.json",
+    "output/r2912/identity_refit.json",
+    "output/r2913/environment.json",
+    "output/r2913/expected_outputs.json",
+    "output/variants.json"
+   ],
+   "skipped": [
+    "output/r2911/results.json",
+    "output/r2912/results.json",
+    "output/r2913/results.json"
+   ]
+  },
+  "prc-f-mlp7c": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/r2911/environment.json",
+    "output/r2911/expected_outputs.json",
+    "output/r2911/identity_refit.json",
+    "output/r2911/results.json",
+    "output/r2913/environment.json",
+    "output/r2913/expected_outputs.json",
+    "output/r2913/identity_refit.json",
+    "output/r2913/results.json",
+    "output/variants.json"
+   ],
+   "skipped": []
+  },
+  "prc-f-mlp7b": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/r2914/environment.json",
+    "output/r2914/expected_outputs.json",
+    "output/r2914/identity_refit.json",
+    "output/r2915/environment.json",
+    "output/r2915/expected_outputs.json",
+    "output/r2915/identity_refit.json",
+    "output/r2916/environment.json",
+    "output/r2916/expected_outputs.json",
+    "output/r2916/identity_refit.json",
+    "output/variants.json"
+   ],
+   "skipped": [
+    "output/r2914/results.json",
+    "output/r2915/results.json",
+    "output/r2916/results.json"
+   ]
+  },
+  "prc-f-x5b": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f8-c7a": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  },
+  "prc-f8-c7b": {
+   "status": "copied",
+   "files": [
+    "kernel-metadata.json",
+    "member.json",
+    "output/catboost_info/catboost_training.json",
+    "output/environment.json",
+    "output/expected_outputs.json",
+    "output/identity_refit.json"
+   ],
+   "skipped": [
+    "output/results.json"
+   ]
+  }
+ },
+ "files": {
+  "analysis/evidence/count_diff_2026.py": {
+   "source": "research/review_20261008/count_diff_2026.py",
+   "sha256_source": "d19b149f771dd58abb31eff7f9b384a6ead43983c97e61c2a78b69aeee081458",
+   "sha256": "d19b149f771dd58abb31eff7f9b384a6ead43983c97e61c2a78b69aeee081458",
+   "rewrites": []
+  },
+  "analysis/evidence/daily_exact.py": {
+   "source": "research/review_20261008/daily_exact.py",
+   "sha256_source": "2955bdf9ca1cbef5968c195883626c7fb6e04a7d3c70683583861848ae634e5d",
+   "sha256": "2955bdf9ca1cbef5968c195883626c7fb6e04a7d3c70683583861848ae634e5d",
+   "rewrites": []
+  },
+  "analysis/evidence/eda_final.py": {
+   "source": "research/review_20261008/eda_final.py",
+   "sha256_source": "7fab4a31aafcca98fe8b89bb64ba1ea81fab45a79c0428692b12a66b076e9951",
+   "sha256": "7fab4a31aafcca98fe8b89bb64ba1ea81fab45a79c0428692b12a66b076e9951",
+   "rewrites": []
+  },
+  "analysis/evidence/eda_lags.py": {
+   "source": "research/review_20261008/eda_lags.py",
+   "sha256_source": "88da8e1140855667ab321f65e9e80176db7b8ac51bcc0a3ade39a7cfb46f8d36",
+   "sha256": "88da8e1140855667ab321f65e9e80176db7b8ac51bcc0a3ade39a7cfb46f8d36",
+   "rewrites": []
+  },
+  "analysis/evidence/modes.py": {
+   "source": "research/review_20261008/modes.py",
+   "sha256_source": "4eb60c3431ebc5d4e51b3eee57a28e1e6e7e7664eb675cbddecb9a161c972ec9",
+   "sha256": "4eb60c3431ebc5d4e51b3eee57a28e1e6e7e7664eb675cbddecb9a161c972ec9",
+   "rewrites": []
+  },
+  "analysis/evidence/nm_join_2026.py": {
+   "source": "research/review_20261008/nm_join_2026.py",
+   "sha256_source": "e5a5338be6e20261c08d54d1b9f92cb5a260b58f4d520bd1bb91e10a7259437b",
+   "sha256": "e5a5338be6e20261c08d54d1b9f92cb5a260b58f4d520bd1bb91e10a7259437b",
+   "rewrites": []
+  },
+  "analysis/evidence/nm_join_bound.py": {
+   "source": "research/review_20261008/nm_join_bound.py",
+   "sha256_source": "358a6b30a53d23721594bed4293205f7baa1cfc5d5b30f622105a9c67b318b24",
+   "sha256": "358a6b30a53d23721594bed4293205f7baa1cfc5d5b30f622105a9c67b318b24",
+   "rewrites": []
+  },
+  "analysis/evidence/regime_bias.py": {
+   "source": "research/review_20261008/regime_bias.py",
+   "sha256_source": "1e6b8c35a8e94b0abb5575602f7299ed2d117db1561cfe0cd85169e901a10c8f",
+   "sha256": "1e6b8c35a8e94b0abb5575602f7299ed2d117db1561cfe0cd85169e901a10c8f",
+   "rewrites": []
+  },
+  "analysis/evidence/unmatched_recover.py": {
+   "source": "research/review_20261008/unmatched_recover.py",
+   "sha256_source": "90f818cfd8a45a7e116dc0eef2c2f248d19e6c5b53df598aa7425263b7465902",
+   "sha256": "90f818cfd8a45a7e116dc0eef2c2f248d19e6c5b53df598aa7425263b7465902",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c5s-mo/kernel-metadata.json",
+   "sha256_source": "a7f6e810604c7bb782eab04917094e9087485f299fb8f8c5e3193ac63a2f808b",
+   "sha256": "a7f6e810604c7bb782eab04917094e9087485f299fb8f8c5e3193ac63a2f808b",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s-mo/member.json": {
+   "source": "solutions/kernels/prc-f-c5s-mo/member.json",
+   "sha256_source": "89fb61d0c4088c6bbc771bed6cddcad048e0afa34b579a73062644d3b82b17b7",
+   "sha256": "89fb61d0c4088c6bbc771bed6cddcad048e0afa34b579a73062644d3b82b17b7",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c5s-mo/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c5s-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s-mo/output/results.json": {
+   "source": "solutions/kernels/prc-f-c5s-mo/output/results.json",
+   "sha256_source": "b769a0afcea3d8bcea8269da12f36c3802eb8648284990d3fa57c7eb3e6199f5",
+   "sha256": "b769a0afcea3d8bcea8269da12f36c3802eb8648284990d3fa57c7eb3e6199f5",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c5s/kernel-metadata.json",
+   "sha256_source": "7c31a539cb03e220be07ec04e2dbe1bc8bc1938572d9d6bd1633a316f4d6dcd3",
+   "sha256": "7c31a539cb03e220be07ec04e2dbe1bc8bc1938572d9d6bd1633a316f4d6dcd3",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s/member.json": {
+   "source": "solutions/kernels/prc-f-c5s/member.json",
+   "sha256_source": "da6c2bb85628fd5ab7c8c22bdeec3ea8fefa27661fb1598b796ef2b0c2c4b131",
+   "sha256": "da6c2bb85628fd5ab7c8c22bdeec3ea8fefa27661fb1598b796ef2b0c2c4b131",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c5s/output/catboost_info/catboost_training.json",
+   "sha256_source": "306e5f791ba7b9902f56fb8cdd471be37cef3937c6757998ce4171c1876a56bf",
+   "sha256": "306e5f791ba7b9902f56fb8cdd471be37cef3937c6757998ce4171c1876a56bf",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c5s/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c5s/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5s/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-c5s/output/identity_refit.json",
+   "sha256_source": "56ec27a7a13c09f27870bcc314cb24f7a54da3895871776820762f0b301f8087",
+   "sha256": "56ec27a7a13c09f27870bcc314cb24f7a54da3895871776820762f0b301f8087",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sb/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c5sb/kernel-metadata.json",
+   "sha256_source": "daedfa790d34d3109d900372ebf849a62cb165774ce1663ce2caebae01d00375",
+   "sha256": "daedfa790d34d3109d900372ebf849a62cb165774ce1663ce2caebae01d00375",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sb/member.json": {
+   "source": "solutions/kernels/prc-f-c5sb/member.json",
+   "sha256_source": "2a490a66f9c9a64ef53b8633a1f0ba529a7f31d95276ebe01edc13d439c40ef3",
+   "sha256": "2a490a66f9c9a64ef53b8633a1f0ba529a7f31d95276ebe01edc13d439c40ef3",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sb/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c5sb/output/catboost_info/catboost_training.json",
+   "sha256_source": "86e3f8f6d5c169a732e2f970825af008d1a47f67f84c58d4731633c46bc649ae",
+   "sha256": "86e3f8f6d5c169a732e2f970825af008d1a47f67f84c58d4731633c46bc649ae",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sb/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c5sb/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sb/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c5sb/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sb/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-c5sb/output/identity_refit.json",
+   "sha256_source": "ea8c73e74b8fbda4a1b7ff6a04f8783da61fe257d9f3827a3bcd8fdeba84059f",
+   "sha256": "ea8c73e74b8fbda4a1b7ff6a04f8783da61fe257d9f3827a3bcd8fdeba84059f",
+   "rewrites": []
+  },
+  "kernels/prc-f-c5sm6/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f-c5sm6/output/merge_manifest.json",
+   "sha256_source": "dbdf64b5a9fc4af8f1b301e77d131d0b62838d60aaa0e8aa6a811c62ede0cceb",
+   "sha256": "dbdf64b5a9fc4af8f1b301e77d131d0b62838d60aaa0e8aa6a811c62ede0cceb",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/kernel-metadata.json",
+   "sha256_source": "e536ec833ef9bfb9fbf32eef0d33dd67a4cb3e20dfe7b1fbcddc44a5927912c4",
+   "sha256": "e536ec833ef9bfb9fbf32eef0d33dd67a4cb3e20dfe7b1fbcddc44a5927912c4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/member.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/member.json",
+   "sha256_source": "551d7088614715d69357f08cc8afe26c0e6e024695e468aaebd8e6ba1d22ccb3",
+   "sha256": "551d7088614715d69357f08cc8afe26c0e6e024695e468aaebd8e6ba1d22ccb3",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/best_M1.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/best_M1.json",
+   "sha256_source": "7d80297f8e20c6e5738a13f197a922d939654484c6723fc10339a3df4e3b5507",
+   "sha256": "7d80297f8e20c6e5738a13f197a922d939654484c6723fc10339a3df4e3b5507",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/best_M2.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/best_M2.json",
+   "sha256_source": "f2e5747bbc4b5de65c42b6a09b7564c017a02ddb6a71e15f74fc4bf5b1d61a75",
+   "sha256": "f2e5747bbc4b5de65c42b6a09b7564c017a02ddb6a71e15f74fc4bf5b1d61a75",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/best_M6.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/best_M6.json",
+   "sha256_source": "5ce2a0a311c8c35170a546462ec74516069957d2a9a5db5453cbb14a3833a227",
+   "sha256": "5ce2a0a311c8c35170a546462ec74516069957d2a9a5db5453cbb14a3833a227",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/best_M7.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/best_M7.json",
+   "sha256_source": "4e65039ca3f203662ab2422cdfcfc1383355a03d32294be377152968d6e7527e",
+   "sha256": "4e65039ca3f203662ab2422cdfcfc1383355a03d32294be377152968d6e7527e",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/catboost_info/catboost_training.json",
+   "sha256_source": "14540914a1919698b4d2c9dccd036989621b1e8a5ebdf79517527c25e5820451",
+   "sha256": "14540914a1919698b4d2c9dccd036989621b1e8a5ebdf79517527c25e5820451",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/identity_M1.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/identity_M1.json",
+   "sha256_source": "9eeda04f4f9b16ef10502e700189df6f11794d886d62ce926b190ba9968fea5c",
+   "sha256": "9eeda04f4f9b16ef10502e700189df6f11794d886d62ce926b190ba9968fea5c",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/identity_M2.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/identity_M2.json",
+   "sha256_source": "c3f7d4677a502380e45821e4c7498939660c7708ae7182ae119a22eed1288626",
+   "sha256": "c3f7d4677a502380e45821e4c7498939660c7708ae7182ae119a22eed1288626",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/identity_M6.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/identity_M6.json",
+   "sha256_source": "d401fb98c966788721f5b5eefd82e10904b819fd6ef3078747950eddaac732b2",
+   "sha256": "d401fb98c966788721f5b5eefd82e10904b819fd6ef3078747950eddaac732b2",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s-mo/output/identity_M7.json": {
+   "source": "solutions/kernels/prc-f-c6s-mo/output/identity_M7.json",
+   "sha256_source": "ccdb26b169753989283a0704ffc52066a77950d52a6f4316dbecd352e3df8fcd",
+   "sha256": "ccdb26b169753989283a0704ffc52066a77950d52a6f4316dbecd352e3df8fcd",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c6s/kernel-metadata.json",
+   "sha256_source": "afd28c5f5a444c8a545d5b844062a93fc30215eb9a6a5016b3d5b26e3b889fd1",
+   "sha256": "afd28c5f5a444c8a545d5b844062a93fc30215eb9a6a5016b3d5b26e3b889fd1",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s/member.json": {
+   "source": "solutions/kernels/prc-f-c6s/member.json",
+   "sha256_source": "1b15ed9aec5a243a0d7b62a3fe2be92ee748490519f3dc4d5b34a589df8b201f",
+   "sha256": "1b15ed9aec5a243a0d7b62a3fe2be92ee748490519f3dc4d5b34a589df8b201f",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c6s/output/catboost_info/catboost_training.json",
+   "sha256_source": "10384e193abc41aebe35f2bf08c76c9444b535cb902fe73cd4b4d48625197b81",
+   "sha256": "10384e193abc41aebe35f2bf08c76c9444b535cb902fe73cd4b4d48625197b81",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c6s/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c6s/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6s/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-c6s/output/identity_refit.json",
+   "sha256_source": "c295c737946b7a3af42cac826ce42ef78fefcf0ef481fb19e59105a75960a314",
+   "sha256": "c295c737946b7a3af42cac826ce42ef78fefcf0ef481fb19e59105a75960a314",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c6sb/kernel-metadata.json",
+   "sha256_source": "99cc71e1526f16495b8dcec8151f0a14a7f65cc8ef6fd0d190f89785b47c8a72",
+   "sha256": "99cc71e1526f16495b8dcec8151f0a14a7f65cc8ef6fd0d190f89785b47c8a72",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/member.json": {
+   "source": "solutions/kernels/prc-f-c6sb/member.json",
+   "sha256_source": "704ff5777250c17ef7f66b90f62b39950a60ad06b94fa191d624428345bf1ba8",
+   "sha256": "704ff5777250c17ef7f66b90f62b39950a60ad06b94fa191d624428345bf1ba8",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c6sb/output/catboost_info/catboost_training.json",
+   "sha256_source": "8530731434d9730922e2ab32f32cfb8729074997bff4b78ce847ddef1943091e",
+   "sha256": "8530731434d9730922e2ab32f32cfb8729074997bff4b78ce847ddef1943091e",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c6sb/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c6sb/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-c6sb/output/identity_refit.json",
+   "sha256_source": "ae895b266d4dad12f564c2a8de178f39611183614785d83687b2379d7a0ff63b",
+   "sha256": "ae895b266d4dad12f564c2a8de178f39611183614785d83687b2379d7a0ff63b",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sb/output/results.json": {
+   "source": "solutions/kernels/prc-f-c6sb/output/results.json",
+   "sha256_source": "925bbf4f46bd5d07adf787819ab713bb6368ddbb5d97069e7a8242a615c2009e",
+   "sha256": "925bbf4f46bd5d07adf787819ab713bb6368ddbb5d97069e7a8242a615c2009e",
+   "rewrites": []
+  },
+  "kernels/prc-f-c6sm6/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f-c6sm6/output/merge_manifest.json",
+   "sha256_source": "c164b1ff628a16c6dd1662b505f86db735f6987693a27c6f871cdbb2be93cfb9",
+   "sha256": "c164b1ff628a16c6dd1662b505f86db735f6987693a27c6f871cdbb2be93cfb9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f-c7/output/merge_manifest.json",
+   "sha256_source": "0b4e4070efd403be4e6119841d7a95d172de904d516f70546182fe2e2e2c3c36",
+   "sha256": "0b4e4070efd403be4e6119841d7a95d172de904d516f70546182fe2e2e2c3c36",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c7a-mo/kernel-metadata.json",
+   "sha256_source": "e7b142b4fbc9dc2365c90c3f08a72bc2fdf4360c7d50e2eb523f2bbe5f64d019",
+   "sha256": "e7b142b4fbc9dc2365c90c3f08a72bc2fdf4360c7d50e2eb523f2bbe5f64d019",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a-mo/member.json": {
+   "source": "solutions/kernels/prc-f-c7a-mo/member.json",
+   "sha256_source": "fa92df62efdd302fd7c926306f54696899695e2b36c84d41430c6f3d1105948f",
+   "sha256": "fa92df62efdd302fd7c926306f54696899695e2b36c84d41430c6f3d1105948f",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c7a-mo/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c7a-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a-mo/output/results.json": {
+   "source": "solutions/kernels/prc-f-c7a-mo/output/results.json",
+   "sha256_source": "30bcdcdff5216da882412a8d1c617fd96891b8118e9b350f6380d6ddc760a1a8",
+   "sha256": "30bcdcdff5216da882412a8d1c617fd96891b8118e9b350f6380d6ddc760a1a8",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c7a/kernel-metadata.json",
+   "sha256_source": "1ba7f119c9cb40ab8d91a9ee276a253abf7760b63ab31402503dc3e6224b5fa1",
+   "sha256": "1ba7f119c9cb40ab8d91a9ee276a253abf7760b63ab31402503dc3e6224b5fa1",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/member.json": {
+   "source": "solutions/kernels/prc-f-c7a/member.json",
+   "sha256_source": "f4409facbcdcf564e9a673fbda9aa9f5db772d12918d70cf85375938b62723a6",
+   "sha256": "f4409facbcdcf564e9a673fbda9aa9f5db772d12918d70cf85375938b62723a6",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c7a/output/catboost_info/catboost_training.json",
+   "sha256_source": "e75dfda3931bcf0b6ab101d4ebe9d354870393b9bfc377f01a4ca95968e7cccf",
+   "sha256": "e75dfda3931bcf0b6ab101d4ebe9d354870393b9bfc377f01a4ca95968e7cccf",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c7a/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c7a/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-c7a/output/identity_refit.json",
+   "sha256_source": "0d18cee60a06a27fd63d97a6b1cff8cd3dce7eeb62a7e915031b5a2710a50862",
+   "sha256": "0d18cee60a06a27fd63d97a6b1cff8cd3dce7eeb62a7e915031b5a2710a50862",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7a/output/results.json": {
+   "source": "solutions/kernels/prc-f-c7a/output/results.json",
+   "sha256_source": "4bfba63ba86d1c67ea3ebde588cc1b6fd004804731750cec45f950e34c700431",
+   "sha256": "4bfba63ba86d1c67ea3ebde588cc1b6fd004804731750cec45f950e34c700431",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7b/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-c7b/kernel-metadata.json",
+   "sha256_source": "be302529691981e5d1d8717b4d0d8eb41fa95b4bd6515ccb645d9f25ef6cf77e",
+   "sha256": "be302529691981e5d1d8717b4d0d8eb41fa95b4bd6515ccb645d9f25ef6cf77e",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7b/member.json": {
+   "source": "solutions/kernels/prc-f-c7b/member.json",
+   "sha256_source": "b1aacbb85788be01409b2d108c60bf3971486c80e9947ada50b0c489a6264cf4",
+   "sha256": "b1aacbb85788be01409b2d108c60bf3971486c80e9947ada50b0c489a6264cf4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7b/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-c7b/output/catboost_info/catboost_training.json",
+   "sha256_source": "b118f37fd2ff01067f96ea12578a729bb024c306cc572fb04fff623c8abb94ae",
+   "sha256": "b118f37fd2ff01067f96ea12578a729bb024c306cc572fb04fff623c8abb94ae",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7b/output/environment.json": {
+   "source": "solutions/kernels/prc-f-c7b/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7b/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-c7b/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-c7b/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-c7b/output/identity_refit.json",
+   "sha256_source": "9ce856bbd522623400f3bf9d501cbc2527ae2ed129a5e86ca320c1d5dda68b1c",
+   "sha256": "9ce856bbd522623400f3bf9d501cbc2527ae2ed129a5e86ca320c1d5dda68b1c",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-cs7-mo/kernel-metadata.json",
+   "sha256_source": "ec69ebc889ccd31923602e1035566d9ca094f6d34e923fa7917d833746b50688",
+   "sha256": "ec69ebc889ccd31923602e1035566d9ca094f6d34e923fa7917d833746b50688",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7-mo/member.json": {
+   "source": "solutions/kernels/prc-f-cs7-mo/member.json",
+   "sha256_source": "b16d76e9e72c69862ecaa903324248bed4f3a0517553802cbf4c7a1d7fae9ccf",
+   "sha256": "b16d76e9e72c69862ecaa903324248bed4f3a0517553802cbf4c7a1d7fae9ccf",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-cs7-mo/output/environment.json",
+   "sha256_source": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "sha256": "87a88919efac45e68b7aa28391b0ef0650661b86bd479754334a9d664f8f76b9",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-cs7-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7-mo/output/results.json": {
+   "source": "solutions/kernels/prc-f-cs7-mo/output/results.json",
+   "sha256_source": "65039d7bf32f886aca9b32022cc22fadd6c4d375244b0e92d4d4dc68e11b792c",
+   "sha256": "65039d7bf32f886aca9b32022cc22fadd6c4d375244b0e92d4d4dc68e11b792c",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-cs7/kernel-metadata.json",
+   "sha256_source": "f254037a51aeeccbc8e3dba4d75446562314f93fa46a8e1be2fc6c54c3c9d368",
+   "sha256": "f254037a51aeeccbc8e3dba4d75446562314f93fa46a8e1be2fc6c54c3c9d368",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7/member.json": {
+   "source": "solutions/kernels/prc-f-cs7/member.json",
+   "sha256_source": "9e65930ac962ec7f129c87eeb02ad84a423496f047b6d5373639d3fc3d0c0b3d",
+   "sha256": "9e65930ac962ec7f129c87eeb02ad84a423496f047b6d5373639d3fc3d0c0b3d",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f-cs7/output/catboost_info/catboost_training.json",
+   "sha256_source": "baebd595cb2d7c5b1d901aed3937745ce6c3f4af5cceb539c43eae4e767651f7",
+   "sha256": "baebd595cb2d7c5b1d901aed3937745ce6c3f4af5cceb539c43eae4e767651f7",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7/output/environment.json": {
+   "source": "solutions/kernels/prc-f-cs7/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-cs7/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-cs7/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-cs7/output/identity_refit.json",
+   "sha256_source": "2a3d143efc78ec4c134ffcd5fa9dc5e497da1d8501c98bfef0fe1cea6c4f52d3",
+   "sha256": "2a3d143efc78ec4c134ffcd5fa9dc5e497da1d8501c98bfef0fe1cea6c4f52d3",
+   "rewrites": []
+  },
+  "kernels/prc-f-fs6/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-fs6/kernel-metadata.json",
+   "sha256_source": "718ca83ee4c9ab76c5b5bf1503dc9236cbf124a73eb5266e10902bfc9650a372",
+   "sha256": "718ca83ee4c9ab76c5b5bf1503dc9236cbf124a73eb5266e10902bfc9650a372",
+   "rewrites": []
+  },
+  "kernels/prc-f-fs7/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-fs7/kernel-metadata.json",
+   "sha256_source": "3fa97a924b22a06170be73c5377d235fb82045eacb1c9a7ce8607cf519deb01e",
+   "sha256": "3fa97a924b22a06170be73c5377d235fb82045eacb1c9a7ce8607cf519deb01e",
+   "rewrites": []
+  },
+  "kernels/prc-f-fs8/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-fs8/kernel-metadata.json",
+   "sha256_source": "4b43087c4b16cca7090270eae2db3460fcc063a6f330b8dc751f04505dfec518",
+   "sha256": "4b43087c4b16cca7090270eae2db3460fcc063a6f330b8dc751f04505dfec518",
+   "rewrites": []
+  },
+  "kernels/prc-f-inputs/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-inputs/kernel-metadata.json",
+   "sha256_source": "4c9a241d550ce7de97a36ac117ec11a289f386fe1ee7575626cf88e628958438",
+   "sha256": "4c9a241d550ce7de97a36ac117ec11a289f386fe1ee7575626cf88e628958438",
+   "rewrites": []
+  },
+  "kernels/prc-f-inputs/kernel.py": {
+   "source": "solutions/kernels/prc-f-inputs/kernel.py",
+   "sha256_source": "5ef342aeb1f0c95be5f82136cc305082f0ae38665fe36f8132b5331042f0a739",
+   "sha256": "5ef342aeb1f0c95be5f82136cc305082f0ae38665fe36f8132b5331042f0a739",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/kernel-metadata.json",
+   "sha256_source": "f559086d2a5baa4e2d0e7e13b884fba85755767f25f5b0d994874b71e7afa8c5",
+   "sha256": "f559086d2a5baa4e2d0e7e13b884fba85755767f25f5b0d994874b71e7afa8c5",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/member.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/member.json",
+   "sha256_source": "45e0083b07bf556a29fa15d6d5beb2b97d717be380865ecb7cdd62bc86547339",
+   "sha256": "45e0083b07bf556a29fa15d6d5beb2b97d717be380865ecb7cdd62bc86547339",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/best_M1.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/best_M1.json",
+   "sha256_source": "a301938d807a28dd07a963d8d54ec707e4ebb323ab6a1c9196492f395a272608",
+   "sha256": "a301938d807a28dd07a963d8d54ec707e4ebb323ab6a1c9196492f395a272608",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/best_M2.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/best_M2.json",
+   "sha256_source": "e035bbe6eb706b29d450a985f2ec752af943285f372851b9eada46ecdd3ab4d0",
+   "sha256": "e035bbe6eb706b29d450a985f2ec752af943285f372851b9eada46ecdd3ab4d0",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/best_M6.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/best_M6.json",
+   "sha256_source": "25cc2db562a46aba0bbb5d294037ce3ede69df88b1a8b479adc50ae0647cbd82",
+   "sha256": "25cc2db562a46aba0bbb5d294037ce3ede69df88b1a8b479adc50ae0647cbd82",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/best_M7.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/best_M7.json",
+   "sha256_source": "ebfb86488fd1d8855b6c079fd9fd2b21f7d1f02c1e4f4bf07d3c70c334d20b64",
+   "sha256": "ebfb86488fd1d8855b6c079fd9fd2b21f7d1f02c1e4f4bf07d3c70c334d20b64",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/environment.json",
+   "sha256_source": "6aa1c57026b43371af95a89f0056bb89e9c26aec30a69563fdeece882c3c8891",
+   "sha256": "6aa1c57026b43371af95a89f0056bb89e9c26aec30a69563fdeece882c3c8891",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/identity_M1.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/identity_M1.json",
+   "sha256_source": "e37ddcbab3a966359d67caa3bfd45864c06284b0ac934e8391f684aaf50fdd3a",
+   "sha256": "e37ddcbab3a966359d67caa3bfd45864c06284b0ac934e8391f684aaf50fdd3a",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/identity_M2.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/identity_M2.json",
+   "sha256_source": "b51c1b8faff1cc343e18e6094dce02c29ae09e141c54087254367a3c4bc6bac0",
+   "sha256": "b51c1b8faff1cc343e18e6094dce02c29ae09e141c54087254367a3c4bc6bac0",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/identity_M6.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/identity_M6.json",
+   "sha256_source": "56f912ee33f2bb882ebb371ec72cc5d57b41385050a8a95fe5da4f9be17c90b5",
+   "sha256": "56f912ee33f2bb882ebb371ec72cc5d57b41385050a8a95fe5da4f9be17c90b5",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/identity_M7.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/identity_M7.json",
+   "sha256_source": "cd34d578344cc0d85ecbfc8d8b360c33aaa3c59428f7670e3246f0be2ea20f2c",
+   "sha256": "cd34d578344cc0d85ecbfc8d8b360c33aaa3c59428f7670e3246f0be2ea20f2c",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4-mo/output/results.json": {
+   "source": "solutions/kernels/prc-f-k4-mo/output/results.json",
+   "sha256_source": "4bdeec4c71c6faf90b093a0283265c3619456a47f2883f45199c1965ba6bf188",
+   "sha256": "4bdeec4c71c6faf90b093a0283265c3619456a47f2883f45199c1965ba6bf188",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-k4/kernel-metadata.json",
+   "sha256_source": "9b3ac31947a6ea2a9d740cca13d82c80bc3baf44ee4c7c0fea212e218ce34a71",
+   "sha256": "9b3ac31947a6ea2a9d740cca13d82c80bc3baf44ee4c7c0fea212e218ce34a71",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4/member.json": {
+   "source": "solutions/kernels/prc-f-k4/member.json",
+   "sha256_source": "c8b39adcfe01227476964c8050457b51fa7ec0d74219be07d2b3b8415877c39a",
+   "sha256": "c8b39adcfe01227476964c8050457b51fa7ec0d74219be07d2b3b8415877c39a",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4/output/environment.json": {
+   "source": "solutions/kernels/prc-f-k4/output/environment.json",
+   "sha256_source": "6aa1c57026b43371af95a89f0056bb89e9c26aec30a69563fdeece882c3c8891",
+   "sha256": "6aa1c57026b43371af95a89f0056bb89e9c26aec30a69563fdeece882c3c8891",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-k4/output/expected_outputs.json",
+   "sha256_source": "65e5281ab62b0d83d5b6af248cb26d19cb5b0430f404ea5e86975b5265c1155f",
+   "sha256": "65e5281ab62b0d83d5b6af248cb26d19cb5b0430f404ea5e86975b5265c1155f",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-k4/output/identity_refit.json",
+   "sha256_source": "14d3a89b94e4c2142fde0d0176aec3a2f1e05c63840cac3022032526f7a15d7f",
+   "sha256": "14d3a89b94e4c2142fde0d0176aec3a2f1e05c63840cac3022032526f7a15d7f",
+   "rewrites": []
+  },
+  "kernels/prc-f-k4/output/results.json": {
+   "source": "solutions/kernels/prc-f-k4/output/results.json",
+   "sha256_source": "1f0e75d7ed08f6591d9e77794a629a1ea4eeb9da04fd9e69bb743766bf19e5a1",
+   "sha256": "1f0e75d7ed08f6591d9e77794a629a1ea4eeb9da04fd9e69bb743766bf19e5a1",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f-mlp7/output/merge_manifest.json",
+   "sha256_source": "f92205bd1c487911b6ac189e2e375065e81ad99cc46285d31ba18a794d46458e",
+   "sha256": "f92205bd1c487911b6ac189e2e375065e81ad99cc46285d31ba18a794d46458e",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-mlp7a-mo/kernel-metadata.json",
+   "sha256_source": "64b14026c1d6322a64611a09735c6f5bebd74b71f0579344fafb2890bdf2ce84",
+   "sha256": "64b14026c1d6322a64611a09735c6f5bebd74b71f0579344fafb2890bdf2ce84",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a-mo/member.json": {
+   "source": "solutions/kernels/prc-f-mlp7a-mo/member.json",
+   "sha256_source": "87d65fe79195be5e475fb9afb26747baf3424f3a926b3b929fb698bda1dbedd8",
+   "sha256": "87d65fe79195be5e475fb9afb26747baf3424f3a926b3b929fb698bda1dbedd8",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7a-mo/output/environment.json",
+   "sha256_source": "6fd4a705b040b0031bf8b34a2a73f6922e592eeda62cef28ae3cf96bd9752058",
+   "sha256": "6fd4a705b040b0031bf8b34a2a73f6922e592eeda62cef28ae3cf96bd9752058",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7a-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a-mo/output/results.json": {
+   "source": "solutions/kernels/prc-f-mlp7a-mo/output/results.json",
+   "sha256_source": "75a75b444ee4ccc5cdbdc1b5692b3b4d63f57546a94085d41d2befa00c743249",
+   "sha256": "75a75b444ee4ccc5cdbdc1b5692b3b4d63f57546a94085d41d2befa00c743249",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/kernel-metadata.json",
+   "sha256_source": "2fdffc8ee513004522a37b467cf4ccecf97ceec175fc9c7eeeb1b9393c7bc773",
+   "sha256": "2fdffc8ee513004522a37b467cf4ccecf97ceec175fc9c7eeeb1b9393c7bc773",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/member.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/member.json",
+   "sha256_source": "02e5819060f38c3a30be3ab7f60ad752a07bcaca09f65a08b95f16af98a86e04",
+   "sha256": "02e5819060f38c3a30be3ab7f60ad752a07bcaca09f65a08b95f16af98a86e04",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2911/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2911/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2911/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2911/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2911/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2911/identity_refit.json",
+   "sha256_source": "e5d3efe6103451506d5ee4b7e647dd90d300e95a75787c3a905833c87cc9bd65",
+   "sha256": "e5d3efe6103451506d5ee4b7e647dd90d300e95a75787c3a905833c87cc9bd65",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2912/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2912/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2912/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2912/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2912/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2912/identity_refit.json",
+   "sha256_source": "2aad5064148d3a46740ff2b69d840c72d43b5d7fba3922ad5f33baab9b4f4bcb",
+   "sha256": "2aad5064148d3a46740ff2b69d840c72d43b5d7fba3922ad5f33baab9b4f4bcb",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2913/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2913/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/r2913/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/r2913/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7a/output/variants.json": {
+   "source": "solutions/kernels/prc-f-mlp7a/output/variants.json",
+   "sha256_source": "5c3332466000176ccbafc1fc2a8f69411f0795b0515ed71c7bcd9b5e86784ae0",
+   "sha256": "5c3332466000176ccbafc1fc2a8f69411f0795b0515ed71c7bcd9b5e86784ae0",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/kernel-metadata.json",
+   "sha256_source": "6dd315a872c60359b710922f5b87c4d27d9c2eef160efec6f71543f6dc87a451",
+   "sha256": "6dd315a872c60359b710922f5b87c4d27d9c2eef160efec6f71543f6dc87a451",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/member.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/member.json",
+   "sha256_source": "f43a65ff8a6d17d58fc38415017757aa887e11795b62f8a24ad83186cac92f13",
+   "sha256": "f43a65ff8a6d17d58fc38415017757aa887e11795b62f8a24ad83186cac92f13",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2914/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2914/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2914/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2914/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2914/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2914/identity_refit.json",
+   "sha256_source": "116014aa03abe5a8aa0ccd7c282b204e057c4182c5ad656b183efbf3c6346932",
+   "sha256": "116014aa03abe5a8aa0ccd7c282b204e057c4182c5ad656b183efbf3c6346932",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2915/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2915/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2915/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2915/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2915/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2915/identity_refit.json",
+   "sha256_source": "fc08e52acd03698b7d091b8790bc6ceb28843afd3d133efcff3d9cd608e35082",
+   "sha256": "fc08e52acd03698b7d091b8790bc6ceb28843afd3d133efcff3d9cd608e35082",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2916/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2916/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2916/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2916/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/r2916/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/r2916/identity_refit.json",
+   "sha256_source": "d08a7f7bc01ddea4885910058b41db2cd0cf2ee0fc36edfcc64e27a23c60e5fc",
+   "sha256": "d08a7f7bc01ddea4885910058b41db2cd0cf2ee0fc36edfcc64e27a23c60e5fc",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7b/output/variants.json": {
+   "source": "solutions/kernels/prc-f-mlp7b/output/variants.json",
+   "sha256_source": "be6f5d8d69769fa52cc79972d925bba5f55ddb22bc1886ecd5b420b6e8ea048a",
+   "sha256": "be6f5d8d69769fa52cc79972d925bba5f55ddb22bc1886ecd5b420b6e8ea048a",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/kernel-metadata.json",
+   "sha256_source": "2e86affc73ef52028f06582e9ba28139f0b487d3b6e08fda38b6106a7e3a1bc1",
+   "sha256": "2e86affc73ef52028f06582e9ba28139f0b487d3b6e08fda38b6106a7e3a1bc1",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/member.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/member.json",
+   "sha256_source": "4c5416297bf55d9584e46d507c1c545342df91cf2f5a252f42da4604b7d6e2c2",
+   "sha256": "4c5416297bf55d9584e46d507c1c545342df91cf2f5a252f42da4604b7d6e2c2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2911/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2911/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2911/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2911/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2911/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2911/identity_refit.json",
+   "sha256_source": "b8280fcc86a566a87f3c8061d6e462761ddadb75c655569afc1c61b8a2a2d9ab",
+   "sha256": "b8280fcc86a566a87f3c8061d6e462761ddadb75c655569afc1c61b8a2a2d9ab",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2911/results.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2911/results.json",
+   "sha256_source": "35280b5494344fa20998b35adba5df40ca06d1c5692c4e721dce9f0751042bc5",
+   "sha256": "35280b5494344fa20998b35adba5df40ca06d1c5692c4e721dce9f0751042bc5",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2913/environment.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2913/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2913/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2913/expected_outputs.json",
+   "sha256_source": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "sha256": "a0e8f0bdbec0829f4684b90bd4bc2a8d3746d52195f2980d614403239a2c1277",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2913/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2913/identity_refit.json",
+   "sha256_source": "8668c3fabd19cf65ac249481ac82ab2e4df1041602509f4e74331c58c47f0948",
+   "sha256": "8668c3fabd19cf65ac249481ac82ab2e4df1041602509f4e74331c58c47f0948",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/r2913/results.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/r2913/results.json",
+   "sha256_source": "fb4430e888f8b48f59480dbe652609e030ed360c724c08f9d5319ceb000743f5",
+   "sha256": "fb4430e888f8b48f59480dbe652609e030ed360c724c08f9d5319ceb000743f5",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7c/output/variants.json": {
+   "source": "solutions/kernels/prc-f-mlp7c/output/variants.json",
+   "sha256_source": "7b61887e3761282056728abc3fe4530c429b986911fdff610e56d8cc7c9097a8",
+   "sha256": "7b61887e3761282056728abc3fe4530c429b986911fdff610e56d8cc7c9097a8",
+   "rewrites": []
+  },
+  "kernels/prc-f-mlp7m6/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f-mlp7m6/output/merge_manifest.json",
+   "sha256_source": "d5e7e4adfb98cb266cfae4d57627d18ed41a2c9e9bc6c35e18a2184623847dda",
+   "sha256": "d5e7e4adfb98cb266cfae4d57627d18ed41a2c9e9bc6c35e18a2184623847dda",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-x5-mo/kernel-metadata.json",
+   "sha256_source": "e5798995117013432774a2b68cbbb2680d987d9ea4dc6b409569fac22d2c095f",
+   "sha256": "e5798995117013432774a2b68cbbb2680d987d9ea4dc6b409569fac22d2c095f",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5-mo/member.json": {
+   "source": "solutions/kernels/prc-f-x5-mo/member.json",
+   "sha256_source": "7066b184291e8635707f628e51e5840a069066277458d5119b364c778ad34fe9",
+   "sha256": "7066b184291e8635707f628e51e5840a069066277458d5119b364c778ad34fe9",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f-x5-mo/output/environment.json",
+   "sha256_source": "11babd99d48fd4b50fd3540aa78cf0dbfa4b136d7ede9dc4b450ddd85607f998",
+   "sha256": "11babd99d48fd4b50fd3540aa78cf0dbfa4b136d7ede9dc4b450ddd85607f998",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-x5-mo/output/expected_outputs.json",
+   "sha256_source": "2b097d456016ed0b7f0ccea4207c964784ad9e1c95d1df9566cd5b428f7110e5",
+   "sha256": "2b097d456016ed0b7f0ccea4207c964784ad9e1c95d1df9566cd5b428f7110e5",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5-mo/output/results.json": {
+   "source": "solutions/kernels/prc-f-x5-mo/output/results.json",
+   "sha256_source": "4b88b948a4b4a62dda19de67e129464fccad935f3429e84500b857b3b0d8e8f4",
+   "sha256": "4b88b948a4b4a62dda19de67e129464fccad935f3429e84500b857b3b0d8e8f4",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-x5/kernel-metadata.json",
+   "sha256_source": "7154be4bdba6467d9052e299dca0bfb89f2bbeb1e9d4bec4e7278159797a5ea8",
+   "sha256": "7154be4bdba6467d9052e299dca0bfb89f2bbeb1e9d4bec4e7278159797a5ea8",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5/member.json": {
+   "source": "solutions/kernels/prc-f-x5/member.json",
+   "sha256_source": "e3b6b22ad988e0f792110d1d11e5e61ed3fa2327c449323cf314789b7e270b8c",
+   "sha256": "e3b6b22ad988e0f792110d1d11e5e61ed3fa2327c449323cf314789b7e270b8c",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5/output/environment.json": {
+   "source": "solutions/kernels/prc-f-x5/output/environment.json",
+   "sha256_source": "45cf84c1dfc9165a4d18a7dc74321ca85853dca58d1674830011095302014621",
+   "sha256": "45cf84c1dfc9165a4d18a7dc74321ca85853dca58d1674830011095302014621",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-x5/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-x5/output/identity_refit.json",
+   "sha256_source": "6fd8a149fe8af0fff7d13fa92978ff0715fbbb8af46eb3ee82e00831cecbbd55",
+   "sha256": "6fd8a149fe8af0fff7d13fa92978ff0715fbbb8af46eb3ee82e00831cecbbd55",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5b/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f-x5b/kernel-metadata.json",
+   "sha256_source": "282fb5e406fa1dfefa7be5fc9d03a16b1d5c4e7555ac1069b1a9635c7794f0c2",
+   "sha256": "282fb5e406fa1dfefa7be5fc9d03a16b1d5c4e7555ac1069b1a9635c7794f0c2",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5b/member.json": {
+   "source": "solutions/kernels/prc-f-x5b/member.json",
+   "sha256_source": "7f6e16b23968c799acb5e1ab56ba77ea6a234ce6466ec6391acb15c951e75a66",
+   "sha256": "7f6e16b23968c799acb5e1ab56ba77ea6a234ce6466ec6391acb15c951e75a66",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5b/output/environment.json": {
+   "source": "solutions/kernels/prc-f-x5b/output/environment.json",
+   "sha256_source": "45cf84c1dfc9165a4d18a7dc74321ca85853dca58d1674830011095302014621",
+   "sha256": "45cf84c1dfc9165a4d18a7dc74321ca85853dca58d1674830011095302014621",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5b/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f-x5b/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5b/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f-x5b/output/identity_refit.json",
+   "sha256_source": "df4412f11588f9a9fe53df1d94d26e5404be278ae5011293598e9e73ed5d6d9c",
+   "sha256": "df4412f11588f9a9fe53df1d94d26e5404be278ae5011293598e9e73ed5d6d9c",
+   "rewrites": []
+  },
+  "kernels/prc-f-x5m6/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f-x5m6/output/merge_manifest.json",
+   "sha256_source": "250264b92510799969a7f63f63661e73f8933ac2dbe2817d4003d947cc3689fe",
+   "sha256": "250264b92510799969a7f63f63661e73f8933ac2dbe2817d4003d947cc3689fe",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7/output/merge_manifest.json": {
+   "source": "solutions/kernels/prc-f8-c7/output/merge_manifest.json",
+   "sha256_source": "a718188f556eb4b0e3899852fb2838cb4c60ba3ea416f22710a0e4edc7e5d270",
+   "sha256": "a718188f556eb4b0e3899852fb2838cb4c60ba3ea416f22710a0e4edc7e5d270",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/kernel-metadata.json",
+   "sha256_source": "036864db55273c10c0a2ba4092463477f3378c7447c151461c56fdfb8f823e3a",
+   "sha256": "036864db55273c10c0a2ba4092463477f3378c7447c151461c56fdfb8f823e3a",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/member.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/member.json",
+   "sha256_source": "815236d2239694983c4c5dc7b01d51b2e2f71da2df775414cb093a48c83cb914",
+   "sha256": "815236d2239694983c4c5dc7b01d51b2e2f71da2df775414cb093a48c83cb914",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/best_M1.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/best_M1.json",
+   "sha256_source": "8379b08b2e47cb81b565d744f97384a1100053bfcee0422dd0e05de2da5a8f30",
+   "sha256": "8379b08b2e47cb81b565d744f97384a1100053bfcee0422dd0e05de2da5a8f30",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/best_M6.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/best_M6.json",
+   "sha256_source": "e06d1851b2e7c622edaafed5f035338904196b7a3acd75e41f31d3dabea26987",
+   "sha256": "e06d1851b2e7c622edaafed5f035338904196b7a3acd75e41f31d3dabea26987",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/catboost_info/catboost_training.json",
+   "sha256_source": "e5b477725525a8fb29539c0c49aa181276a8340e07610a3eb096c2b4cc60a4d4",
+   "sha256": "e5b477725525a8fb29539c0c49aa181276a8340e07610a3eb096c2b4cc60a4d4",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/expected_outputs.json",
+   "sha256_source": "2b097d456016ed0b7f0ccea4207c964784ad9e1c95d1df9566cd5b428f7110e5",
+   "sha256": "2b097d456016ed0b7f0ccea4207c964784ad9e1c95d1df9566cd5b428f7110e5",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/identity_M1.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/identity_M1.json",
+   "sha256_source": "00652b3d98066a79845ecf1af09d0d6a2457e34d9613ab56c97ab93d2fceddc2",
+   "sha256": "00652b3d98066a79845ecf1af09d0d6a2457e34d9613ab56c97ab93d2fceddc2",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/identity_M6.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/identity_M6.json",
+   "sha256_source": "0ccdb58d509dbd42f2ab12765188b0418206e00d0cabb58bcb08d035553e66da",
+   "sha256": "0ccdb58d509dbd42f2ab12765188b0418206e00d0cabb58bcb08d035553e66da",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a-mo/output/oof_sources.json": {
+   "source": "solutions/kernels/prc-f8-c7a-mo/output/oof_sources.json",
+   "sha256_source": "268bf9f582f9dc9c61ad9ae8e6c69b0aabc72e71f436ae8002926d34cf6c4312",
+   "sha256": "268bf9f582f9dc9c61ad9ae8e6c69b0aabc72e71f436ae8002926d34cf6c4312",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f8-c7a/kernel-metadata.json",
+   "sha256_source": "1018dc3413fc7d08c2ea558a38a7df6f169e3488e2156c8fc37fa8671eb8eb90",
+   "sha256": "1018dc3413fc7d08c2ea558a38a7df6f169e3488e2156c8fc37fa8671eb8eb90",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a/member.json": {
+   "source": "solutions/kernels/prc-f8-c7a/member.json",
+   "sha256_source": "7127044863773400ad24d857592db32ba361e93cb2b76212a526ad61941f24b4",
+   "sha256": "7127044863773400ad24d857592db32ba361e93cb2b76212a526ad61941f24b4",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f8-c7a/output/catboost_info/catboost_training.json",
+   "sha256_source": "8b4b23375fbf076a9c3a15ed031cb8da6ee1d33faed59622df754418520a0c94",
+   "sha256": "8b4b23375fbf076a9c3a15ed031cb8da6ee1d33faed59622df754418520a0c94",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a/output/environment.json": {
+   "source": "solutions/kernels/prc-f8-c7a/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f8-c7a/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7a/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f8-c7a/output/identity_refit.json",
+   "sha256_source": "d5ed54f78dd93466d497937670aebd91d3f91594c1ef15c740d350bc94b9951d",
+   "sha256": "d5ed54f78dd93466d497937670aebd91d3f91594c1ef15c740d350bc94b9951d",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7b/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f8-c7b/kernel-metadata.json",
+   "sha256_source": "f898e00d2f0f8dee1aeba381aacfd185aead60a27f435c221793279926e2485d",
+   "sha256": "f898e00d2f0f8dee1aeba381aacfd185aead60a27f435c221793279926e2485d",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7b/member.json": {
+   "source": "solutions/kernels/prc-f8-c7b/member.json",
+   "sha256_source": "fa08c15fbbaeac8e8384bff7dee6a1ea7fdf0b772bb74ca3b9876c325503957a",
+   "sha256": "fa08c15fbbaeac8e8384bff7dee6a1ea7fdf0b772bb74ca3b9876c325503957a",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7b/output/catboost_info/catboost_training.json": {
+   "source": "solutions/kernels/prc-f8-c7b/output/catboost_info/catboost_training.json",
+   "sha256_source": "d3c5898a0150226df3717e71a358d74d5be23952763b190efe96fff16d3fda26",
+   "sha256": "d3c5898a0150226df3717e71a358d74d5be23952763b190efe96fff16d3fda26",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7b/output/environment.json": {
+   "source": "solutions/kernels/prc-f8-c7b/output/environment.json",
+   "sha256_source": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "sha256": "8ff6a89a67660219fc914138fc99f1fcc207a90b760e6242a3e3b1bbaacc7bd0",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7b/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f8-c7b/output/expected_outputs.json",
+   "sha256_source": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "sha256": "ba9cbf0e01ddafad2a3d8d2e676986302d8decf0fdaf3310efbf0d740ad98fd4",
+   "rewrites": []
+  },
+  "kernels/prc-f8-c7b/output/identity_refit.json": {
+   "source": "solutions/kernels/prc-f8-c7b/output/identity_refit.json",
+   "sha256_source": "22f1f1e93cfd26a0ccd44a6de9397ae7de8daf6f26c2ec27822ecde63006509e",
+   "sha256": "22f1f1e93cfd26a0ccd44a6de9397ae7de8daf6f26c2ec27822ecde63006509e",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/kernel-metadata.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/kernel-metadata.json",
+   "sha256_source": "38361957925fd11a4849e50139364605b1d08fbd8f5504c2729195866fdf2ba8",
+   "sha256": "38361957925fd11a4849e50139364605b1d08fbd8f5504c2729195866fdf2ba8",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/member.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/member.json",
+   "sha256_source": "d3becd0b0bb9f73acc56de8b0e650760a22724c2b66bb512b956742136dd561b",
+   "sha256": "d3becd0b0bb9f73acc56de8b0e650760a22724c2b66bb512b956742136dd561b",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/best_M1.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/best_M1.json",
+   "sha256_source": "76a4a7f58956b9fea095d692e98a7b75197c292d9ee0aa825df94e9681d7caf5",
+   "sha256": "76a4a7f58956b9fea095d692e98a7b75197c292d9ee0aa825df94e9681d7caf5",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/best_M2.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/best_M2.json",
+   "sha256_source": "33f37edf181e57dbe9618151a955a8d55e788bc4c820da73e9e453624b3f6434",
+   "sha256": "33f37edf181e57dbe9618151a955a8d55e788bc4c820da73e9e453624b3f6434",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/best_M6.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/best_M6.json",
+   "sha256_source": "2561c05a8bcdd4133e17a84ec08cb7c7d70cca226523cb5c1dce7f93402b959c",
+   "sha256": "2561c05a8bcdd4133e17a84ec08cb7c7d70cca226523cb5c1dce7f93402b959c",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/best_M7.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/best_M7.json",
+   "sha256_source": "c9dff711ded52765dd20886e43b2e46dad2a51a3a9e97f8065410939e7e687ee",
+   "sha256": "c9dff711ded52765dd20886e43b2e46dad2a51a3a9e97f8065410939e7e687ee",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/environment.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/environment.json",
+   "sha256_source": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "sha256": "9c344d1a6a86eaad2246fe6b547701d0d8b05a8353d2503437253fcbbb3b52a2",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/expected_outputs.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/expected_outputs.json",
+   "sha256_source": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "sha256": "3e5729651e9651ce7a59a15894f3e108b80d0f87c36ee534aa1fb93cfc64e67f",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/identity_M1.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/identity_M1.json",
+   "sha256_source": "36ea66cce863a1d341cdbc33430b52f80c438280b33d93673704b8cb5b01249f",
+   "sha256": "36ea66cce863a1d341cdbc33430b52f80c438280b33d93673704b8cb5b01249f",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/identity_M2.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/identity_M2.json",
+   "sha256_source": "698a745210d2eb2a6795259f8be40b663cdd4e5e093922a4733e7fda16aa98a9",
+   "sha256": "698a745210d2eb2a6795259f8be40b663cdd4e5e093922a4733e7fda16aa98a9",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/identity_M6.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/identity_M6.json",
+   "sha256_source": "306beaeda7b1d63896a608d4fe5e3ba7fde0830f442dfd3ea5736e251734179b",
+   "sha256": "306beaeda7b1d63896a608d4fe5e3ba7fde0830f442dfd3ea5736e251734179b",
+   "rewrites": []
+  },
+  "kernels/prc-f8-mlp7a-mo/output/identity_M7.json": {
+   "source": "solutions/kernels/prc-f8-mlp7a-mo/output/identity_M7.json",
+   "sha256_source": "171256c459c5ef2ef10b00823478732ffae1fd51900f68190632002f7f437871",
+   "sha256": "171256c459c5ef2ef10b00823478732ffae1fd51900f68190632002f7f437871",
+   "rewrites": []
+  },
+  "kernels/prc-meta-gbm-f4/output/report.json": {
+   "source": "solutions/kernels/prc-meta-gbm-f4/output/report.json",
+   "sha256_source": "de43540270936018656fcae15ad77f73c4b81d99e969cf5b3337eb3e48de8e82",
+   "sha256": "de43540270936018656fcae15ad77f73c4b81d99e969cf5b3337eb3e48de8e82",
+   "rewrites": []
+  },
+  "research/build_metar.py": {
+   "source": "research/build_metar.py",
+   "sha256_source": "a1e69403db8e6b1df574d0f96d617a870bd24e5f13f6286c7cc9e17c8187a0c0",
+   "sha256": "a1e69403db8e6b1df574d0f96d617a870bd24e5f13f6286c7cc9e17c8187a0c0",
+   "rewrites": []
+  },
+  "research/cover/spec_k4.json": {
+   "source": "research/cover/spec_k4.json",
+   "sha256_source": "e7d198aae2639f7ec4de890db4bf86237aa6f235e36944bf2ecdab7b9a203adf",
+   "sha256": "e7d198aae2639f7ec4de890db4bf86237aa6f235e36944bf2ecdab7b9a203adf",
+   "rewrites": []
+  },
+  "research/extreme_blend.py": {
+   "source": "research/extreme_blend.py",
+   "sha256_source": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e",
+   "sha256": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e",
+   "rewrites": []
+  },
+  "research/fgap/build_fs8_members.py": {
+   "source": "research/fgap/build_fs8_members.py",
+   "sha256_source": "8d212fc079d843f69e301cecdd5071fc9895bdd7c7bd94fdb467b7b7a0a62fbf",
+   "sha256": "8d212fc079d843f69e301cecdd5071fc9895bdd7c7bd94fdb467b7b7a0a62fbf",
+   "rewrites": []
+  },
+  "research/fgap/build_paired.py": {
+   "source": "research/fgap/build_paired.py",
+   "sha256_source": "07fca9d210d158eb2dbeb403265ba1810fa487b396d2288f68676282b8a36f4c",
+   "sha256": "07fca9d210d158eb2dbeb403265ba1810fa487b396d2288f68676282b8a36f4c",
+   "rewrites": []
+  },
+  "research/fgap/combine_c7_mo.py": {
+   "source": "research/fgap/combine_c7_mo.py",
+   "sha256_source": "3dd3d6036c2c23fe25b5b27cd38eeeec7198bc1f6df06928d32af68c31832286",
+   "sha256": "3dd3d6036c2c23fe25b5b27cd38eeeec7198bc1f6df06928d32af68c31832286",
+   "rewrites": []
+  },
+  "research/fgap/combine_paired.py": {
+   "source": "research/fgap/combine_paired.py",
+   "sha256_source": "2198827dfc97114495228c68a331ad0eb97be96493bba278ddd1f6bc8e03ca37",
+   "sha256": "2198827dfc97114495228c68a331ad0eb97be96493bba278ddd1f6bc8e03ca37",
+   "rewrites": []
+  },
+  "research/fgap/paired_eval.py": {
+   "source": "research/fgap/paired_eval.py",
+   "sha256_source": "c1789a27c21418839c405763e92b1750b02cc5ecfe8603789f553d1493546969",
+   "sha256": "c1789a27c21418839c405763e92b1750b02cc5ecfe8603789f553d1493546969",
+   "rewrites": []
+  },
+  "research/fgap/runs/c7_mo_fs8_vs_fs7.json": {
+   "source": "research/fgap/runs/c7_mo_fs8_vs_fs7.json",
+   "sha256_source": "35b7b8895085bbf83e75b994a0e802c74d16efd1046406e2ef2f929633c133c3",
+   "sha256": "35b7b8895085bbf83e75b994a0e802c74d16efd1046406e2ef2f929633c133c3",
+   "rewrites": []
+  },
+  "research/fgap/runs/r3/paired_2s6l.json": {
+   "source": "research/fgap/runs/r3/paired_2s6l.json",
+   "sha256_source": "52059e2a686fc1e3b4423ecf77ef61866bfb842d7e41a2153bc95abcdbc2d598",
+   "sha256": "52059e2a686fc1e3b4423ecf77ef61866bfb842d7e41a2153bc95abcdbc2d598",
+   "rewrites": []
+  },
+  "research/final/README.md": {
+   "source": "research/final/README.md",
+   "sha256_source": "9942e07ddde4d5d1b61ae265130b1e80f771e0f38de3a73a16281d037a114752",
+   "sha256": "a546f7a6def3ab946953dfb703c9a311169ab6572c448f92c85fdb8e24ef945e",
+   "rewrites": [
+    {
+     "pattern": "`NOTES\\.md` has the results\\.",
+     "replacement": "`docs/VALIDATION.md` summarises the results.",
+     "count": 1,
+     "why": "the assembler's working log (NOTES.md) is not published; point to docs/VALIDATION.md"
+    },
+    {
+     "pattern": "^\\| `NEEDS\\.md` \\| [^\\n]*\\n",
+     "replacement": "",
+     "count": 1,
+     "why": "NEEDS.md (the development tree's list of pending inputs) is not published"
+    }
+   ]
+  },
+  "research/final/artifacts/daily_v2_f4_loadings.json": {
+   "source": "research/final/artifacts/daily_v2_f4_loadings.json",
+   "sha256_source": "b664a4e4789f49e9e07a9c080a63fe77f79deaa6e30f2e7c43f432b20d0bb332",
+   "sha256": "b664a4e4789f49e9e07a9c080a63fe77f79deaa6e30f2e7c43f432b20d0bb332",
+   "rewrites": []
+  },
+  "research/final/assemble_final.py": {
+   "source": "research/final/assemble_final.py",
+   "sha256_source": "803d17f612b358ea92f0a95de88365034950a53bbb71963cc5f3d7ff56f7ecb1",
+   "sha256": "803d17f612b358ea92f0a95de88365034950a53bbb71963cc5f3d7ff56f7ecb1",
+   "rewrites": []
+  },
+  "research/final/configs/f2_fillprob_pseudo2025.json": {
+   "source": "research/final/configs/f2_fillprob_pseudo2025.json",
+   "sha256_source": "789f6dca3457f6c44e57d6f45ef67f90e4965723e9f1ae9bc83f33930381783b",
+   "sha256": "789f6dca3457f6c44e57d6f45ef67f90e4965723e9f1ae9bc83f33930381783b",
+   "rewrites": []
+  },
+  "research/final/configs/f2_final.json": {
+   "source": "research/final/configs/f2_final.json",
+   "sha256_source": "05bcdc0a7195bb6a409b1cb85dc88b8ccb8c9186a8b60c5618c4f65bbbdf0bbd",
+   "sha256": "05bcdc0a7195bb6a409b1cb85dc88b8ccb8c9186a8b60c5618c4f65bbbdf0bbd",
+   "rewrites": []
+  },
+  "research/final/configs/f2_nopost_pseudo2025.json": {
+   "source": "research/final/configs/f2_nopost_pseudo2025.json",
+   "sha256_source": "aa29530e941c03a16d9b89fbe13dc2a00ce6ac6ea74f672b2cfa752e0b491c35",
+   "sha256": "aa29530e941c03a16d9b89fbe13dc2a00ce6ac6ea74f672b2cfa752e0b491c35",
+   "rewrites": []
+  },
+  "research/final/configs/f2_pseudo2025.json": {
+   "source": "research/final/configs/f2_pseudo2025.json",
+   "sha256_source": "b38b7809e7fbcfc4d86b3e9fabf12506a730e21c4dbf8f93f164c57647bf0764",
+   "sha256": "b38b7809e7fbcfc4d86b3e9fabf12506a730e21c4dbf8f93f164c57647bf0764",
+   "rewrites": []
+  },
+  "research/final/configs/f2p_final.json": {
+   "source": "research/final/configs/f2p_final.json",
+   "sha256_source": "a8e77e5ea789a4530cbd383a0f0f8fe86f12de1774614a87582a311744805134",
+   "sha256": "a8e77e5ea789a4530cbd383a0f0f8fe86f12de1774614a87582a311744805134",
+   "rewrites": []
+  },
+  "research/final/configs/f2p_pseudo2025.json": {
+   "source": "research/final/configs/f2p_pseudo2025.json",
+   "sha256_source": "db93afd718010e393378296905f389abd571ab59ff9d8b15cc0149990c079aac",
+   "sha256": "db93afd718010e393378296905f389abd571ab59ff9d8b15cc0149990c079aac",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5_final.json": {
+   "source": "research/final/configs/f2x5_final.json",
+   "sha256_source": "fa9d7cf7e9662ac91839c7554aa978946d4ed0466189c5af2a461ba7aa7cfcac",
+   "sha256": "fa9d7cf7e9662ac91839c7554aa978946d4ed0466189c5af2a461ba7aa7cfcac",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5_l1av2_final.json": {
+   "source": "research/final/configs/f2x5_l1av2_final.json",
+   "sha256_source": "b29c53879248d74fefa830c3e1e378f45fe0c85546d884cf1d95735673ff10ca",
+   "sha256": "b29c53879248d74fefa830c3e1e378f45fe0c85546d884cf1d95735673ff10ca",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5_l1av2_pseudo2025.json": {
+   "source": "research/final/configs/f2x5_l1av2_pseudo2025.json",
+   "sha256_source": "9931681285569021f55da2fb2ffdfce05247a0d1567dd42a2d9110a8a650f81b",
+   "sha256": "9931681285569021f55da2fb2ffdfce05247a0d1567dd42a2d9110a8a650f81b",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5_l1av2sq_pseudo2025.json": {
+   "source": "research/final/configs/f2x5_l1av2sq_pseudo2025.json",
+   "sha256_source": "a6e64d84a4b4d5779f84fed428c3969c13b7e2d62b25f1fae18d3e357dbd76c3",
+   "sha256": "a6e64d84a4b4d5779f84fed428c3969c13b7e2d62b25f1fae18d3e357dbd76c3",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5_l1av2ss_pseudo2025.json": {
+   "source": "research/final/configs/f2x5_l1av2ss_pseudo2025.json",
+   "sha256_source": "111c4a3338eec126d78b841a2fe067b4d5db4d1c5b063266efd354e2d6e09b8f",
+   "sha256": "111c4a3338eec126d78b841a2fe067b4d5db4d1c5b063266efd354e2d6e09b8f",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5_pseudo2025.json": {
+   "source": "research/final/configs/f2x5_pseudo2025.json",
+   "sha256_source": "a60eff02d7ad4c869e8b87c41651cdbf701c2a9ed86b3dca58bc4f626614cd49",
+   "sha256": "a60eff02d7ad4c869e8b87c41651cdbf701c2a9ed86b3dca58bc4f626614cd49",
+   "rewrites": []
+  },
+  "research/final/configs/f2x5m6_final.json": {
+   "source": "research/final/configs/f2x5m6_final.json",
+   "sha256_source": "2b4b00f5d811f1fb5695ecd117a59de880bbbd987b0e9a1a09ad6e5b7c7ad9fa",
+   "sha256": "2b4b00f5d811f1fb5695ecd117a59de880bbbd987b0e9a1a09ad6e5b7c7ad9fa",
+   "rewrites": []
+  },
+  "research/final/configs/f3_final.json": {
+   "source": "research/final/configs/f3_final.json",
+   "sha256_source": "a5073af8ccee1cfaecec8c2075896157fa3247829648e110ee5b7ae7ee952271",
+   "sha256": "a5073af8ccee1cfaecec8c2075896157fa3247829648e110ee5b7ae7ee952271",
+   "rewrites": []
+  },
+  "research/final/configs/f3_pseudo2025.json": {
+   "source": "research/final/configs/f3_pseudo2025.json",
+   "sha256_source": "5a05a4cd8628c911db62308379a1419711c515d07bab870715b0b087ec0c8ebe",
+   "sha256": "5a05a4cd8628c911db62308379a1419711c515d07bab870715b0b087ec0c8ebe",
+   "rewrites": []
+  },
+  "research/final/configs/f4_final.json": {
+   "source": "research/final/configs/f4_final.json",
+   "sha256_source": "90bc57ef25c3cab8936b516d7ccbf739c531ee3241ffdbd6aa335295f08c2c2f",
+   "sha256": "90bc57ef25c3cab8936b516d7ccbf739c531ee3241ffdbd6aa335295f08c2c2f",
+   "rewrites": []
+  },
+  "research/final/configs/f4_pseudo2025.json": {
+   "source": "research/final/configs/f4_pseudo2025.json",
+   "sha256_source": "a43ea48981f1925fa7740df3b46e53bff2e6e690831f84fd3c82f2a19ec48b30",
+   "sha256": "a43ea48981f1925fa7740df3b46e53bff2e6e690831f84fd3c82f2a19ec48b30",
+   "rewrites": []
+  },
+  "research/final/configs/f4p1_pseudo2025.json": {
+   "source": "research/final/configs/f4p1_pseudo2025.json",
+   "sha256_source": "b6cdadadd3d9afc6fa53a44c8c18519e58c5830d06b1c8afb95bb7e3d8719d00",
+   "sha256": "b6cdadadd3d9afc6fa53a44c8c18519e58c5830d06b1c8afb95bb7e3d8719d00",
+   "rewrites": []
+  },
+  "research/final/configs/f5_final.json": {
+   "source": "research/final/configs/f5_final.json",
+   "sha256_source": "21945e9f3bfa3ffc97068abe2ebd51402fb881eafe205d08fb7d660dc0b585f5",
+   "sha256": "21945e9f3bfa3ffc97068abe2ebd51402fb881eafe205d08fb7d660dc0b585f5",
+   "rewrites": []
+  },
+  "research/final/configs/f5_pseudo2025.json": {
+   "source": "research/final/configs/f5_pseudo2025.json",
+   "sha256_source": "f256b86f2da812f056677f6fbedb97e123f2b869ae303fd97f06c7f0bdc6dc51",
+   "sha256": "f256b86f2da812f056677f6fbedb97e123f2b869ae303fd97f06c7f0bdc6dc51",
+   "rewrites": []
+  },
+  "research/final/configs/f5fm7_pseudo2025.json": {
+   "source": "research/final/configs/f5fm7_pseudo2025.json",
+   "sha256_source": "21377e9a96e2ad93a0e65601272b12d247638be097c2ef0d54836a14042b1624",
+   "sha256": "21377e9a96e2ad93a0e65601272b12d247638be097c2ef0d54836a14042b1624",
+   "rewrites": []
+  },
+  "research/final/configs/f5fm7p1_pseudo2025.json": {
+   "source": "research/final/configs/f5fm7p1_pseudo2025.json",
+   "sha256_source": "92c337ebd0416ff8f53f0e92cfb4ee3276e67e28240d14f658ff0d4fb4483965",
+   "sha256": "92c337ebd0416ff8f53f0e92cfb4ee3276e67e28240d14f658ff0d4fb4483965",
+   "rewrites": []
+  },
+  "research/final/configs/f6_final.json": {
+   "source": "research/final/configs/f6_final.json",
+   "sha256_source": "ef4ff172448066d89edaf7ae81f89c7036ab3e781b6b78addb79fa816b6e1726",
+   "sha256": "ef4ff172448066d89edaf7ae81f89c7036ab3e781b6b78addb79fa816b6e1726",
+   "rewrites": []
+  },
+  "research/final/configs/f6ev_pseudo2025.json": {
+   "source": "research/final/configs/f6ev_pseudo2025.json",
+   "sha256_source": "2f73266690f6f423f6e637ecbc6a21ac4936f61be25c60c805f798a5456910a9",
+   "sha256": "2f73266690f6f423f6e637ecbc6a21ac4936f61be25c60c805f798a5456910a9",
+   "rewrites": []
+  },
+  "research/final/configs/v32c_a1_board.json": {
+   "source": "research/final/configs/v32c_a1_board.json",
+   "sha256_source": "9ee322447887dd599064013227112ea9223593012c3e68b33e300380a35ba67e",
+   "sha256": "9ee322447887dd599064013227112ea9223593012c3e68b33e300380a35ba67e",
+   "rewrites": []
+  },
+  "research/final/configs/v32c_repro_board.json": {
+   "source": "research/final/configs/v32c_repro_board.json",
+   "sha256_source": "4a6ff7dca9044d6aae3683a51efe61ae39496448ae9f8404f409b6a498365e1d",
+   "sha256": "4a6ff7dca9044d6aae3683a51efe61ae39496448ae9f8404f409b6a498365e1d",
+   "rewrites": []
+  },
+  "research/final/frame.py": {
+   "source": "research/final/frame.py",
+   "sha256_source": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+   "sha256": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+   "rewrites": []
+  },
+  "research/final/level.py": {
+   "source": "research/final/level.py",
+   "sha256_source": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+   "sha256": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+   "rewrites": []
+  },
+  "research/final/levers/__init__.py": {
+   "source": "research/final/levers/__init__.py",
+   "sha256_source": "9cbe1bfa05025b701cf53c874b81aa0b318f10b0cd360a3afb521c8a1a7dfd3c",
+   "sha256": "9cbe1bfa05025b701cf53c874b81aa0b318f10b0cd360a3afb521c8a1a7dfd3c",
+   "rewrites": []
+  },
+  "research/final/levers/artifacts/daily_params.json": {
+   "source": "research/final/levers/artifacts/daily_params.json",
+   "sha256_source": "66f56d499c9f7eb293f0bc1f832a2c46c66f5e4f3d5eddf78c836fcfa8b57bdf",
+   "sha256": "633e526dfc8c89e460838f0ff57db8e073a42c92f69fd4863a05bd242f50382c",
+   "rewrites": [
+    {
+     "pattern": "/(?:Users|home)/[^\\\"\\n]*?/independent-predict-aircraft-taxi-out-time-at-european-airports/",
+     "replacement": "",
+     "count": 1,
+     "why": "metadata only: the absolute development-tree prefix of the recorded out-of-fold path becomes repository-relative (daily.py does not read the field; the parameters are unchanged)"
+    }
+   ]
+  },
+  "research/final/levers/artifacts/daily_v2_f2x5_loadings.json": {
+   "source": "research/final/levers/artifacts/daily_v2_f2x5_loadings.json",
+   "sha256_source": "97573403a41b6e53c16b516e5d794ee6ec02cabf3c566e47bd08c2f687ef607e",
+   "sha256": "97573403a41b6e53c16b516e5d794ee6ec02cabf3c566e47bd08c2f687ef607e",
+   "rewrites": []
+  },
+  "research/final/levers/artifacts/events_f5.json": {
+   "source": "research/final/levers/artifacts/events_f5.json",
+   "sha256_source": "e9bf8ccb3ae7e9c2f82ea75f95fe9c0fc8f30e3ee40e48643025277b8e2a314d",
+   "sha256": "e9bf8ccb3ae7e9c2f82ea75f95fe9c0fc8f30e3ee40e48643025277b8e2a314d",
+   "rewrites": []
+  },
+  "research/final/levers/daily.py": {
+   "source": "research/final/levers/daily.py",
+   "sha256_source": "d4cfba1215fb8de9b1fdab0944c722869a5c8191dbf54f74028e599f058a5018",
+   "sha256": "d4cfba1215fb8de9b1fdab0944c722869a5c8191dbf54f74028e599f058a5018",
+   "rewrites": []
+  },
+  "research/final/levers/events.py": {
+   "source": "research/final/levers/events.py",
+   "sha256_source": "0d4e3c504d0470962264a037a079530ccb1b697adcd329823885f116dfa9dc7d",
+   "sha256": "0d4e3c504d0470962264a037a079530ccb1b697adcd329823885f116dfa9dc7d",
+   "rewrites": []
+  },
+  "research/final/levers/lv_common.py": {
+   "source": "research/final/levers/lv_common.py",
+   "sha256_source": "e5d6f75290d6c5d3a88525cedb9615e3acf6d8de3e49219c36da76c25f716995",
+   "sha256": "e5d6f75290d6c5d3a88525cedb9615e3acf6d8de3e49219c36da76c25f716995",
+   "rewrites": []
+  },
+  "research/final/levers/lv_rules.py": {
+   "source": "research/final/levers/lv_rules.py",
+   "sha256_source": "6d90180bab3d5f81f90e9cef0d2017270187abb192fab3e215ac7a419ab9b25a",
+   "sha256": "6d90180bab3d5f81f90e9cef0d2017270187abb192fab3e215ac7a419ab9b25a",
+   "rewrites": []
+  },
+  "research/final/levers/recovered.py": {
+   "source": "research/final/levers/recovered.py",
+   "sha256_source": "fb02db8a338e8fae33c9f1597fe751a007a8c69bb565e16e535409524756d334",
+   "sha256": "fb02db8a338e8fae33c9f1597fe751a007a8c69bb565e16e535409524756d334",
+   "rewrites": []
+  },
+  "research/final/longrows.py": {
+   "source": "research/final/longrows.py",
+   "sha256_source": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+   "sha256": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+   "rewrites": []
+  },
+  "research/final/manifests/f2.json": {
+   "source": "research/final/manifests/f2.json",
+   "sha256_source": "73cd2615b9e8b8ce078443a2d7f9b0efd4acfb7e0e8253c56d5c3f37dfe51ac9",
+   "sha256": "73cd2615b9e8b8ce078443a2d7f9b0efd4acfb7e0e8253c56d5c3f37dfe51ac9",
+   "rewrites": []
+  },
+  "research/final/manifests/f2p.json": {
+   "source": "research/final/manifests/f2p.json",
+   "sha256_source": "0444521a4d49f3770b3561d1e6d9cd306ade0a3a8f4c486d6706b09b04348e06",
+   "sha256": "0444521a4d49f3770b3561d1e6d9cd306ade0a3a8f4c486d6706b09b04348e06",
+   "rewrites": []
+  },
+  "research/final/manifests/f2x5.json": {
+   "source": "research/final/manifests/f2x5.json",
+   "sha256_source": "f2301ea0ab2357420920e0b25b4cbe2715588e6cf66ec3012bd1ad402a1fc39c",
+   "sha256": "f2301ea0ab2357420920e0b25b4cbe2715588e6cf66ec3012bd1ad402a1fc39c",
+   "rewrites": []
+  },
+  "research/final/manifests/f2x5_l1av2.json": {
+   "source": "research/final/manifests/f2x5_l1av2.json",
+   "sha256_source": "8cd8b9d6c2193f66fea98d31bb6be4f999079022dcfa5b5c80c31513bead1af9",
+   "sha256": "8cd8b9d6c2193f66fea98d31bb6be4f999079022dcfa5b5c80c31513bead1af9",
+   "rewrites": []
+  },
+  "research/final/manifests/f2x5m6.json": {
+   "source": "research/final/manifests/f2x5m6.json",
+   "sha256_source": "3be8aa488e921a4f7e0e1ebf872b9d8473b613d793fb955daab212e4fa58004a",
+   "sha256": "3be8aa488e921a4f7e0e1ebf872b9d8473b613d793fb955daab212e4fa58004a",
+   "rewrites": []
+  },
+  "research/final/manifests/f3.json": {
+   "source": "research/final/manifests/f3.json",
+   "sha256_source": "8f4417ca2d614255cf7f50ce05076b5cb23af4d33b68e4b792bc6f45f0ba9239",
+   "sha256": "8f4417ca2d614255cf7f50ce05076b5cb23af4d33b68e4b792bc6f45f0ba9239",
+   "rewrites": []
+  },
+  "research/final/manifests/f4.json": {
+   "source": "research/final/manifests/f4.json",
+   "sha256_source": "7aad5726779594ae41a739d130816ca42d8332412af1cce3354c8f934348c6ce",
+   "sha256": "7aad5726779594ae41a739d130816ca42d8332412af1cce3354c8f934348c6ce",
+   "rewrites": []
+  },
+  "research/final/manifests/f5.json": {
+   "source": "research/final/manifests/f5.json",
+   "sha256_source": "7f85fdbfaa098858cdf94775edf0d23efebc1fda07b02a332d6acbe4f6ee1f3f",
+   "sha256": "7f85fdbfaa098858cdf94775edf0d23efebc1fda07b02a332d6acbe4f6ee1f3f",
+   "rewrites": []
+  },
+  "research/final/manifests/f6.json": {
+   "source": "research/final/manifests/f6.json",
+   "sha256_source": "66be3bb3481f964115a54c917643749861f21c50a653ff546acaf928fe68597e",
+   "sha256": "66be3bb3481f964115a54c917643749861f21c50a653ff546acaf928fe68597e",
+   "rewrites": []
+  },
+  "research/final/manifests/v32c_a1_board.json": {
+   "source": "research/final/manifests/v32c_a1_board.json",
+   "sha256_source": "b9ef61746f5a92e86b5922b39f251d1d69b69537c73ba3395ff2a9733805f27f",
+   "sha256": "b9ef61746f5a92e86b5922b39f251d1d69b69537c73ba3395ff2a9733805f27f",
+   "rewrites": []
+  },
+  "research/final/manifests/v32c_repro_board.json": {
+   "source": "research/final/manifests/v32c_repro_board.json",
+   "sha256_source": "1b97d735bad35420c9ee4098afd74224569c4571129327180edb90a66d6bdc0f",
+   "sha256": "1b97d735bad35420c9ee4098afd74224569c4571129327180edb90a66d6bdc0f",
+   "rewrites": []
+  },
+  "research/final/merge_members.py": {
+   "source": "research/final/merge_members.py",
+   "sha256_source": "c1d9a27b3ca85231e14a0bf6471a8befc2a7841ddfc069b115b27d05b528a145",
+   "sha256": "c1d9a27b3ca85231e14a0bf6471a8befc2a7841ddfc069b115b27d05b528a145",
+   "rewrites": []
+  },
+  "research/final/meta/artifacts/daily_v2_f5_loadings.json": {
+   "source": "research/final/meta/artifacts/daily_v2_f5_loadings.json",
+   "sha256_source": "a6cba14d4940bf3c75ddfb846defda85ac2b48af2299effe1c419fa3a16fab2a",
+   "sha256": "a6cba14d4940bf3c75ddfb846defda85ac2b48af2299effe1c419fa3a16fab2a",
+   "rewrites": []
+  },
+  "research/final/meta/build_frame.py": {
+   "source": "research/final/meta/build_frame.py",
+   "sha256_source": "49bb24a67742b7b829d862317fce6e726d2504229af5c4a17659c4bdb497a0a6",
+   "sha256": "49bb24a67742b7b829d862317fce6e726d2504229af5c4a17659c4bdb497a0a6",
+   "rewrites": []
+  },
+  "research/final/meta/compare_all.py": {
+   "source": "research/final/meta/compare_all.py",
+   "sha256_source": "75bb1a792f4a8c5b24fb366e2fc51b73ef6c6014dfb058a081ceb79c43ec91c3",
+   "sha256": "75bb1a792f4a8c5b24fb366e2fc51b73ef6c6014dfb058a081ceb79c43ec91c3",
+   "rewrites": []
+  },
+  "research/final/meta/configs/meta_gbm-G1short-f4_pseudo2025.json": {
+   "source": "research/final/meta/configs/meta_gbm-G1short-f4_pseudo2025.json",
+   "sha256_source": "e651642867f8533c3542e4649922adf5491b99a8230e1ec7dff36f0df4fa5ad6",
+   "sha256": "e651642867f8533c3542e4649922adf5491b99a8230e1ec7dff36f0df4fa5ad6",
+   "rewrites": []
+  },
+  "research/final/meta/configs/meta_gbm-G1short-f4p1_pseudo2025.json": {
+   "source": "research/final/meta/configs/meta_gbm-G1short-f4p1_pseudo2025.json",
+   "sha256_source": "35392726772b1eba201e6d426b9b5ac5d5d0e5e52373564f1fa32a6a42412be2",
+   "sha256": "35392726772b1eba201e6d426b9b5ac5d5d0e5e52373564f1fa32a6a42412be2",
+   "rewrites": []
+  },
+  "research/final/meta/harness.py": {
+   "source": "research/final/meta/harness.py",
+   "sha256_source": "34fb0dcce818d5d1e5c570f8581c24e384dd138ea7a431ec39fdbb794b3dedcd",
+   "sha256": "34fb0dcce818d5d1e5c570f8581c24e384dd138ea7a431ec39fdbb794b3dedcd",
+   "rewrites": []
+  },
+  "research/final/meta/kernels/prc-meta-gbm-f4/kernel-metadata.json": {
+   "source": "research/final/meta/kernels/prc-meta-gbm-f4/kernel-metadata.json",
+   "sha256_source": "3ff9f4ae07b6424da637387c2412c4c0e14c01c3b1b955b92904d90500dea021",
+   "sha256": "3ff9f4ae07b6424da637387c2412c4c0e14c01c3b1b955b92904d90500dea021",
+   "rewrites": []
+  },
+  "research/final/meta/kernels/prc-meta-gbm-f4/kernel.py": {
+   "source": "research/final/meta/kernels/prc-meta-gbm-f4/kernel.py",
+   "sha256_source": "7a247b79f20a63f3137b66235c5e9eab56b4ad4989181019bea47c1f85bfa754",
+   "sha256": "7a247b79f20a63f3137b66235c5e9eab56b4ad4989181019bea47c1f85bfa754",
+   "rewrites": []
+  },
+  "research/final/meta/kernels/prc-meta-gbm/kernel-metadata.json": {
+   "source": "research/final/meta/kernels/prc-meta-gbm/kernel-metadata.json",
+   "sha256_source": "edc0bb1e0cc3602e37e43ca9cf6e3ecb1e8dcdced68577b50613efb9a083bf01",
+   "sha256": "edc0bb1e0cc3602e37e43ca9cf6e3ecb1e8dcdced68577b50613efb9a083bf01",
+   "rewrites": []
+  },
+  "research/final/meta/kernels/prc-meta-gbm/kernel.py": {
+   "source": "research/final/meta/kernels/prc-meta-gbm/kernel.py",
+   "sha256_source": "7a247b79f20a63f3137b66235c5e9eab56b4ad4989181019bea47c1f85bfa754",
+   "sha256": "7a247b79f20a63f3137b66235c5e9eab56b4ad4989181019bea47c1f85bfa754",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "656d6195fd9e8746cb4557ae415177c76f0c69e9e162d4e0f3f3bae6c6aee851",
+   "sha256": "656d6195fd9e8746cb4557ae415177c76f0c69e9e162d4e0f3f3bae6c6aee851",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "25225379c16cb15c93233c683d59227e2aef5436bf7d8fba74dca9b99c19741f",
+   "sha256": "25225379c16cb15c93233c683d59227e2aef5436bf7d8fba74dca9b99c19741f",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1m_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1m_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "6c01da49a807d2f011358ee960391e25385a75ee9bd750dadb7cd9db7462a7b7",
+   "sha256": "6c01da49a807d2f011358ee960391e25385a75ee9bd750dadb7cd9db7462a7b7",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1m_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1m_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "db8d15d34d68c0ddb680be4a6e009f14d67aca349913171f6462ca8a6b77c21c",
+   "sha256": "db8d15d34d68c0ddb680be4a6e009f14d67aca349913171f6462ca8a6b77c21c",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1short-f4_crossfit__f4_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1short-f4_crossfit__f4_pseudo2025_crossfit.json",
+   "sha256_source": "b7c77c29eeb08f0a5b753ad96a49ace2d22812028f0cb8695720f57a867f8691",
+   "sha256": "b7c77c29eeb08f0a5b753ad96a49ace2d22812028f0cb8695720f57a867f8691",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1short-f4p1_crossfit__f4_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1short-f4p1_crossfit__f4_pseudo2025_crossfit.json",
+   "sha256_source": "ce3e4bff9fdb0f888b6555e19e81bf393be09327a1e0590bc769d1ff690267e4",
+   "sha256": "ce3e4bff9fdb0f888b6555e19e81bf393be09327a1e0590bc769d1ff690267e4",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1short_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1short_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "ef4f86cd5dba6c4f368af2abd2ad39a0bd2a2c53d0fd2cc2ec68f59965b8a7bb",
+   "sha256": "ef4f86cd5dba6c4f368af2abd2ad39a0bd2a2c53d0fd2cc2ec68f59965b8a7bb",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1short_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1short_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "7b0b45e44607fac748c394600029ae87b2ff087563452ded7a129180137279bd",
+   "sha256": "7b0b45e44607fac748c394600029ae87b2ff087563452ded7a129180137279bd",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1x_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1x_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "0f587c87b00dcd4c87c6aebe87a9d29f1a5e0da6b48309728e1927b415f094a3",
+   "sha256": "0f587c87b00dcd4c87c6aebe87a9d29f1a5e0da6b48309728e1927b415f094a3",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_gbm-G1x_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/meta/pseudo/compare_meta_gbm-G1x_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "d1b07fd5e896c6ab9707309959174e2d7a1c15735631530d6ec6457a2b0a836e",
+   "sha256": "d1b07fd5e896c6ab9707309959174e2d7a1c15735631530d6ec6457a2b0a836e",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_lin-apt_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_lin-apt_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "80eeefa2a8e6e58282f89b0eef9779db6cf8ad7887557d94d23c1dc3b0b73976",
+   "sha256": "80eeefa2a8e6e58282f89b0eef9779db6cf8ad7887557d94d23c1dc3b0b73976",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_lin-apt_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/meta/pseudo/compare_meta_lin-apt_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "f7fe581d0401d45415bf9eb883b9f6ee4e1460713126da234c04030eaa463290",
+   "sha256": "f7fe581d0401d45415bf9eb883b9f6ee4e1460713126da234c04030eaa463290",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_lin-vc_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/meta/pseudo/compare_meta_lin-vc_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "718f6ab9868489f6c4d4f5ebb92e4f2f01fc92545944b6d2970c2bf6be777f4c",
+   "sha256": "718f6ab9868489f6c4d4f5ebb92e4f2f01fc92545944b6d2970c2bf6be777f4c",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/compare_meta_lin-vc_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/meta/pseudo/compare_meta_lin-vc_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "838d6015e54e41b1cd76bd9c97e1983f307cbb7909d149d6438cdf3fcc2051d4",
+   "sha256": "838d6015e54e41b1cd76bd9c97e1983f307cbb7909d149d6438cdf3fcc2051d4",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/meta_gbm-G1short-f4_crossfit.json": {
+   "source": "research/final/meta/pseudo/meta_gbm-G1short-f4_crossfit.json",
+   "sha256_source": "0f8c502bb59a1ee03d5cb48ef9ee81570d30173a9562d75cc8d91241d4a1c06f",
+   "sha256": "0f8c502bb59a1ee03d5cb48ef9ee81570d30173a9562d75cc8d91241d4a1c06f",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/meta_gbm-G1short-f4_frozen.json": {
+   "source": "research/final/meta/pseudo/meta_gbm-G1short-f4_frozen.json",
+   "sha256_source": "333eadb84a74e0ce8761b69775a11b9d99912cfa981cb276d35da8b6a704d746",
+   "sha256": "333eadb84a74e0ce8761b69775a11b9d99912cfa981cb276d35da8b6a704d746",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/meta_gbm-G1short-f4p1_crossfit.json": {
+   "source": "research/final/meta/pseudo/meta_gbm-G1short-f4p1_crossfit.json",
+   "sha256_source": "5710aa1a41fb6412df02945f25c4359c15dceeb67c18b8ec359d44293636cc1b",
+   "sha256": "5710aa1a41fb6412df02945f25c4359c15dceeb67c18b8ec359d44293636cc1b",
+   "rewrites": []
+  },
+  "research/final/meta/pseudo/meta_gbm-G1short-f4p1_frozen.json": {
+   "source": "research/final/meta/pseudo/meta_gbm-G1short-f4p1_frozen.json",
+   "sha256_source": "b899582befe8f379d72d977e6680418e3dac7042f8de1be710825c3706d78ede",
+   "sha256": "b899582befe8f379d72d977e6680418e3dac7042f8de1be710825c3706d78ede",
+   "rewrites": []
+  },
+  "research/final/meta/publish_dataset.py": {
+   "source": "research/final/meta/publish_dataset.py",
+   "sha256_source": "00cb7b505e0c246d8ed8e4f62e832717634fcde77bb93ba9534b93d2d11f380a",
+   "sha256": "1d3a7cdbd5f13db8eef798d5b17e0260aa1bce7da9bab8e5f11b1cf71174042c",
+   "rewrites": [
+    {
+     "pattern": "^sys\\.path\\.insert\\(0, str\\(C\\.parents\\[1\\]\\)\\)\\n",
+     "replacement": "sys.path.insert(0, str(C / \"tools\"))  # tools/kaggle_env.py: Kaggle credentials\n",
+     "count": 1,
+     "why": "Kaggle API access goes through tools/kaggle_env.py instead of the development tree's account modules"
+    },
+    {
+     "pattern": "^    from core import kaggle_accounts\\n    from solver\\.kaggle_runner import _get_api\\n",
+     "replacement": "    from kaggle_env import get_api\n",
+     "count": 1,
+     "why": "same"
+    },
+    {
+     "pattern": "^    acc = kaggle_accounts\\.primary_account\\(\\)\\n    api = _get_api\\(acc\\)\\n    assert api\\.config_values\\.get\\(\\\"username\\\"\\) == acc\\.username == \\\"usiadianimuwa\\\", \\\"wrong account\\\"\\n",
+     "replacement": "    api = get_api(\"primary\")\n    user = str(api.config_values.get(\"username\"))\n",
+     "count": 1,
+     "why": "the dataset owner is the authenticated primary account"
+    },
+    {
+     "pattern": "\"dataset\": f\"\\{acc\\.username\\}/\\{SLUG\\}\"",
+     "replacement": "\"dataset\": f\"{user}/{SLUG}\"",
+     "count": 1,
+     "why": "same"
+    }
+   ]
+  },
+  "research/final/meta/reproduce.py": {
+   "source": "research/final/meta/reproduce.py",
+   "sha256_source": "be8666c9836ec96147561b144f5935f82d9482e538cd4ee840b9aefff4d5faec",
+   "sha256": "be8666c9836ec96147561b144f5935f82d9482e538cd4ee840b9aefff4d5faec",
+   "rewrites": []
+  },
+  "research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json": {
+   "source": "research/final/meta/results/dataset_prc-taxi-2026-meta-f4_create.json",
+   "sha256_source": "f6dff49b164e62bf4276790950d23c44985ea11ee23f92a9c70611fe9ffe6d65",
+   "sha256": "f6dff49b164e62bf4276790950d23c44985ea11ee23f92a9c70611fe9ffe6d65",
+   "rewrites": []
+  },
+  "research/final/meta/results/prc-meta-gbm-f4_report.json": {
+   "source": "research/final/meta/results/prc-meta-gbm-f4_report.json",
+   "sha256_source": "de43540270936018656fcae15ad77f73c4b81d99e969cf5b3337eb3e48de8e82",
+   "sha256": "de43540270936018656fcae15ad77f73c4b81d99e969cf5b3337eb3e48de8e82",
+   "rewrites": []
+  },
+  "research/final/meta/specs/f4.json": {
+   "source": "research/final/meta/specs/f4.json",
+   "sha256_source": "3a6ec539777794c4e729b8e98423bfa225107578975b52c79dfb62f99cf8c3a9",
+   "sha256": "3a6ec539777794c4e729b8e98423bfa225107578975b52c79dfb62f99cf8c3a9",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2_fillprob_pseudo2025_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f2_fillprob_pseudo2025_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "dc99f2010fb00c4a6bcfc4ab084d35074ce686f7a019fa0dafae1dab8add0eee",
+   "sha256": "dc99f2010fb00c4a6bcfc4ab084d35074ce686f7a019fa0dafae1dab8add0eee",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2_fillprob_pseudo2025_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2_fillprob_pseudo2025_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "4e7ef1ecb18766ed1244547e454b22f481498400038ebe661209aff8c049ca7c",
+   "sha256": "4e7ef1ecb18766ed1244547e454b22f481498400038ebe661209aff8c049ca7c",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2_nopost_pseudo2025_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f2_nopost_pseudo2025_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "f846978e3ded87a7d1b04de2fde77a16285f8d5ebd03eb417077f81900c67191",
+   "sha256": "f846978e3ded87a7d1b04de2fde77a16285f8d5ebd03eb417077f81900c67191",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2_nopost_pseudo2025_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2_nopost_pseudo2025_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "725e32102c3ef2f49e61a294d2fe4fde88d438edd67846412b12cd0845447a70",
+   "sha256": "725e32102c3ef2f49e61a294d2fe4fde88d438edd67846412b12cd0845447a70",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2p_pseudo2025_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2p_pseudo2025_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "1273abc40537d7bea21ae3c20910b25216e48a390f0ddb1c680c36eb0d3916b7",
+   "sha256": "1273abc40537d7bea21ae3c20910b25216e48a390f0ddb1c680c36eb0d3916b7",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_l1av2_pseudo2025_crossfit__f2x5_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f2x5_l1av2_pseudo2025_crossfit__f2x5_pseudo2025_crossfit.json",
+   "sha256_source": "5840cd67868adee8fb99aafe14a5f4d2c4f325bca907186e106b258c156dbf10",
+   "sha256": "5840cd67868adee8fb99aafe14a5f4d2c4f325bca907186e106b258c156dbf10",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_l1av2_pseudo2025_frozen__f2x5_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2x5_l1av2_pseudo2025_frozen__f2x5_pseudo2025_frozen.json",
+   "sha256_source": "e95c81e1dc75f80a37218595209c7cd1c1bd22c835d9c864aa2878285631785a",
+   "sha256": "e95c81e1dc75f80a37218595209c7cd1c1bd22c835d9c864aa2878285631785a",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_l1av2sq_pseudo2025_crossfit__f2x5_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f2x5_l1av2sq_pseudo2025_crossfit__f2x5_pseudo2025_crossfit.json",
+   "sha256_source": "5e4b1468050bf0d7770937ecfe16a3fe908d4125d4b7491bb6f2c9a4f2c65f0d",
+   "sha256": "5e4b1468050bf0d7770937ecfe16a3fe908d4125d4b7491bb6f2c9a4f2c65f0d",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_l1av2sq_pseudo2025_frozen__f2x5_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2x5_l1av2sq_pseudo2025_frozen__f2x5_pseudo2025_frozen.json",
+   "sha256_source": "2a1557aa1d51b505ecee710868e76caadbf1c4e03b6bc9baac0f93cdc5c6d6a1",
+   "sha256": "2a1557aa1d51b505ecee710868e76caadbf1c4e03b6bc9baac0f93cdc5c6d6a1",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_l1av2ss_pseudo2025_crossfit__f2x5_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f2x5_l1av2ss_pseudo2025_crossfit__f2x5_pseudo2025_crossfit.json",
+   "sha256_source": "ee19e55a2a3f9e4862f0e63da27a2c3127f53af9f460be2d7a5cdc0f5cd19615",
+   "sha256": "ee19e55a2a3f9e4862f0e63da27a2c3127f53af9f460be2d7a5cdc0f5cd19615",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_l1av2ss_pseudo2025_frozen__f2x5_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2x5_l1av2ss_pseudo2025_frozen__f2x5_pseudo2025_frozen.json",
+   "sha256_source": "e5d1587de0ef26221fa0d96af39d5d134cac7d322f873be7604e64800ee820ac",
+   "sha256": "e5d1587de0ef26221fa0d96af39d5d134cac7d322f873be7604e64800ee820ac",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_pseudo2025_crossfit__f2_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f2x5_pseudo2025_crossfit__f2_pseudo2025_crossfit.json",
+   "sha256_source": "c51a2c30c22555a8646e579b9e8ea5ca45cd41616fda84d8e7db8988c82536c1",
+   "sha256": "c51a2c30c22555a8646e579b9e8ea5ca45cd41616fda84d8e7db8988c82536c1",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f2x5_pseudo2025_frozen__f2_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f2x5_pseudo2025_frozen__f2_pseudo2025_frozen.json",
+   "sha256_source": "181dc57e5bf0d3ecbd1c1f758630c4c44ba1157978b2334dbb920e693ac77678",
+   "sha256": "181dc57e5bf0d3ecbd1c1f758630c4c44ba1157978b2334dbb920e693ac77678",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f4_pseudo2025_crossfit__f3_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f4_pseudo2025_crossfit__f3_pseudo2025_crossfit.json",
+   "sha256_source": "2b9836921d3fc75856ad9f569178b3f7b6d6574299025de92496b3f309a5b6f5",
+   "sha256": "2b9836921d3fc75856ad9f569178b3f7b6d6574299025de92496b3f309a5b6f5",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f4_pseudo2025_frozen__f3_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f4_pseudo2025_frozen__f3_pseudo2025_frozen.json",
+   "sha256_source": "7cf46199aab09714d7453c5e8554c9383b1aa5a90d7fde2afc950818da209f9f",
+   "sha256": "7cf46199aab09714d7453c5e8554c9383b1aa5a90d7fde2afc950818da209f9f",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f5fm7_pseudo2025_crossfit__f5_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f5fm7_pseudo2025_crossfit__f5_pseudo2025_crossfit.json",
+   "sha256_source": "c3b123ebf3f8609a61966046dcc7b02b56e9337844ba421311669a412e636225",
+   "sha256": "c3b123ebf3f8609a61966046dcc7b02b56e9337844ba421311669a412e636225",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f6ev_pseudo2025_crossfit__f5_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/compare_f6ev_pseudo2025_crossfit__f5_pseudo2025_crossfit.json",
+   "sha256_source": "eaefd1c063b35a104e5e08256fde719be1153909c5e087f8abd1b82ce41e036e",
+   "sha256": "eaefd1c063b35a104e5e08256fde719be1153909c5e087f8abd1b82ce41e036e",
+   "rewrites": []
+  },
+  "research/final/pseudo/compare_f6ev_pseudo2025_frozen__f5_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/compare_f6ev_pseudo2025_frozen__f5_pseudo2025_frozen.json",
+   "sha256_source": "7a5975e54bb49df482c7ca57099802fd1a5ba4ddc65f6d7acdc46d055e3d6b42",
+   "sha256": "7a5975e54bb49df482c7ca57099802fd1a5ba4ddc65f6d7acdc46d055e3d6b42",
+   "rewrites": []
+  },
+  "research/final/pseudo/f2_fillprob_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f2_fillprob_pseudo2025_crossfit.json",
+   "sha256_source": "066b27b7b0161ff9db254a86cd5cd2aa3cfe847fa039db5cb5f6055756688e59",
+   "sha256": "066b27b7b0161ff9db254a86cd5cd2aa3cfe847fa039db5cb5f6055756688e59",
+   "rewrites": []
+  },
+  "research/final/pseudo/f2_fillprob_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f2_fillprob_pseudo2025_frozen.json",
+   "sha256_source": "6dc416aeb72facb1ef66e42694164142d63d2c720a6a73a57f8b11c73f137047",
+   "sha256": "6dc416aeb72facb1ef66e42694164142d63d2c720a6a73a57f8b11c73f137047",
+   "rewrites": []
+  },
+  "research/final/pseudo/f2_nopost_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f2_nopost_pseudo2025_crossfit.json",
+   "sha256_source": "b9b7a77dcd90e02c999f62fe38fa770b6c02e4b0f7a80cb60f7fd014c212650c",
+   "sha256": "b9b7a77dcd90e02c999f62fe38fa770b6c02e4b0f7a80cb60f7fd014c212650c",
+   "rewrites": []
+  },
+  "research/final/pseudo/f2_nopost_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f2_nopost_pseudo2025_frozen.json",
+   "sha256_source": "ae6bfd860dd87d3a4d14d8fb1da0ae1e010f7479d42020b40e46adc46f26e22f",
+   "sha256": "ae6bfd860dd87d3a4d14d8fb1da0ae1e010f7479d42020b40e46adc46f26e22f",
+   "rewrites": []
+  },
+  "research/final/pseudo/f2_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f2_pseudo2025_crossfit.json",
+   "sha256_source": "390480c1b7eeb9b08ee211e2df4980a556b7e2c7dfbb2f4fcb5fb03a1ace6273",
+   "sha256": "390480c1b7eeb9b08ee211e2df4980a556b7e2c7dfbb2f4fcb5fb03a1ace6273",
+   "rewrites": []
+  },
+  "research/final/pseudo/f2_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f2_pseudo2025_frozen.json",
+   "sha256_source": "2bcb29a6a0b603379a5fec8b7216400503184a30c1e4c6cb101f098a8ce3315e",
+   "sha256": "2bcb29a6a0b603379a5fec8b7216400503184a30c1e4c6cb101f098a8ce3315e",
+   "rewrites": []
+  },
+  "research/final/pseudo/f3_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f3_pseudo2025_crossfit.json",
+   "sha256_source": "7ed4fde21b031a5d23bb8c3c73a9ca45398ebddf795762af8758474bff616b13",
+   "sha256": "7ed4fde21b031a5d23bb8c3c73a9ca45398ebddf795762af8758474bff616b13",
+   "rewrites": []
+  },
+  "research/final/pseudo/f3_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f3_pseudo2025_frozen.json",
+   "sha256_source": "12c2ecffda2ae37a089a2df9a1f9cfcace9cd70a825fe0f3290ccc06e918f489",
+   "sha256": "12c2ecffda2ae37a089a2df9a1f9cfcace9cd70a825fe0f3290ccc06e918f489",
+   "rewrites": []
+  },
+  "research/final/pseudo/f4_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f4_pseudo2025_crossfit.json",
+   "sha256_source": "fc8c4560c4df96ef1cbd6b919ece106e7a75311a02722c32812460b2ce38e18e",
+   "sha256": "fc8c4560c4df96ef1cbd6b919ece106e7a75311a02722c32812460b2ce38e18e",
+   "rewrites": []
+  },
+  "research/final/pseudo/f4_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f4_pseudo2025_frozen.json",
+   "sha256_source": "3219059c2b5164e6fa8117861024dc5a0cab09aff3af2468d99f5276c12f7d68",
+   "sha256": "3219059c2b5164e6fa8117861024dc5a0cab09aff3af2468d99f5276c12f7d68",
+   "rewrites": []
+  },
+  "research/final/pseudo/f4p1_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f4p1_pseudo2025_crossfit.json",
+   "sha256_source": "263432b8daf7561aa2f53bab9bbdcb9ecf1c7fb75fc59b37de6506323e95ce32",
+   "sha256": "263432b8daf7561aa2f53bab9bbdcb9ecf1c7fb75fc59b37de6506323e95ce32",
+   "rewrites": []
+  },
+  "research/final/pseudo/f4p1_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f4p1_pseudo2025_frozen.json",
+   "sha256_source": "b7e3c70a3c62b1e101a9d91e435050a16540040c3243afcd2b4da85d6fe028a7",
+   "sha256": "b7e3c70a3c62b1e101a9d91e435050a16540040c3243afcd2b4da85d6fe028a7",
+   "rewrites": []
+  },
+  "research/final/pseudo/f5_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f5_pseudo2025_crossfit.json",
+   "sha256_source": "35e83399410404595280f9f81b92b5f529738734f7dc7e97a089c011e7472a56",
+   "sha256": "35e83399410404595280f9f81b92b5f529738734f7dc7e97a089c011e7472a56",
+   "rewrites": []
+  },
+  "research/final/pseudo/f5_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f5_pseudo2025_frozen.json",
+   "sha256_source": "9faa4a135d3ecc1a48922c44a947243eda0cb7c6e9df76628c0f46c3c9674911",
+   "sha256": "9faa4a135d3ecc1a48922c44a947243eda0cb7c6e9df76628c0f46c3c9674911",
+   "rewrites": []
+  },
+  "research/final/pseudo/f5fm7_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f5fm7_pseudo2025_crossfit.json",
+   "sha256_source": "78f9f003f2c0fdcce7ff78411c66c35cf57d463dedb26aee65947ff46fcf78b3",
+   "sha256": "78f9f003f2c0fdcce7ff78411c66c35cf57d463dedb26aee65947ff46fcf78b3",
+   "rewrites": []
+  },
+  "research/final/pseudo/f5fm7p1_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f5fm7p1_pseudo2025_crossfit.json",
+   "sha256_source": "68e5e5581a17837e3c8d0b380530cb11a81eb14e084a0e7e7ab9f472e9db0913",
+   "sha256": "68e5e5581a17837e3c8d0b380530cb11a81eb14e084a0e7e7ab9f472e9db0913",
+   "rewrites": []
+  },
+  "research/final/pseudo/f6ev_pseudo2025_crossfit.json": {
+   "source": "research/final/pseudo/f6ev_pseudo2025_crossfit.json",
+   "sha256_source": "7604671ad03adbb8641b24a53e894c3dd48042272dc2c71df3fab98f38e8e0b1",
+   "sha256": "7604671ad03adbb8641b24a53e894c3dd48042272dc2c71df3fab98f38e8e0b1",
+   "rewrites": []
+  },
+  "research/final/pseudo/f6ev_pseudo2025_frozen.json": {
+   "source": "research/final/pseudo/f6ev_pseudo2025_frozen.json",
+   "sha256_source": "cb530a48e768d7da85e09775ac2002dbf11679ad0d0e4ee74119a1b38346ba48",
+   "sha256": "cb530a48e768d7da85e09775ac2002dbf11679ad0d0e4ee74119a1b38346ba48",
+   "rewrites": []
+  },
+  "research/final/pseudo/l1av2_report_f2x5_l1av2__f2x5_crossfit.json": {
+   "source": "research/final/pseudo/l1av2_report_f2x5_l1av2__f2x5_crossfit.json",
+   "sha256_source": "c696d9fe70dde9ff2b9242344ae6cc82087e526374b48447cbf8c667187861f4",
+   "sha256": "c696d9fe70dde9ff2b9242344ae6cc82087e526374b48447cbf8c667187861f4",
+   "rewrites": []
+  },
+  "research/final/pseudo/l1av2_report_f2x5_l1av2__f2x5_frozen.json": {
+   "source": "research/final/pseudo/l1av2_report_f2x5_l1av2__f2x5_frozen.json",
+   "sha256_source": "34bc8116425adbdedc219d5d201994d3e888ea5b7e9232a4bfaded4d2f75c488",
+   "sha256": "34bc8116425adbdedc219d5d201994d3e888ea5b7e9232a4bfaded4d2f75c488",
+   "rewrites": []
+  },
+  "research/final/pseudo_final.py": {
+   "source": "research/final/pseudo_final.py",
+   "sha256_source": "9bac4c1b01dcfaccb34d3d62de3ad78bfbc0b841928227a082ddca11f201d579",
+   "sha256": "9bac4c1b01dcfaccb34d3d62de3ad78bfbc0b841928227a082ddca11f201d579",
+   "rewrites": []
+  },
+  "research/final/rules.py": {
+   "source": "research/final/rules.py",
+   "sha256_source": "f11538538f328acfdb994a47022108563274e2bad2d35989a272279bcf53e889",
+   "sha256": "f11538538f328acfdb994a47022108563274e2bad2d35989a272279bcf53e889",
+   "rewrites": []
+  },
+  "research/final/stacking.py": {
+   "source": "research/final/stacking.py",
+   "sha256_source": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+   "sha256": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+   "rewrites": []
+  },
+  "research/final/validate_board.py": {
+   "source": "research/final/validate_board.py",
+   "sha256_source": "88b88706540c91fa85af3eb53ffebb0a1f0bfdeeeb13d9d7992d742d7819c9a9",
+   "sha256": "88b88706540c91fa85af3eb53ffebb0a1f0bfdeeeb13d9d7992d742d7819c9a9",
+   "rewrites": []
+  },
+  "research/geometry/README.md": {
+   "source": "research/geometry/README.md",
+   "sha256_source": "2a54cc0542187e0c867a48ee4f1d4df2b1fc16a07a401cdad17d1bc95c2d6dfc",
+   "sha256": "2a54cc0542187e0c867a48ee4f1d4df2b1fc16a07a401cdad17d1bc95c2d6dfc",
+   "rewrites": []
+  },
+  "research/geometry/build_geometry.py": {
+   "source": "research/geometry/build_geometry.py",
+   "sha256_source": "29d5711e725b2886822f6a0dfda3dae44adbd48a228473c87263b52dc17c9a83",
+   "sha256": "29d5711e725b2886822f6a0dfda3dae44adbd48a228473c87263b52dc17c9a83",
+   "rewrites": []
+  },
+  "research/geometry/check_value.py": {
+   "source": "research/geometry/check_value.py",
+   "sha256_source": "16ab5ef0bd3906e5445c4067abbc0e24ba28549790a7c7d99a2fbcafecd28f8a",
+   "sha256": "16ab5ef0bd3906e5445c4067abbc0e24ba28549790a7c7d99a2fbcafecd28f8a",
+   "rewrites": []
+  },
+  "research/lb_api.py": {
+   "source": "research/lb_api.py",
+   "sha256_source": "6a33a48f180e7dea06a06ba70ce367a89b30cbfff77c62799828cca4a38cfe6d",
+   "sha256": "6a33a48f180e7dea06a06ba70ce367a89b30cbfff77c62799828cca4a38cfe6d",
+   "rewrites": []
+  },
+  "research/tail/build_cache.py": {
+   "source": "research/tail/build_cache.py",
+   "sha256_source": "636ff8c27c5319766a0120f6c3a109a1775e80f37d9ea5541011a537e59b061a",
+   "sha256": "636ff8c27c5319766a0120f6c3a109a1775e80f37d9ea5541011a537e59b061a",
+   "rewrites": []
+  },
+  "research/tail/longrows_v30.py": {
+   "source": "research/tail/longrows_v30.py",
+   "sha256_source": "1f15e2af3057400a8fde88ee1da96e7d769dbf7799fa76b02c55540a87d76d55",
+   "sha256": "1f15e2af3057400a8fde88ee1da96e7d769dbf7799fa76b02c55540a87d76d55",
+   "rewrites": []
+  },
+  "research/tail/oofframe.py": {
+   "source": "research/tail/oofframe.py",
+   "sha256_source": "8d9b6fd98901aaa367e013e6b61e947288d2b2392309059d290af7320c21edbb",
+   "sha256": "8d9b6fd98901aaa367e013e6b61e947288d2b2392309059d290af7320c21edbb",
+   "rewrites": []
+  },
+  "research/tail/tailkit.py": {
+   "source": "research/tail/tailkit.py",
+   "sha256_source": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+   "sha256": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+   "rewrites": []
+  },
+  "research/upload.py": {
+   "source": "research/upload.py",
+   "sha256_source": "b48d0402fb839ac42c565abbaf4f76384fb4295be91f284585bcfe0a7eb8d925",
+   "sha256": "a79b052b7b076e6fb4524cc43162dc962c73e11a653203bf829fac2ad204d3c3",
+   "rewrites": [
+    {
+     "pattern": "^Credentials live outside the repo in ~/\\.prc/minio\\.json \\(0600\\):\\n",
+     "replacement": "Credentials live outside the repo, in the JSON file named by $PRC_MINIO_CREDENTIALS (0600):\n",
+     "count": 1,
+     "why": "credential location is configured by environment, not a developer's home directory"
+    },
+    {
+     "pattern": "^CRED = Path\\.home\\(\\) / \"\\.prc\" / \"minio\\.json\"\\n",
+     "replacement": "CRED = Path(os.environ.get(\"PRC_MINIO_CREDENTIALS\", \"minio-credentials.json\"))\n",
+     "count": 1,
+     "why": "the bucket credentials file is named by $PRC_MINIO_CREDENTIALS instead of a path in the developer's home directory"
+    },
+    {
+     "pattern": "^import json\\nimport re\\n",
+     "replacement": "import json\nimport os\nimport re\n",
+     "count": 1,
+     "why": "os is needed by the CRED line"
+    },
+    {
+     "pattern": "a hand-made hybrid of two board files \\(10-09 v3\\d-v3\\d\\) has no build manifest\\.",
+     "replacement": "a file combined by hand from other files has no build manifest.",
+     "count": 1,
+     "why": "a docstring example named internal upload numbers; the rule it states is unchanged"
+    }
+   ]
+  },
+  "solutions/adsb/build_final.py": {
+   "source": "solutions/adsb/build_final.py",
+   "sha256_source": "7733d6445e1cba3afb77a31c7830cd1961a1bbb9850264b9bae9388f92d386dc",
+   "sha256": "7733d6445e1cba3afb77a31c7830cd1961a1bbb9850264b9bae9388f92d386dc",
+   "rewrites": []
+  },
+  "solutions/adsb/build_k3.py": {
+   "source": "solutions/adsb/build_k3.py",
+   "sha256_source": "2ab3588c56e22e5eb734b43d8898877308acde01aa60b0bba688435be1a37a01",
+   "sha256": "2ab3588c56e22e5eb734b43d8898877308acde01aa60b0bba688435be1a37a01",
+   "rewrites": []
+  },
+  "solutions/adsb/events_v3.py": {
+   "source": "solutions/adsb/events_v3.py",
+   "sha256_source": "55a6da31d89262982643346a3c864cf02e9b4647c70da034662d6da593e1426b",
+   "sha256": "55a6da31d89262982643346a3c864cf02e9b4647c70da034662d6da593e1426b",
+   "rewrites": []
+  },
+  "solutions/adsb/extract.py": {
+   "source": "solutions/adsb/extract.py",
+   "sha256_source": "ae1e2b1017fb3411c04811115fd3518eaa037a0961dceb709b161563b484a8c7",
+   "sha256": "ae1e2b1017fb3411c04811115fd3518eaa037a0961dceb709b161563b484a8c7",
+   "rewrites": []
+  },
+  "solutions/adsb/extract_v3.py": {
+   "source": "solutions/adsb/extract_v3.py",
+   "sha256_source": "1cc247000dae16ecede3d7cc679655427f484f83ba460a0a2b6d692e81b0f226",
+   "sha256": "1cc247000dae16ecede3d7cc679655427f484f83ba460a0a2b6d692e81b0f226",
+   "rewrites": []
+  },
+  "solutions/adsb/sources.json": {
+   "generated_from": "solutions/v27/kernel-metadata.json (kernel_sources)",
+   "sha256": "b66453a91ba46bdc4d087b2d51c4c709e53df67041dc15e2f2cb77fb1298a772",
+   "rewrites": []
+  },
+  "solutions/core/batch_main.py": {
+   "source": "solutions/core/batch_main.py",
+   "sha256_source": "8fc9d683461911adb15ee29ae254922100f61e6f264be85ad288c371ae88df33",
+   "sha256": "8fc9d683461911adb15ee29ae254922100f61e6f264be85ad288c371ae88df33",
+   "rewrites": []
+  },
+  "solutions/core/build_kernel.py": {
+   "source": "solutions/core/build_kernel.py",
+   "sha256_source": "6f5438979bd8290bc92a6266dcbd25a90e19a0922bf8230dfe1cca564dbebb2a",
+   "sha256": "18075d0e7790101281843c1709318d6e8e2285deec091081c389abdd9a35a027",
+   "rewrites": [
+    {
+     "pattern": "^ADSB = json\\.loads\\(\\(SOL / \"v27\" / \"kernel-metadata\\.json\"\\)\\.read_text\\(\\)\\)\\[\"kernel_sources\"\\]$",
+     "replacement": "ADSB = json.loads((SOL / \"adsb\" / \"sources.json\").read_text())[\"kernel_sources\"]",
+     "count": 1,
+     "why": "read the ADS-B extract kernel list from solutions/adsb/sources.json (generated by the sync from the development tree's solutions/v27/kernel-metadata.json, which is not published)"
+    },
+    {
+     "pattern": "^    sys\\.path\\.insert\\(0, str\\(SOL\\.parents\\[2\\]\\)\\)\\n",
+     "replacement": "    sys.path.insert(0, str(SOL.parent / \"tools\"))  # tools/kaggle_env.py: Kaggle credentials\n",
+     "count": 2,
+     "why": "Kaggle API access goes through tools/kaggle_env.py instead of the development tree's account modules"
+    },
+    {
+     "pattern": "^    from scout\\.kaggle_fetcher import _get_api\\n    api = _get_api\\(\\)\\n",
+     "replacement": "    from kaggle_env import get_api\n    api = get_api(\"primary\")\n",
+     "count": 1,
+     "why": "input_urls() authenticates through tools/kaggle_env.py"
+    },
+    {
+     "pattern": "^    if owner == OWNER:\\n        from scout\\.kaggle_fetcher import _get_api\\n        api = _get_api\\(\\)\\n    else:\\n        from core import kaggle_accounts\\n        from solver\\.kaggle_runner import _get_api\\n        acct = next\\(a for a in kaggle_accounts\\.load_accounts\\(\\) if a\\.username == owner\\)\\n        api = _get_api\\(acct\\)\\n",
+     "replacement": "    from kaggle_env import account_for_owner, get_api\n    api = get_api(\"primary\" if owner == OWNER else account_for_owner(owner))\n",
+     "count": 1,
+     "why": "fs_urls() authenticates through tools/kaggle_env.py"
+    }
+   ]
+  },
+  "solutions/core/features.py": {
+   "source": "solutions/core/features.py",
+   "sha256_source": "88c418886ef0b68eab1f15d9ecaeea8c8d0ec1788676f870b84f85d81a294a2b",
+   "sha256": "a949805d683f8c9c2836a24b69189a1916c546d9a19fa108c87ce4ccdcf80bfa",
+   "rewrites": [
+    {
+     "pattern": "^[ \\t]+Path\\(\"/(?:Users|home)/[^\"\\n]+\"\\),[ \\t]*\\n",
+     "replacement": "",
+     "count": 1,
+     "why": "drop a developer's absolute data path from the search list; DATA_ROOT, /kaggle/input and the working directory (the repository root, holding data/) remain"
+    }
+   ]
+  },
+  "solutions/core/fs8.py": {
+   "source": "solutions/core/fs8.py",
+   "sha256_source": "fdc29a092d6f52f375d0813c251936f86df1f3471f0ab92db89d148fb4d6d17e",
+   "sha256": "fdc29a092d6f52f375d0813c251936f86df1f3471f0ab92db89d148fb4d6d17e",
+   "rewrites": []
+  },
+  "solutions/core/fs_main.py": {
+   "source": "solutions/core/fs_main.py",
+   "sha256_source": "db694e168ff39e69c8f400eebb0ad221cb8210d0264d56b7aa929e649dadad6c",
+   "sha256": "db694e168ff39e69c8f400eebb0ad221cb8210d0264d56b7aa929e649dadad6c",
+   "rewrites": []
+  },
+  "solutions/core/fsbatch_main.py": {
+   "source": "solutions/core/fsbatch_main.py",
+   "sha256_source": "f37a19e7c3920b1e960ebb82d2c227d9fca38c625e89c1aca680149121756a5c",
+   "sha256": "f37a19e7c3920b1e960ebb82d2c227d9fca38c625e89c1aca680149121756a5c",
+   "rewrites": []
+  },
+  "solutions/core/remote_inputs.py": {
+   "source": "solutions/core/remote_inputs.py",
+   "sha256_source": "6e5f869aa3f1c27974052cd36753aacf58e656351a440ce310dd287a0dc904a1",
+   "sha256": "6e5f869aa3f1c27974052cd36753aacf58e656351a440ce310dd287a0dc904a1",
+   "rewrites": []
+  },
+  "solutions/core/train_main.py": {
+   "source": "solutions/core/train_main.py",
+   "sha256_source": "b8a50e3825440e5e00f8e7bf5962b254616e7b611161e91075aca8d0cbeaf2fb",
+   "sha256": "b8a50e3825440e5e00f8e7bf5962b254616e7b611161e91075aca8d0cbeaf2fb",
+   "rewrites": []
+  },
+  "solutions/final/build_members.py": {
+   "source": "solutions/final/build_members.py",
+   "sha256_source": "50c4e4d9319be354be96c72b0e7686b8b528160a706038428718de23ea5067f0",
+   "sha256": "50c4e4d9319be354be96c72b0e7686b8b528160a706038428718de23ea5067f0",
+   "rewrites": []
+  }
+ },
+ "stale_not_pruned": []
+}

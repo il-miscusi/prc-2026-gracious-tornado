@@ -1,0 +1,85 @@
+{
+ "created_utc": "2026-10-09T09:08:05+00:00",
+ "command": "python3 research/final/merge_members.py --out solutions/kernels/prc-f8-c7/output prc-f8-c7a prc-f8-c7b",
+ "frame": "final",
+ "rows": 670790,
+ "units": [
+  {
+   "dir": "solutions/kernels/prc-f8-c7a/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 16.116847619995543,
+   "inputs": {
+    "solutions/kernels/prc-f8-c7a/output/submission.parquet": "1e5e10f00c2be7810a2d285712bef13b90e127c79a0676501037836905c41ead",
+    "solutions/kernels/prc-f8-c7a/output/refit_0.npy": "cf81168435cc746a5dd37259e8b4216ea723bf0f2eeca73e303c8fa65ec80e79",
+    "solutions/kernels/prc-f8-c7a/output/refit_1.npy": "b90f8e9716b68deaf7eb1d04fe70a6b866c5b1cd15dcec4f0a63152ec64da124",
+    "solutions/kernels/prc-f8-c7a/output/refit_2.npy": "4b835b5163df65a37d292ea552d529fbec5e5f3e7bd36fd72aab23dc1d7c1650",
+    "solutions/kernels/prc-f8-c7a/output/results.json": "9f9fa10fbfd5497bad02ffe3f07cb8efb71ea7a525a4ac7db10e6e6c0ac92e88"
+   }
+  },
+  {
+   "dir": "solutions/kernels/prc-f8-c7b/output",
+   "level": "seed",
+   "seeds": 3,
+   "weight": 3,
+   "rms_from_merged": 16.114180617019606,
+   "inputs": {
+    "solutions/kernels/prc-f8-c7b/output/submission.parquet": "387b357a2dda118270cc2556fc2da6139aa069b9145164ea5e81d507340f259f",
+    "solutions/kernels/prc-f8-c7b/output/refit_0.npy": "64d608d57e27778f91b38a2675e9fe482c5c051fa09b369801ae5c1ef5a6fcab",
+    "solutions/kernels/prc-f8-c7b/output/refit_1.npy": "d0fd4a6b699d5278e0918312eda9bd692959e5a0b5310467e5a46219a245a8a3",
+    "solutions/kernels/prc-f8-c7b/output/refit_2.npy": "f5c15cdd15fda8ae9e4cd9ba83e65e7f063c0c4863b7f2dee5e26fc228b16b77",
+    "solutions/kernels/prc-f8-c7b/output/results.json": "70c21fbdd7ee3f25d33c21343bea039b15cc5dd6961b951c4e4c5c5581e1c8d9"
+   }
+  }
+ ],
+ "total_seeds": 6.0,
+ "seed_spread": {
+  "pairwise_rms": {
+   "solutions/kernels/prc-f8-c7a/output | solutions/kernels/prc-f8-c7b/output": 32.23088769492514
+  },
+  "vs_others_by_band": {
+   "solutions/kernels/prc-f8-c7a/output": {
+    "d <= 1 h": {
+     "mean_diff": -0.9923966242084995,
+     "rms_diff": 20.482913530135804
+    },
+    "1-4 h": {
+     "mean_diff": 0.3925115043971434,
+     "rms_diff": 60.70995463239421
+    },
+    "4-8 h": {
+     "mean_diff": 16.678962282496745,
+     "rms_diff": 164.98738002377087
+    },
+    "> 8 h": {
+     "mean_diff": 7.728976376598003,
+     "rms_diff": 484.8536678535974
+    }
+   },
+   "solutions/kernels/prc-f8-c7b/output": {
+    "d <= 1 h": {
+     "mean_diff": 0.9923966242084995,
+     "rms_diff": 20.482913530135804
+    },
+    "1-4 h": {
+     "mean_diff": -0.3925115043971434,
+     "rms_diff": 60.70995463239421
+    },
+    "4-8 h": {
+     "mean_diff": -16.678962282496745,
+     "rms_diff": 164.98738002377087
+    },
+    "> 8 h": {
+     "mean_diff": -7.728976376598003,
+     "rms_diff": 484.8536678535974
+    }
+   }
+  }
+ },
+ "output": {
+  "solutions/kernels/prc-f8-c7/output/submission.parquet": "b953332f587b20fef684b4bee6ff2ee3eea4a99bd1dc6917fed1659e046e771a"
+ },
+ "mean": 1017.9992144802605,
+ "max": 118880.81839023401
+}

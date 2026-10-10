@@ -1,0 +1,188 @@
+{
+ "name": "f2x5",
+ "frame": "final",
+ "_doc": "f2x5: Members are refits on the final store: d <= 1 h stack c7 (6 seeds), cs7 (3 seeds), mlp7 (3 seeds); 1-4 h stack c6s (3 seeds), c5s (3 seeds), x5 (3 seeds), c7 (6 seeds). Frozen weights: NNLS on each specification's 2025 A/B OOF (c7's from prc-c7x2, the earlier fs7 bank). x5 is the refit pinned to xgboost 2.1.4. Rows past 4 h: long stack (c6s, c5s, x5, c7) blended with the physical estimate (plog, alpha 1); rows whose AOBT_3 is more than 4 h before takeoff and LIRF rows without AOBT_3 (long.fill = long_stack) take the long stack unblended. Overlay: LIRF rows without ADS-B evidence and d <= 4 h get 0.7 pred + 0.3 k4. Cap pred <= d past 2 h. Level calibration: lam 0.75, cap 0.05, composition offset fitted on the 2025 12-month-out c6 OOF. Post layers: lv_rules with rules 'ad' (NM join window, LEMD/LEBL cap), recovered (L0e), daily (L1a; parameters research/final/levers/artifacts/daily_params.json), recovered again. Assembler rules: NM join window +-3,631 s, LEMD/LEBL <= 3,604 s, floor 60.",
+ "members": {
+  "prc-f-c7": {
+   "pred": "solutions/kernels/prc-f-c7/output",
+   "oof": "solutions/kernels/prc-c7x2/output"
+  },
+  "prc-f-cs7": {
+   "pred": "solutions/kernels/prc-f-cs7/output",
+   "oof": "solutions/kernels/prc-cs7/output"
+  },
+  "prc-f-mlp7": {
+   "pred": "solutions/kernels/prc-f-mlp7/output",
+   "oof": "solutions/kernels/prc-mlp7/output"
+  },
+  "prc-f-c6s": {
+   "pred": "solutions/kernels/prc-f-c6s/output",
+   "oof": "solutions/kernels/prc-c6s/output"
+  },
+  "prc-f-c5s": {
+   "pred": "solutions/kernels/prc-f-c5s/output",
+   "oof": "solutions/kernels/prc-c5s/output"
+  },
+  "prc-f-k4": {
+   "pred": "solutions/kernels/prc-f-k4/output"
+  },
+  "prc-f-x5": {
+   "pred": "solutions/kernels/prc-f-x5/output",
+   "oof": "solutions/kernels/prc-x5/output"
+  }
+ },
+ "segments": [
+  {
+   "name": "short",
+   "lo_h": -1000,
+   "hi_h": 1,
+   "members": [
+    "prc-f-c7",
+    "prc-f-cs7",
+    "prc-f-mlp7"
+   ],
+   "weights": {
+    "prc-f-c7": 0.368926,
+    "prc-f-cs7": 0.314436,
+    "prc-f-mlp7": 0.316637
+   }
+  },
+  {
+   "name": "1-4h",
+   "lo_h": 1,
+   "hi_h": 4,
+   "members": [
+    "prc-f-c6s",
+    "prc-f-c5s",
+    "prc-f-x5",
+    "prc-f-c7"
+   ],
+   "weights": {
+    "prc-f-c6s": 0.246959,
+    "prc-f-c5s": 0.245194,
+    "prc-f-x5": 0.228429,
+    "prc-f-c7": 0.279417
+   }
+  }
+ ],
+ "long": {
+  "lo_h": 4,
+  "members": [
+   "prc-f-c6s",
+   "prc-f-c5s",
+   "prc-f-x5",
+   "prc-f-c7"
+  ],
+  "weights": {
+   "prc-f-c6s": 0.3083355244178477,
+   "prc-f-c5s": 0.1398214427077908,
+   "prc-f-x5": 0.16457023554071934,
+   "prc-f-c7": 0.3872727973336422
+  },
+  "plog_coef": {
+   "pooled": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "N": [
+    -0.04761028990463498,
+    0.3797999228406846
+   ],
+   "A": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "M": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ]
+  },
+  "phys": "plog",
+  "phys_inputs": "research/final/inputs/final/phys.parquet",
+  "fill": "long_stack",
+  "guard_aobt3_h": 4
+ },
+ "overlays": [
+  {
+   "name": "lirf_noadsb",
+   "member": "prc-f-k4",
+   "weight": 0.3,
+   "flags": "research/final/inputs/final/cover.parquet",
+   "airports": [
+    "LIRF"
+   ],
+   "max_d_h": 4
+  }
+ ],
+ "cap_d_over_h": 2,
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05
+ },
+ "post_layers": [
+  {
+   "module": "research/final/levers/lv_rules.py",
+   "fn": "apply",
+   "kwargs": {
+    "rules": "ad"
+   },
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py"
+   ]
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ]
+  },
+  {
+   "module": "research/final/levers/daily.py",
+   "fn": "apply",
+   "kwargs": {
+    "params_path": "research/final/levers/artifacts/daily_params.json"
+   },
+   "pass_held_month": true,
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py",
+    "research/final/levers/daily.py",
+    "research/final/levers/artifacts/daily_params.json",
+    "research/pru/all_pre_departure_delays_2025.csv",
+    "research/pru/all_pre_departure_delays_2026.csv",
+    "research/cache/oof_mo12_c6.parquet",
+    "research/final/level.py"
+   ]
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ]
+  }
+ ],
+ "rules": {
+  "nm_window_s": 3606,
+  "nm_dither_s": 25,
+  "cap_airports": [
+   "LEMD",
+   "LEBL"
+  ],
+  "cap_s": 3604,
+  "floor_s": 60
+ },
+ "notes": [
+  "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+  "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7)."
+ ]
+}

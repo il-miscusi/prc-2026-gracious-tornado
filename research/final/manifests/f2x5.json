@@ -1,0 +1,998 @@
+{
+ "name": "f2x5",
+ "frame": "final",
+ "segments": {
+  "short": {
+   "lo_h": -1000,
+   "hi_h": 1,
+   "rows": 596663,
+   "weights": {
+    "prc-f-c7": 0.368926,
+    "prc-f-cs7": 0.314436,
+    "prc-f-mlp7": 0.316637
+   },
+   "weights_refit_on_oof": {
+    "prc-f-c7": 0.368926,
+    "prc-f-cs7": 0.314436,
+    "prc-f-mlp7": 0.316637
+   },
+   "frozen": true
+  },
+  "1-4h": {
+   "lo_h": 1,
+   "hi_h": 4,
+   "rows": 71109,
+   "weights": {
+    "prc-f-c6s": 0.246959,
+    "prc-f-c5s": 0.245194,
+    "prc-f-x5": 0.228429,
+    "prc-f-c7": 0.279417
+   },
+   "weights_refit_on_oof": {
+    "prc-f-c6s": 0.246959,
+    "prc-f-c5s": 0.245194,
+    "prc-f-x5": 0.228429,
+    "prc-f-c7": 0.279417
+   },
+   "frozen": true
+  }
+ },
+ "long": {
+  "lo_h": 4,
+  "members": [
+   "prc-f-c6s",
+   "prc-f-c5s",
+   "prc-f-x5",
+   "prc-f-c7"
+  ],
+  "weights": {
+   "prc-f-c6s": 0.3083355244178477,
+   "prc-f-c5s": 0.1398214427077908,
+   "prc-f-x5": 0.16457023554071934,
+   "prc-f-c7": 0.3872727973336422
+  },
+  "weights_refit_on_oof": {
+   "prc-f-c6s": 0.3083355244178477,
+   "prc-f-c5s": 0.1398214427077908,
+   "prc-f-x5": 0.16457023554071934,
+   "prc-f-c7": 0.3872727973336422
+  },
+  "frozen": true,
+  "plog_coef_frozen": true,
+  "plog_coef": {
+   "pooled": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "N": [
+    -0.04761028990463498,
+    0.3797999228406846
+   ],
+   "A": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ],
+   "M": [
+    -0.04761028990463496,
+    0.37979992284068453
+   ]
+  },
+  "rows": 2954,
+  "kinds": {
+   "N": 2569,
+   "M": 297,
+   "A": 88
+  },
+  "w_mean": 0.10784066765034533,
+  "fill_rows": 63,
+  "fill_source": "long_stack",
+  "guard_aobt3_h": 4,
+  "guard_rows": 1,
+  "guard_source": "long_stack",
+  "oof_rows": 42396,
+  "oof_stack_rows": 40683
+ },
+ "overlays": {
+  "lirf_noadsb": {
+   "rows": 35255,
+   "weight": 0.3,
+   "member": "prc-f-k4"
+  }
+ },
+ "cap": {
+  "d_over_h": 2,
+  "rows": 43
+ },
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05,
+  "coef": [
+   -1.2756446949244076,
+   -13.558794388989266,
+   -1.902988608086662,
+   -16.296558279239683,
+   -1.350781800972171,
+   -12.995779484542437,
+   8.062425658638016,
+   7.734005339085584,
+   -7.415315617760225,
+   6.740253990342732,
+   957.2336997008933,
+   138.9519834358021
+  ],
+  "rows_changed": 595922,
+  "cells": [
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EDDF",
+    "n": 15667,
+    "pub": 853.509,
+    "pm": 1025.566,
+    "x": -172.057,
+    "comp": 123.882,
+    "deice": 0.127,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EDDM",
+    "n": 10953,
+    "pub": 754.965,
+    "pm": 1010.931,
+    "x": -255.966,
+    "comp": 287.034,
+    "deice": 0.311,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EGLL",
+    "n": 19283,
+    "pub": 1334.854,
+    "pm": 1339.995,
+    "x": -5.141,
+    "comp": -0.889,
+    "deice": 0.0,
+    "sh": -4.522
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EHAM",
+    "n": 16231,
+    "pub": 982.08,
+    "pm": 998.996,
+    "x": -16.916,
+    "comp": 11.345,
+    "deice": 0.011,
+    "sh": -4.178
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LEBL",
+    "n": 12201,
+    "pub": 883.053,
+    "pm": 899.067,
+    "x": -16.014,
+    "comp": 5.447,
+    "deice": 0.0,
+    "sh": -7.925
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LEMD",
+    "n": 16802,
+    "pub": 987.256,
+    "pm": 1021.191,
+    "x": -33.935,
+    "comp": 32.893,
+    "deice": 0.031,
+    "sh": -0.781
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LFPG",
+    "n": 18128,
+    "pub": 928.185,
+    "pm": 1086.803,
+    "x": -158.618,
+    "comp": 116.814,
+    "deice": 0.098,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LIRF",
+    "n": 11023,
+    "pub": 1043.263,
+    "pm": 1053.126,
+    "x": -9.863,
+    "comp": 15.964,
+    "deice": 0.004,
+    "sh": 4.576
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LSZH",
+    "n": 9995,
+    "pub": 710.96,
+    "pm": 908.083,
+    "x": -197.123,
+    "comp": 189.298,
+    "deice": 0.197,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LTFM",
+    "n": 22396,
+    "pub": 1088.691,
+    "pm": 1252.221,
+    "x": -163.529,
+    "comp": 69.524,
+    "deice": 0.048,
+    "sh": -70.504
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EDDF",
+    "n": 14654,
+    "pub": 857.242,
+    "pm": 898.302,
+    "x": -41.06,
+    "comp": 25.072,
+    "deice": 0.024,
+    "sh": -11.991
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EDDM",
+    "n": 10534,
+    "pub": 752.525,
+    "pm": 875.273,
+    "x": -122.748,
+    "comp": 116.494,
+    "deice": 0.13,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EGLL",
+    "n": 17716,
+    "pub": 1318.904,
+    "pm": 1321.559,
+    "x": -2.655,
+    "comp": -0.243,
+    "deice": 0.0,
+    "sh": -2.174
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "EHAM",
+    "n": 16802,
+    "pub": 781.547,
+    "pm": 785.925,
+    "x": -4.378,
+    "comp": 5.477,
+    "deice": 0.01,
+    "sh": 0.824
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LEBL",
+    "n": 12167,
+    "pub": 918.995,
+    "pm": 919.405,
+    "x": -0.41,
+    "comp": 3.261,
+    "deice": 0.0,
+    "sh": 2.138
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LEMD",
+    "n": 16191,
+    "pub": 1010.839,
+    "pm": 1009.843,
+    "x": 0.996,
+    "comp": 12.169,
+    "deice": 0.002,
+    "sh": 9.874
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LFPG",
+    "n": 16933,
+    "pub": 918.19,
+    "pm": 948.927,
+    "x": -30.738,
+    "comp": 34.56,
+    "deice": 0.009,
+    "sh": 2.866
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LIRF",
+    "n": 10247,
+    "pub": 1033.697,
+    "pm": 1041.548,
+    "x": -7.85,
+    "comp": 11.56,
+    "deice": 0.002,
+    "sh": 2.782
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LSZH",
+    "n": 9374,
+    "pub": 705.815,
+    "pm": 756.603,
+    "x": -50.788,
+    "comp": 53.165,
+    "deice": 0.055,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 2,
+    "apt": "LTFM",
+    "n": 19519,
+    "pub": 1045.03,
+    "pm": 1132.391,
+    "x": -87.361,
+    "comp": 33.365,
+    "deice": 0.01,
+    "sh": -40.497
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EDDF",
+    "n": 19700,
+    "pub": 867.347,
+    "pm": 878.283,
+    "x": -10.936,
+    "comp": 10.297,
+    "deice": 0.0,
+    "sh": -0.479
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EDDM",
+    "n": 14372,
+    "pub": 776.648,
+    "pm": 778.859,
+    "x": -2.211,
+    "comp": 1.47,
+    "deice": 0.01,
+    "sh": -0.556
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EGLL",
+    "n": 19662,
+    "pub": 1367.024,
+    "pm": 1380.429,
+    "x": -13.404,
+    "comp": -1.048,
+    "deice": 0.0,
+    "sh": -10.839
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "EHAM",
+    "n": 20881,
+    "pub": 742.94,
+    "pm": 748.625,
+    "x": -5.685,
+    "comp": -2.355,
+    "deice": 0.01,
+    "sh": -6.03
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LEBL",
+    "n": 17067,
+    "pub": 973.33,
+    "pm": 999.654,
+    "x": -26.324,
+    "comp": 5.009,
+    "deice": 0.0,
+    "sh": -15.987
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LEMD",
+    "n": 19335,
+    "pub": 1045.654,
+    "pm": 1050.463,
+    "x": -4.809,
+    "comp": 7.221,
+    "deice": 0.0,
+    "sh": 1.809
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LFPG",
+    "n": 20709,
+    "pub": 963.654,
+    "pm": 994.382,
+    "x": -30.728,
+    "comp": 25.709,
+    "deice": 0.001,
+    "sh": -3.765
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LIRF",
+    "n": 14948,
+    "pub": 1201.132,
+    "pm": 1218.179,
+    "x": -17.048,
+    "comp": 13.756,
+    "deice": 0.003,
+    "sh": -2.468
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LSZH",
+    "n": 12384,
+    "pub": 728.027,
+    "pm": 738.107,
+    "x": -10.08,
+    "comp": 8.504,
+    "deice": 0.005,
+    "sh": -1.182
+   },
+   {
+    "year": 2026,
+    "month": 6,
+    "apt": "LTFM",
+    "n": 22693,
+    "pub": 989.796,
+    "pm": 1022.795,
+    "x": -32.999,
+    "comp": 15.762,
+    "deice": 0.0,
+    "sh": -12.928
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EDDF",
+    "n": 20650,
+    "pub": 854.247,
+    "pm": 867.992,
+    "x": -13.746,
+    "comp": 9.705,
+    "deice": 0.0,
+    "sh": -3.03
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EDDM",
+    "n": 15013,
+    "pub": 776.329,
+    "pm": 780.606,
+    "x": -4.278,
+    "comp": -1.286,
+    "deice": 0.008,
+    "sh": -4.173
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EGLL",
+    "n": 20551,
+    "pub": 1344.111,
+    "pm": 1361.054,
+    "x": -16.943,
+    "comp": 0.201,
+    "deice": 0.0,
+    "sh": -12.557
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EHAM",
+    "n": 21950,
+    "pub": 840.87,
+    "pm": 841.86,
+    "x": -0.989,
+    "comp": -0.244,
+    "deice": 0.009,
+    "sh": -0.925
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LEBL",
+    "n": 17879,
+    "pub": 967.219,
+    "pm": 993.406,
+    "x": -26.187,
+    "comp": 5.563,
+    "deice": 0.0,
+    "sh": -15.468
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LEMD",
+    "n": 20152,
+    "pub": 1020.439,
+    "pm": 1027.267,
+    "x": -6.828,
+    "comp": 7.432,
+    "deice": 0.0,
+    "sh": 0.454
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LFPG",
+    "n": 21740,
+    "pub": 965.104,
+    "pm": 972.326,
+    "x": -7.222,
+    "comp": 24.914,
+    "deice": 0.0,
+    "sh": 13.269
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LIRF",
+    "n": 15761,
+    "pub": 1214.039,
+    "pm": 1293.953,
+    "x": -79.914,
+    "comp": 20.754,
+    "deice": 0.005,
+    "sh": -44.37
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LSZH",
+    "n": 13155,
+    "pub": 741.503,
+    "pm": 752.996,
+    "x": -11.494,
+    "comp": 8.937,
+    "deice": 0.007,
+    "sh": -1.917
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LTFM",
+    "n": 25185,
+    "pub": 1008.831,
+    "pm": 1051.015,
+    "x": -42.184,
+    "comp": 13.427,
+    "deice": 0.0,
+    "sh": -21.568
+   }
+  ]
+ },
+ "post_layers": [
+  {
+   "module": "research/final/levers/lv_rules.py",
+   "fn": "apply",
+   "kwargs": {
+    "rules": "ad"
+   },
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py"
+   ],
+   "rows_changed": 52,
+   "rms_change": 59.289910000256775,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ],
+   "rows_changed": 33,
+   "rms_change": 11.14360628612646,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  },
+  {
+   "module": "research/final/levers/daily.py",
+   "fn": "apply",
+   "kwargs": {
+    "params_path": "research/final/levers/artifacts/daily_params.json"
+   },
+   "pass_held_month": true,
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py",
+    "research/final/levers/daily.py",
+    "research/final/levers/artifacts/daily_params.json",
+    "research/pru/all_pre_departure_delays_2025.csv",
+    "research/pru/all_pre_departure_delays_2026.csv",
+    "research/cache/oof_mo12_c6.parquet",
+    "research/final/level.py"
+   ],
+   "rows_changed": 656932,
+   "rms_change": 46.29261512528569,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  },
+  {
+   "module": "research/final/levers/recovered.py",
+   "fn": "apply",
+   "kwargs": {},
+   "inputs": [
+    "research/final/levers/lv_common.py",
+    "research/final/levers/lv_rules.py",
+    "research/final/levers/recovered.py"
+   ],
+   "rows_changed": 0,
+   "rms_change": 0.0,
+   "rows_frozen_on_nm_bound": 0,
+   "moves_undone": 0
+  }
+ ],
+ "rules": {
+  "config": {
+   "nm_window_s": 3606,
+   "nm_dither_s": 25,
+   "cap_airports": [
+    "LEMD",
+    "LEBL"
+   ],
+   "cap_s": 3604,
+   "floor_s": 60
+  },
+  "counts": {
+   "a_nm_above": 0,
+   "a_nm_below": 0,
+   "d_cap_lowered": 3,
+   "floor_raised": 30,
+   "conflict_a_vs_d": 0,
+   "conflict_a_vs_floor": 0
+  }
+ },
+ "created_utc": "2026-10-09T15:26:49+00:00",
+ "command": "python3 research/final/assemble_final.py research/final/configs/f2x5_final.json --compare submissions/gracious-tornado_v31.parquet",
+ "git": {
+  "commit": "dd9312e12cd60cb5badc6c675237142e16f2761c",
+  "dirty": []
+ },
+ "notes": [
+  "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+  "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7)."
+ ],
+ "config": {
+  "name": "f2x5",
+  "frame": "final",
+  "_doc": "f2x5: Members are refits on the final store: d <= 1 h stack c7 (6 seeds), cs7 (3 seeds), mlp7 (3 seeds); 1-4 h stack c6s (3 seeds), c5s (3 seeds), x5 (3 seeds), c7 (6 seeds). Frozen weights: NNLS on each specification's 2025 A/B OOF (c7's from prc-c7x2, the earlier fs7 bank). x5 is the refit pinned to xgboost 2.1.4. Rows past 4 h: long stack (c6s, c5s, x5, c7) blended with the physical estimate (plog, alpha 1); rows whose AOBT_3 is more than 4 h before takeoff and LIRF rows without AOBT_3 (long.fill = long_stack) take the long stack unblended. Overlay: LIRF rows without ADS-B evidence and d <= 4 h get 0.7 pred + 0.3 k4. Cap pred <= d past 2 h. Level calibration: lam 0.75, cap 0.05, composition offset fitted on the 2025 12-month-out c6 OOF. Post layers: lv_rules with rules 'ad' (NM join window, LEMD/LEBL cap), recovered (L0e), daily (L1a; parameters research/final/levers/artifacts/daily_params.json), recovered again. Assembler rules: NM join window +-3,631 s, LEMD/LEBL <= 3,604 s, floor 60.",
+  "members": {
+   "prc-f-c7": {
+    "pred": "solutions/kernels/prc-f-c7/output",
+    "oof": "solutions/kernels/prc-c7x2/output"
+   },
+   "prc-f-cs7": {
+    "pred": "solutions/kernels/prc-f-cs7/output",
+    "oof": "solutions/kernels/prc-cs7/output"
+   },
+   "prc-f-mlp7": {
+    "pred": "solutions/kernels/prc-f-mlp7/output",
+    "oof": "solutions/kernels/prc-mlp7/output"
+   },
+   "prc-f-c6s": {
+    "pred": "solutions/kernels/prc-f-c6s/output",
+    "oof": "solutions/kernels/prc-c6s/output"
+   },
+   "prc-f-c5s": {
+    "pred": "solutions/kernels/prc-f-c5s/output",
+    "oof": "solutions/kernels/prc-c5s/output"
+   },
+   "prc-f-k4": {
+    "pred": "solutions/kernels/prc-f-k4/output"
+   },
+   "prc-f-x5": {
+    "pred": "solutions/kernels/prc-f-x5/output",
+    "oof": "solutions/kernels/prc-x5/output"
+   }
+  },
+  "segments": [
+   {
+    "name": "short",
+    "lo_h": -1000,
+    "hi_h": 1,
+    "members": [
+     "prc-f-c7",
+     "prc-f-cs7",
+     "prc-f-mlp7"
+    ],
+    "weights": {
+     "prc-f-c7": 0.368926,
+     "prc-f-cs7": 0.314436,
+     "prc-f-mlp7": 0.316637
+    }
+   },
+   {
+    "name": "1-4h",
+    "lo_h": 1,
+    "hi_h": 4,
+    "members": [
+     "prc-f-c6s",
+     "prc-f-c5s",
+     "prc-f-x5",
+     "prc-f-c7"
+    ],
+    "weights": {
+     "prc-f-c6s": 0.246959,
+     "prc-f-c5s": 0.245194,
+     "prc-f-x5": 0.228429,
+     "prc-f-c7": 0.279417
+    }
+   }
+  ],
+  "long": {
+   "lo_h": 4,
+   "members": [
+    "prc-f-c6s",
+    "prc-f-c5s",
+    "prc-f-x5",
+    "prc-f-c7"
+   ],
+   "weights": {
+    "prc-f-c6s": 0.3083355244178477,
+    "prc-f-c5s": 0.1398214427077908,
+    "prc-f-x5": 0.16457023554071934,
+    "prc-f-c7": 0.3872727973336422
+   },
+   "plog_coef": {
+    "pooled": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ],
+    "N": [
+     -0.04761028990463498,
+     0.3797999228406846
+    ],
+    "A": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ],
+    "M": [
+     -0.04761028990463496,
+     0.37979992284068453
+    ]
+   },
+   "phys": "plog",
+   "phys_inputs": "research/final/inputs/final/phys.parquet",
+   "fill": "long_stack",
+   "guard_aobt3_h": 4
+  },
+  "overlays": [
+   {
+    "name": "lirf_noadsb",
+    "member": "prc-f-k4",
+    "weight": 0.3,
+    "flags": "research/final/inputs/final/cover.parquet",
+    "airports": [
+     "LIRF"
+    ],
+    "max_d_h": 4
+   }
+  ],
+  "cap_d_over_h": 2,
+  "level": {
+   "lam": 0.75,
+   "cap": 0.05
+  },
+  "post_layers": [
+   {
+    "module": "research/final/levers/lv_rules.py",
+    "fn": "apply",
+    "kwargs": {
+     "rules": "ad"
+    },
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/daily.py",
+    "fn": "apply",
+    "kwargs": {
+     "params_path": "research/final/levers/artifacts/daily_params.json"
+    },
+    "pass_held_month": true,
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py",
+     "research/final/levers/daily.py",
+     "research/final/levers/artifacts/daily_params.json",
+     "research/pru/all_pre_departure_delays_2025.csv",
+     "research/pru/all_pre_departure_delays_2026.csv",
+     "research/cache/oof_mo12_c6.parquet",
+     "research/final/level.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   }
+  ],
+  "rules": {
+   "nm_window_s": 3606,
+   "nm_dither_s": 25,
+   "cap_airports": [
+    "LEMD",
+    "LEBL"
+   ],
+   "cap_s": 3604,
+   "floor_s": 60
+  },
+  "notes": [
+   "Level calibration: composition offset fitted on the 2025 12-month-out c6 OOF (research/cache/oof_mo12_c6.parquet), lam 0.75, cap 0.05.",
+   "Post layers: research/final/levers (lv_rules.py, recovered.py, daily.py); described in docs/METHOD.md sections 3 and 4 (Step 7)."
+  ]
+ },
+ "rows": 670790,
+ "checks": {
+  "bounds": {
+   "finite": true,
+   "nonneg": true,
+   "floor": 0,
+   "nm_outside_window": 0,
+   "nm_window_exempt_conflicts": 0,
+   "lemd_lebl_above_cap": 0,
+   "pass": true
+  },
+  "pru_cells_flagged": [],
+  "file_final": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  },
+  "file_board": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  },
+  "compare": {
+   "file": "submissions/gracious-tornado_v31.parquet",
+   "sha256": "e878c18ebd19db569e304e0b92081ce698fe9c8caeeab09d85352ba503a8e9ac",
+   "rms": 51.62533678240454,
+   "sum_sq_over_n": 2665.1753978966913,
+   "max_abs": 7727.153119598486,
+   "rows_diff_gt_1s": 328270
+  }
+ },
+ "failed": [],
+ "inputs": {
+  "data/final_20261008/final_ranking.parquet": "4b0692a792846079516a2749e034b0abda55df72c213eabdcda52a4d1f6bc69f",
+  "data/final_20261008/final_submitting.parquet": "b3445d80e29bf599a5583ca9675f63ddf57b51fdf1ca3f498facb38ea84f3924",
+  "solutions/kernels/prc-c7x2/output/oof.csv": "7634a825397a12d28056aee32e10671c4cb92ac1a239e2abc128b706c6c608f7",
+  "solutions/kernels/prc-cs7/output/oof.csv": "f7c0fd3e38c7f6b986c36046e308d4c60516f9a96915bec3cd0417090978e4cd",
+  "solutions/kernels/prc-mlp7/output/oof.csv": "cb832ae706b1d5e4bdecebe54ad5d785458d2d145b6c4da1aff64b29e95daa9a",
+  "research/cache/oof_meta_v2.parquet": "0010c39e9d2a978148159f1abb7d9a5f8148f6ad41083674e151660fca07cf0e",
+  "solutions/kernels/prc-f-c7/output/submission.parquet": "3e623ae4ad16352ce50f1f552ccae991891baf2a445a78e26d7c1df72e915b21",
+  "solutions/kernels/prc-f-cs7/output/submission.parquet": "690a862188dea27983361b2c84dd3f8d1e0ba9536b4e92dd20ac1aab627440e3",
+  "solutions/kernels/prc-f-mlp7/output/submission.parquet": "fe3b2de7397ae8dae03a9a4cb7dadea2269ca2455c53c74386efdd4a83300cba",
+  "solutions/kernels/prc-c6s/output/oof.csv": "3fbb915c4f1b190f50d14e5ff88a2dcaf272f3101c840006c6ad05bcaec72865",
+  "solutions/kernels/prc-c5s/output/oof.csv": "0f17fa18eb1c945497949f6d7a22679dd956401ee81caa955de095f8f88295ac",
+  "solutions/kernels/prc-x5/output/oof.csv": "15822a70be4638b31ac35dd4dbaab968a136339d736bfd05ca3481b1bdd9dae8",
+  "solutions/kernels/prc-f-c6s/output/submission.parquet": "b46385a07c527a866be396d1ba4b6cd63fba40eaaa4636dda6dc5877ba768fc1",
+  "solutions/kernels/prc-f-c5s/output/submission.parquet": "86daab00c05b3e9796643285d3e672dfd95a42f021f03e4d00aec55c6b25632e",
+  "solutions/kernels/prc-f-x5/output/submission.parquet": "1ec113037b1d893ddd769c02e679ea5169d3feaa36b259efcee964643321302d",
+  "research/tail/cache/long_tr.parquet": "ef6829fa9f372f93f00eec2ef6a7210ee46216c8d281a9c8c052701478eb5228",
+  "research/final/inputs/final/phys.parquet": "16a8b24d794b0fc3008c6d350aee65659292ea8924f9b66b363c5a06cf74d01e",
+  "research/final/inputs/final/cover.parquet": "9f53d71f1c16770370eda792df296b8f1164f0deadf7d6ecc8b4c5466084f423",
+  "solutions/kernels/prc-f-k4/output/submission.parquet": "85ae7cfffbf534f0d1b1442ca049b8dda1a8c0a1d5068c3ffc50587f5eb11775",
+  "research/pru/taxi_out_additional_time_2025.csv": "4aedf19520d3f84bebc418b56835762c907b714a9c19e751bb8658f9e62ce598",
+  "research/pru/taxi_out_additional_time_2026.csv": "b72040e0987e6c7d5706279d645ef9f814a6506165c83f89d8509022154a1076",
+  "research/cache/oof_mo12_c6.parquet": "e244b219c925740f89aeece51df3a6a6ef367d9c5b22a59aaa5be558763b9dc0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-01-01_2025-02-01.parquet": "a4dc8f152c082c650cd7eb745fe9c641089f34f74df127e6944a188990a0ed94",
+  "data/09-22-2026-08-13-30_files_list/training_2025-02-01_2025-03-01.parquet": "b6f9ff2cdb1cfe07c5442f4e1f11bbcdbeafe52852dcb0b8175f62ab84c6a066",
+  "data/09-22-2026-08-13-30_files_list/training_2025-03-01_2025-04-01.parquet": "58fde7e5f8b539546af63b41d7f6ec0f2884fdc3d3dd9b6bfca7c59a420dcdd3",
+  "data/09-22-2026-08-13-30_files_list/training_2025-04-01_2025-05-01.parquet": "9ffe0cf5741c4863799c41be81475dfaecedabe0ba687b8f8e4eacba992f9390",
+  "data/09-22-2026-08-13-30_files_list/training_2025-05-01_2025-06-01.parquet": "5481c0642a8fbb4dc395f93bc713c57f4cc16854fb361d404967077e1fce2ff9",
+  "data/09-22-2026-08-13-30_files_list/training_2025-06-01_2025-07-01.parquet": "c3ef5080f2cc636c3416baf1555f7d0ee3519f9046e8043c1c0c8f017a244025",
+  "data/09-22-2026-08-13-30_files_list/training_2025-07-01_2025-08-01.parquet": "34d1c5bba7c8596a1c20c09edd3cb2f63277b5a684fa801911660fe0eaf63c9d",
+  "data/09-22-2026-08-13-30_files_list/training_2025-08-01_2025-09-01.parquet": "6c8d2aa7a1b6c9dff9a0305a37eb02de1e87a68d07557264f41b77738272c540",
+  "data/09-22-2026-08-13-30_files_list/training_2025-09-01_2025-10-01.parquet": "955308a4000947e32a00586d3ee13928949d2231b67f84f6dfb0631893f3754a",
+  "data/09-22-2026-08-13-30_files_list/training_2025-10-01_2025-11-01.parquet": "4a31a35601c1bdcd74b8cd6379231ba516a48324e4c2478bf1c9360cd23e687f",
+  "data/09-22-2026-08-13-30_files_list/training_2025-11-01_2025-12-01.parquet": "ac36b17db7a537e3baeb682fa4763dacaa1fcc5d9bfa6bf32b3ee5d9f91300b0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-12-01_2026-01-01.parquet": "2d357f2f403a86778a69e93f72d8754effe77f1ac0942399b3d1b7728241f724",
+  "research/final/levers/lv_rules.py": "6d90180bab3d5f81f90e9cef0d2017270187abb192fab3e215ac7a419ab9b25a",
+  "research/final/levers/lv_common.py": "e5d6f75290d6c5d3a88525cedb9615e3acf6d8de3e49219c36da76c25f716995",
+  "research/final/levers/recovered.py": "fb02db8a338e8fae33c9f1597fe751a007a8c69bb565e16e535409524756d334",
+  "research/final/levers/daily.py": "d4cfba1215fb8de9b1fdab0944c722869a5c8191dbf54f74028e599f058a5018",
+  "research/final/levers/artifacts/daily_params.json": "66f56d499c9f7eb293f0bc1f832a2c46c66f5e4f3d5eddf78c836fcfa8b57bdf",
+  "research/pru/all_pre_departure_delays_2025.csv": "d742eeb626e5f9f7e0c756e2ae3cf90078f4627e989a2e31b8ed21ba8f5510be",
+  "research/pru/all_pre_departure_delays_2026.csv": "5952d20ef5f9c4245018dd6986064c5c4aa15d568a6c0c2dcdcbc73bf8a43fd2",
+  "research/final/level.py": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+  "research/final/frame.py": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+  "research/final/stacking.py": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+  "research/final/longrows.py": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+  "research/final/rules.py": "f11538538f328acfdb994a47022108563274e2bad2d35989a272279bcf53e889",
+  "research/final/assemble_final.py": "803d17f612b358ea92f0a95de88365034950a53bbb71963cc5f3d7ff56f7ecb1",
+  "research/tail/tailkit.py": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+  "research/extreme_blend.py": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e"
+ },
+ "outputs": {
+  "submissions/final/f2x5_final.parquet": "2233c4da8991af84d7e422820f633bacac5e533a54779413e53444a1d3780acf",
+  "submissions/final/f2x5_board.parquet": "9d6714ffc4dfd58927c01124ad249942fe2663566e9bdc3a7c7fedb8c786525e"
+ },
+ "stages_file": "submissions/final/f2x5_stages.parquet",
+ "environment": {
+  "python": "3.13.7",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.18.1",
+  "pyarrow": "23.0.1"
+ }
+}

@@ -1,0 +1,579 @@
+{
+ "name": "v32c_repro_board",
+ "frame": "board",
+ "segments": {
+  "short": {
+   "lo_h": -1000,
+   "hi_h": 1,
+   "rows": 301651,
+   "weights": {
+    "prc-mlp6fs": 0.040383,
+    "prc-cs6": 0.051206,
+    "prc-c6": 0.0,
+    "prc-cs5": 0.045932,
+    "prc-c5d10": 0.0,
+    "prc-split-fs4": 0.01745,
+    "prc-c7x2": 0.332192,
+    "prc-cs7": 0.240514,
+    "prc-mlp7": 0.272323
+   },
+   "weights_refit_on_oof": {
+    "prc-mlp6fs": 0.040383,
+    "prc-cs6": 0.051206,
+    "prc-c6": 0.0,
+    "prc-cs5": 0.045932,
+    "prc-c5d10": 0.0,
+    "prc-split-fs4": 0.01745,
+    "prc-c7x2": 0.332192,
+    "prc-cs7": 0.240514,
+    "prc-mlp7": 0.272323
+   },
+   "frozen": true
+  },
+  "1-4h": {
+   "lo_h": 1,
+   "hi_h": 4,
+   "rows": 41331,
+   "weights": {
+    "prc-c6s": 0.246555,
+    "prc-c5s": 0.229213,
+    "prc-x5": 0.185946,
+    "prc-c6": 0.0,
+    "prc-cs5": 0.043445,
+    "prc-split-fs4": 0.036672,
+    "prc-c7x2": 0.258169
+   },
+   "weights_refit_on_oof": {
+    "prc-c6s": 0.246555,
+    "prc-c5s": 0.229213,
+    "prc-x5": 0.185946,
+    "prc-c6": 0.0,
+    "prc-cs5": 0.043445,
+    "prc-split-fs4": 0.036672,
+    "prc-c7x2": 0.258169
+   },
+   "frozen": true
+  }
+ },
+ "long": {
+  "legacy_source": "research/tail/out/v30_longrows_a05_plog.parquet",
+  "rows": 1859
+ },
+ "overlays": {
+  "lirf_noadsb": {
+   "rows": 17808,
+   "weight": 0.3,
+   "member": "k4"
+  }
+ },
+ "cap": {
+  "d_over_h": 2,
+  "rows": 11,
+  "exempt_rows": 0
+ },
+ "level": {
+  "lam": 0.75,
+  "cap": 0.05,
+  "coef": [
+   -1.2756446949244076,
+   -13.558794388989266,
+   -1.902988608086662,
+   -16.296558279239683,
+   -1.350781800972171,
+   -12.995779484542437,
+   8.062425658638016,
+   7.734005339085584,
+   -7.415315617760225,
+   6.740253990342732,
+   957.2336997008933,
+   138.9519834358021
+  ],
+  "rows_changed": 289960,
+  "cells": [
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EDDF",
+    "n": 15667,
+    "pub": 853.509,
+    "pm": 1020.877,
+    "x": -167.369,
+    "comp": 123.882,
+    "deice": 0.127,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EDDM",
+    "n": 10953,
+    "pub": 754.965,
+    "pm": 1010.75,
+    "x": -255.785,
+    "comp": 287.034,
+    "deice": 0.311,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EGLL",
+    "n": 19283,
+    "pub": 1334.854,
+    "pm": 1336.548,
+    "x": -1.694,
+    "comp": -0.889,
+    "deice": 0.0,
+    "sh": -1.937
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "EHAM",
+    "n": 16230,
+    "pub": 982.08,
+    "pm": 994.048,
+    "x": -11.969,
+    "comp": 11.345,
+    "deice": 0.011,
+    "sh": -0.468
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LEBL",
+    "n": 12201,
+    "pub": 883.053,
+    "pm": 893.447,
+    "x": -10.394,
+    "comp": 5.447,
+    "deice": 0.0,
+    "sh": -3.71
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LEMD",
+    "n": 16802,
+    "pub": 987.256,
+    "pm": 1020.172,
+    "x": -32.915,
+    "comp": 32.893,
+    "deice": 0.031,
+    "sh": -0.017
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LFPG",
+    "n": 18128,
+    "pub": 928.185,
+    "pm": 1085.035,
+    "x": -156.85,
+    "comp": 116.814,
+    "deice": 0.098,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LIRF",
+    "n": 11023,
+    "pub": 1043.263,
+    "pm": 1052.14,
+    "x": -8.877,
+    "comp": 15.964,
+    "deice": 0.004,
+    "sh": 5.315
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LSZH",
+    "n": 9995,
+    "pub": 710.96,
+    "pm": 905.587,
+    "x": -194.627,
+    "comp": 189.298,
+    "deice": 0.197,
+    "sh": 0.0
+   },
+   {
+    "year": 2026,
+    "month": 1,
+    "apt": "LTFM",
+    "n": 22396,
+    "pub": 1088.691,
+    "pm": 1249.03,
+    "x": -160.339,
+    "comp": 69.524,
+    "deice": 0.048,
+    "sh": -68.111
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EDDF",
+    "n": 20650,
+    "pub": 854.247,
+    "pm": 862.049,
+    "x": -7.803,
+    "comp": 9.705,
+    "deice": 0.0,
+    "sh": 1.427
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EDDM",
+    "n": 15013,
+    "pub": 776.329,
+    "pm": 778.905,
+    "x": -2.576,
+    "comp": -1.286,
+    "deice": 0.008,
+    "sh": -2.896
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EGLL",
+    "n": 20551,
+    "pub": 1344.111,
+    "pm": 1359.213,
+    "x": -15.102,
+    "comp": 0.201,
+    "deice": 0.0,
+    "sh": -11.176
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "EHAM",
+    "n": 21950,
+    "pub": 840.87,
+    "pm": 839.063,
+    "x": 1.807,
+    "comp": -0.244,
+    "deice": 0.009,
+    "sh": 1.173
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LEBL",
+    "n": 17879,
+    "pub": 967.219,
+    "pm": 988.149,
+    "x": -20.931,
+    "comp": 5.563,
+    "deice": 0.0,
+    "sh": -11.526
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LEMD",
+    "n": 20152,
+    "pub": 1020.439,
+    "pm": 1024.13,
+    "x": -3.691,
+    "comp": 7.432,
+    "deice": 0.0,
+    "sh": 2.806
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LFPG",
+    "n": 21740,
+    "pub": 965.104,
+    "pm": 973.817,
+    "x": -8.713,
+    "comp": 24.914,
+    "deice": 0.0,
+    "sh": 12.15
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LIRF",
+    "n": 15760,
+    "pub": 1214.039,
+    "pm": 1293.33,
+    "x": -79.292,
+    "comp": 20.754,
+    "deice": 0.005,
+    "sh": -43.903
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LSZH",
+    "n": 13155,
+    "pub": 741.503,
+    "pm": 750.897,
+    "x": -9.394,
+    "comp": 8.937,
+    "deice": 0.007,
+    "sh": -0.343
+   },
+   {
+    "year": 2026,
+    "month": 7,
+    "apt": "LTFM",
+    "n": 25185,
+    "pub": 1008.831,
+    "pm": 1048.34,
+    "x": -39.509,
+    "comp": 13.427,
+    "deice": 0.0,
+    "sh": -19.562
+   }
+  ]
+ },
+ "post_layers": [],
+ "rules": null,
+ "created_utc": "2026-10-08T20:38:07+00:00",
+ "command": "python3 research/final/assemble_final.py research/final/configs/v32c_repro_board.json --compare submissions/candidates/v32c.parquet",
+ "git": {
+  "commit": "0cde842f937d5bd02ed91854f2c6d025d9678027",
+  "dirty": [
+   "M competitions/independent-predict-aircraft-taxi-out-time-at-european-airports/research/final/assemble_final.py",
+   " M competitions/independent-predict-aircraft-taxi-out-time-at-european-airports/research/final/frame.py",
+   " M competitions/independent-predict-aircraft-taxi-out-time-at-european-airports/research/final/level.py",
+   " M competitions/independent-predict-aircraft-taxi-out-time-at-european-airports/research/final/rules.py"
+  ]
+ },
+ "notes": [],
+ "config": {
+  "name": "v32c_repro_board",
+  "_doc": "Exact v32c reproduction on the board frame: v32c's members and frozen weights, long rows from the v30 artifact, no rule package. Must equal submissions/candidates/v32c.parquet.",
+  "frame": "board",
+  "members": {
+   "prc-mlp6fs": {
+    "pred": "solutions/kernels/prc-mlp6fs/output",
+    "oof": "solutions/kernels/prc-mlp6fs/output"
+   },
+   "prc-cs6": {
+    "pred": "solutions/kernels/prc-cs6/output",
+    "oof": "solutions/kernels/prc-cs6/output"
+   },
+   "prc-c6": {
+    "pred": "solutions/kernels/prc-c6/output",
+    "oof": "solutions/kernels/prc-c6/output"
+   },
+   "prc-cs5": {
+    "pred": "solutions/kernels/prc-cs5/output",
+    "oof": "solutions/kernels/prc-cs5/output"
+   },
+   "prc-c5d10": {
+    "pred": "solutions/kernels/prc-c5d10/output",
+    "oof": "solutions/kernels/prc-c5d10/output"
+   },
+   "prc-split-fs4": {
+    "pred": "solutions/kernels/prc-split-fs4/output",
+    "oof": "solutions/kernels/prc-split-fs4/output"
+   },
+   "prc-c7x2": {
+    "pred": "solutions/kernels/prc-c7x2/output",
+    "oof": "solutions/kernels/prc-c7x2/output"
+   },
+   "prc-cs7": {
+    "pred": "solutions/kernels/prc-cs7/output",
+    "oof": "solutions/kernels/prc-cs7/output"
+   },
+   "prc-mlp7": {
+    "pred": "solutions/kernels/prc-mlp7/output",
+    "oof": "solutions/kernels/prc-mlp7/output"
+   },
+   "prc-c6s": {
+    "pred": "solutions/kernels/prc-c6s/output",
+    "oof": "solutions/kernels/prc-c6s/output"
+   },
+   "prc-c5s": {
+    "pred": "solutions/kernels/prc-c5s/output",
+    "oof": "solutions/kernels/prc-c5s/output"
+   },
+   "prc-x5": {
+    "pred": "solutions/kernels/prc-x5/output",
+    "oof": "solutions/kernels/prc-x5/output"
+   },
+   "k4": {
+    "pred": "research/cover/out/k4/submission.parquet"
+   }
+  },
+  "segments": [
+   {
+    "name": "short",
+    "lo_h": -1000,
+    "hi_h": 1,
+    "members": [
+     "prc-mlp6fs",
+     "prc-cs6",
+     "prc-c6",
+     "prc-cs5",
+     "prc-c5d10",
+     "prc-split-fs4",
+     "prc-c7x2",
+     "prc-cs7",
+     "prc-mlp7"
+    ],
+    "weights": {
+     "prc-mlp6fs": 0.040383,
+     "prc-cs6": 0.051206,
+     "prc-c6": 0.0,
+     "prc-cs5": 0.045932,
+     "prc-c5d10": 0.0,
+     "prc-split-fs4": 0.01745,
+     "prc-c7x2": 0.332192,
+     "prc-cs7": 0.240514,
+     "prc-mlp7": 0.272323
+    }
+   },
+   {
+    "name": "1-4h",
+    "lo_h": 1,
+    "hi_h": 4,
+    "members": [
+     "prc-c6s",
+     "prc-c5s",
+     "prc-x5",
+     "prc-c6",
+     "prc-cs5",
+     "prc-split-fs4",
+     "prc-c7x2"
+    ],
+    "weights": {
+     "prc-c6s": 0.246555,
+     "prc-c5s": 0.229213,
+     "prc-x5": 0.185946,
+     "prc-c6": 0.0,
+     "prc-cs5": 0.043445,
+     "prc-split-fs4": 0.036672,
+     "prc-c7x2": 0.258169
+    }
+   }
+  ],
+  "overlays": [
+   {
+    "name": "lirf_noadsb",
+    "member": "k4",
+    "weight": 0.3,
+    "rows": "research/cover/out/uncovered_rk.parquet",
+    "col": "lirf_rule_fs7"
+   }
+  ],
+  "cap_d_over_h": 2,
+  "level": {
+   "lam": 0.75,
+   "cap": 0.05
+  },
+  "post_layers": [],
+  "long": {
+   "lo_h": 4,
+   "legacy_source": "research/tail/out/v30_longrows_a05_plog.parquet"
+  },
+  "rules": null
+ },
+ "rows": 344841,
+ "checks": {
+  "bounds": {
+   "finite": true,
+   "nonneg": true,
+   "floor": 0,
+   "nm_outside_window": 27,
+   "nm_window_exempt_conflicts": 0,
+   "lirf_orphan_below_d": 11,
+   "lirf_orphan_above_d_in_equal_mode": 0,
+   "lemd_lebl_above_cap": 6,
+   "pass": false
+  },
+  "pru_cells_flagged": [],
+  "file_board": {
+   "columns": true,
+   "dtypes": true,
+   "rows": true,
+   "unique": true,
+   "id_set": true,
+   "order": true,
+   "finite_nonneg": true,
+   "pass": true
+  },
+  "compare": {
+   "file": "submissions/candidates/v32c.parquet",
+   "sha256": "e878c18ebd19db569e304e0b92081ce698fe9c8caeeab09d85352ba503a8e9ac",
+   "rms": 0.0,
+   "sum_sq_over_n": 0.0,
+   "max_abs": 0.0,
+   "rows_diff_gt_1s": 0
+  }
+ },
+ "failed": [],
+ "inputs": {
+  "data/09-22-2026-08-13-30_files_list/ranking.parquet": "9db75e3a56fa09b87aab72e191a53da3fe763d9887ad2b23aea9cde6a6325f86",
+  "data/09-22-2026-08-13-30_files_list/submitting.parquet": "0d383408ed5ac27bfcfd12d6b961cee77c8a6364b10dad9fe3ec81115c79652b",
+  "solutions/kernels/prc-mlp6fs/output/oof.csv": "dd3c676879d247e1b64ddbd6661578855e73dff54edc38513cc7b19593ad077b",
+  "solutions/kernels/prc-cs6/output/oof.csv": "65aab289c58b841d3b78a4938819a27857c6d9c28de5e9718b573d0c47a5aa22",
+  "solutions/kernels/prc-c6/output/oof.csv": "96fdbf675e6aff708cd1a26087c8b7bbb58fb4662087bff45655e1a9a974defd",
+  "solutions/kernels/prc-cs5/output/oof.csv": "b45a928ac305318e09393981f38ce4db068260076a87dfded186cd82251a3abf",
+  "solutions/kernels/prc-c5d10/output/oof.csv": "e189cfa954a474ae52b52703b99bbc285d1b017548b57fa4bc132f5d98310447",
+  "solutions/kernels/prc-split-fs4/output/oof.csv": "aa1dff0464b51f07e397998f52108ad23cc93b4ea1cdc57b332d37089ebcf17f",
+  "solutions/kernels/prc-c7x2/output/oof.csv": "7634a825397a12d28056aee32e10671c4cb92ac1a239e2abc128b706c6c608f7",
+  "solutions/kernels/prc-cs7/output/oof.csv": "f7c0fd3e38c7f6b986c36046e308d4c60516f9a96915bec3cd0417090978e4cd",
+  "solutions/kernels/prc-mlp7/output/oof.csv": "cb832ae706b1d5e4bdecebe54ad5d785458d2d145b6c4da1aff64b29e95daa9a",
+  "research/cache/oof_meta_v2.parquet": "0010c39e9d2a978148159f1abb7d9a5f8148f6ad41083674e151660fca07cf0e",
+  "solutions/kernels/prc-mlp6fs/output/submission.parquet": "5fbd97719ec801e331051cef7fc7209f607ad4516085710d58d0d762626ae8ca",
+  "solutions/kernels/prc-cs6/output/submission.parquet": "4e5489fd3c1efad708466807a0e56ae0c07e42e8ade0b3726c6a1fd87b2fbbe6",
+  "solutions/kernels/prc-c6/output/submission.parquet": "99247872aa417c430d45c7651db34c4183e17e414044b177ad3896bcfd362633",
+  "solutions/kernels/prc-cs5/output/submission.parquet": "2b3533bf562888748dec8d405394aedb029588d1f7eaecea857e9fcaa8497ad0",
+  "solutions/kernels/prc-c5d10/output/submission.parquet": "3a2d9f45c130f4eb9382147db2aa19b8822e9ae837448759e15ec8b9374eab2f",
+  "solutions/kernels/prc-split-fs4/output/submission.parquet": "0cb735b56f6878bdfe63a12ae65245c478511805b807c9cc291bbb3c7010c2e3",
+  "solutions/kernels/prc-c7x2/output/submission.parquet": "de50a28dac4b222dbbae43a6cde73763369b38c807cfed62da796e3c9c658095",
+  "solutions/kernels/prc-cs7/output/submission.parquet": "e4f29841a68b6cb5eba1fb607a9869fa4b9787094c10e1bd50a4c2f2060e9ec1",
+  "solutions/kernels/prc-mlp7/output/submission.parquet": "bca798d4b56c2cccd395e86f31d4f6314f4bae0e0704dcc402b598610b83e8e2",
+  "solutions/kernels/prc-c6s/output/oof.csv": "3fbb915c4f1b190f50d14e5ff88a2dcaf272f3101c840006c6ad05bcaec72865",
+  "solutions/kernels/prc-c5s/output/oof.csv": "0f17fa18eb1c945497949f6d7a22679dd956401ee81caa955de095f8f88295ac",
+  "solutions/kernels/prc-x5/output/oof.csv": "15822a70be4638b31ac35dd4dbaab968a136339d736bfd05ca3481b1bdd9dae8",
+  "solutions/kernels/prc-c6s/output/submission.parquet": "f029876d865dc66db98639283146e1005e2d01039983a2c5526d2a0122f7f799",
+  "solutions/kernels/prc-c5s/output/submission.parquet": "9542f3d966e58c54f60025d1d17fa09ddc793bf591635201f9c9aae10927a077",
+  "solutions/kernels/prc-x5/output/submission.parquet": "f0cf63006f76f9926cd76fb42db418275a9e62a86054b1366d71a62175cf79ac",
+  "research/tail/out/v30_longrows_a05_plog.parquet": "3e86fc2f7f7d037d88282f66cd03756d8e59cb7f6dbf14e323033d39c75a2d16",
+  "research/cover/out/uncovered_rk.parquet": "6269b8c0fd4fd68d2a3caf48d99569805fab7f60efbcc53df3fc6edb6827e8be",
+  "research/cover/out/k4/submission.parquet": "3a48aaeae023efc4548f53a9e0ca6d2db567e8f54e9e39264dfc36423b8c8ec1",
+  "research/pru/taxi_out_additional_time_2025.csv": "4aedf19520d3f84bebc418b56835762c907b714a9c19e751bb8658f9e62ce598",
+  "research/pru/taxi_out_additional_time_2026.csv": "b72040e0987e6c7d5706279d645ef9f814a6506165c83f89d8509022154a1076",
+  "research/cache/oof_mo12_c6.parquet": "e244b219c925740f89aeece51df3a6a6ef367d9c5b22a59aaa5be558763b9dc0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-01-01_2025-02-01.parquet": "a4dc8f152c082c650cd7eb745fe9c641089f34f74df127e6944a188990a0ed94",
+  "data/09-22-2026-08-13-30_files_list/training_2025-02-01_2025-03-01.parquet": "b6f9ff2cdb1cfe07c5442f4e1f11bbcdbeafe52852dcb0b8175f62ab84c6a066",
+  "data/09-22-2026-08-13-30_files_list/training_2025-03-01_2025-04-01.parquet": "58fde7e5f8b539546af63b41d7f6ec0f2884fdc3d3dd9b6bfca7c59a420dcdd3",
+  "data/09-22-2026-08-13-30_files_list/training_2025-04-01_2025-05-01.parquet": "9ffe0cf5741c4863799c41be81475dfaecedabe0ba687b8f8e4eacba992f9390",
+  "data/09-22-2026-08-13-30_files_list/training_2025-05-01_2025-06-01.parquet": "5481c0642a8fbb4dc395f93bc713c57f4cc16854fb361d404967077e1fce2ff9",
+  "data/09-22-2026-08-13-30_files_list/training_2025-06-01_2025-07-01.parquet": "c3ef5080f2cc636c3416baf1555f7d0ee3519f9046e8043c1c0c8f017a244025",
+  "data/09-22-2026-08-13-30_files_list/training_2025-07-01_2025-08-01.parquet": "34d1c5bba7c8596a1c20c09edd3cb2f63277b5a684fa801911660fe0eaf63c9d",
+  "data/09-22-2026-08-13-30_files_list/training_2025-08-01_2025-09-01.parquet": "6c8d2aa7a1b6c9dff9a0305a37eb02de1e87a68d07557264f41b77738272c540",
+  "data/09-22-2026-08-13-30_files_list/training_2025-09-01_2025-10-01.parquet": "955308a4000947e32a00586d3ee13928949d2231b67f84f6dfb0631893f3754a",
+  "data/09-22-2026-08-13-30_files_list/training_2025-10-01_2025-11-01.parquet": "4a31a35601c1bdcd74b8cd6379231ba516a48324e4c2478bf1c9360cd23e687f",
+  "data/09-22-2026-08-13-30_files_list/training_2025-11-01_2025-12-01.parquet": "ac36b17db7a537e3baeb682fa4763dacaa1fcc5d9bfa6bf32b3ee5d9f91300b0",
+  "data/09-22-2026-08-13-30_files_list/training_2025-12-01_2026-01-01.parquet": "2d357f2f403a86778a69e93f72d8754effe77f1ac0942399b3d1b7728241f724",
+  "research/final/frame.py": "9ca72d68b222c0b77680865ea973735dd5e0d65c3b28d5c7926571686401487a",
+  "research/final/stacking.py": "111241c3014f1788901d4b9a71fc6031a16b92b83baf1e37bec4ce97b6548e9a",
+  "research/final/longrows.py": "efc93a687f5cc53763139c4e887c2b014405d6a7c5b3efccb64d00dd5641b8a5",
+  "research/final/level.py": "e7f04cc7fe9daf1f41cc1b406f4fa74b6f48a08fb1bd2ef99cd7be95412899e2",
+  "research/final/rules.py": "51720ac3fc03233cdc5f86f31487d03e9c5e47da2eff83654dfd099c83f0bb56",
+  "research/final/assemble_final.py": "133cd729755dfef128b3264af80e8ec3ee35277945812f3956c6c4b55d285022",
+  "research/tail/tailkit.py": "24f71ea520bef987f72c02fe3fe2cb4f0ef7057eedb6fb2760aa18ea2366e2db",
+  "research/extreme_blend.py": "dda2303924b9270dc4c648d90b7abf4478c6fa586c14974e543890893e642e0e"
+ },
+ "outputs": {
+  "submissions/final/v32c_repro_board_board.parquet": "e878c18ebd19db569e304e0b92081ce698fe9c8caeeab09d85352ba503a8e9ac"
+ },
+ "stages_file": "submissions/final/v32c_repro_board_stages.parquet",
+ "environment": {
+  "python": "3.13.7",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.18.1",
+  "pyarrow": "23.0.1"
+ }
+}

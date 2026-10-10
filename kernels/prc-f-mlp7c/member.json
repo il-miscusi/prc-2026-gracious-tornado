@@ -1,0 +1,93 @@
+{
+ "member": "mlp7c",
+ "store": "prc-f-fs7",
+ "owner": "usiadianimuwa",
+ "accel": "gpu",
+ "folds": [],
+ "source_spec": "prc-c-mlp7-r",
+ "v32c_role": "mlp7 seeds 2911/2913 (re-run of mlp7a's two OOM-killed seeds)",
+ "spec": {
+  "lib": "mlp",
+  "max_parallel": 1,
+  "threads": 4,
+  "drop_features": [
+   "pru_pub",
+   "pru_ref",
+   "pru_deice_sh",
+   "pru_noref_sh",
+   "pru_pub_dev",
+   "apm_d_eobt1",
+   "dm_d_eobt1",
+   "apm_d_aobt3",
+   "dm_d_aobt3",
+   "apm_d_lobt",
+   "dm_d_lobt",
+   "apm_d_iobt",
+   "dm_d_iobt",
+   "apm_aobt3_m_eobt1",
+   "dm_aobt3_m_eobt1",
+   "a3_obs_p_evidence_start"
+  ],
+  "variants": {
+   "r2911": {
+    "lib": "mlp",
+    "refit": true,
+    "folds": [],
+    "rounds": [
+     98,
+     55
+    ],
+    "refit_seeds": 1,
+    "save_models": true,
+    "params": {
+     "hidden": [
+      512,
+      256,
+      128
+     ],
+     "dropout": 0.1,
+     "lr": 0.002,
+     "wd": 1e-05,
+     "batch": 2048,
+     "epochs": 14,
+     "patience": 3,
+     "seed": 2911
+    },
+    "params_long": {
+     "batch": 1024,
+     "epochs": 6
+    }
+   },
+   "r2913": {
+    "lib": "mlp",
+    "refit": true,
+    "folds": [],
+    "rounds": [
+     98,
+     55
+    ],
+    "refit_seeds": 1,
+    "save_models": true,
+    "params": {
+     "hidden": [
+      512,
+      256,
+      128
+     ],
+     "dropout": 0.1,
+     "lr": 0.002,
+     "wd": 1e-05,
+     "batch": 2048,
+     "epochs": 14,
+     "patience": 3,
+     "seed": 2913
+    },
+    "params_long": {
+     "batch": 1024,
+     "epochs": 6
+    }
+   }
+  },
+  "save_models": true
+ }
+}

@@ -1,0 +1,88 @@
+Candidate v32c (config research/candidates/v32c.json, output sha256[:16] e878c18ebd19db56)
+(refit "seed=S xN" means seeds S, S+1000, ..., S+1000(N-1); "rounds_used" = 1.1 x the rounds given, the trainer's refit rule)
+Segments: short 301,651 rows, 1-4h 41,331 rows
+Rows over 4 h: 1,859 from research/tail/out/v30_longrows_a05_plog.parquet (research/tail/longrows_v30.py <v29 base> OUT --alpha 0.5 --phys plog --keep-aobt3-over 4 --old <v21>; inputs from research/tail/expand_artifact.py)
+Overlay: {"lirf_noadsb": {"rows": 17808, "weight": 0.3, "member": "research/cover/out/k4"}}; capped rows 11; level calibration {'lam': 0.75, 'cap': 0.05}
+
+prc-mlp6fs  weights {'short': 0.040383}
+  OOF A: miscusi/prc-m-mlp6fs-s1-a  mlp cpu store=prc-fs6 seed=2801 best_rounds={'A': [90, 50]} 
+  OOF A: miscusi/prc-m-mlp6fs-s2-a  mlp cpu store=prc-fs6 seed=2802 best_rounds={'A': [100, 60]} 
+  OOF A: miscusi/prc-m-mlp6fs-s3-a  mlp cpu store=prc-fs6 seed=2803 best_rounds={'A': [110, 60]} 
+  OOF B: miscusi/prc-m-mlp6fs-s1-b  mlp cpu store=prc-fs6 seed=2801 best_rounds={'B': [50, 50]} 
+  OOF B: miscusi/prc-m-mlp6fs-s2-b  mlp cpu store=prc-fs6 seed=2802 best_rounds={'B': [90, 60]} 
+  OOF B: miscusi/prc-m-mlp6fs-s3-b  mlp cpu store=prc-fs6 seed=2803 best_rounds={'B': [110, 60]} 
+  refit: miscusi/prc-m-mlp6fs-r1  mlp cpu store=prc-fs6 seed=2901 x1 rounds_given=[92, 57] rounds_used=[101, 62]
+  refit: miscusi/prc-m-mlp6fs-r2  mlp cpu store=prc-fs6 seed=2902 x1 rounds_given=[92, 57] rounds_used=[101, 62]
+  refit: miscusi/prc-m-mlp6fs-r3  mlp cpu store=prc-fs6 seed=2903 x1 rounds_given=[92, 57] rounds_used=[101, 62]
+  refit: miscusi/prc-m-mlp6fs-r4  mlp cpu store=prc-fs6 seed=2904 x1 rounds_given=[92, 57] rounds_used=[101, 62]
+  refit: miscusi/prc-m-mlp6fs-r5  mlp cpu store=prc-fs6 seed=2905 x1 rounds_given=[92, 57] rounds_used=[101, 62]
+  refit: miscusi/prc-m-mlp6fs-r6  mlp cpu store=prc-fs6 seed=2906 x1 rounds_given=[92, 57] rounds_used=[101, 62]
+prc-cs6  weights {'short': 0.051206}
+  OOF A: miscusi/prc-m-cs6-a  cat gpu store=prc-fs6 seed=2311 best_rounds={'A': {'EDDF': [5725, 1108], 'EDDM': [3907, 1933], 'EGLL': [3105, 2748], 'EHAM': [4157, 1217], 'LEBL': [808, 742], 'LEMD': [2769, 2821], 'LFPG': [2172, 141], 'LIRF': [2503, 609], 'LSZH': [4050, 940], 'LTFM': [984, 2260]}} {'split_by': 'apt'}
+  OOF B: usiadianimuwa/prc-p-cs6-b  cat gpu store=prc-fs6 seed=2311 best_rounds={'B': {'EDDF': [3282, 4507], 'EDDM': [1638, 1045], 'EGLL': [2999, 599], 'EHAM': [4642, 1634], 'LEBL': [1543, 714], 'LEMD': [2579, 1038], 'LFPG': [891, 1651], 'LIRF': [1208, 171], 'LSZH': [3559, 345], 'LTFM': [2759, 1961]}} {'split_by': 'apt'}
+  refit: usiadianimuwa/prc-p-cs6-r  cat gpu store=prc-fs6 seed=2611 x3 rounds_given={'EDDF': [4504, 2808], 'EDDM': [2772, 1489], 'EGLL': [3052, 1674], 'EHAM': [4400, 1426], 'LEBL': [1176, 728], 'LEMD': [2674, 1930], 'LFPG': [1532, 896], 'LIRF': [1856, 390], 'LSZH': [3804, 642], 'LTFM': [1872, 2110]} rounds_used={'EHAM': [4840, 1568], 'LEMD': [2941, 2123], 'LTFM': [2059, 2321], 'EDDF': [4954, 3088], 'LIRF': [2041, 429], 'EDDM': [3049, 1637], 'LSZH': [4184, 706], 'LFPG': [1685, 985], 'EGLL': [3357, 1841], 'LEBL': [1293, 800]}
+prc-c6  weights {'short': 0.0, '1-4h': 0.0}
+  OOF A: miscusi/prc-m-c6-a  cat gpu store=prc-fs6 seed=2221 best_rounds={'A': [10013, 6094]} 
+  OOF B: usiadianimuwa/prc-p-c6-b  cat gpu store=prc-fs6 seed=2221 best_rounds={'B': [10131, 4414]} 
+  refit: usiadianimuwa/prc-p-c6-r  cat gpu store=prc-fs6 seed=2221 x1 rounds_given=[10000, 3500] rounds_used=[11000, 3850]
+  refit: miscusi/prc-m-c6-r2  cat gpu store=prc-fs6 seed=2721 x2 rounds_given=[10000, 3500] rounds_used=[11000, 3850]
+  refit: miscusi/prc-m-c6-r3  cat gpu store=prc-fs6 seed=4721 x2 rounds_given=[10000, 3500] rounds_used=[11000, 3850]
+prc-cs5  weights {'short': 0.045932, '1-4h': 0.043445}
+  OOF A: miscusi/prc-m-cs5-a  cat gpu store=prc-fs5 seed=2311 best_rounds={'A': {'EDDF': [2928, 1195], 'EDDM': [2119, 1340], 'EGLL': [2231, 1501], 'EHAM': [3263, 6699], 'LEBL': [1054, 685], 'LEMD': [2115, 3299], 'LFPG': [1727, 320], 'LIRF': [1809, 481], 'LSZH': [5112, 1245], 'LTFM': [1912, 1859]}} {'split_by': 'apt'}
+  OOF B: usiadianimuwa/prc-p-cs5-b  cat gpu store=prc-fs5 seed=2311 best_rounds={'B': {'EDDF': [3412, 4182], 'EDDM': [2557, 1252], 'EGLL': [2250, 899], 'EHAM': [3926, 2763], 'LEBL': [1545, 1080], 'LEMD': [2108, 976], 'LFPG': [1274, 2929], 'LIRF': [1643, 171], 'LSZH': [2129, 131], 'LTFM': [1960, 5289]}} {'split_by': 'apt'}
+  refit: miscusi/prc-m-cs5-r  cat gpu store=prc-fs5 seed=2311 x1 rounds_given={'LSZH': [3620, 688], 'EGLL': [2240, 1200], 'LEMD': [2111, 2137], 'LFPG': [1500, 1624], 'LTFM': [1936, 3574], 'EDDM': [2338, 1296], 'EDDF': [3170, 2688], 'LIRF': [1726, 326], 'LEBL': [1299, 882], 'EHAM': [3594, 4731]} rounds_used={'LIRF': [1898, 358], 'LFPG': [1650, 1786], 'EGLL': [2464, 1320], 'EDDM': [2571, 1425], 'LTFM': [2129, 3931], 'EDDF': [3487, 2956], 'EHAM': [3953, 5204], 'LEBL': [1428, 970], 'LSZH': [3982, 756], 'LEMD': [2322, 2350]}
+  refit: usiadianimuwa/prc-p-cs5-r2  cat gpu store=prc-fs5 seed=2811 x2 rounds_given={'LSZH': [3620, 688], 'EGLL': [2240, 1200], 'LEMD': [2111, 2137], 'LFPG': [1500, 1624], 'LTFM': [1936, 3574], 'EDDM': [2338, 1296], 'EDDF': [3170, 2688], 'LIRF': [1726, 326], 'LEBL': [1299, 882], 'EHAM': [3594, 4731]} rounds_used={'EHAM': [3953, 5204], 'LFPG': [1650, 1786], 'EDDF': [3487, 2956], 'LEMD': [2322, 2350], 'LEBL': [1428, 970], 'LSZH': [3982, 756], 'LTFM': [2129, 3931], 'EDDM': [2571, 1425], 'LIRF': [1898, 358], 'EGLL': [2464, 1320]}
+prc-c5d10  weights {'short': 0.0}
+  OOF A: miscusi/prc-m-c5-a  cat gpu store=prc-fs5 seed=2221 best_rounds={'A': [10956, 6125]} 
+  OOF B: miscusi/prc-m-c5-b  cat gpu store=prc-fs5 seed=2221 best_rounds={'B': [10481, 5420]} 
+  refit: miscusi/prc-m-c5-r  cat gpu store=prc-fs5 seed=2221 x1 rounds_given=[10000, 3500] rounds_used=[11000, 3850]
+  refit: miscusi/prc-m-c5-r2  cat gpu store=prc-fs5 seed=2721 x2 rounds_given=[10000, 3500] rounds_used=[11000, 3850]
+  refit: usiadianimuwa/prc-p-c5-r3  cat gpu store=prc-fs5 seed=6721 x2 rounds_given=[10000, 3500] rounds_used=[11000, 3850]
+prc-split-fs4  weights {'short': 0.01745, '1-4h': 0.036672}
+  OOF A: usiadianimuwa/prc-p-split-fs4-a  lgb cpu store=prc-fs4 seed=2091 best_rounds={'A': {'EDDF': [3252, 2059], 'EDDM': [3065, 979], 'EGLL': [1715, 1545], 'EHAM': [1493, 4996], 'LEBL': [543, 1301], 'LEMD': [984, 1284], 'LFPG': [909, 799], 'LIRF': [1157, 448], 'LSZH': [1215, 4856], 'LTFM': [1034, 2600]}} {'split_by': 'apt'}
+  OOF B: usiadianimuwa/prc-p-split-fs4-b  lgb cpu store=prc-fs4 seed=2091 best_rounds={'B': {'EDDF': [2457, 2341], 'EDDM': [1048, 564], 'EGLL': [2252, 882], 'EHAM': [1834, 2648], 'LEBL': [1180, 1181], 'LEMD': [942, 1106], 'LFPG': [853, 547], 'LIRF': [979, 1214], 'LSZH': [1169, 4651], 'LTFM': [1170, 1406]}} {'split_by': 'apt'}
+  refit: usiadianimuwa/prc-p-split-fs4-r  lgb cpu store=prc-fs4 seed=2091 x1 rounds_given={'LSZH': [1384, 2791], 'LFPG': [985, 1178], 'EDDM': [2562, 1214], 'EDDF': [2148, 2276], 'EGLL': [1575, 609], 'LTFM': [1181, 1955], 'LEBL': [918, 1042], 'LEMD': [1325, 1000], 'EHAM': [1647, 2796], 'LIRF': [979, 836]} rounds_used={'EGLL': [1732, 669], 'LIRF': [1076, 919], 'EDDF': [2362, 2503], 'EHAM': [1811, 3075], 'EDDM': [2818, 1335], 'LTFM': [1299, 2150], 'LEMD': [1457, 1100], 'LSZH': [1522, 3070], 'LFPG': [1083, 1295], 'LEBL': [1009, 1146]}
+  refit: usiadianimuwa/prc-p-split-fs4-r2  lgb cpu store=prc-fs4 seed=2092 x1 rounds_given={'LSZH': [1384, 2791], 'LFPG': [985, 1178], 'EDDM': [2562, 1214], 'EDDF': [2148, 2276], 'EGLL': [1575, 609], 'LTFM': [1181, 1955], 'LEBL': [918, 1042], 'LEMD': [1325, 1000], 'EHAM': [1647, 2796], 'LIRF': [979, 836]} rounds_used={'EHAM': [1811, 3075], 'EDDF': [2362, 2503], 'LEBL': [1009, 1146], 'LIRF': [1076, 919], 'LTFM': [1299, 2150], 'LEMD': [1457, 1100], 'EGLL': [1732, 669], 'EDDM': [2818, 1335], 'LFPG': [1083, 1295], 'LSZH': [1522, 3070]}
+prc-c7x2  weights {'short': 0.332192, '1-4h': 0.258169}
+  OOF A: miscusi/prc-m-c7-a  cat gpu store=prc-fs7 seed=2221 best_rounds={'A': [8496, 2891]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF A: miscusi/prc-m-c7x2-a (variant foldA)  cat gpu store=prc-fs7 seed=5521 best_rounds={'A': [9171, 3507]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF B: miscusi/prc-m-c7-b  cat gpu store=prc-fs7 seed=2221 best_rounds={'B': [10688, 2954]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF B: miscusi/prc-m-c7x2-ab  cat gpu store=prc-fs7 seed=5521 best_rounds=None {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  refit: miscusi/prc-m-c7-r  cat gpu store=prc-fs7 seed=3101 x3 rounds_given=[9600, 2900] rounds_used=[10560, 3190]
+  refit: miscusi/prc-m-c7-r2  cat gpu store=prc-fs7 seed=6101 x2 rounds_given=[9600, 2900] rounds_used=[10560, 3190]
+  refit: miscusi/prc-m-c7x2-a (variant r8101)  cat gpu store=prc-fs7 seed=8101 x1 rounds_given=[9600, 2900] rounds_used=[10560, 3190]
+prc-cs7  weights {'short': 0.240514}
+  OOF A: miscusi/prc-m-g7-ab (variant cs7)  cat gpu store=prc-fs7 seed=2311 best_rounds=None {'split_by': 'apt', 'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF B: miscusi/prc-m-g7-ab (variant cs7)  cat gpu store=prc-fs7 seed=2311 best_rounds=None {'split_by': 'apt', 'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  refit: miscusi/prc-m-g7-r (variant cs7r)  cat gpu store=prc-fs7 seed=3311 x3 rounds_given={'EDDF': [5316, 3014], 'EDDM': [1860, 1316], 'EGLL': [2518, 2434], 'EHAM': [4330, 1242], 'LEBL': [1002, 636], 'LEMD': [1920, 2489], 'LFPG': [1566, 746], 'LIRF': [1670, 1054], 'LSZH': [3146, 3199], 'LTFM': [2082, 1410]} rounds_used={'LFPG': [1722, 820], 'EDDM': [2046, 1447], 'EHAM': [4763, 1366], 'EGLL': [2769, 2677], 'LSZH': [3460, 3518], 'LTFM': [2290, 1551], 'LEMD': [2112, 2737], 'EDDF': [5847, 3315], 'LIRF': [1837, 1159], 'LEBL': [1102, 699]}
+prc-mlp7  weights {'short': 0.272323}
+  OOF A: miscusi/prc-c-mlp7-ab (variant mlp7s1)  mlp gpu store=prc-fs7 seed=2811 best_rounds={'A': [100, 60], 'B': [100, 60]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF A: miscusi/prc-c-mlp7-ab (variant mlp7s2)  mlp gpu store=prc-fs7 seed=2812 best_rounds={'A': [110, 50], 'B': [80, 50]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF A: miscusi/prc-c-mlp7-ab (variant mlp7s3)  mlp gpu store=prc-fs7 seed=2813 best_rounds={'A': [110, 60], 'B': [90, 50]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF B: miscusi/prc-c-mlp7-ab (variant mlp7s1)  mlp gpu store=prc-fs7 seed=2811 best_rounds={'A': [100, 60], 'B': [100, 60]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF B: miscusi/prc-c-mlp7-ab (variant mlp7s2)  mlp gpu store=prc-fs7 seed=2812 best_rounds={'A': [110, 50], 'B': [80, 50]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  OOF B: miscusi/prc-c-mlp7-ab (variant mlp7s3)  mlp gpu store=prc-fs7 seed=2813 best_rounds={'A': [110, 60], 'B': [90, 50]} {'drop_features': ['pru_pub', 'pru_ref', 'pru_deice_sh', 'pru_noref_sh', 'pru_pub_dev', 'apm_d_eobt1', 'dm_d_eobt1', 'apm_d_aobt3', 'dm_d_aobt3', 'apm_d_lobt', 'dm_d_lobt', 'apm_d_iobt', 'dm_d_iobt', 'apm_aobt3_m_eobt1', 'dm_aobt3_m_eobt1']}
+  refit: miscusi/prc-c-mlp7-r  mlp gpu store=prc-fs7 seed=None xNone rounds_given=None rounds_used=None
+  refit: miscusi/prc-c-mlp7-r2  mlp gpu store=prc-fs7 seed=None xNone rounds_given=None rounds_used=None
+prc-c6s  weights {'1-4h': 0.246555}
+  OOF A: usiadianimuwa/prc-p-c6s-a  cat gpu store=prc-fs6 seed=2231 best_rounds={'A': [9718, 6118]} {'long_target': 'sec'}
+  OOF B: usiadianimuwa/prc-p-c6s-b  cat gpu store=prc-fs6 seed=2231 best_rounds={'B': [9040, 7107]} {'long_target': 'sec'}
+  refit: miscusi/prc-m-c6s-r  cat gpu store=prc-fs6 seed=2241 x3 rounds_given=[9379, 6612] rounds_used=[10316, 7273]
+prc-c5s  weights {'1-4h': 0.229213}
+  OOF A: miscusi/prc-m-c5s-a  cat gpu store=prc-fs5 seed=2231 best_rounds={'A': [9990, 4468]} {'long_target': 'sec'}
+  OOF B: miscusi/prc-m-c5s-b  cat gpu store=prc-fs5 seed=2231 best_rounds={'B': [11556, 5746]} {'long_target': 'sec'}
+  refit: miscusi/prc-m-c5s-r  cat gpu store=prc-fs5 seed=2231 x1 rounds_given=[9990, 4468] rounds_used=[10989, 4914]
+  refit: miscusi/prc-m-c5s-r2  cat gpu store=prc-fs5 seed=2232 x1 rounds_given=[9990, 4468] rounds_used=[10989, 4914]
+  refit: miscusi/prc-m-c5s-r3  cat gpu store=prc-fs5 seed=2233 x1 rounds_given=[9990, 4468] rounds_used=[10989, 4914]
+prc-x5  weights {'1-4h': 0.185946}
+  OOF A: usiadianimuwa/prc-p-x5-a  xgb gpu store=prc-fs5 seed=2261 best_rounds={'A': [1264, 1862]} 
+  OOF B: usiadianimuwa/prc-p-x5-b  xgb gpu store=prc-fs5 seed=2261 best_rounds={'B': [1022, 2189]} 
+  refit: usiadianimuwa/prc-p-x5-r  xgb gpu store=prc-fs5 seed=2261 x1 rounds_given=[1000, 1400] rounds_used=[1100, 1540]
+  refit: miscusi/prc-m-x5-r2  xgb gpu store=prc-fs5 seed=2761 x2 rounds_given=[1000, 1400] rounds_used=[1100, 1540]
+
+Feature stores:
+  prc-fs4: miscusi/prc-fs4 cpu sources=['miscusi/prc-adsb3-events-w1']
+  prc-fs5: miscusi/prc-fs5 cpu sources=['miscusi/prc-adsb3-events']
+  prc-fs6: miscusi/prc-fs6 cpu sources=['miscusi/prc-adsb3-events']
+  prc-fs7: usiadianimuwa/prc-fs7 cpu sources=[]
+Overlay member: miscusi/prc-cv-k4 lgb rounds=[296, 195] x2

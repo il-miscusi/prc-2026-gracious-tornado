@@ -1,0 +1,16 @@
+{
+ "id": "miscusi/prc-fs6",
+ "title": "prc-fs6",
+ "code_file": "kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "competition_sources": [],
+ "dataset_sources": [],
+ "kernel_sources": [
+  "miscusi/prc-adsb3-events"
+ ]
+}

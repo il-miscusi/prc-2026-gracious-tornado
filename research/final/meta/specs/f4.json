@@ -1,0 +1,54 @@
+{
+ "name": "f4",
+ "_doc": "G1short re-fit on the f4 member set (2026-10-09): the f4 d <= 1 h stack c7, cs7, mlp7 + fs8 c7 (c8) as the base and as tree inputs, with c6s, c5s, k4. Month-out runs as configs/f4_pseudo2025.json; refits as configs/f4_final.json. Only the d <= 1 h segment is modelled (G1).",
+ "mo": {
+  "c7": "solutions/kernels/prc-f-c7a-mo/output",
+  "cs7": "solutions/kernels/prc-f-cs7-mo/output",
+  "mlp7": "solutions/kernels/prc-f-mlp7a-mo/output",
+  "c6s": "solutions/kernels/prc-f-c6s-mo/output",
+  "c5s": "solutions/kernels/prc-f-c5s-mo/output",
+  "x5": "solutions/kernels/prc-f-x5-mo/output",
+  "k4": "solutions/kernels/prc-f-k4-mo/output",
+  "c8": "solutions/kernels/prc-f8-c7a-mo/output"
+ },
+ "refit": {
+  "c7": "solutions/kernels/prc-f-c7/output",
+  "cs7": "solutions/kernels/prc-f-cs7/output",
+  "mlp7": "solutions/kernels/prc-f-mlp7m6/output",
+  "c6s": "solutions/kernels/prc-f-c6sm6/output",
+  "c5s": "solutions/kernels/prc-f-c5sm6/output",
+  "x5": "solutions/kernels/prc-f-x5/output",
+  "k4": "solutions/kernels/prc-f-k4/output",
+  "c8": "solutions/kernels/prc-f8-c7/output"
+ },
+ "segments": {
+  "short": [
+   "c7",
+   "cs7",
+   "mlp7",
+   "c8"
+  ],
+  "1-4h": [
+   "c6s",
+   "c5s",
+   "x5",
+   "c7",
+   "c8"
+  ]
+ },
+ "meta_features": [
+  "c7",
+  "cs7",
+  "mlp7",
+  "c8",
+  "c6s",
+  "c5s",
+  "k4"
+ ],
+ "fit_segments": [
+  "short"
+ ],
+ "arms": [
+  "G1"
+ ]
+}

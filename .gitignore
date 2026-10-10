@@ -1,0 +1,25 @@
+# organiser data, external downloads and every generated artefact stay out of git
+data/
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+research/cache/
+research/*/out/
+research/*/cache/
+research/final/inputs/
+research/pru/*.csv
+research/pru/expected.sha256
+research/geometry/*.parquet
+research/geometry/*.csv
+research/geometry/kaggle_upload/
+research/final/levers/artifacts/*.csv
+submissions/
+# kernel folders written by build_kernel.py / build_members.py: a kernel that runs on a second
+# account embeds signed input URLs, so generated kernel.py files are never committed
+solutions/kernels/
+solutions/adsb/k*_*/
+solutions/adsb/k3_events*/
+# local credential and state files
+minio-credentials.json
+.kaggle_push_bans.json

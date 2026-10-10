@@ -1,0 +1,101 @@
+{
+ "name": "f2x5_l1av2sq_pseudo2025",
+ "_doc": "L1a-v2 held-spread candidate (quantiles): configs/f2x5_final.json with the daily layer's long-row held spread by airport x ADS-B evidence (v2_spreads), fitted without the held month on f2x5's pseudo-final rows of the same weights mode; loadings off. Pseudo-final only. Run by research/final/pseudo_final.py on 2025 Jan/Feb/Jun/Jul with month-out members. lv_rules and recovered fit nothing on labels; daily refits its parameters without the held month on the c6 chain (c6 12-month-out OOF + level calibration with offsets excluding the held month + L0 + L0e).",
+ "recipe": "research/final/configs/f2x5_final.json",
+ "recipe_overrides": {
+  "post_layers": [
+   {
+    "module": "research/final/levers/lv_rules.py",
+    "fn": "apply",
+    "kwargs": {
+     "rules": "ad"
+    },
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   },
+   {
+    "module": "research/final/levers/daily.py",
+    "fn": "apply",
+    "kwargs": {
+     "params_path": "research/final/levers/artifacts/daily_params.json",
+     "v2_loadings": false,
+     "v2_spreads": "quantiles"
+    },
+    "pass_held_month": true,
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py",
+     "research/final/levers/daily.py",
+     "research/final/levers/artifacts/daily_params.json",
+     "research/pru/all_pre_departure_delays_2025.csv",
+     "research/pru/all_pre_departure_delays_2026.csv",
+     "research/cache/oof_mo12_c6.parquet",
+     "research/final/level.py",
+     "research/final/inputs/2025/cover.parquet"
+    ],
+    "pseudo_kwargs": {
+     "v2_rows": "submissions/final/pseudo2025/f2x5_pseudo2025_{mode}.parquet",
+     "v2_col": "post2_recovered",
+     "cover": "research/final/inputs/2025/cover.parquet"
+    }
+   },
+   {
+    "module": "research/final/levers/recovered.py",
+    "fn": "apply",
+    "kwargs": {},
+    "inputs": [
+     "research/final/levers/lv_common.py",
+     "research/final/levers/lv_rules.py",
+     "research/final/levers/recovered.py"
+    ]
+   }
+  ]
+ },
+ "months": [
+  1,
+  2,
+  6,
+  7
+ ],
+ "members": {
+  "prc-f-c7": {
+   "mo": "solutions/kernels/prc-f-c7a-mo/output"
+  },
+  "prc-f-cs7": {
+   "mo": "solutions/kernels/prc-f-cs7-mo/output"
+  },
+  "prc-f-mlp7": {
+   "mo": "solutions/kernels/prc-f-mlp7a-mo/output"
+  },
+  "prc-f-c6s": {
+   "mo": "solutions/kernels/prc-f-c6s-mo/output"
+  },
+  "prc-f-c5s": {
+   "mo": "solutions/kernels/prc-f-c5s-mo/output"
+  },
+  "prc-f-x5": {
+   "mo": "solutions/kernels/prc-f-x5-mo/output",
+   "_note": "x5 pinned to xgboost 2.1.4: prc-f-x5-mo/output/oof.csv holds all four folds (M1/M6 from that run, M2/M7 copied from prc-f-x5p-mo; identical values checked). The xgboost 3.4.1 runs were renamed prc-f-x5-xgb341 / prc-f-x5-mo-xgb341 and are not used."
+  },
+  "prc-f-k4": {
+   "mo": "solutions/kernels/prc-f-k4-mo/output"
+  }
+ },
+ "phys_inputs": "research/final/inputs/2025/phys.parquet",
+ "overlay_flags": {
+  "lirf_noadsb": "research/final/inputs/2025/cover.parquet"
+ }
+}
